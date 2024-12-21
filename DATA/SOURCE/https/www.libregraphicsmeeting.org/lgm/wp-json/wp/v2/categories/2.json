@@ -1,10 +1,10 @@
 {
   "headers": {
     "server": "nginx/1.6.2",
-    "date": "Sat, 21 Dec 2024 22:11:27 GMT",
+    "date": "Sat, 21 Dec 2024 23:42:33 GMT",
     "content-type": "application/json; charset=UTF-8",
     "transfer-encoding": "chunked",
-    "connection": "close",
+    "connection": "keep-alive",
     "x-powered-by": "PHP/7.3.31-1~deb10u1",
     "x-robots-tag": "noindex",
     "link": "<https://www.libregraphicsmeeting.org/lgm/wp-json/>; rel=\"https://api.w.org/\"",
@@ -14,7 +14,7 @@
     "allow": "GET",
     "vary": "Origin",
     "cache-control": "max-age=0",
-    "expires": "Sat, 21 Dec 2024 22:11:25 GMT",
+    "expires": "Sat, 21 Dec 2024 23:42:31 GMT",
     "x-ua-compatible": "IE=edge"
   },
   "status": 200,

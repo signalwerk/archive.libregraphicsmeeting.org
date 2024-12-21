@@ -1,10 +1,10 @@
 {
   "headers": {
     "server": "nginx/1.6.2",
-    "date": "Sat, 21 Dec 2024 22:06:03 GMT",
+    "date": "Sat, 21 Dec 2024 23:38:59 GMT",
     "content-type": "text/html",
     "transfer-encoding": "chunked",
-    "connection": "close",
+    "connection": "keep-alive",
     "last-modified": "Mon, 10 Nov 2014 12:45:52 GMT"
   },
   "status": 200,

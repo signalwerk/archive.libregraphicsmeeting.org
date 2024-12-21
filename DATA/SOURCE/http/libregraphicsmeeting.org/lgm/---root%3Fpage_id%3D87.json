@@ -1,7 +1,7 @@
 {
   "headers": {
     "server": "nginx/1.6.2",
-    "date": "Sat, 21 Dec 2024 19:40:45 GMT",
+    "date": "Sat, 21 Dec 2024 23:40:48 GMT",
     "content-type": "text/html; charset=UTF-8",
     "transfer-encoding": "chunked",
     "connection": "keep-alive",
@@ -9,7 +9,7 @@
     "x-redirect-by": "WordPress",
     "location": "http://libregraphicsmeeting.org/lgm/public-documentation/venue-selection-process/",
     "cache-control": "max-age=0",
-    "expires": "Sat, 21 Dec 2024 19:40:39 GMT",
+    "expires": "Sat, 21 Dec 2024 23:40:45 GMT",
     "x-ua-compatible": "IE=edge",
     "x-content-type-options": "nosniff"
   },
