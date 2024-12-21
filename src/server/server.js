@@ -6,10 +6,7 @@ import { Server as SocketIOServer } from "socket.io";
 // import { fileURLToPath } from "url";
 // import { dirname } from "path";
 import { Queue } from "./queue.js";
-import {
-  isDomainValid,
-  isAlreadyRequested,
-} from "./processor/request.js";
+import { isDomainValid, isAlreadyRequested } from "./processor/request.js";
 import { addParseJob, parseHtml } from "./processor/parse.js";
 import { addFetchJob } from "./processor/fetch.js";
 import { isCached, fetchHttp } from "./processor/fetch.js";
@@ -81,6 +78,7 @@ fetchQueue
       {
         //
         job,
+        events,
         cache,
         getKey: (job) => job.data.uri,
       },
@@ -94,7 +92,6 @@ fetchQueue
   .use(async (job, next) => {
     await addParseJob({ job, events }, next);
   });
-  
 
 parseQueue.use(async (job, next) => {
   const { data, metadata } = cache.get(job.data.cache.key);
@@ -138,8 +135,7 @@ parseQueue.use(async (job, next) => {
     case "application/xml":
     case "application/x-www-form-urlencoded":
     case "application/x-shockwave-flash":
-    case "application/epub+zip": 
-    //
+    case "application/epub+zip": //
     {
       break;
     }

@@ -60,16 +60,14 @@ export async function fetchHttp({ job, cache, events }, next) {
       const metadata = {
         headers: axiosError.response.headers,
         status: axiosError.response.status,
-        // length: response.data.length,
         uri: uri,
         redirected: newUri,
       };
 
-      if (job.data.cache.status !== "cached-has-redirect") {
-        await cache.set(job.data.cache.key, { metadata });
-        job.data.cache.status = "cached";
-        job.log(`saved metadata to cache`);
-      }
+      await cache.set(job.data.cache.key, { metadata });
+      job.data.cache.status = "cached";
+      job.log(`saved metadata to cache`);
+
       // Create a new job for the redirected URI
       const requestJobData = {
         ...job.data,
@@ -85,7 +83,11 @@ export async function fetchHttp({ job, cache, events }, next) {
     job.error = axiosError.response?.status;
 
     throw new Error(
-      `Request failed with status ${axiosError.response?.status || "unknown"}`,
+      `Request failed. Status: ${
+        axiosError.response?.status || "unknown"
+      } Text: ${axiosError.response?.statusText || "unknown"} Message: ${
+        axiosError.message || "unknown"
+      }`,
     );
   }
 
@@ -93,7 +95,6 @@ export async function fetchHttp({ job, cache, events }, next) {
   const metadata = {
     headers: response.headers,
     status: response.status,
-    // length: response.data.length,
     uri: uri,
   };
   await cache.set(job.data.cache.key, { metadata, data: response.data });
@@ -109,25 +110,32 @@ export async function fetchHttp({ job, cache, events }, next) {
   next();
 }
 
-export function isCached({ job, cache, getKey }, next) {
+export function isCached({ job,events, cache, getKey }, next) {
   const key = getKey(job);
 
   if (cache.has(key)) {
+    job.log(`File already in cache`);
+
     const metadata = cache.getMetadata(key);
     if (metadata.redirected) {
-      job.log(`File already in cache, follow redirecting`);
-      job.data.cache = {
-        status: "cached-has-redirect",
-        key,
+      job.log(`Cache has redirect, follow redirecting`);
+      const newUri = metadata.redirected;
+
+      // Create a new job for the redirected URI
+      const requestJobData = {
+        ...job.data,
+        uri: newUri,
+        _parent: job.id,
       };
-      return next();
+      job.log(`Created request job – Redirected to new URI: ${newUri}`);
+      events?.emit("createRequestJob", requestJobData);
+
+      return next(null, true);
     } else {
-      job.log(`File already in cache, end cache check`);
       job.data.cache = {
         status: "cached",
         key,
       };
-      return next();
     }
   } else {
     job.log(`File not in cache`);
@@ -135,6 +143,6 @@ export function isCached({ job, cache, getKey }, next) {
       status: "not-cached",
       key,
     };
-    return next();
   }
+  return next();
 }
