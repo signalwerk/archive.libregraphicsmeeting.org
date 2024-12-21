@@ -9,7 +9,11 @@ export function fsNameOfUri(uri) {
     [...queryParams.entries()].sort((a, b) => a[0].localeCompare(b[0]))
   ).toString();
 
-  let path = [`${parsedUrl.host}/`, parsedUrl.pathname]
+  let path = [
+    parsedUrl.protocol,
+    `${parsedUrl.host}/`,
+    parsedUrl.pathname,
+  ]
     .filter(Boolean)
     .join("/")
     // replace multiple slashes with a single slash

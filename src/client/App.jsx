@@ -208,7 +208,7 @@ function App() {
             value={errorFilter}
             onChange={(e) => setErrorFilter(e.target.value)}
           >
-            <option value="all">No Errors-Codes</option>
+            <option value="all">No Errors-Code filter</option>
             <option value="404">404 Not Found</option>
           </select>
 
