@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:33:30 GMT",
+    "content-type": "text/html",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 29 Oct 2015 07:40:07 GMT"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2009/program.php.html"
+}

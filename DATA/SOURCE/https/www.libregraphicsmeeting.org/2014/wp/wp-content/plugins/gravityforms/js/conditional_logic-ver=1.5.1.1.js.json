@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:33:20 GMT",
+    "content-type": "application/javascript",
+    "content-length": "3645",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:35:22 GMT",
+    "etag": "\"e3d-50798b4206a80\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2014/wp/wp-content/plugins/gravityforms/js/conditional_logic-ver=1.5.1.1.js"
+}

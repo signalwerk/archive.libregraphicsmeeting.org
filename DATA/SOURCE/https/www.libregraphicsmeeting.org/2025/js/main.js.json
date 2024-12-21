@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:33:16 GMT",
+    "content-type": "application/javascript",
+    "content-length": "11946",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 19 Dec 2024 11:02:27 GMT",
+    "etag": "\"2eaa-6299d77467507\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2025/js/main.js"
+}

@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:33:30 GMT",
+    "content-type": "application/javascript",
+    "content-length": "1117",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 03 Mar 2009 23:28:15 GMT",
+    "etag": "\"45d-4643f4a0e21c0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2009/skin/participant.js"
+}

@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:34:15 GMT",
+    "content-type": "image/png",
+    "content-length": "357841",
+    "connection": "keep-alive",
+    "last-modified": "Wed, 22 Jan 2020 13:09:06 GMT",
+    "etag": "\"575d1-59cba3ab04da4\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2020/css/img/contact-Livio-Fania.png"
+}

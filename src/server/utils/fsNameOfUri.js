@@ -1,16 +1,15 @@
 import { URL } from "url";
 
-
 export function fsNameOfUri(uri) {
   const parsedUrl = new URL(uri);
   let queryParams = new URLSearchParams(parsedUrl.search);
   // Convert to array, sort, and reconstruct
   let sortedQuery = new URLSearchParams(
-    [...queryParams.entries()].sort((a, b) => a[0].localeCompare(b[0]))
+    [...queryParams.entries()].sort((a, b) => a[0].localeCompare(b[0])),
   ).toString();
 
   let path = [
-    parsedUrl.protocol,
+    parsedUrl.protocol.replace(":", ""),
     `${parsedUrl.host}/`,
     parsedUrl.pathname,
   ]
@@ -24,6 +23,8 @@ export function fsNameOfUri(uri) {
     path += "---root";
   }
 
-  const fileName = `${path}${sortedQuery ? encodeURIComponent(`?${sortedQuery}`) : ""}`;
+  const fileName = `${path}${
+    sortedQuery ? encodeURIComponent(`?${sortedQuery}`) : ""
+  }`;
   return fileName;
 }

@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:33:22 GMT",
+    "content-type": "application/x-rss+xml",
+    "content-length": "1914",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 31 Dec 2020 12:14:22 GMT",
+    "etag": "\"77a-5b7c1905ae380\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2018/call-for-participation-is-open/feed/index.rss"
+}

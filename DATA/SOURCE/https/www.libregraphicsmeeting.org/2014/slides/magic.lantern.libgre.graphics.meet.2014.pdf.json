@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:33:22 GMT",
+    "content-type": "application/pdf",
+    "content-length": "7525692",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:34:26 GMT",
+    "etag": "\"72d53c-50798b0c9ec80\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2014/slides/magic.lantern.libgre.graphics.meet.2014.pdf"
+}

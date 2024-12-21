@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:33:18 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "345",
+    "connection": "keep-alive",
+    "content-location": "location.php.html",
+    "vary": "negotiate",
+    "tcn": "choice",
+    "location": "https://www.libregraphicsmeeting.org/2009/location.php.html"
+  },
+  "status": 301,
+  "uri": "http://www.libregraphicsmeeting.org/2009/location.php#venue",
+  "redirected": "https://www.libregraphicsmeeting.org/2009/location.php.html"
+}

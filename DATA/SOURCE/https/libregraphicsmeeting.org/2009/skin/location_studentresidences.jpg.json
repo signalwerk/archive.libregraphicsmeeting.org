@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:33:30 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "107415",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 17 Feb 2009 22:46:16 GMT",
+    "etag": "\"1a397-463251221fe00\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2009/skin/location_studentresidences.jpg"
+}

@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:33:30 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "43511",
+    "connection": "keep-alive",
+    "last-modified": "Wed, 20 May 2009 16:24:42 GMT",
+    "etag": "\"a9f7-46a5a76f1c680\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2009/skin/lgm_openfont_09.jpg"
+}

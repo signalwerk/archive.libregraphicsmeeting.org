@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:33:30 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "370",
+    "connection": "keep-alive",
+    "location": "https://libregraphicsmeeting.org/2013/wp/wp-content/uploads/heroic_real_estate_otter.jpg"
+  },
+  "status": 301,
+  "uri": "http://libregraphicsmeeting.org/2013/wp/wp-content/uploads/heroic_real_estate_otter.jpg",
+  "redirected": "https://libregraphicsmeeting.org/2013/wp/wp-content/uploads/heroic_real_estate_otter.jpg"
+}

@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:34:16 GMT",
+    "content-type": "application/javascript",
+    "content-length": "4961",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:35:21 GMT",
+    "etag": "\"1361-50798b4112840\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2014/wp/wp-content/plugins/gravityforms/js/jquery.textareaCounter.plugin-ver=1.5.1.1.js"
+}

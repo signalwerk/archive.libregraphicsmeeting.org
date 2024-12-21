@@ -1,0 +1,328 @@
+/* --- Color -- */
+:root {
+  --darkblue: #265073;
+  --mediumblue: #2d9596;
+  --lightblue:#9ad0c2;
+  --light: #fff;
+  --lightbluegreen: #ecf4d6;
+  --black:#0e0e0e;
+  --pinkcontrast:#c19ad0;
+}
+
+/* ---- background & txt color ---- */
+.bg1 {
+  background-color: var(--darkblue);
+}
+
+.bg2 {
+  background-color: var(--mediumblue);
+}
+
+.bg3 {
+  background-color: var(--lightblue);
+}
+
+.bg4 {
+  background-color: var(--lightbluegreen);
+}
+
+.bg5 {
+  background-color: var(--lightbluegreen);
+}
+
+.cO {
+  color:var(--black);
+}
+.c1 {
+  color: var(--darkblue);
+}
+
+.c2 {
+  color: var(--mediumblue);
+}
+
+.c3 {
+  color: var(--light);
+}
+
+.c4 {
+  color: var(--lightbluegreen);
+}
+
+.c6 {
+  color: var(--light);
+}
+
+.vert {
+  border-left: 1px solid var(--darkblue);
+  padding-left: 0.3em;
+}
+
+/* -- color element -- */
+
+li.nav-item.active a {
+  color: var(--lightblue);
+}
+
+body {
+  background-color: var(--darkblue);
+}
+
+.btn-c1 {
+  background-color: var(--lightbluegreen);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  color: black;
+}
+
+a.btn.btn-c1:hover {
+  color: black;
+}
+
+a.btn.btn-c2 {
+  background-color: var(--darkblue);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+a.btn.btn-c2:hover {
+  background-color: var(--mediumblue);
+}
+
+.bg2 a {
+  color: var(--lightbluegreen);
+}
+
+.bg3 a {
+  color: var(--darkblue);
+}
+
+.bg4 a {
+  color: var(--mediumblue);
+}
+
+.bg2 a:hover,
+.bg3 a:hover {
+  color: var(--pinkcontrast);
+}
+
+a.nothing {
+  text-decoration: none;
+}
+a.nothing.bg2:hover {
+  color: var(--darkblue);
+}
+
+a.nothing.c3 {
+  color: var(--light);
+}
+
+.bg3:hover,
+.bg1.c3.p-2.mb-2:hover {
+  box-shadow: 2px 2px 8px var(--darkblue);
+}
+
+/* --- Navbar -- */
+
+.nav-link {
+  color: var(--light);
+}
+.nav-link:hover {
+  color: #c19ad0;
+}
+
+.navbar-toggler-icon {
+  background-color: var(--lightbluegreen);
+}
+
+.dropdown-menu {
+  background-color: var(--mediumblue);
+  border-color: transparent;
+  box-shadow: 1px 1px 1px var(--darkblue);
+}
+
+.dropdown-menu a {
+  color: var(--light);
+}
+
+.navbar {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/* ---- Fonts */
+
+@font-face {
+  font-family: Poppins;
+  src: url("fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+body,
+.text {
+  font-family: Roboto, sans-serif;
+}
+
+p,
+ul {
+  font-size: 16px;
+  text-align: justify;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+}
+
+p.lead {
+  font-size: 1.4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav,
+a {
+  font-family: Poppins;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 29px;
+}
+
+/* ---- website */
+
+.destac {
+  background-color: var(--lightbluegreen);
+  padding: 0.7em;
+  border-radius: 6px;
+}
+
+.destac a:hover {
+  color: black;
+}
+
+.card {
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.card-img {
+  border-radius: 0;
+  border: 0px solid transparent;
+}
+
+/* -- footer -- */
+
+footer {
+  background-color: rgb(26, 24, 24);
+  background-image: url("img/pattern01-seamless-o30.png");
+}
+
+.footerContent {
+  padding-left: 1em;
+  background-color: rgb(26, 24, 24);
+  border-radius: 1em;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: var(--lightbluegreen);
+}
+
+/* -- Sponsors statement */
+.gold {
+  background-color: #ab8d3f;
+  border-radius: 6px;
+  color: white;
+}
+
+.silver {
+  background-color: #abada9;
+  border-radius: 6px;
+}
+
+.bronze {
+  background-color: #873e17;
+  border-radius: 6px;
+  color: white;
+}
+
+#sponsors .card {
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+/* -- page */
+
+section {
+  padding: 3rem 0;
+}
+
+.box1 {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 0.5em;
+}
+
+.bubble {
+  background-color: black;
+  border-radius: 15px;
+  padding: 0.4em;
+}
+
+footer {
+  padding: 50px 0;
+}
+
+footer ul li a {
+  color: white;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+
+/* -- Contact */
+
+.contactpage {
+  height: 200px;
+}
+
+#Confcall label {
+  font-weight: bold;
+}
+
+#Confcall .form-group {
+  margin-top: 2.5em;
+}
+
+.form-check label {
+  padding-left: 0.8em;
+}
+
+.sendgood {
+  background-color: green;
+}
+
+.sendbad {
+  background-color: red;
+}

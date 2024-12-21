@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:33:21 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "366",
+    "connection": "keep-alive",
+    "location": "https://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/lgm2011.pdf"
+  },
+  "status": 301,
+  "uri": "http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/lgm2011.pdf",
+  "redirected": "https://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/lgm2011.pdf"
+}

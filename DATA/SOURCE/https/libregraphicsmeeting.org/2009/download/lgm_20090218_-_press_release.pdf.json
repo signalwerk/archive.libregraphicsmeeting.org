@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:33:30 GMT",
+    "content-type": "application/pdf",
+    "content-length": "639608",
+    "connection": "keep-alive",
+    "last-modified": "Wed, 18 Feb 2009 18:54:12 GMT",
+    "etag": "\"9c278-46335f209fd00\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2009/download/lgm_20090218_-_press_release.pdf"
+}

@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:33:20 GMT",
+    "content-type": "text/html",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:33:32 GMT"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2014/lgm2014-program-in-epub-format/index.html"
+}

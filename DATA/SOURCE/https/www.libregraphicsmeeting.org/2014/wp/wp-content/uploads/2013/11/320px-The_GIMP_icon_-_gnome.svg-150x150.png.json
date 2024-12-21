@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:33:21 GMT",
+    "content-type": "image/png",
+    "content-length": "15203",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:35:26 GMT",
+    "etag": "\"3b63-50798b45d7380\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2014/wp/wp-content/uploads/2013/11/320px-The_GIMP_icon_-_gnome.svg-150x150.png"
+}

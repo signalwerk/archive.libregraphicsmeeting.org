@@ -94,7 +94,15 @@ function App() {
     return allJobs
       .filter((job) => selectedQueues.has(job.queueName))
       .filter((job) => statusFilter === "all" || job.status === statusFilter)
-      .filter((job) => errorFilter === "all" || job.error === Number(errorFilter))
+      .filter((job) => {
+        if (errorFilter === "all") return true;
+        if (errorFilter.startsWith("!")) {
+          // Handle "not" filters (e.g., "!404" means "not 404")
+          const errorCode = Number(errorFilter.slice(1));
+          return job.error !== errorCode;
+        }
+        return job.error === Number(errorFilter);
+      })
       .filter(
         (job) =>
           searchTerm === "" ||
@@ -210,6 +218,8 @@ function App() {
           >
             <option value="all">No Errors-Code filter</option>
             <option value="404">404 Not Found</option>
+            <option value="!404">All but 404 Not Found</option>
+            <option value="500">500 Internal Server Error</option>
           </select>
 
           <input

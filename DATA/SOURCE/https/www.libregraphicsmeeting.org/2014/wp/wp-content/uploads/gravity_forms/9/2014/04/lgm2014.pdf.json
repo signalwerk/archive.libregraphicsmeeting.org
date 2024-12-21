@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:33:22 GMT",
+    "content-type": "application/pdf",
+    "content-length": "501261",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:36:16 GMT",
+    "etag": "\"7a60d-50798b7586400\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2014/wp/wp-content/uploads/gravity_forms/9/2014/04/lgm2014.pdf"
+}

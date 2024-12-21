@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:33:22 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "373",
+    "connection": "keep-alive",
+    "location": "https://libregraphicsmeeting.org/2014/wp/wp-content/uploads/2014/04/lgm2014-group1-1200.jpg"
+  },
+  "status": 301,
+  "uri": "http://libregraphicsmeeting.org/2014/wp/wp-content/uploads/2014/04/lgm2014-group1-1200.jpg",
+  "redirected": "https://libregraphicsmeeting.org/2014/wp/wp-content/uploads/2014/04/lgm2014-group1-1200.jpg"
+}

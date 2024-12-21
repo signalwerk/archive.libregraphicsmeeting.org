@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:33:21 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "331",
+    "connection": "keep-alive",
+    "location": "http://libregraphicsmeeting.org/2006/blender.html"
+  },
+  "status": 301,
+  "uri": "http://libregraphicsmeeting.org/2006/blender.php",
+  "redirected": "http://libregraphicsmeeting.org/2006/blender.html"
+}

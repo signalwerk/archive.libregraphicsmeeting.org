@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:34:16 GMT",
+    "content-type": "text/css",
+    "content-length": "38403",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:35:18 GMT",
+    "etag": "\"9603-50798b3e36180\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2014/wp/wp-content/plugins/gravityforms/css/forms-ver=1.5.1.1.css"
+}

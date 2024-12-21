@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:33:40 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "x-powered-by": "PHP/7.3.31-1~deb10u1",
+    "x-pingback": "http://libregraphicsmeeting.org/lgm/wp/xmlrpc.php",
+    "link": "<http://libregraphicsmeeting.org/lgm/wp-json/>; rel=\"https://api.w.org/\", <http://libregraphicsmeeting.org/lgm/wp-json/wp/v2/pages/99>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <http://libregraphicsmeeting.org/lgm/?p=99>; rel=shortlink",
+    "cache-control": "max-age=0",
+    "expires": "Sat, 21 Dec 2024 19:33:29 GMT",
+    "x-ua-compatible": "IE=edge",
+    "x-content-type-options": "nosniff"
+  },
+  "status": 200,
+  "uri": "http://libregraphicsmeeting.org/lgm/specs/openraster/"
+}

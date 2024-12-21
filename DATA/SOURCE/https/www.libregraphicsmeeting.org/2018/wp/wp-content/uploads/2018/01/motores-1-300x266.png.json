@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:33:21 GMT",
+    "content-type": "image/png",
+    "content-length": "113491",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 31 Dec 2020 12:14:22 GMT",
+    "etag": "\"1bb53-5b7c1905ae380\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2018/wp/wp-content/uploads/2018/01/motores-1-300x266.png"
+}

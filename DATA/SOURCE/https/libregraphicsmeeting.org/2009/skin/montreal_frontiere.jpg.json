@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:33:30 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "39547",
+    "connection": "keep-alive",
+    "last-modified": "Sun, 08 Mar 2009 12:39:02 GMT",
+    "etag": "\"9a7b-4649acd7b6580\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2009/skin/montreal_frontiere.jpg"
+}
