@@ -1,5 +1,29 @@
 import * as cheerio from "cheerio";
 import { absoluteUrl } from "../utils/absoluteUrl.js";
+import { fileTypeFromFile } from "file-type";
+
+export async function guessMimeType({ job, cache }, next) {
+  const metadata = cache.getMetadata(job.data.cache.key);
+
+  let mimeType = metadata.headers["content-type"];
+
+  if (!mimeType) {
+    job.log("No mime type found in metadata, guessing...");
+    const data = cache.getData(job.data.cache.key);
+    // read first 100 bytes
+    const first100Bytes = data.slice(0, 100);
+
+    // check if the header looks like a html file
+    if (first100Bytes.includes("<html")) {
+      job.log("Guessing mime type as text/html");
+      mimeType = "text/html";
+    }
+  }
+
+  job.data.mimeType = mimeType.split(";")?.[0];
+
+  next();
+}
 
 export async function addParseJob({ job, events }, next) {
   try {
@@ -25,6 +49,7 @@ export async function addParseJob({ job, events }, next) {
 }
 
 export async function parseHtml({ job, events, data, metadata }, next) {
+  job.log(`parseHtml start`);
   const $ = cheerio.load(data);
 
   let baseUrl =
@@ -37,6 +62,7 @@ export async function parseHtml({ job, events, data, metadata }, next) {
 
         if (!originalValue) return;
 
+        job.log(`Processing URLs for ${JSON.stringify({ originalValue })}`);
         // Split attribute value if it contains multiple URLs (like srcset)
         const urls = originalValue.includes(",")
           ? originalValue.split(",").map((part) => part.trim().split(/\s+/)[0])

@@ -42,6 +42,5 @@ export function isAlreadyRequested({ job, requestTracker, getKey }, next) {
   }
 
   requestTracker.markAsRequested(key);
-  // job.log(`URL ${url} marked as requested.`);
   next();
 }

@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 23:03:27 GMT",
+    "content-type": "text/html",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 12 Mar 2019 18:48:43 GMT"
+  },
+  "status": 200,
+  "uri": "http://libregraphicsmeeting.org/2015/travel/accommodation/"
+}

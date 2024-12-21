@@ -28,7 +28,22 @@ export class Cache {
 
   getMetadata(key) {
     const metaFilePath = path.resolve(this.baseDir, `${fsNameOfUri(key)}.json`);
+
+    if (!fs.existsSync(metaFilePath)) {
+      throw new Error(`Metadata file not found: ${metaFilePath}`);
+    }
+
     return JSON.parse(fs.readFileSync(metaFilePath, "utf8"));
+  }
+
+  getData(key) {
+    const filePath = path.resolve(this.baseDir, fsNameOfUri(key));
+
+    if (!fs.existsSync(filePath)) {
+      throw new Error(`Data file not found: ${filePath}`);
+    }
+
+    return fs.readFileSync(filePath);
   }
 
   get(key) {
@@ -36,22 +51,9 @@ export class Cache {
       return null;
     }
 
-    const filePath = path.resolve(this.baseDir, fsNameOfUri(key));
-    const metaFilePath = `${filePath}.json`;
-
-    if (!fs.existsSync(metaFilePath)) {
-      throw new Error(`Metadata file not found: ${metaFilePath}`);
-    }
-
-    if (!fs.existsSync(filePath)) {
-      throw new Error(`Data file not found: ${filePath}`);
-    }
-
-    const metadata = JSON.parse(fs.readFileSync(metaFilePath, "utf8"));
-    const data = fs.readFileSync(filePath);
     return {
-      metadata,
-      data,
+      metadata: this.getMetadata(key),
+      data: this.getData(key),
     };
   }
 

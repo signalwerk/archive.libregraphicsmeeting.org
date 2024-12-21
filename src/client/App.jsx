@@ -5,7 +5,8 @@ import { JobItemSmall } from "./components/JobItemSmall";
 import "./App.css";
 
 // const requestURL = "https://www.libregraphicsmeeting.org/2008/LGM2008_%20LOGO.svg";
-const requestURL = "https://www.libregraphicsmeeting.org/";
+// const requestURL = "https://www.libregraphicsmeeting.org/";
+const requestURL = "https://libregraphicsmeeting.org/2015/call-for-participation";
 // const requestURL = "https://www.libregraphicsmeeting.org/2006/style.css";
 
 const socket = io();
@@ -158,23 +159,27 @@ function App() {
 
       <div className="queue-admin__active">
         <h2>Active Jobs</h2>
-        {Object.entries(queues).map(
-          ([queueName, queueData]) =>
-            queueData.active?.length > 0 && (
-              <div key={queueName}>
-                <h3>
-                  {queueName} Queue ({queueData.active.length})
-                </h3>
-                {queueData.active.map((job) => (
-                  <JobItemSmall
-                    key={job.id}
-                    onDetailClick={getDetailJob}
-                    job={job}
-                  />
-                ))}
-              </div>
-            ),
-        )}
+        <div className="queue-admin__active-grid">
+          {["request", "fetch", "parse"].map((queueName) => (
+            <div key={queueName} className="queue-admin__active-column">
+              <h3>
+                {queueName} Queue ({queues[queueName]?.active?.length || 0})
+              </h3>
+              {queues[queueName]?.active?.slice(0, 10).map((job) => (
+                <JobItemSmall
+                  key={job.id}
+                  onDetailClick={getDetailJob}
+                  job={job}
+                />
+              ))}
+              {(queues[queueName]?.active?.length || 0) > 10 && (
+                <div className="queue-admin__more-items">
+                  +{queues[queueName].active.length - 10} more items
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
       </div>
 
       <div className="queue-admin__history">

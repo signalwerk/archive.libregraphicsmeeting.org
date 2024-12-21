@@ -7,7 +7,7 @@ import { Server as SocketIOServer } from "socket.io";
 // import { dirname } from "path";
 import { Queue } from "./queue.js";
 import { isDomainValid, isAlreadyRequested } from "./processor/request.js";
-import { addParseJob, parseHtml } from "./processor/parse.js";
+import { addParseJob, guessMimeType, parseHtml } from "./processor/parse.js";
 import { addFetchJob } from "./processor/fetch.js";
 import { isCached, fetchHttp } from "./processor/fetch.js";
 import { Cache } from "./utils/Cache.js";
@@ -93,61 +93,74 @@ fetchQueue
     await addParseJob({ job, events }, next);
   });
 
-parseQueue.use(async (job, next) => {
-  const { data, metadata } = cache.get(job.data.cache.key);
+parseQueue
+  // guess mime type if not already set
+  .use(async (job, next) => {
+    await guessMimeType({ job, cache }, next);
+  })
 
-  if (!data || !metadata) {
-    throw new Error(`No data or metadata found in cache ${job.data.cache.key}`);
-  }
+  // now parse the data
+  .use(async (job, next) => {
+    const { data, metadata } = cache.get(job.data.cache.key);
 
-  const mimeType = metadata.headers["content-type"].split(";")[0];
-
-  switch (mimeType) {
-    case "application/xhtml+xml":
-    case "text/html": {
-      await parseHtml({ job, events, data, metadata }, next);
-      break;
-    }
-    case "text/css":
-    case "application/javascript":
-    //
-    case "text/plain":
-    case "image/png":
-    case "image/jpeg":
-    case "image/jpg":
-    case "image/gif":
-    case "image/webp":
-    case "image/svg+xml":
-    case "image/avif":
-    case "image/apng":
-    case "image/bmp":
-    case "image/tiff":
-    case "image/x-icon":
-    case "text/xml":
-    case "application/pdf":
-    case "application/json":
-    case "application/rss+xml":
-    case "application/atom+xml":
-    case "application/rdf+xml":
-    case "application/rss+xml":
-    case "application/rdf+xml":
-    case "application/x-rss+xml":
-    case "application/xml":
-    case "application/x-www-form-urlencoded":
-    case "application/x-shockwave-flash":
-    case "application/epub+zip": //
-    {
-      break;
-    }
-    default: {
+    if (!data || !metadata) {
       throw new Error(
-        `Unsupported content type: ${metadata.headers["content-type"]}`,
+        `No data or metadata found in cache ${job.data.cache.key}`,
       );
     }
-  }
 
-  next();
-});
+    const mimeType = job.data.mimeType;
+
+    switch (mimeType) {
+      case "application/xhtml+xml":
+      case "text/html": {
+        await parseHtml({ job, events, data, metadata }, next);
+        break;
+      }
+      case "text/css":
+      case "application/javascript":
+      //
+      case "text/plain":
+      case "image/png":
+      case "image/jpeg":
+      case "image/jpg":
+      case "image/gif":
+      case "image/webp":
+      case "image/svg+xml":
+      case "image/avif":
+      case "image/apng":
+      case "image/bmp":
+      case "image/tiff":
+      case "image/x-icon":
+      case "text/xml":
+      case "image/vnd.microsoft.icon":
+      case "application/vnd.oasis.opendocument.text":
+      case "application/pdf":
+      case "application/json":
+      case "application/rss+xml":
+      case "application/atom+xml":
+      case "application/rdf+xml":
+      case "application/rss+xml":
+      case "application/rdf+xml":
+      case "application/x-rss+xml":
+      case "application/xml":
+      case "application/x-www-form-urlencoded":
+      case "application/x-shockwave-flash":
+      case "application/epub+zip": {
+        //
+        break;
+      }
+      default: {
+        throw new Error(
+          `Unsupported content type: ${
+            metadata.headers["content-type"] || "undefined"
+          }`,
+        );
+      }
+    }
+
+    next();
+  });
 
 // API endpoint to get all jobs in queues
 app.get("/api/jobs", (req, res) => {

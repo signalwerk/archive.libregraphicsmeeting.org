@@ -108,3 +108,16 @@
 .queue-admin__history {
   margin-bottom: 2rem;
 }
+
+.queue-admin__active-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.queue-admin__active-column {
+  min-width: 0; /* Prevents overflow in grid items */
+  border: 1px solid #eee;
+  padding: 1rem;
+  border-radius: 4px;
+}

@@ -7,12 +7,16 @@ export function JobItemSmall({ job, isActive, onDetailClick }) {
       className={`job-item-small ${isActive ? "job-item-small--active" : ""}`}
       onClick={() => onDetailClick(job.id)}
     >
-      <span className="job-item-small__field">
-        <strong>{job.queueName}</strong>
-      </span>
-      <span className="job-item-small__field">{job.status}</span>
+      <div className="job-item-small__header">
+        <span className="job-item-small__field">
+          <strong>{job.queueName}</strong>
+        </span>
+        <span className="job-item-small__field">{job.status}</span>
+      </div>
       {job.data?.uri && (
-        <span className="job-item-small__field">{job.data.uri}</span>
+        <div className="job-item-small__body">
+          <span className="job-item-small__field">{job.data.uri}</span>
+        </div>
       )}
     </button>
   );
