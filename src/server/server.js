@@ -117,7 +117,10 @@ parseQueue
         await parseHtml({ job, events, data, metadata }, next);
         break;
       }
-      case "text/css":
+      case "text/css": {
+        await parseCss({ job, events, data, metadata }, next);
+        break;
+      }
       case "application/javascript":
       //
       case "text/plain":

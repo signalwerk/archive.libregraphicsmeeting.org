@@ -5,8 +5,8 @@ import { JobItemSmall } from "./components/JobItemSmall";
 import "./App.css";
 
 // const requestURL = "https://www.libregraphicsmeeting.org/2008/LGM2008_%20LOGO.svg";
-// const requestURL = "https://www.libregraphicsmeeting.org/";
-const requestURL = "https://libregraphicsmeeting.org/2015/call-for-participation";
+const requestURL = "https://www.libregraphicsmeeting.org/";
+// const requestURL = "https://libregraphicsmeeting.org/2015/call-for-participation";
 // const requestURL = "https://www.libregraphicsmeeting.org/2006/style.css";
 
 const socket = io();

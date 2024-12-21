@@ -1,6 +1,6 @@
 import * as cheerio from "cheerio";
 import { absoluteUrl } from "../utils/absoluteUrl.js";
-import { fileTypeFromFile } from "file-type";
+import postcss from "postcss";
 
 export async function guessMimeType({ job, cache }, next) {
   const metadata = cache.getMetadata(job.data.cache.key);
@@ -46,6 +46,127 @@ export async function addParseJob({ job, events }, next) {
   } catch (error) {
     throw new Error(`Error: ${error.message}`);
   }
+}
+export async function parseCss({ job, events, data, metadata }, next) {
+  job.log(`parseCss start`);
+  
+  const { plugin, resources } = await findResources();
+  
+  try {
+    // Process the CSS content using PostCSS
+    await postcss([plugin])
+      .process(data, { from: undefined })
+      .then(() => {
+        // Process @import rules
+        resources.imports.forEach((originalUrl) => {
+          const fullUrl = absoluteUrl(originalUrl, job.data.uri);
+          if (!fullUrl) return;
+
+          const requestJobData = {
+            ...job.data,
+            uri: fullUrl,
+            _parent: job.id,
+          };
+
+          job.log(`Created request for CSS import: ${fullUrl}`);
+          events?.emit("createRequestJob", requestJobData);
+        });
+
+        // Process background images
+        resources.backgroundImages.forEach((originalUrl) => {
+          const fullUrl = absoluteUrl(originalUrl, job.data.uri);
+          if (!fullUrl) return;
+
+          const requestJobData = {
+            ...job.data,
+            uri: fullUrl,
+            _parent: job.id,
+          };
+
+          job.log(`Created request for background image: ${fullUrl}`);
+          events?.emit("createRequestJob", requestJobData);
+        });
+
+        // Process fonts
+        resources.fonts.forEach((originalUrl) => {
+          const fullUrl = absoluteUrl(originalUrl, job.data.uri);
+          if (!fullUrl) return;
+
+          const requestJobData = {
+            ...job.data,
+            uri: fullUrl,
+            _parent: job.id,
+          };
+
+          job.log(`Created request for font: ${fullUrl}`);
+          events?.emit("createRequestJob", requestJobData);
+        });
+      });
+
+    job.log(`parseCss done`);
+    next();
+  } catch (error) {
+    job.log(`Error processing CSS: ${error.message}`);
+    throw error;
+  }
+}
+
+// Helper function to find CSS resources
+function findResources() {
+  return new Promise((resolve) => {
+    const resources = {
+      imports: [],
+      backgroundImages: [],
+      fonts: [],
+    };
+
+    const urlRegex = /url\(['"]?([^'"()]+)['"]?\)/g;
+
+    const plugin = () => {
+      return {
+        postcssPlugin: "postcss-find-resources",
+        Once(root) {
+          // Process @import rules
+          root.walkAtRules("import", (rule) => {
+            resources.imports.push(rule.params.replace(/['";]/g, ""));
+          });
+
+          // Process @font-face rules
+          root.walkAtRules("font-face", (rule) => {
+            rule.walkDecls("src", (decl) => {
+              let match;
+              while ((match = urlRegex.exec(decl.value)) !== null) {
+                resources.fonts.push(match[1]);
+              }
+            });
+          });
+
+          // Process other URL-containing declarations
+          root.walkDecls((decl) => {
+            const propsWithUrls = [
+              "background",
+              "background-image",
+              "cursor",
+              "list-style",
+              "list-style-image",
+              "mask",
+              "mask-image",
+            ];
+
+            if (propsWithUrls.includes(decl.prop)) {
+              let match;
+              while ((match = urlRegex.exec(decl.value)) !== null) {
+                resources.backgroundImages.push(match[1]);
+              }
+            }
+          });
+        },
+      };
+    };
+    plugin.postcss = true;
+
+    resolve({ plugin, resources });
+  });
 }
 
 export async function parseHtml({ job, events, data, metadata }, next) {
