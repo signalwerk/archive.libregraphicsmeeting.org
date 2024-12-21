@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:52 GMT",
+    "content-type": "image/png",
+    "content-length": "1323356",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 01 Sep 2015 19:00:28 GMT",
+    "etag": "\"14315c-51eb429d03328\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2015/wp/wp-content/uploads/2015/04/conversationsLaunch-1024x768.png"
+}

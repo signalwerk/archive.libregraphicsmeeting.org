@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:31 GMT",
+    "content-type": "image/gif",
+    "content-length": "25725",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 17 Feb 2009 22:46:08 GMT",
+    "etag": "\"647d-4632511a7ec00\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2009/skin/location_plancampus.gif"
+}

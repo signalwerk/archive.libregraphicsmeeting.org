@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:38 GMT",
+    "content-type": "text/css",
+    "content-length": "48488",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 04 Nov 2019 15:22:32 GMT",
+    "etag": "\"bd68-59686e271dcef\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2020/css/bootstrap-grid.min.css"
+}

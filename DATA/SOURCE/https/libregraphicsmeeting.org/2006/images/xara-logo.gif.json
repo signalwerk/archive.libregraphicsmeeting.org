@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:59 GMT",
+    "content-type": "image/gif",
+    "content-length": "3117",
+    "connection": "keep-alive",
+    "last-modified": "Wed, 12 Mar 2008 09:30:51 GMT",
+    "etag": "\"c2d-4483a17c608c0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2006/images/xara-logo.gif"
+}

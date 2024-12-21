@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:11:21 GMT",
+    "content-type": "image/png",
+    "content-length": "52852",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 22 Feb 2024 09:22:14 GMT",
+    "etag": "\"ce74-611f4fa9c30e0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2024/conf-loiseau-binary.png"
+}

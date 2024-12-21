@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:41 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "10082",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:35:55 GMT",
+    "etag": "\"2762-50798b617f4c0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2014/wp/wp-content/uploads/2014/03/shirt-220x126.jpeg"
+}

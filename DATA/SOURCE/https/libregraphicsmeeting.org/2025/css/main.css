@@ -1,0 +1,692 @@
+@font-face {
+  font-family: RobotoFlex;
+  src:url("./RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].woff2") format("woff2");
+  font-weight:100 900;
+}
+
+@font-face {
+  font-family: RobotoFlex;
+  src:url("./RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].woff2") format("woff2");
+  font-style:italic;
+  font-weight:100 900;
+}
+
+:root {
+    background: #333;
+    font-family: RobotoFlex;
+    --hue-offset: 0turn;
+    --greenyellow: oklch(91.3% 0.2335 calc(130.02deg + var(--hue-offset)));
+    --deeppink: oklch(72.83% 0.19707545854163525 calc(351.9947080594076deg + var(--hue-offset)));
+}
+
+body {
+    max-width: 72em;
+    margin: 0 auto;
+    background: repeating-conic-gradient(from 81.9603deg at 54.4795% 53.4716%, color(srgb 0.678291 0.999957 0.183961 / 0.24) 251.636deg, color(srgb 0.678291 0.999957 0.183961 / 0.24) 257.269deg, color(srgb 1 0.411768 0.705885 / 0.35) 321.258deg, color(srgb 1 0.411768 0.705885 / 0.35) 278.634deg, color(srgb 0.678292 0.999957 0.183961 / 0.64) 305.367deg, color(srgb 0.678292 0.999957 0.183961 / 0.64) 284.348deg, color(srgb 1 0.411768 0.705885 / 0.26) 171.895deg, color(srgb 1 0.411768 0.705885 / 0.26) 172.615deg, color(srgb 0.678291 0.999957 0.183961 / 0.096) 201.29deg, color(srgb 0.678291 0.999957 0.183961 / 0.096) 167.761deg, color(srgb 1 0.411768 0.705885 / 0.736) 100.876deg, color(srgb 1 0.411768 0.705885 / 0.736) 170.399deg), repeating-conic-gradient(from 28.652deg at 21.1301% 25.2994%, color(srgb 0.678291 0.999957 0.183961 / 0.52) 187.956deg, color(srgb 0.678291 0.999957 0.183961 / 0.52) 227.671deg, color(srgb 1 0.411768 0.705885 / 0.714) 296.99deg, color(srgb 1 0.411768 0.705885 / 0.714) 288.584deg, color(srgb 0.678291 0.999957 0.183961 / 0.552) 294.305deg, color(srgb 0.678291 0.999957 0.183961 / 0.552) 72.76deg, color(srgb 1 0.411768 0.705885 / 0.697) 182.181deg, color(srgb 1 0.411768 0.705885 / 0.697) 90.8138deg, color(srgb 0.678291 0.999957 0.183961 / 0.415) 217.87deg, color(srgb 0.678291 0.999957 0.183961 / 0.415) 195.732deg, color(srgb 1 0.411768 0.705885 / 0.48) 267.512deg, color(srgb 1 0.411768 0.705885 / 0.48) 173.085deg), repeating-conic-gradient(from 37.138deg at 53.942% 34.3715%, color(srgb 0.678291 0.999957 0.183961 / 0.76) 54.1519deg, color(srgb 0.678291 0.999957 0.183961 / 0.76) 43.0496deg, color(srgb 1 0.411768 0.705885 / 0.874) 284.457deg, color(srgb 1 0.411768 0.705885 / 0.874) 290.071deg, color(srgb 0.678291 0.999957 0.183961 / 0.715) 27.9959deg, color(srgb 0.678291 0.999957 0.183961 / 0.715) 82.3657deg, color(srgb 1 0.411768 0.705885 / 0.882) 59.0745deg, color(srgb 1 0.411768 0.705885 / 0.882) 66.9433deg, color(srgb 0.678291 0.999957 0.183961 / 0.829) 279.571deg, color(srgb 0.678291 0.999957 0.183961 / 0.829) 238.35deg, color(srgb 1 0.411768 0.705885 / 0.87) 287.701deg, color(srgb 1 0.411768 0.705885 / 0.87) 259.235deg), none
+}
+
+
+/* move out of view as we use SVG to dispaly the information visually */
+header :is(h1, h2){
+    position: absolute;
+    top: -1000vh
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 1em;
+    container: wrapper / inline-size;
+}
+
+
+.content {
+    background: white;
+    flex: max-content;
+}
+
+
+header {
+    display: grid;
+    --nav-full-height: 2.6em;
+
+    grid-template-columns: 17em auto;
+    grid-template-rows: auto auto 1fr var(--nav-full-height);
+    grid-template-areas:
+        "logo-boxes filler-1"
+        "logo-text reimagination"
+        "logo-text filler-2"
+        "logo-text nav";
+}
+
+
+header .filler {
+    background: white;
+}
+
+header .filler-1 {
+    grid-area: filler-1;
+}
+
+/*
+ * Safari (IOS) seems to have a clipping issue with our SVGs
+ * at a 1px gap someties the background shines through. This
+ * fixes it.
+ */
+header > *, .content, footer {
+    outline: 1px solid white;
+}
+nav {
+    outline: none;
+}
+
+footer{
+    background: black;
+    outline-color: black;
+    color: white;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+
+header .filler-2 {
+    grid-area: filler-2;
+}
+
+header .identity-logo-container{
+    grid-area: logo;
+}
+
+header :is(.identity-logo-boxes, .identity-logo-text, .identiy-reimagination) {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    border-style: solid;
+    border-color: white;
+    border-bottom: none;
+    border-width: 0;
+
+}
+
+header .identity-logo-boxes {
+    grid-area: logo-boxes;
+    border-width: 1.5em .2em 0 .2em;
+}
+
+header .identity-logo-text {
+    grid-area: logo-text;
+    border-width: 0 .5em 0 .5em;
+}
+
+header .identiy-reimagination {
+    grid-area: reimagination;
+    border-width: 0 .5em 0 0;
+}
+
+nav {
+    grid-area: nav;
+    display: flex;
+    overflow: visible;
+    --nav-gap-size: .4em;
+    /*
+    height: 2.5em;
+    */
+
+    z-index: 5;
+    white-space: nowrap;
+}
+
+nav > ul > li,
+.past_editions {
+    position: relative;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.past_editions > span,
+nav > ul > li {
+    display: inline-block;
+}
+
+.past_editions ul a,
+nav li > ul a {
+    display: block;
+    margin: var(--nav-gap-size);
+    height: calc(var(--nav-full-height) - 2* var(--nav-gap-size));
+    line-height: calc(var(--nav-full-height) - 2* var(--nav-gap-size));
+}
+
+.past_editions > span,
+nav > ul > li > a,
+nav button {
+    margin: var(--nav-gap-size);
+    display: inline-block;
+    height: calc(var(--nav-full-height) - 2* var(--nav-gap-size));
+    line-height: calc(var(--nav-full-height) - 2* var(--nav-gap-size));
+}
+
+.past_editions > span {
+    padding-right: 0;
+}
+.past_editions > span,
+nav > ul > li > a {
+    margin-right: 0;
+}
+
+
+
+:is(.past_editions > span, nav li:has(> ul)):after,
+:is(.past_editions > span, nav li:has(> ul)):before {
+    content: "▽\FE0E";
+    text-align: center;
+    display: inline-block;
+    width: 2em;
+    height: calc(var(--nav-full-height) - 2* var(--nav-gap-size));
+    line-height: calc(var(--nav-full-height) - 2* var(--nav-gap-size));
+}
+
+:is(.past_editions > span, nav li:has(> ul)):before {
+    display: none;
+}
+
+.past_editions > span,
+.past_editions > span:after,
+.past_editions > span:before,
+nav li:has(> ul):after,
+nav li:has(> ul):before {
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+
+nav .past_editions > ul,
+nav ul > li > ul {
+    position: absolute;
+    top: calc(var(--nav-full-height) - var(--nav-gap-size));
+    left: var(--nav-gap-size);
+    background: linear-gradient(var(--greenyellow, greenyellow), var(--deeppink, deeppink));
+    white-space: nowrap;
+    display: none;
+}
+
+@media (hover: hover) {
+    /*
+     * in IOS the hover style interferes with being able to
+     * collapse the sub-menu again, so this style is only
+     * added when hover is truly available.
+     */
+    nav .past_editions:hover > ul,
+    nav li:has(> ul):hover > ul {
+        display: block;
+    }
+
+    .past_editions:hover > span:after, nav li:has(> ul):hover:after,
+    .past_editions:hover > span:before, nav li:has(> ul):hover:before {
+        content: '▼\FE0E';
+    }
+
+}
+
+:is(.past_editions, li).ui_collapsible_mixin-open > ul {
+    display: block;
+}
+
+:is(.past_editions.ui_collapsible_mixin-open > span, li.ui_collapsible_mixin-open):after,
+:is(.past_editions.ui_collapsible_mixin-open > span, li.ui_collapsible_mixin-open):before {
+    content: '▼\FE0E';
+}
+
+
+nav a {
+    color: black;
+    background: white;
+    text-decoration: none;
+}
+
+nav a,
+.past_editions > span,
+nav button span {
+    font-variation-settings: "opsz" 12, 'wdth' 60, 'wght' 700;
+    text-transform: uppercase;
+}
+
+nav a,
+.past_editions > span {
+    padding: 0 .3em;
+}
+
+.past_editions > span {
+    padding-right: 0;
+}
+
+nav a:hover {
+    color: var(--deeppink, deeppink);
+    text-decoration: underline;
+    text-decoration-thickness: .2em;
+    text-decoration-color: var(--greenyellow, greenyellow);
+}
+
+nav li.active > a {
+    background: var(--deeppink, deeppink);
+}
+
+nav li.active > a:hover {
+    color: white;
+}
+
+
+.play_pause, .play_pause:before, .play_pause:after{
+    --symbol-url-is-pausing: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='10 12 12 24'><path d='M10,31.4v-14.8l11,7.4'></path></svg>");
+    --symbol-url-is-playing: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='10 12 12 24'><path d='M10,32v-16h4v16zm6,0v-16h4v16z'></path></svg>");
+    --symbol-size: 2.5em;
+    --icon-width: calc(var(--symbol-size) * .4);
+}
+.play_pause {
+    font: unset;
+    border: none;
+    cursor: pointer;
+    background: none;
+    white-space: nowrap;
+    color: white;
+    position: relative;
+    padding-left: var(--icon-width);
+    padding-right: 0;
+    margin-left: var(--nav-gap-size);
+    margin-right: 0;
+}
+
+
+.play_pause:before {
+    content: "";
+    mask-image: var(--symbol-url-is-pausing);
+    mask-repeat: no-repeat;
+    mask-position: left center;
+    width: var(--icon-width);
+    height: 100%;
+    display: block;
+    position: absolute;
+    left:0;
+    top:0;
+    background-color: white;
+}
+
+
+.play_pause {
+    /* no javascript generated classes: we don't need this*/
+    display: none;
+}
+
+.play_pause:where(.is_pausing, .is_playing) {
+    display: block;
+}
+
+.play_pause span{
+    display: none;
+}
+
+.play_pause.is_pausing .is_pausing-label,
+.play_pause.is_playing .is_playing-label {
+    display: inline;
+}
+
+.play_pause.is_pausing:before{
+    mask-image: var(--symbol-url-is-pausing);
+}
+.play_pause.is_playing:before{
+    mask-image: var(--symbol-url-is-playing);
+}
+
+
+
+
+
+@container wrapper (width <= 56em) {
+    header {
+        grid-template-areas:
+            "logo-boxes filler-1"
+            "logo-text reimagination"
+            "logo-text filler-2"
+            "nav nav";
+    }
+
+    nav > ul > li:first-child > a {
+        margin-left: 0;
+    }
+    nav > ul > li:first-child > ul {
+        left: 0
+    }
+
+    header .identity-logo-text {
+        border-bottom: .5em solid white;
+    }
+}
+
+@container  wrapper (width <= 48em) {
+    header .filler-2 {
+        display: none;
+    }
+
+    header .identity-logo-boxes {
+        border-bottom: .5em solid white;
+    }
+
+    header .identity-logo-text {
+        border-bottom: none;
+    }
+
+    header {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto 1fr auto var(--nav-full-height);
+        grid-template-areas:
+            "logo-boxes logo-text"
+            "filler-1 logo-text"
+            "reimagination reimagination"
+            "nav nav";
+    }
+    header .identiy-reimagination{
+        border: .5em solid white;
+    }
+}
+@container wrapper (width <= 36em) {
+    header {
+        display: block;
+    }
+
+    header .filler {
+        display: none;
+    }
+
+    nav:before,
+    nav.ui_collapsible_mixin-open:after {
+        content: '•••';
+        display: block;
+        text-align: center;
+        height: var(--nav-full-size);
+        cursor: pointer;
+        background: black;
+        color: white;
+    }
+
+    nav.ui_collapsible_mixin-closed > * {
+        display: none;
+    }
+
+    nav {
+        padding: var(--nav-gap-size) 0;
+        height: initial;
+    }
+    nav, nav > ul {
+        flex-direction: column;
+    }
+    nav .past_editions > ul, nav ul > li > ul {
+        position: initial;
+    }
+
+    .past_editions > span,
+    nav > ul > li > a,
+    .play_pause {
+        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .play_pause {
+        height: var(--nav-full-height);
+    }
+    .play_pause span {
+        position: initial;
+    }
+
+    :is(nav .past_editions > ul, nav ul > li > ul) > li {
+        padding: 0 0 var(--nav-gap-size) 2em;
+    }
+     nav ul > li > ul > li:first-child {
+        padding-top: var(--nav-gap-size);
+    }
+
+    .past_editions ul a, nav li > ul a {
+        margin: 0;
+    }
+
+    .past_editions > span,
+     nav > ul > li > a {
+        display: block;
+    }
+    .past_editions > span {
+        padding-left: 0;
+    }
+
+    nav li:has(ul) {
+        overflow: hidden;
+    }
+    nav li:has(ul) > a {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        padding-left: 2.3em;
+    }
+    :is(.past_editions > span, nav li:has(> ul)):before {
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+    }
+    :is(.past_editions > span, nav li:has(> ul)):after {
+        display: none;
+    }
+
+    nav .past_editions > ul, nav ul > li > ul {
+        background: transparent;
+    }
+
+    .play_pause {
+        background-color: white;
+        color: black;
+        height: fit-content;
+        text-align: left;
+        padding-left: calc(var(--icon-width) + var(--nav-gap-size));
+    }
+    .play_pause:before {
+        background-color: black;
+        left: var(--nav-gap-size);
+    }
+    .play_pause .play_pause-purpose{
+        display: inline;
+    }
+
+}
+
+
+.content .heading_anchor{
+    text-decoration: none;
+    font-size: 1rem;
+    color: grey;
+    font-weight: normal;
+    margin-inline-start: -.8em;
+}
+
+.content {
+    --left-padding: 17em;
+    --right-padding: 4em;
+    padding: 1.5em 0;
+    padding-left: var(--left-padding);
+    padding-right: var(--right-padding);
+}
+
+@container wrapper (width <= 61.625em) {
+    .content {
+        /* from 61.625 to 59.125*/
+        /** now reduce 2.5em of padding -right **/
+        --right-padding: calc(1.5em + 100cqw - 59.125em);
+    }
+}
+
+.content {
+    --text-wdth: calc(90 + 35 * var(--text-wdth-ratio, 1));
+    --line-height: 1.4;
+}
+
+@container wrapper (width <= 59.125em) {
+    .content {
+        /* Now:
+         * 59.125 - 3 = 56.125 line length
+         *
+         */
+        --text-wdth-ratio: 1;
+        /* fix it now */
+        --right-padding: 1.5em;
+    }
+}
+
+
+@container wrapper (width <= 58.34375em) {
+    .content {
+        --text-wdth-ratio: 0.75;
+        --line-height: 1.35;
+    }
+}
+@container wrapper (width <= 57.5625em) {
+    .content {
+        --text-wdth-ratio: 0.5;
+        --line-height: 1.3;
+    }
+}
+
+@container wrapper (width <= 56.78125em) {
+    .content {
+        --text-wdth-ratio: 0.25;
+        --line-height: 1.25;
+    }
+}
+
+@container wrapper (width <= 56em) {
+
+    .content {
+        /* this is a big break, we get most of the left-padding added
+         * to the line-length an basically are back to the
+         * original line-length
+         */
+        --text-wdth-ratio: 1;
+        --right-padding: 4em;
+        --left-padding: 1.5em;
+        --line-height: 1.4;
+    }
+}
+
+@container wrapper (width <= 40.625em) {
+    .content {
+        /** now reduce 2.5em of padding -right
+         * from 40.625em to 38.125em.
+         * */
+        --right-padding: calc(1.5em + 100cqw - 38.125em);
+    }
+}
+
+@container wrapper (width <= 38.125em) {
+    .content {
+        --right-padding: 1.5em;
+        --text-wdth-ratio: 1;
+    }
+}
+
+@container wrapper (width <= 27.34375em) {
+    .content {
+        --text-wdth-ratio: 0.75;
+        --line-height: 1.35;
+    }
+}
+@container wrapper (width <= 36.5625em) {
+    .content {
+        --text-wdth-ratio: 0.5;
+        --line-height: 1.3;
+    }
+}
+
+@container wrapper (width <= 35.78125em) {
+    .content {
+        --text-wdth-ratio: 0.25;
+        --line-height: 1.25;
+    }
+}
+
+@container wrapper (width <= 35em) {
+    .content {
+        --text-wdth-ratio: 0;
+        --line-height: 1.2;
+    }
+}
+
+@container wrapper (width <= 30em) {
+    .content :is(p, li) {
+        hyphens: auto;
+    }
+}
+
+
+.content h1 {
+    font-size: 4em;
+    font-variation-settings: "opsz" 48, "wdth" 54, "wght" 500;
+    margin-block-start: 0;
+}
+
+@container wrapper (width <= 35em) {
+    .content h1 {
+        font-size: 2.5em;
+        font-variation-settings: "opsz" 30, "wdth" 50, "wght" 550;
+    }
+}
+.content :is(h1, h2, h3, h4, h5, h5) {
+    margin-block-end: 0;
+    line-height: 1;
+}
+
+
+.content *{
+    font-variation-settings: "opsz" 16, "wdth" var(--text-wdth), 'GRAD' var(--text-grad, 0);
+}
+
+.content :is(p, li) {
+    --text-grad: 0;
+    font-size: 1.4rem;
+    margin: 0;
+    line-height: var(--line-height, 1.4);
+}
+.content p + p {
+    text-indent: 1.5em;
+}
+
+
+.content blockquote p {
+    font-size: 2.5em;
+    font-variation-settings: 'opsz' 20, 'slnt' -7,'wght' 90;
+    line-height: 1.1em;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.content a {
+    color: black;
+    text-decoration: underline;
+    text-decoration-thickness: .2em;
+    text-decoration-color: var(--greenyellow, greenyellow);
+}
+.content a:hover {
+    --text-grad: 50;
+}
+
+em {
+    /* FIXME: use "slnt" */
+    font-style: oblique;
+}

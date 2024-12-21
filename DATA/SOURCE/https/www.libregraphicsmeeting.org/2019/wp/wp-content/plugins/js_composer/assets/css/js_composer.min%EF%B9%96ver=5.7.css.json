@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:23 GMT",
+    "content-type": "text/css",
+    "content-length": "484838",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 31 Dec 2020 12:16:27 GMT",
+    "etag": "\"765e6-5b7c197ce3cc0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2019/wp/wp-content/plugins/js_composer/assets/css/js_composer.min%EF%B9%96ver=5.7.css"
+}

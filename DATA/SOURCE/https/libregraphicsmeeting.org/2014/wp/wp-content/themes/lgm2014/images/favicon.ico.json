@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:33 GMT",
+    "content-type": "image/vnd.microsoft.icon",
+    "content-length": "1150",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:35:57 GMT",
+    "etag": "\"47e-50798b6367940\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2014/wp/wp-content/themes/lgm2014/images/favicon.ico"
+}

@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:33 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "326",
+    "connection": "keep-alive",
+    "location": "https://libregraphicsmeeting.org/favicon.ico"
+  },
+  "status": 301,
+  "uri": "http://libregraphicsmeeting.org/favicon.ico",
+  "redirected": "https://libregraphicsmeeting.org/favicon.ico"
+}

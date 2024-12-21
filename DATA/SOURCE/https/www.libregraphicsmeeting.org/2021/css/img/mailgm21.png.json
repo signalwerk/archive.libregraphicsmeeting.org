@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:22 GMT",
+    "content-type": "image/png",
+    "content-length": "2622",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 15 Mar 2021 13:57:07 GMT",
+    "etag": "\"a3e-5bd93a019a392\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2021/css/img/mailgm21.png"
+}

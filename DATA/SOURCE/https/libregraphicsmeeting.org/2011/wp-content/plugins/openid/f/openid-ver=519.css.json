@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:35 GMT",
+    "content-type": "text/css",
+    "content-length": "784",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 10 Nov 2014 13:03:27 GMT",
+    "etag": "\"310-50780c9d5e5c0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2011/wp-content/plugins/openid/f/openid-ver=519.css"
+}

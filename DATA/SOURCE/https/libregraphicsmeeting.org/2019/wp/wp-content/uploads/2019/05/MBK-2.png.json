@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:46 GMT",
+    "content-type": "image/png",
+    "content-length": "104903",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 31 Dec 2020 12:16:27 GMT",
+    "etag": "\"199c7-5b7c197ce3cc0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2019/wp/wp-content/uploads/2019/05/MBK-2.png"
+}

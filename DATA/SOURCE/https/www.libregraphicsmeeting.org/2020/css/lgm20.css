@@ -1,0 +1,379 @@
+/* --- Navbar -- */
+
+.dropdown-menu {
+    background-color:#000;
+    border-color:transparent;
+}
+
+.dropdown-menu a {
+    color:#fff;
+}
+
+.navbar {
+    padding-top:1em;
+    padding-bottom:1em;
+}
+
+.card {
+    border-radius:0; 
+}
+
+#venuepage .card {
+    background-color:#51d5ea;
+    border:1px solid #51d5ea;
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        height: 35em;
+    }
+    .card-pattern {
+        height: 35em;
+    }
+}
+
+@media (max-width: 360px) {
+    .card {
+        height: 40em;
+    }
+    .card-pattern {
+        height: 40em;
+    }
+}
+
+.bg-dark {
+    background-color:black!important;
+}
+
+/* ---- Fonts */
+
+@font-face {
+    font-family:Poppins;
+    src:url("fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:Roboto;
+    src:url("fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+body {
+    font-family:Roboto, sans-serif;
+}
+
+p, ul {
+    font-size:16px;
+    text-align:justify;   
+    -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+     -ms-hyphens: auto;
+     -o-hyphens: auto;
+     hyphens: auto;
+}
+
+h1, h2, h3, h4, h5, h6, nav,a {
+    font-family:Poppins;
+}
+
+h1 {
+    font-size:40px;
+}
+
+h2 {
+    font-size:32px;
+}
+
+h3 {
+    font-size:18px;
+}
+
+/* ---- Colors */
+
+.importantinfo {
+    background-color:#f05874 !important;
+    color: white;
+    text-align: center !important;
+}
+
+.cor1 {
+    background-color:#51d5ea;
+}
+
+.cor2 {
+    background-color: #58f0cd;
+}
+
+.linkcor2 {
+    color:#51d5ea;
+}
+
+.linkcor2:hover {
+    color:white;
+}
+
+.cor3 {
+    background-color: #f05874ff;
+}
+
+.cor4 {
+    background-color:#fff;
+}
+
+.cor5 {
+    background-color:black;
+}
+
+.btn-cor1, .btn-cor1b {
+    background-color:#51d5ea;
+}
+
+.btn-cor1:hover {
+    background-color:transparent;
+    border:1px white solid;
+}
+
+.btn-cor1b:hover {
+    background-color:transparent;
+    border:1px solid black;
+    color:black;
+}
+
+a.btn-cor1:hover {
+    color:white;
+}
+
+.btn-cor2 {
+    background-color:#58f0cd;
+}
+
+.btn-cor2:hover {
+    background-color:transparent;
+    border:1px solid black;
+    color:black;
+}
+
+.btn-cor3 {
+    background-color: #f05874ff;
+    color:white;
+}
+
+.btn-cor3:hover {
+    background-color:transparent;
+    border:1px solid black;
+}
+
+.btn-cor4 {
+    background-color: #f05874ff;
+    color:white;
+}
+
+.btn-cor4:hover {
+    background-color:transparent;
+    border:1px white solid;
+    color:white;
+}
+
+.btn-cor5 {
+    background-color:black;
+    color:white;
+}
+
+.btn-cor5:hover {
+    background-color:transparent;
+    border:1px solid black;
+    color:black;
+}
+
+.btn.disabled, .btn:disabled {
+    opacity: .75;
+}
+
+footer {
+    background-color:rgb(26, 24, 24);
+    background-image:url("img/pattern01-seamless-o30.png");
+}
+
+.footerContent {
+    padding-left: 1em;
+    background-color:rgb(26, 24, 24);
+    border-radius: 1em;
+}
+
+a.indarklink {
+    color:black;
+}
+
+a.indarklink:hover {
+    color:white;
+}
+
+a.inwhiteklink {
+    color:black;
+}
+a.inwhiteklink:hover {
+    text-decoration:underline;
+}
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+    color:#51d5ea;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:white;
+}
+
+
+/* -- Sponsors statement */
+.gold{
+    background-color:#ab8d3f;
+    border-radius:6px;
+    color:white;
+}
+
+.silver {
+    background-color:#abada9;
+    border-radius:6px;
+}
+
+.bronze {
+    background-color: #873e17;
+    border-radius: 6px;
+    color:white;
+}
+
+#sponsors .card {
+    border-radius:6px;
+    border:1px solid rgba(0,0,0,0); 
+}
+
+/* -- Home page */
+
+.homepage .card-title.text-center {
+    padding-top:40px;
+}
+
+.homepage {
+    background-color:black;
+}
+
+.sponsors {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1200px) {
+   .homepage {
+       height:940px;
+   }
+   .sponsors {
+    padding: 1em;
+   }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .homepage {
+        height:830px;
+    }
+    .sponsors {
+    padding: 1em;
+   }
+ }
+ 
+ @media (min-width: 768px) and (max-width: 991px) {
+    .homepage {
+        height:680px;
+    }
+    .sponsors {
+        padding: 1em;
+    }
+ }
+
+ @media (max-width: 767px) {
+    .homepage {
+        height:1130px;
+    }
+    .sponsors {
+        padding: 3em;
+    }
+ }
+
+.card-title, .shadow {
+    text-shadow:1px 1px 2px black;
+}
+
+section {
+    padding:100px 0;
+}
+
+.box1 {
+    background-color:rgba(255, 255, 255, 0.6);
+    border:1px solid white;
+    border-radius:8px;
+    padding:.5em;
+} 
+
+.bubble {
+    background-color:black;
+    border-radius:15px;
+    padding:.4em;
+}
+
+footer {
+    padding:50px 0;
+}
+
+footer ul li a {
+    color:white;
+}
+
+footer ul li {
+    list-style-type:none;
+}
+
+/* -- LMKJF */
+
+a.maplink {
+    color:black;
+}
+
+
+/* -- Contact */
+
+.contactpage {
+    height:200px;
+}
+
+#contactform .form-control {
+    background-color:black;
+    border-color:transparent;
+    color:white;
+}
+
+#Confcall .form-control {
+    background-color:#eee;
+}
+
+.required {
+    border:1px solid black;
+}
+
+#Confcall label {
+    font-weight:bold;
+}
+
+#Confcall .form-group {
+    margin-top:2.5em;
+}
+
+.form-check label {
+    padding-left:0.8em;
+}
+
+.sendgood {
+    background-color:green;
+}
+
+.sendbad {
+    background-color:red;
+}

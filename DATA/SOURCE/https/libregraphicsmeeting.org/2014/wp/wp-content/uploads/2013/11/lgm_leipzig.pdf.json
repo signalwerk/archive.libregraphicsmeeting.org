@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:54 GMT",
+    "content-type": "application/pdf",
+    "content-length": "1605167",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:35:34 GMT",
+    "etag": "\"187e2f-50798b4d78580\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2014/wp/wp-content/uploads/2013/11/lgm_leipzig.pdf"
+}

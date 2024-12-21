@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:24 GMT",
+    "content-type": "application/pdf",
+    "content-length": "7019228",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:34:08 GMT",
+    "etag": "\"6b1adc-50798afb74400\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2014/slides/HAAG_Back-to-the-Future.pdf"
+}

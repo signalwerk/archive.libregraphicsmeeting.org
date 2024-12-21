@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:31 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "117847",
+    "connection": "keep-alive",
+    "last-modified": "Wed, 06 May 2009 12:18:24 GMT",
+    "etag": "\"1cc57-4693d64542400\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2009/skin/program_080906.jpg"
+}

@@ -1,0 +1,84 @@
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Libre Graphics Questions & Answers</title>
+<script language="javascript">
+
+var initialQtxt;
+var qgreen, agreen = false;
+
+function rawurlencode(str) {
+  return encodeURIComponent(str).replace(/!/g, '%21').replace(/'/g, '%27').replace(/\(/g, '%28').
+  replace(/\)/g, '%29').replace(/\*/g, '%2A').replace(/~/g, '%7E');
+}
+
+window.onresize = function(event) {
+  document.getElementById('answer').style.paddingTop =   (58+((document.getElementById('controls').offsetTop) + 50) - (document.getElementById('answer').offsetTop))  +'px';
+}
+
+function textAreaChanged(elem) {
+
+	if(elem.name == 'question') {
+		if(rawurlencode(elem.value) == initialQtxt) {
+			document.getElementById('questionbg').style.backgroundColor = 'transparent';
+			document.getElementById('allanswers').style.display = 'block';
+			qgreen = false;
+		} else {
+			document.getElementById('questionbg').style.backgroundColor = '#00a651';
+			document.getElementById('write').src = 'i/free/png/interface/write_over.png';
+			document.getElementById('read').style.backgroundImage = 'url(i/free/png/interface/read.png)';
+			document.getElementById('allanswers').style.display = 'none';
+			qgreen = true;
+		}
+	}
+	else if(elem.name == 'answer') {
+		if(elem.value == "") {
+			document.getElementById('answerbg').style.backgroundColor = 'transparent';
+			agreen = false;
+		} else {
+			document.getElementById('answerbg').style.backgroundColor = '#00a651';
+			document.getElementById('write').src = 'i/free/png/interface/write_over.png';
+			document.getElementById('read').style.backgroundImage = 'url(i/free/png/interface/read.png)';
+			agreen = true;
+		}
+	}
+	
+	if(!qgreen && !agreen) {
+		document.getElementById('write').src = 'i/free/png/interface/write.png';
+		document.getElementById('read').style.backgroundImage = 'url(i/free/png/interface/read_over.png)';
+	}
+}
+
+</script>
+
+<link rel="stylesheet" href="q+a.css" type="text/css" />
+</head>
+<body onLoad='onresize();'>
+
+
+<div class='komplett'><form action='post.php' name='voicesfromthepublic' method='post' accept-charset='utf-8'><div id='questionbg' class='questionbg'></div><textarea name='question' onkeyup='textAreaChanged(question)' spellcheck='false' autocomplete='off' class='question'>Isn't Libre Graphics just for alternative people?</textarea><script>initialQtxt = 'Isn%27t%20Libre%20Graphics%20just%20for%20alternative%20people%3F'; </script><div id='answerbg' class='answerbg'></div><textarea name='answer' id='answer' onkeyup='textAreaChanged(answer)' spellcheck='false' autocomplete='off' class='answer'></textarea><div class='people'><img src='i/free/png/people/L-001-c101o101z000_L.png' class='talkL' /><img src='i/free/png/people/R-002-h104b102l104z001_R.png' class='talkR'  /></div><div id='allanswers' class='allanswers'><div id='answerx' class='answer_0'>Alternative people do not use electricity.
+</div><div id='answerx' class='answer_3'>Yei, because Instagram is too mainstream...
+</div><div id='answerx' class='answer_3'>Lulz. Yeah, alternative to using unethical software.
+</div><div id='answerx' class='answer_1'>As much as alternative graphics are just for libre people.
+</div><div id='answerx' class='answer_1'>It's definitely for people searching for alternatives.
+</div><div id='answerx' class='answer_2'>Isn't freedom just for alternative people?
+</div><div class='pluslinks'><a href='http://www.forkable.eu/generators/r+w/o/__/d0c5878eff1c494c994e80c25b9e3f9c.html' />see posters for this conversation</a><br/><a href='http://www.forkable.eu/generators/r+w/o/__/SEEME' />see all posters</a><br/><a href='o/free/voice/index.html' />see all conversations</a><br/>(<a href='o/free/pdf/people/L-001-c101o101_L.pdf' />*</a>|<a href='o/free/pdf/people/R-002-h104b102l104_R.pdf' />*</a>)</div></div>
+<div class='controls' id='controls'>
+	<a href='index.html' class='read' id='read'></a>
+	<input type='image' id='write' name='submit to the pool' src='i/free/png/interface/write.png' class='write'/>
+</div>
+</form>
+</div>
+
+
+<div class='bottom'>
+	<div class='logo'>
+		<a href='../index.html'><img src='http://www.forkable.eu/generators/r+w/o/press/rgb/LGM-Logo+15_Solo_120px.png' class='logo'/></a>
+	</div>
+</div>
+
+
+</body>
+</html>

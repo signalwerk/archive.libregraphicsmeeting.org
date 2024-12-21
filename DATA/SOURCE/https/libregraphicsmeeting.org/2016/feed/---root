@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="https://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="https://wellformedweb.org/CommentAPI/"
+	xmlns:dc="https://purl.org/dc/elements/1.1/"
+	xmlns:atom="https://www.w3.org/2005/Atom"
+	xmlns:sy="https://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="https://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Libre Graphics Meeting 2016</title>
+	<atom:link href="https://libregraphicsmeeting.org/2016/feed/" rel="self" type="application/rss+xml" />
+	<link>https://libregraphicsmeeting.org/2016</link>
+	<description>London, 15-18 April 2016</description>
+	<lastBuildDate>Tue, 10 Oct 2017 19:50:38 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.3</generator>
+	<item>
+		<title>Libre Graphics exhibition pics are up</title>
+		<link>https://libregraphicsmeeting.org/2016/libre-graphics-exhibition-pics-are-up/</link>
+		<pubDate>Tue, 14 Jun 2016 12:20:48 +0000</pubDate>
+		<dc:creator><![CDATA[Lara]]></dc:creator>
+				<category><![CDATA[Non classé]]></category>
+
+		<guid isPermaLink="false">https://libregraphicsmeeting.org/2016/?p=1079</guid>
+		<description><![CDATA[You can find Dave Freeman&#8217;s pictures of the exhibition here. Full resolution images are available upon request.]]></description>
+				<content:encoded><![CDATA[<p><a href="https://libregraphicsmeeting.org/2016/wp/wp-content/uploads/2016/06/01.jpg"><img class="alignleft size-full wp-image-1070" src="https://libregraphicsmeeting.org/2016/wp/wp-content/uploads/2016/06/01.jpg" alt="01" width="1000" height="467" srcset="https://libregraphicsmeeting.org/2016/wp/wp-content/uploads/2016/06/01.jpg 1000w, https://libregraphicsmeeting.org/2016/wp/wp-content/uploads/2016/06/01-300x140.jpg 300w, https://libregraphicsmeeting.org/2016/wp/wp-content/uploads/2016/06/01-768x359.jpg 768w, https://libregraphicsmeeting.org/2016/wp/wp-content/uploads/2016/06/01-600x280.jpg 600w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a></p>
+<p>You can find Dave Freeman&#8217;s pictures of the exhibition <a href="https://libregraphicsmeeting.org/2016/lgm-exhibition/">here</a>.</p>
+<p>Full resolution images are available upon <a href="https://libregraphicsmeeting.org/2016/contact/">request</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>LGM 2016 is over</title>
+		<link>https://libregraphicsmeeting.org/2016/lgm-2016-is-over/</link>
+		<pubDate>Tue, 19 Apr 2016 17:25:42 +0000</pubDate>
+		<dc:creator><![CDATA[Lara]]></dc:creator>
+				<category><![CDATA[Non classé]]></category>
+
+		<guid isPermaLink="false">https://libregraphicsmeeting.org/2016/?p=1024</guid>
+		<description><![CDATA[Thanks to everyone who participated in an exciting schedule of talks, workshops, BoFs and informal collaboration. See you in Rio de Janeiro for LGM 2017!]]></description>
+				<content:encoded><![CDATA[<p><a href="https://libregraphicsmeeting.org/2016/wp/wp-content/uploads/2016/04/lgm_2016_group_photo.jpg"><img class="size-full wp-image-1039" src="https://libregraphicsmeeting.org/2016/wp/wp-content/uploads/2016/04/lgm_2016_group_photo_web.jpg" alt="LGM 2016 Group Photo" width="800" height="533" srcset="https://libregraphicsmeeting.org/2016/wp/wp-content/uploads/2016/04/lgm_2016_group_photo_web.jpg 800w, https://libregraphicsmeeting.org/2016/wp/wp-content/uploads/2016/04/lgm_2016_group_photo_web-300x200.jpg 300w, https://libregraphicsmeeting.org/2016/wp/wp-content/uploads/2016/04/lgm_2016_group_photo_web-768x512.jpg 768w, https://libregraphicsmeeting.org/2016/wp/wp-content/uploads/2016/04/lgm_2016_group_photo_web-600x400.jpg 600w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 984px) 61vw, (max-width: 1362px) 45vw, 600px" /></a></p>
+<p>Thanks to everyone who participated in an exciting schedule of talks, workshops, BoFs and informal collaboration. See you in Rio de Janeiro for LGM 2017!</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Update from Documentation Liberation Project</title>
+		<link>https://libregraphicsmeeting.org/2016/update-from-documentation-liberation-project/</link>
+		<pubDate>Mon, 18 Apr 2016 19:55:39 +0000</pubDate>
+		<dc:creator><![CDATA[Gregory Pittman]]></dc:creator>
+				<category><![CDATA[Non classé]]></category>
+
+		<guid isPermaLink="false">https://libregraphicsmeeting.org/2016/?p=1021</guid>
+		<description><![CDATA[frob and Fridrich Strba frob and Fridrich return with their annual report on what&#8217;s new in the Documentation Liberation Project, an effort to make available the ability to use abandoned and proprietary document and other file formats in FOSS projects. You should always have control and use of your own creations.]]></description>
+				<content:encoded><![CDATA[<p>frob and Fridrich Strba</p>
+<p>frob and Fridrich return with their annual report on what&#8217;s new in the Documentation Liberation Project, an effort to make available the ability to use abandoned and proprietary document and other file formats in FOSS projects. You should always have control and use of your own creations.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Introducing an OpenHardware Spectrograph: ColorHug+</title>
+		<link>https://libregraphicsmeeting.org/2016/introducing-an-openhardware-spectrograph-colorhug/</link>
+		<pubDate>Mon, 18 Apr 2016 19:46:45 +0000</pubDate>
+		<dc:creator><![CDATA[Gregory Pittman]]></dc:creator>
+				<category><![CDATA[Non classé]]></category>
+
+		<guid isPermaLink="false">https://libregraphicsmeeting.org/2016/?p=1018</guid>
+		<description><![CDATA[Richard Hughes Richard Hughes returns with his latest update on the ColorHug series of devices for determining spectrographic data on displays. The latest version, ColorHug+ isn&#8217;t quite available, though will be soon. This adds the ability to not only check displays for accuracy of color representation, but also printed material and the paper that is &#8230; <a href="https://libregraphicsmeeting.org/2016/introducing-an-openhardware-spectrograph-colorhug/" class="more-link">Continue reading<span class="screen-reader-text"> "Introducing an OpenHardware Spectrograph: ColorHug+"</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Richard Hughes</p>
+<p>Richard Hughes returns with his latest update on the ColorHug series of devices for determining spectrographic data on displays. The latest version, ColorHug+ isn&#8217;t quite available, though will be soon. This adds the ability to not only check displays for accuracy of color representation, but also printed material and the paper that is used, since it contains some LEDs for illumination of the material. So now you can add the ability to determine ICC profiles for your printers and the papers you use.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Report of the &#8220;Objects in Common&#8221; Worksession</title>
+		<link>https://libregraphicsmeeting.org/2016/report-of-the-objects-in-common-worksession/</link>
+		<pubDate>Mon, 18 Apr 2016 19:38:14 +0000</pubDate>
+		<dc:creator><![CDATA[Gregory Pittman]]></dc:creator>
+				<category><![CDATA[Non classé]]></category>
+
+		<guid isPermaLink="false">https://libregraphicsmeeting.org/2016/?p=1016</guid>
+		<description><![CDATA[Wendy Van Wynsberghe/Julien Deswaef Wendy had become ill, so Julien gave her presentation about this project, Objetos Communes, carried out at MediaLab Prado, which sought to investigate and disseminate the knowledge and skills involved with making a variety of common objects, using open source technologies where possible, in a effort of demystify these processes and &#8230; <a href="https://libregraphicsmeeting.org/2016/report-of-the-objects-in-common-worksession/" class="more-link">Continue reading<span class="screen-reader-text"> "Report of the &#8220;Objects in Common&#8221; Worksession"</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Wendy Van Wynsberghe/Julien Deswaef</p>
+<p>Wendy had become ill, so Julien gave her presentation about this project, Objetos Communes, carried out at MediaLab Prado, which sought to investigate and disseminate the knowledge and skills involved with making a variety of common objects, using open source technologies where possible, in a effort of demystify these processes and ways of thinking about creation in a collaborative environment. In addition, there was time spent on documenting what had taken place.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Case Study: EdLabMMU &#8211; Using Libre Graphics Tools and Assets in an Educational Lab Setting</title>
+		<link>https://libregraphicsmeeting.org/2016/case-study-edlabmmu-using-libre-graphics-tools-and-assets-in-an-educational-lab-setting/</link>
+		<pubDate>Mon, 18 Apr 2016 19:30:16 +0000</pubDate>
+		<dc:creator><![CDATA[Gregory Pittman]]></dc:creator>
+				<category><![CDATA[Non classé]]></category>
+
+		<guid isPermaLink="false">https://libregraphicsmeeting.org/2016/?p=1014</guid>
+		<description><![CDATA[Mick Fuzz Chesterman Mick takes his involvement with FLOSS Manuals to another level in the community project in Manchester. The goals are to introduce in and educational lab setting a broad range of the local community in learning about open source software and other solutions to a variety of technologically-related projects. This not only involves &#8230; <a href="https://libregraphicsmeeting.org/2016/case-study-edlabmmu-using-libre-graphics-tools-and-assets-in-an-educational-lab-setting/" class="more-link">Continue reading<span class="screen-reader-text"> "Case Study: EdLabMMU &#8211; Using Libre Graphics Tools and Assets in an Educational Lab Setting"</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Mick Fuzz Chesterman</p>
+<p>Mick takes his involvement with FLOSS Manuals to another level in the community project in Manchester. The goals are to introduce in and educational lab setting a broad range of the local community in learning about open source software and other solutions to a variety of technologically-related projects. This not only involves students but also local educators and community members to especially focus on the procedures related to collaborative efforts.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Teaching Design Livre in the Global South &#8211; Showcase on Courses and Student Artwork from Brazil</title>
+		<link>https://libregraphicsmeeting.org/2016/teaching-design-livre-in-the-global-south-showcase-on-courses-and-student-artwork-from-brazil/</link>
+		<pubDate>Mon, 18 Apr 2016 19:20:32 +0000</pubDate>
+		<dc:creator><![CDATA[Gregory Pittman]]></dc:creator>
+				<category><![CDATA[Non classé]]></category>
+
+		<guid isPermaLink="false">https://libregraphicsmeeting.org/2016/?p=1012</guid>
+		<description><![CDATA[Renata Aquino Ribeiro Renata comes from the city of Quixadá in Brazil, where an increasingly recognized university has arisen in what was formerly rural Brazil. Her efforts which she highlights in this presentation involve a project to increase the involvement of the community, both students and nonstudents, in learning about technology, and learning how to &#8230; <a href="https://libregraphicsmeeting.org/2016/teaching-design-livre-in-the-global-south-showcase-on-courses-and-student-artwork-from-brazil/" class="more-link">Continue reading<span class="screen-reader-text"> "Teaching Design Livre in the Global South &#8211; Showcase on Courses and Student Artwork from Brazil"</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Renata Aquino Ribeiro</p>
+<p>Renata comes from the city of Quixadá in Brazil, where an increasingly recognized university has arisen in what was formerly rural Brazil. Her efforts which she highlights in this presentation involve a project to increase the involvement of the community, both students and nonstudents, in learning about technology, and learning how to design and create collaboratively various objects and processes using advanced technologies. To a large extent this involves open source solutions.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>How Can Co-design Work with Libre Graphics</title>
+		<link>https://libregraphicsmeeting.org/2016/how-can-co-design-work-with-libre-graphics/</link>
+		<pubDate>Mon, 18 Apr 2016 19:11:05 +0000</pubDate>
+		<dc:creator><![CDATA[Gregory Pittman]]></dc:creator>
+				<category><![CDATA[Non classé]]></category>
+
+		<guid isPermaLink="false">https://libregraphicsmeeting.org/2016/?p=1010</guid>
+		<description><![CDATA[Paula Graham and Lisa Haskel Paula and Lisa have been involved with the creation and evolution of a series of projects at the community level, to increase the awareness and reduce the resistance to the use of open source software in collaborative environments. So far they have largely focused on increasing the gender diversity of &#8230; <a href="https://libregraphicsmeeting.org/2016/how-can-co-design-work-with-libre-graphics/" class="more-link">Continue reading<span class="screen-reader-text"> "How Can Co-design Work with Libre Graphics"</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Paula Graham and Lisa Haskel</p>
+<p>Paula and Lisa have been involved with the creation and evolution of a series of projects at the community level, to increase the awareness and reduce the resistance to the use of open source software in collaborative environments. So far they have largely focused on increasing the gender diversity of involvement. What they wish to do is to spread the impact of what they have learned from this process and share with others.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>From the Lightning Talks</title>
+		<link>https://libregraphicsmeeting.org/2016/from-the-lightning-talks/</link>
+		<pubDate>Sun, 17 Apr 2016 20:16:59 +0000</pubDate>
+		<dc:creator><![CDATA[Gregory Pittman]]></dc:creator>
+				<category><![CDATA[Non classé]]></category>
+
+		<guid isPermaLink="false">https://libregraphicsmeeting.org/2016/?p=996</guid>
+		<description><![CDATA[Femke Snelting Femke announced that the group who has assiduously been behind the production of Libre Graphics Magazine has ceased its operation, and tentatively at least, LGM the magazine is no more. She thus presents a challenge to see if LGM the organization can come up with a way of continuing the magazine or some &#8230; <a href="https://libregraphicsmeeting.org/2016/from-the-lightning-talks/" class="more-link">Continue reading<span class="screen-reader-text"> "From the Lightning Talks"</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Femke Snelting</p>
+<p>Femke announced that the group who has assiduously been behind the production of Libre Graphics Magazine has ceased its operation, and tentatively at least, LGM the magazine is no more. She thus presents a challenge to see if LGM the organization can come up with a way of continuing the magazine or some new production, using FOSS and available digitally and in print. She drew a line in the sand, hoping that by LGM 2017 there might have been a consensus to proceed in some direction.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>after.video video book</title>
+		<link>https://libregraphicsmeeting.org/2016/after-video-video-book/</link>
+		<pubDate>Sun, 17 Apr 2016 20:10:58 +0000</pubDate>
+		<dc:creator><![CDATA[Gregory Pittman]]></dc:creator>
+				<category><![CDATA[Non classé]]></category>
+
+		<guid isPermaLink="false">https://libregraphicsmeeting.org/2016/?p=994</guid>
+		<description><![CDATA[Adnan Hadzi and Oliver Lerone Schultz after.video is a new online service which will be making available a series of variably aged video presentations which cover a collection of topics. What it represents then is a repackaging (Assemblages) of material from a variety of sources, presumably professionally edited and augmented. If you visit their website, &#8230; <a href="https://libregraphicsmeeting.org/2016/after-video-video-book/" class="more-link">Continue reading<span class="screen-reader-text"> "after.video video book"</span></a>]]></description>
+				<content:encoded><![CDATA[<p>Adnan Hadzi and Oliver Lerone Schultz</p>
+<p>after.video is a new online service which will be making available a series of variably aged video presentations which cover a collection of topics. What it represents then is a repackaging (Assemblages) of material from a variety of sources, presumably professionally edited and augmented. If you visit their website, you see they are not quite operational, and that this is a paid subscription service.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

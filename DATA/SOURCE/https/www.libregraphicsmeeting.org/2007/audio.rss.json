@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:32 GMT",
+    "content-type": "application/x-rss+xml",
+    "content-length": "9063",
+    "connection": "keep-alive",
+    "last-modified": "Fri, 01 Jun 2007 07:41:09 GMT",
+    "etag": "\"2367-431d356aecf40\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2007/audio.rss"
+}

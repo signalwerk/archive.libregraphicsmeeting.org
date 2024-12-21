@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:03 GMT",
+    "content-type": "text/css",
+    "content-length": "635",
+    "connection": "keep-alive",
+    "last-modified": "Sat, 08 Nov 2014 20:17:35 GMT",
+    "etag": "\"27b-5075e9ebc15c0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2009/skin/project.css"
+}

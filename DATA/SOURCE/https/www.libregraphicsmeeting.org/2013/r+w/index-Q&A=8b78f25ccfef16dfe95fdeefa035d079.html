@@ -1,0 +1,79 @@
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Libre Graphics Questions & Answers</title>
+<script language="javascript">
+
+var initialQtxt;
+var qgreen, agreen = false;
+
+function rawurlencode(str) {
+  return encodeURIComponent(str).replace(/!/g, '%21').replace(/'/g, '%27').replace(/\(/g, '%28').
+  replace(/\)/g, '%29').replace(/\*/g, '%2A').replace(/~/g, '%7E');
+}
+
+window.onresize = function(event) {
+  document.getElementById('answer').style.paddingTop =   (58+((document.getElementById('controls').offsetTop) + 50) - (document.getElementById('answer').offsetTop))  +'px';
+}
+
+function textAreaChanged(elem) {
+
+	if(elem.name == 'question') {
+		if(rawurlencode(elem.value) == initialQtxt) {
+			document.getElementById('questionbg').style.backgroundColor = 'transparent';
+			document.getElementById('allanswers').style.display = 'block';
+			qgreen = false;
+		} else {
+			document.getElementById('questionbg').style.backgroundColor = '#00a651';
+			document.getElementById('write').src = 'i/free/png/interface/write_over.png';
+			document.getElementById('read').style.backgroundImage = 'url(i/free/png/interface/read.png)';
+			document.getElementById('allanswers').style.display = 'none';
+			qgreen = true;
+		}
+	}
+	else if(elem.name == 'answer') {
+		if(elem.value == "") {
+			document.getElementById('answerbg').style.backgroundColor = 'transparent';
+			agreen = false;
+		} else {
+			document.getElementById('answerbg').style.backgroundColor = '#00a651';
+			document.getElementById('write').src = 'i/free/png/interface/write_over.png';
+			document.getElementById('read').style.backgroundImage = 'url(i/free/png/interface/read.png)';
+			agreen = true;
+		}
+	}
+	
+	if(!qgreen && !agreen) {
+		document.getElementById('write').src = 'i/free/png/interface/write.png';
+		document.getElementById('read').style.backgroundImage = 'url(i/free/png/interface/read_over.png)';
+	}
+}
+
+</script>
+
+<link rel="stylesheet" href="q+a.css" type="text/css" />
+</head>
+<body onLoad='onresize();'>
+
+
+<div class='komplett'><form action='post.php' name='voicesfromthepublic' method='post' accept-charset='utf-8'><div id='questionbg' class='questionbg'></div><textarea name='question' onkeyup='textAreaChanged(question)' spellcheck='false' autocomplete='off' class='question'>Un imprimeur: Ah ça ne marche pas? Mais c'est quel logiciel ça aussi?</textarea><script>initialQtxt = 'Un%20imprimeur%3A%20Ah%20%C3%A7a%20ne%20marche%20pas%3F%20Mais%20c%27est%20quel%20logiciel%20%C3%A7a%20aussi%3F'; </script><div id='answerbg' class='answerbg'></div><textarea name='answer' id='answer' onkeyup='textAreaChanged(answer)' spellcheck='false' autocomplete='off' class='answer'></textarea><div class='people'><img src='i/free/png/people/L-002-h104b101l101z003_L.png' class='talkL' /><img src='i/free/png/people/R-002-h108l104b104z001_R.png' class='talkR'  /></div><div id='allanswers' class='allanswers'><div id='answerx' class='answer_3'>c'est inDesign
+</div><div class='pluslinks'><a href='http://www.forkable.eu/generators/r+w/o/__/8b78f25ccfef16dfe95fdeefa035d079.html' />see posters for this conversation</a><br/><a href='http://www.forkable.eu/generators/r+w/o/__/SEEME' />see all posters</a><br/><a href='o/free/voice/index.html' />see all conversations</a><br/>(<a href='o/free/pdf/people/L-002-h104b101l101_L.pdf' />*</a>|<a href='o/free/pdf/people/R-002-h108l104b104_R.pdf' />*</a>)</div></div>
+<div class='controls' id='controls'>
+	<a href='index.html' class='read' id='read'></a>
+	<input type='image' id='write' name='submit to the pool' src='i/free/png/interface/write.png' class='write'/>
+</div>
+</form>
+</div>
+
+
+<div class='bottom'>
+	<div class='logo'>
+		<a href='../index.html'><img src='http://www.forkable.eu/generators/r+w/o/press/rgb/LGM-Logo+15_Solo_120px.png' class='logo'/></a>
+	</div>
+</div>
+
+
+</body>
+</html>

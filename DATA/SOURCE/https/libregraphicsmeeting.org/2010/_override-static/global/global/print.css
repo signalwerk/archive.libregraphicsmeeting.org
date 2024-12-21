@@ -1,0 +1,250 @@
+@page normal { size: portrait; margin: 0cm;}
+body { page: normal;}
+
+@import url('reset.css');
+
+/* Just add the "cantarell" class to HTML elements you wish to use this typeface */
+@font-face {font-family:Cantarell; src:url("http://libregraphicsmeeting.org/static/fonts/eot/Cantarell-Regular.eot");}
+@font-face {font-family:Cantarell; src:url("http://libregraphicsmeeting.org/static/fonts/eot/Cantarell-Oblique.eot"); font-style:italic;}
+@font-face {font-family:Cantarell; src:url("http://libregraphicsmeeting.org/static/fonts/eot/Cantarell-Bold.eot"); font-weight:bold;}
+@font-face {font-family:Cantarell; src:url("http://libregraphicsmeeting.org/static/fonts/eot/Cantarell-BoldOblique.eot"); font-weight:bold; font-style:italic;}
+@font-face {font-family:Cantarell; src:url("http://libregraphicsmeeting.org/static/fonts/Cantarell-Regular.ttf");}
+@font-face {font-family:Cantarell; src:url("http://libregraphicsmeeting.org/static/fonts/Cantarell-Oblique.ttf"); font-style:italic;}
+@font-face {font-family:Cantarell; src:url("http://libregraphicsmeeting.org/static/fonts/Cantarell-Bold.ttf"); font-weight:bold;}
+@font-face {font-family:Cantarell; src:url("http://libregraphicsmeeting.org/static/fonts/Cantarell-BoldOblique.ttf"); font-weight:bold; font-style:italic;}
+
+html, body {
+    font-size: 13px; 
+}
+
+body, input { font-family: Verdana, sans-serif; }
+
+/* HIDDEN ELEMENTS */
+iframe,
+#background,
+div#sessionnav,
+div.menu-container,
+div#right,
+div#footer-container,
+div#logo div.column,
+div#pagetranslations { display: none; }
+
+/* COMPENSATE THE HIDDEN ELEMENTS */
+div#logo div.column:first-child { display: block; }
+div#left { width: 75%; }
+div#center { width: 25%; }
+
+
+img { max-width: 100%; border: 0;}
+
+div#logo img { width: 5cm;}
+
+
+
+
+input[type="text"], button[type="submit"] {
+    font-size: 1em;
+    height: 1.308em;
+    line-height: 1.308em;
+    /* border: 1px solid #cc0000; */
+    border: 1px solid navy;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    text-align: left;
+    position: relative;
+    top: -2px;
+    bottom: 0;
+    white-space: normal;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+input[type="submit"] {
+    background-color: #cc0000;
+    color: white;    
+}
+
+
+/* Structure */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    /* a.l.e */
+    height:auto;
+    overflow:visible;
+}
+
+#bla {
+    margin: 0;
+    padding: 0;
+    /* a.l.e */
+    height:auto;
+    overflow:visible;
+    position:static;
+}
+
+#left, #center { float: left; }
+
+#left-content, #center-content { margin: 0 1.5em; }
+/* End Structure */
+
+/* Visual attributes */
+html {
+    font-size: 13px;
+    color: #cc0000;
+}
+body {
+    font-size: 1em;
+    line-height: 1.308em;
+}
+
+h1 a { border-bottom: none; }
+
+h2 span {
+    font-size: 0.769em;
+    vertical-align: top;
+}
+
+h1, h2, h3 {
+    font-size: 1em;
+    line-height: 1.308em;
+}
+
+h4 { margin-top: 1.308em; }
+
+a { text-decoration: none; color: #cc0000; border-bottom: 1px dotted #cc0000; }
+
+sup {font-size: 0.692em; vertical-align: 0.5em; line-height: 0; }
+
+ul ul { margin: 0 0 0 1em; }
+
+#left-content p { margin-bottom: 1.308em; }
+
+#logos img {
+    margin-bottom: 1.308em;
+}
+
+#logo a, #logos a { border: 0; }
+
+.image-link { border-style: none; }
+
+
+/* About page*/
+.picture-block { margin-bottom: 2.616em; }
+
+.credits {
+    color: darkgrey;
+    font-size: 0.692em;
+}
+
+/*Projects page*/ /* Sponsor page */
+.project { margin-bottom: 2em; }
+.project p ul li, .sponsor p ul li {
+    list-style-position: inside;
+    list-style-type: circle;
+}
+.project ul { margin-top: 0.42em;}
+.project ul, .project li { line-height: 1.725em;}
+.project-links li, .sponsor-links li { display: inline; }
+        
+.project-frame, .sponsor-frame {
+    float: left;
+    width: 33.333%;
+}
+
+.project-description, .sponsor-description {
+    width: 66.666%;
+    float: right;
+}
+.project-frame-content, .sponsor-frame-content {
+    margin: 0 1em 1em 0;
+    font-size: 0.769em;
+    padding-top: 1em;
+}
+.project-description-content, .sponsor-description-content {
+    margin-bottom: 0 1em 1em 0;
+    font-size: 0.769em;
+}
+
+.sponsor { margin-bottom: 2.616em; }
+.sponsor-category { color: #CC0000 !important; margin: 0;}
+
+/* Program page */
+.schedule {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1.8em;
+    
+}
+.schedule tr { border-bottom: 1px dotted #CC0000; }
+.schedule tr:last-child { border: 0; }
+.schedule th {
+    text-align: left;
+    padding: 0.654em 0 0;
+}
+.schedule td {
+    padding: 0.5em 0 0.692em 0;
+}
+caption {text-align: left; font-size: 1em; font-weight: bold; color: #cc0000}
+
+/* People page */
+#list-persons { -moz-column-count: 2; }
+/* Detail Person*/
+#person-projects li { display: inline;}
+
+
+
+/* Locations page */
+#map { border: 1px solid navy; height: 19.5em; margin-top: 1em;}
+
+
+/* action_view.css override */
+/* Overriding anwiki default styles */
+div#pageinfo {
+    background-color: transparent ;
+    margin-top: 2.625em;
+}
+
+div#pagerevision {
+    color:darkgrey;
+    font-size:0.692em;
+}
+
+/* reimplement some styles from anwiki.css (because we descativated it)*/
+
+a.anwsettings {
+    background-position:right 50%;
+    background-repeat:no-repeat;
+    padding-right:18px;
+}
+
+/* Aditional */
+
+div#content h1, div#content h2, div#content h3, div#content h4, div#content h5 {
+    font-size:1em;
+    margin-left:0;
+    margin-top:0;
+    border-bottom-style: none;
+    font-weight:bold;
+    margin:0;
+    padding:0;
+}
+
+/* badges */
+
+a#propose,
+a#donate,
+a#join { display: block; position: relative; }
+
+a#propose { left: 120px; width: 147px; height: 147px; }
+a#donate { top: -80px; z-index: 3; width: 139px; height: 139px; }
+a#join { top: -140px; left: 90px; width: 123px; height: 123px; }
+
+/* a.l.e */
+a.none {
+  border-bottom:none;
+}

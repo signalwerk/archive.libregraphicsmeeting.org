@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:23 GMT",
+    "content-type": "application/x-rss+xml",
+    "content-length": "836",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 31 Dec 2020 12:14:22 GMT",
+    "etag": "\"344-5b7c1905ae380\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2018/es/lgm-2018-t-shirt/feed/index.rss"
+}

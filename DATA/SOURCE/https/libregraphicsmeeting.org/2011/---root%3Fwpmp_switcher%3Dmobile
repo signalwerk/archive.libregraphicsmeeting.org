@@ -1,0 +1,470 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+	<title>6th Annual “Libre Graphics Meeting” 10-13 May 2011 - Montreal, Quebec</title>
+
+<link rel="stylesheet" href="wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector-v=2.2.2.css" type="text/css" media="all" />
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" href="wp-content/themes/lgm/style.css" type="text/css"/>
+        <meta name="Author" content="6th Annual “Libre Graphics Meeting” 10-13 May 2011 &#8211; Montreal, Quebec" />
+        <meta name="robots" content="index, follow" />
+        <link rel="shortcut icon" href="http://libre-graphics-meeting.org/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="http://libre-graphics-meeting.org/favicon.ico" type="image/x-icon" />
+
+<link rel="alternate" type="application/rss+xml" title="6th Annual “Libre Graphics Meeting” 10-13 May 2011 - Montreal, Quebec &raquo; Feed" href="feed/index.html" />
+
+<link rel='stylesheet' id='openid-css'  href='wp-content/plugins/openid/f/openid-ver=519.css' type='text/css' media='all' />
+<script type='text/javascript' src='wp-includes/js/l10n-ver=20101110.js'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js?ver=3.1'></script>
+<script type='text/javascript' src='wp-content/plugins/openid/f/openid-ver=519.js'></script>
+<script type='text/javascript' src='wp-content/plugins/google-analyticator/external-tracking.min-ver=6.1.2.js'></script>
+<link rel='index' title='6th Annual “Libre Graphics Meeting” 10-13 May 2011 &#8211; Montreal, Quebec' href='index.html' />
+
+<!-- All in One SEO Pack 1.6.13.2 by Michael Torbert of Semper Fi Web Designob_start_detected [-1,-1] -->
+<meta name="description" content="Cutting edge graphics software meets free culture  Developers and users of Free, Libre and Open Source graphics software will meet May 10-13 in Montreal at the sixth annual Libre Graphics Meeting (LGM)." />
+<meta name="keywords" content="libre graphics meeting, 2011, conference, graphics, free software, open source, creativity" />
+<link rel="canonical" href="index.html" />
+<!-- /all in one seo pack -->
+<script type="text/javascript">var icl_lang = 'en';var icl_home = 'http://libregraphicsmeeting.org/2011';</script>
+<script type="text/javascript" src="wp-content/plugins/sitepress-multilingual-cms/res/js/sitepress.js"></script>
+<meta name="generator" content="WPML ver:2.2.2 stt:1,4;0" />
+<!-- Google Analytics Tracking by Google Analyticator 6.1.2: http://ronaldheft.com/code/analyticator/ -->
+<script type="text/javascript">
+	var analyticsFileTypes = [''];
+	var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-8161626-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<script>
+var TEMPLATE_PATH = 'http://libre-graphics-meeting.org/2011/wp-content/themes/lgm';
+</script>
+<script type="text/javascript" src="wp-content/themes/lgm/js/lgm.js"></script>
+</head>
+<body>
+
+<div id="container" class="action-view">
+
+    <div id="bla">
+    <div id="page">
+
+	<div id="header-container">
+		<div class="header">
+
+			<div id="logo" style="height:305px;">
+				<div class="column" style="float: left; width: 50%;">
+										<a href="index.html" title="Back to home"><img src="wp-content/themes/lgm/img/LGM.png" /></a>
+				</div>
+				<div class="column" style="float: right; width: 33.333%;"> 
+					<a id="propose" class="image-link" href="http://www.libregraphicsmeeting.org/2011/registration/"><img alt="review!" src="wp-content/themes/lgm/img/register.png" border="0" /></a>
+					<a id="donate" class="image-link" href="http://pledgie.com/campaigns/14610"><img alt="review!" src="donate/pledgie_banner.png" border="0" /></a>
+					<!-- <a id="donate" class="image-link" href="http://pledgie.com/campaigns/14610"><img alt="review!" src="http://libre-graphics-meeting.org/2011/wp-content/themes/lgm/img/pledgie_banner.png" border="0" /></a> -->
+				</div>
+				<div class="column" style="float: right; width: 16.666%;"></div>
+			</div><!-- end logo -->
+
+		</div><!-- end header -->
+	</div><!-- end header-container -->
+
+<div id="content-container">
+	<div id="content">
+ 
+		<!-- Left Column -->
+		<div id="container_lgm">
+			<div id="left" class="column">
+				<div id="left-content">
+
+
+
+<!--
+Array
+(
+    [0] => post-1472
+    [1] => post
+    [2] => type-post
+    [3] => status-publish
+    [4] => format-standard
+    [5] => hentry
+    [6] => category-commons
+)
+-->
+
+					<div class="viewcontent cc-page " id="post-1472">
+
+						<h1><a href="2011/10/13/lgm-2012-in-vienna/index.html">LGM 2012 in Vienna</a></h1>
+
+						<p>The next Libre Graphics Meeting will take place in Vienna, Austria from Wednesday May 2nd to Saturday May 5th 2012 at the UAS Technikum Wien. Stay tuned.</p>
+
+					</div>
+
+					<div id="pageinfo">
+						<div id="pagerevision">Last edited on October 13, 2011</div>
+						<div class="break"></div>
+					</div>
+
+<!--
+Array
+(
+    [0] => post-1455
+    [1] => post
+    [2] => type-post
+    [3] => status-publish
+    [4] => format-standard
+    [5] => hentry
+    [6] => category-commons
+)
+-->
+
+					<div class="viewcontent cc-page " id="post-1455">
+
+						<h1><a href="2011/10/12/cutting-edge-graphics-software-meets-free-culture-2012/index.html">Cutting edge graphics software meets free culture</a></h1>
+
+						<p>Developers and users of Free, Libre and Open Source graphics software will meet May 2-5 in Vienna at the seventh annual Libre Graphics Meeting (LGM).</p>
+<p>LGM 2012 will give software developers, artists, designers and other graphics professionals the opportunity to collaborate and learn from each other. LGM emphasizes the sharing of collective creativity, innovation and ideas and is free for everyone to attend.</p>
+<p><a href="http://www.libregraphicsmeeting.org/2011/?attachment_id=1440" rel="attachment wp-att-1440"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/05/lgm_group-290x400.jpg" alt="" title="The LGM people by Tom Lechner" width="290" height="400" class="alignnone size-medium wp-image-1440" /></a></p>
+<p>The sixth LGM has taken place May 10-13 2011 in Montreal. The <a href="http://river-valley.tv/conferences/lgm-2011">video footage</a> of this year&#8217;s meeting is <a href="http://river-valley.tv/conferences/lgm-2011">online</a>.</p>
+<p>See you next year!</p>
+
+					</div>
+
+					<div id="pageinfo">
+						<div id="pagerevision">Last edited on October 13, 2011</div>
+						<div class="break"></div>
+					</div>
+
+<!--
+Array
+(
+    [0] => post-1395
+    [1] => post
+    [2] => type-post
+    [3] => status-publish
+    [4] => format-standard
+    [5] => hentry
+    [6] => category-press-media
+    [7] => tag-announcement
+    [8] => tag-closing
+    [9] => tag-dubnerve
+    [10] => tag-lgm2011
+    [11] => tag-milkymist
+    [12] => tag-party
+    [13] => tag-press
+    [14] => tag-qihardware
+    [15] => tag-release
+    [16] => tag-thanks
+)
+-->
+
+					<div class="viewcontent cc-page " id="post-1395">
+
+						<h1><a href="2011/05/14/milkymist-one-shown-at-lgm2011-lgm-after-party-and-lgm-on-wikipedia/index.html">Milkymist One Shown at LGM2011, LGM After-Party, and LGM on Wikipedia</a></h1>
+
+						<p><strong>A big thanks to all participants of LGM2011 in Montreal!</strong> The week had many announcements. One final announcement at the end of the conference is the coming <a href="http://en.qi-hardware.com/wiki/Press_Release:_Milkymist_One_video_synthesizer_shown_at_6th_Libre_Graphics_Meeting_in_Montreal">Milkymist Video Synthesizer</a>.</p>
+<p><img class="alignnone size-medium wp-image-2471" title="800px-M1_dmx_video" src="http://fabricatorz.com/wp-content/uploads/2011/05/800px-M1_dmx_video-500x333.jpg" alt="" width="440"></p>
+<p>In closing out LGM2011, all are invited to the LGM After Party on Saturday, May 14, 2011 in Montreal. A super big thanks to <a href="http://celinecelin.es">CelineCelines</a> and <a href="http://stresslim.it">Colin Vernon</a> for rebuilding this website, helping with night events, coordinating catering, hosting the closing event, and now a closing After Party for all LGM2011 attendees and the general public. The <a href="http://milkymist.org/">Milkymist One</a> will be there as well doing video synthesis along with the <a href="http://fabricatorz.com/">Fabricatorz</a>. Come out to the final event of LGM2011 tonite!</p>
+<blockquote><p>
+<strong>Saturday, May 14, 2011 from 22:00 – LATE</strong><br />
+<em>Special LGM After Party: <a href="http://noweapon.org/dubnerve/">DUB NERVE: You gotta lotta NERVE DUB: Closing Loft Party</a></em>, Samedi mai 14 May Saturday<br />
+<a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=5555+de+gaspe+studio+307,montreal,+ca&aq=&sll=37.778618,-122.403543&sspn=0.009328,0.01929&ie=UTF8&hq=&hnear=5555+Avenue+de+Gasp%C3%A9,+Montr%C3%A9al,+Communaut%C3%A9-Urbaine-de-Montr%C3%A9al,+Qu%C3%A9bec+H2T+2A3,+Canada&ll=45.527517,-73.594387&spn=0.008268,0.01929&z=16">5555 de gaspe studio 307, Montreal, CA</a>, $ 5
+</p></blockquote>
+<p><strong>LGM on Wikipedia</strong></p>
+<p>With another successful LGM, the public <a href="http://en.wikipedia.org/wiki/Libre_Graphics_Meeting">Libre Graphics Meeting Wikipedia page</a> has seen lots of update. Make sure to add any accomplishments from the meeting. Already added are the public announcements of the <a href="http://fabricatorz.com/2011/05/open-clip-art-library-unleashes-version-3-0-collections-favorites-batch-management/">Open Clip Art Library 3.0</a>, <a href="http://fabricatorz.com/2011/05/launching-the-open-font-library-and-freeing-fonts/">release of the Open Font Library</a>, and the <a href="http://fabricatorz.com/2011/05/milkymist-one-video-synthesizer-shown-at-6th-libre-graphics-meeting-in-montreal/">showing of the Milkymist One by rejon</a>.</p>
+
+					</div>
+
+					<div id="pageinfo">
+						<div id="pagerevision">Last edited on June 3, 2011</div>
+						<div class="break"></div>
+					</div>
+
+<!--
+Array
+(
+    [0] => post-1325
+    [1] => post
+    [2] => type-post
+    [3] => status-publish
+    [4] => format-standard
+    [5] => hentry
+    [6] => category-press-media
+    [7] => tag-event
+    [8] => tag-graphics
+    [9] => tag-lgm
+    [10] => tag-lgm2011
+    [11] => tag-libregraphics
+    [12] => tag-pr
+    [13] => tag-press
+    [14] => tag-release
+)
+-->
+
+					<div class="viewcontent cc-page " id="post-1325">
+
+						<h1><a href="2011/05/11/libre-graphics-meeting-2011-brings-open-source-graphics-culture-and-developers-to-montreal/index.html">Libre Graphics Meeting 2011 Brings Open Source Graphics, Culture and Developers to Montreal</a></h1>
+
+						<p><strong>Montreal, Wednesday, May 11, 2011</strong> &#8211; Today the Libre Graphics Meeting 2011 (LGM2011) brings Montreal three more days of solid graphics software, artists and developer talks at the École Polytechnique. From day one, art scholar Eric Schrijver&#8217;s &#8220;Plain Text: Graphic Design and Programming Culture&#8221; to Christopher Allan Webber&#8217;s &#8220;Using Blender for Patent Absurdity animations,&#8221; to Brad Phillips “Unleashing the Power of Inkscape to Create and Share using Open Clip Art Library,&#8221; talks plowed on as developers from around the world, sponsored by companies and an ongoing community campaign, made free and open source graphics software better.</p>
+<p>&#8220;We welcome Libre Graphics Meeting to Montreal with four great days of talks, meetings and fun night events,&#8221; said Louis Desjardins, Libre Graphics Meeting 2011 organizer. &#8220;With the help of our sponsors we have brought many developers from around the world together, to work face to face. This is the only time many developers of great projects actually get to work closely and not only on-line. Montreal is the perfect city for LGM2011 with its merging of art, culture and technology.&#8221;</p>
+<p>Today, Day 2 of LGM2011 brings &#8220;Libre Graphics Global Documentation Project&#8221; from Hong Phuc Dang, &#8220;Crafting an Open Font Stack&#8221; from Fabricatorz&#8217; Christopher Adams, and an overview of the Libre Graphics Magazine are to be presented by Ana Carvalho, Ginger Coons, and Ricardo Lafuente. Free Software Foundation&#8217;s Matt Lee, Creative Commons&#8217; Christopher Webber, and Fabricatorz founder Jon Phillips highlight notable web-based creative projects in a panel, &#8220;Autonomo.us Free Network Services and Global Conflicts.&#8221; And, highlighting the necessity of developing a weak area on the free desktop, video, is Jean-François Fortin Tam&#8217;s presentation on &#8220;PiTiVi and the state of GStreamer video editing.&#8221;</p>
+<p>On Day 3 Susan Spencer Conklin talks about her Open Source Digital Pattern Making software, Tau Meta Tau Physica and the most popular graphics community on the web, DeviantArt&#8217;s Michael Halpert  presents &#8220;DeviantArt: Creating Community Around Creativity.&#8221; Thanks to Organisation internationale de la Francophonie, LGM2011 has brought excellent presenters from Senegal, Magaouata Dan Bourgami and Mamadou Diagne&#8217;s give insight to Libre Graphics with &#8220;A manhole to West Africa.&#8221;</p>
+<p>On the final day of LGM2011, Friday, academic Michael Terry shows some &#8220;Quick and Dirty Usability by Leveraging Google Suggest to Instantly Know Your Users&#8221; and Pierre Marchand from Belgium-based Open Source Publishing, presents &#8220;Free Graphics Programming, experiences &#038; thoughts.&#8221; The day ends with other presentations including one by Fabricatorz founder, Jon Phillips discussing “Fabricating the Future with Copyleft Hardware.”</p>
+<p>Libre Graphics Meeting 2011 could not have happened without the excellent support of École Polytechnique de Montréal, Organisation internationale de la Francophonie, River Valley Technologies, The Quebec Institute of Graphic Communications, openSUSE, Wikimedia CH, Savoir-faire Linux, Eyrolles, The Gimp, The Gnome Foundation, Mozilla Foundation and Xerox. LGM2011 also thanks the media sponsors LWN.net, Linux Journal, Linux Pro Magazine, and DeviantArt.</p>
+<p><strong>Help keep LGM free for developers and artists alike</strong></p>
+<p>Your contribution can help make Libre Graphics Meeting 2011 (LGM) a success!  All funds donated by the community to the LGM 2011 Pledgie campaign go directly towards providing travel reimbursement to the developers of free graphics applications like GIMP, Inkscape, Scribus, Open Font Library, and MyPaint, and to the artists that use these apps to create their work.</p>
+<p>Libre Graphics Meeting is an invaluable meeting ground for developers and end users because it brings them together face to face. Underwriting travel costs is essential to LGM&#8217;s success, as many open source developers and independent artists and designers cannot count on employer-provided travel.  LGM has been free of charge since the very beginning – but as the open source community continues to expand, the economy getting tougher, attendance keeps increasing, and the need for LGM support is greater than ever. </p>
+<p>Your support is vital for the continued success of LGM, whether you are a developer, an attendee, or simply a fan of free graphics software.  Click here to make a donation: http://pledgie.com/campaigns/14610</p>
+<p>No matter what the size of your individual donation, you can also help us spread the word: add the LGM Pledge button to your site, and blog about the event to raise awareness.</p>
+<p>For larger organizations and companies, we have platinum, gold, silver and copper levels of sponsorship which give you attention and eyeballs on your company and products for supporting this amazing group of thought leaders in creative and design industries: http://libregraphicsmeeting.org/2011/sponsors.</p>
+<p><strong>Program Schedule and Registration</strong></p>
+<p>The complete schedule of talks is now online at <a href="http://www.libregraphicsmeeting.org/2011/program/">http://www.libregraphicsmeeting.org/2011/program/</a></p>
+<p>Talks and panel discussions will be held May 10 through 13.</p>
+<p>You may now register for LGM2011 by visiting <a href="http://libregraphicsmeeting.org/2011">http://libregraphicsmeeting.org/2011</a>.</p>
+<p><strong>About Libre Graphics Meeting 2011 in Montreal</strong> </p>
+<p>May 10-13, École Polytechnique Engineering School</p>
+<p>Programmers and artists from around the world are headed to Montreal for the 6th annual Libre Graphics Meeting in May. The Libre Graphics Meeting is an annual gathering for the users and developers of free and open source creative software: artistic tools that are free for anyone to use and modify. LGM gives software developers, artists, musicians, designers and other creative professionals the opportunity to collaborate, share their work and learn from each other.</p>
+<p>The Libre Graphics Meeting exists to unite and accelerate the efforts behind Free, Libre and Open Source creative software. Organised by volunteers from the international Libre Graphics Community since 2006, this annual meeting is the premiere conference for developers, users and supporters of projects such as GIMP, Inkscape, Blender, Krita, Scribus, Hugin, the Open Clipart Library, and the Open Font Library. At LGM, teams gather to work on interoperability, shared standards, and new ideas. Work at prior LGMs has pushed the state of the art in important areas such as color management, cross-application sharing of assets, and common formats.</p>
+<p><strong>For More Information</strong></p>
+<p>For more information, visit <a href="http://www.libregraphicsmeeting.org">http://www.libregraphicsmeeting.org</a></p>
+<p>LGM 2011 is hosted by the Create Project, Libre Graphics Community and Polytechnique.</p>
+<p><strong>Press Contact</strong></p>
+<p>Sponsoring Organization: Libre Graphics Meeting and Create Project.<br />
+Jon Phillips<br />
+<a href="mailto:jon@fabricatorz.com">jon@fabricatorz.com</a><br />
++1.415.830.3884 (skype: kidproto)<br />
+<a href="http://libregraphicsmeeting.org/">http://libregraphicsmeeting.org/</a><br />
+Pledgie campaign: http://pledgie.com/campaigns/14610<br />
+Photos: http://ur1.ca/a34y</p>
+<p><strong>Organization Contact</strong></p>
+<p>Louis Desjardins<br />
+<a href="mailto:louis.desjardins@gmail.com">louis.desjardins@gmail.com</a><br />
++1.514.994.9351</p>
+<p><strong>Release Attachments</strong></p>
+<ul>
+<li><a href="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/05/lgm2011-announcement-2011-05-11.odt">ODT</a></li>
+<li><a href="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/05/lgm2011-announcement-2011-05-11.pdf">PDF</a></li>
+</ul>
+
+					</div>
+
+					<div id="pageinfo">
+						<div id="pagerevision">Last edited on May 11, 2011</div>
+						<div class="break"></div>
+					</div>
+
+<!--
+Array
+(
+    [0] => post-718
+    [1] => post
+    [2] => type-post
+    [3] => status-publish
+    [4] => format-standard
+    [5] => hentry
+    [6] => category-press-media
+    [7] => tag-announcement
+    [8] => tag-conference
+    [9] => tag-lgm
+    [10] => tag-lgm2011
+    [11] => tag-media
+    [12] => tag-participate
+    [13] => tag-press
+    [14] => tag-registration
+    [15] => tag-sponsorship
+)
+-->
+
+					<div class="viewcontent cc-page " id="post-718">
+
+						<h1><a href="2011/04/18/libre-graphics-meeting-2011-montreal-needs-your-sponsorship-presentations-and-registration/index.html">Libre Graphics Meeting 2011 Montreal Needs Your Sponsorship, Presentations, and Registration</a></h1>
+
+						<p><strong>Help Keep LGM Free for Developers and Artists</strong></p>
+<p>Your contribution can help make Libre Graphics Meeting 2011 (LGM) a success!  All funds donated by the community to the LGM 2011 Pledgie campaign go directly towards providing travel reimbursement to the developers of free graphics applications like GIMP, Inkscape, Scribus, Open Font Library, and MyPaint, and to the artists that use these apps to create their work.</p>
+<p><a href="http://www.flickr.com/photos/tomlechner/4665135554/in/pool-776360@N22"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/tom-lechner-flickr-lgm1-400x265.jpg" alt="" title="tom-lechner-flickr-lgm" width="400" height="265" class="alignnone size-medium wp-image-731" /></a></p>
+<p>Libre Graphics Meeting is an invaluable meeting ground for developers and end users because it brings them together face to face. Underwriting travel costs is essential to LGM&#8217;s success, as many open source developers and independent artists and designers cannot count on employer-provided travel.  LGM has been free of charge since the very beginning &#8212; but as the open source community continues to expand, the economy getting tougher, attendance keeps increasing, and the need for LGM support is greater than ever. </p>
+<p>Your support is vital for the continued success of LGM, whether you are a developer, an attendee, or simply a fan of free graphics software.  Click here to make a donation: <strong><a href="http://pledgie.com/campaigns/14610">http://pledgie.com/campaigns/14610</a></strong></p>
+<p>No matter what the size of your individual donation, you can also help us spread the word: add the LGM Pledge button to your site, and blog about the event to raise awareness.</p>
+<p>For larger organizations and companies, we have platinum, gold, silver, bronze and copper levels of sponsorship which give you attention and eyeballs on your company and products for supporting this amazing group of thought leaders in creative and design industries: <strong><a href="http://libregraphicsmeeting.org/2011/sponsors">http://libregraphicsmeeting.org/2011/sponsors</a></strong>.</p>
+<p><a href="http://www.flickr.com/photos/hypermodern/4712821917/in/pool-776360@N22"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/lgm-flickr-hypermodern1-400x300.jpg" alt="" title="Jon Phillips http://rejon.org Brussels, Belgium - Libre Graphics Meeting 2010" width="400" height="300" class="alignnone size-medium wp-image-730" /></a></p>
+<p><strong>Submit a Presentation!</strong></p>
+<p>LGM&#8217;s strength comes from the presenters who talk about their work and inspire others by sharing their experiences, techniques, and best practices. Whether you are a developer, an artist, or an enthusiast, you can be a part of this year&#8217;s event by sharing your story and your work.</p>
+<p>The LGM community wants to hear your proposal for a session. Submit your idea any time between now and April 20, 2011 by visiting <strong><a href="http://create.freedesktop.org/wiki/Conference_2011/Submit_Talk">http://create.freedesktop.org/wiki/Conference_2011/Submit_Talk</a></strong></p>
+<p>Topics of interest include: open design, development of creative applications, color standards and color management, designer and developer collaboration, web services, workflow, exchange between Open Source Software and artists, power-user techniques, graphics business best practices, and research findings.</p>
+<p>We already have great submissions like Hackaplot: a project for collaborative art and cool hardware revival, Libre Graphics Global Documentation Project , Krita: Professional Digital Painting, Laidout and Strange Interfaces, Better and faster image resizing and resampling, A manhole to West Africa: hackers, artists and page layout professionals using free softwares, Crafting an Open Font Stack, EBook Design With Open Source, Efficient Creative Web Workflows &#8211; An Investigation, Fabricating a Libre Graphics Future, Future Tools, Generative Typesetting with Context, Hypermedia and the Annihilation of Time and Space, Inkscape for Beginners, Using Blender for Patent Absurdity, Making Avatars: Unleashing the Power of Inkscape and Open Clip Art Library to Create and Share, Publishing documentation with Publican, PiTiVi and the state of GStreamer video editing, Open Mind, Literally: Utilizing and Teaching Free Culture As A Life Path, OSP: Adventures in distributed design, MyPaint &#8211; the past, the present and the future, Make free art now! Creativity with free software: FooCorp, GNU FM and the Free Software Foundation, Libre Graphics magazine: A year of fantastic and more to come from you!<br />
+<strong><br />
+Register Now!</strong></p>
+<p>You may now register for LGM2011 by visiting <strong><a href="http://libregraphicsmeeting.org/2011">http://libregraphicsmeeting.org/2011</a></strong>. We have four full days of main events, night events, parties, a big dinner, and more. Even before LGM we have some pre-events for those whom arrive early. But, we need to know you are coming. The main event is completely free thanks to our community fundraising campaign and sponsors.</p>
+<p><strong>Who is Attending?</strong></p>
+<p>More and more people are signing up right now! Let us know you are coming and reserve a free spot: Adam Hyde, Adam Turcotte, Alessandro Rimoldi, Alexandre Quessy, Ana Carvalho, Anthony Thyssen, Brad Phillips, CelineCelines, Chantal Racette, Christopher Adams, Christopher Webber, Elisa de Castro Guerra, Fabricatorz, Femke Snelting, Francesco Fantoni, Fred Weinhaus, Ginger Coons, Hong Phuc Dang, Ian Scheller, Jean-François Fortin Tam, John Cupitt, John Haltiwanger, Jon Nordby, Jon Phillips, Louis Desjardins, Lukáš Tvrdý, Magaouata DAN BOURGAM, Mamadou Diagne, Matt Lee, Nicolas Robidoux, OSP (Open Source Publishing), Pete Ippel, Ricardo Lafuente, Robert Oakes, Roméo DOSSA, Ryan Lerch, Tom Lechner and many more soon to be announced design stars.</p>
+<p><strong>Submit Your Artwork!</strong></p>
+<p>In addition to the speakers&#8217; schedule, LGM 2011 hosts a juried exhibition of art and design produced with free software. Submissions are due by the end of April; a jury selects fifteen pieces to be printed and exhibited at StudioXX during LGM, and a further eight will be included in the next issue of Libre Graphics Magazine. Details for how to submit your work are here: <strong><a href="http://www.libregraphicsmeeting.org/2011/exhibition">http://www.libregraphicsmeeting.org/2011/exhibition</a></strong></p>
+<p><strong>Give Your Feedback!</strong></p>
+<p>All throughout LGM 2011, you will have the opportunity to join in birds-of-a-feather (BOF) sessions, panel discussions, and hands-on workshops led by the libre graphics community.  Come share your feedback, ask questions, and help make libre graphics much improved.</p>
+<p>A special bonus opportunity in LGM 2011 is the chance to participate in a usability lab session coordinated by ICGQ, Inc.  Saturday, May 14, the ICGQ graphic art industry members will sit down with the LGM developers and artists to do an in-depth analysis of the open source graphics suite, with an eye towards helping new users learn the environment.</p>
+<p><strong>Pre-LGM Activities!</strong></p>
+<p>Always wanted to create a sewing pattern from a python script? Work with developers and artists around the same table? Visit a color lab? From Friday evening 6 May onwards we organize workshops, excursions and other activities for early arrivals. The perfect warm up for LGM! Watch out for latest announcements at <strong><a href="http://www.libregraphicsmeeting.org/2011/pre-lgm">http://www.libregraphicsmeeting.org/2011/pre-lgm</a></strong></p>
+<p><strong>Thanks to Our Current Sponsors</strong></p>
+<p>Main Sponsor and Partners</p>
+<p>École Polytechnique, <a href="http://www.polymtl.ca/en/">http://www.polymtl.ca/en/</a>, Create Project, <a href="http://create.freedesktop.org">http://create.freedesktop.org</a></p>
+<p>Platinum Sponsors</p>
+<p>Organization Internationale de la Francophonie, <a href="http://www.francophonie.org/">http://www.francophonie.org/</a></p>
+<p>Gold Sponsors</p>
+<p>Google, <a href="http://google.com/">http://google.com/</a></p>
+<p>Silver Sponsors</p>
+<p>The Quebec Institute of Graphic Communications (QIGC), <a href="http://icgq.qc.ca/bienvenue_icgq/">http://icgq.qc.ca/bienvenue_icgq/</a>,<br />
+Wikimedia CH, <a href="http://www.wikimedia.ch/">http://www.wikimedia.ch/</a></p>
+<p>To become a sponsor, please visit <a href="http://libregraphicsmeeting.org/2011/sponsors">http://libregraphicsmeeting.org/2011/sponsors</a> and/or contact <a href="mailto:libregraphicsmeeting@gmail.com">libregraphicsmeeting@gmail.com</a>.</p>
+<p><strong>About Libre Graphics Meeting 2011 in Montreal</strong> </p>
+<p>May 10-13, École Polytechnique Engineering School</p>
+<p>Programmers and artists from around the world are headed to Montreal for the 6th annual Libre Graphics Meeting in May. The Libre Graphics Meeting is an annual gathering for the users and developers of free and open source creative software: artistic tools that are free for anyone to use and modify. LGM gives software developers, artists, musicians, designers and other creative professionals the opportunity to collaborate, share their work and learn from each other.</p>
+<p>The Libre Graphics Meeting exists to unite and accelerate the efforts behind Free, Libre and Open Source creative software. Organised by volunteers from the international Libre Graphics Community since 2006, this annual meeting is the premiere conference for developers, users and supporters of projects such as GIMP, Inkscape, Blender, Krita, Scribus, Hugin, the Open Clipart Library, and the Open Font Library. At LGM, teams gather to work on interoperability, shared standards, and new ideas. Work at prior LGMs has pushed the state of the art in important areas such as color management, cross-application sharing of assets, and common formats.</p>
+<p><strong>For More Information</strong></p>
+<p>For more information, visit <strong><a href="http://www.libregraphicsmeeting.org">http://www.libregraphicsmeeting.org</a></strong></p>
+<p>LGM 2011 is hosted by the Create Project, Libre Graphics Community and Polytechnique.</p>
+<p><strong>Press Contact</strong></p>
+<p>Sponsoring Organization: Libre Graphics Meeting and Create Project.<br />
+Jon Phillips<br />
+<a href="mailto:jon@fabricatorz.com">jon@fabricatorz.com</a><br />
++1.415.830.3884 (skype: kidproto)<br />
+<a href="http://libregraphicsmeeting.org/">http://libregraphicsmeeting.org/</a><br />
+Pledgie campaign: <a href="http://pledgie.com/campaigns/14610">http://pledgie.com/campaigns/14610</a><br />
+Photos: <a href="http://ur1.ca/a34y">http://ur1.ca/a34y</a></p>
+<p><strong>Organization Contact</strong></p>
+<p>Louis Desjardins<br />
+<a href="mailto:libregraphicsmeeting@gmail.com">libregraphicsmeeting@gmail.com</a><br />
++1.514.994.9351</p>
+<p><strong>Attachments</strong></p>
+<ul>
+<li><a href='http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/lgm2011-announcement-2011-04-18.pdf'>Announcement as PDF</a></li>
+<li><a href='http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/lgm2011-announcement-2011-04-18.odt'>Announcement as ODT</a></li>
+</ul>
+
+					</div>
+
+					<div id="pageinfo">
+						<div id="pagerevision">Last edited on May 14, 2011</div>
+						<div class="break"></div>
+					</div>
+
+
+<div class="navigation">
+	<div class="alignright"><a href="page/2/index.html" >Next Page &raquo;</a></div>
+	<div class="alignleft"></div>
+</div>
+
+				</div>
+			</div>
+		</div><!-- end container_lgm -->
+
+
+				<!-- Right Column --> 
+		<div id="right" class="column"> 
+			<div id="right-content"> 
+
+				
+
+				<div id="flickr" class="menu-block">
+				<h3 style="margin-left:0px;"><a href="http://www.flickr.com/groups/776360@N22/pool/">Flickr pool</a></h3>
+				<a href="http://www.flickr.com/photos/66481598@N00/2493607847/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2493607847_c939e99c3b_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2494426008/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2494426008_f0884f04da_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2493606625/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2493606625_1fb7db3395_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2494424606/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2494424606_ddc8d195a2_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2493551123/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2493551123_36b78fe43a_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2493531235/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2493531235_4054af43bf_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2494319130/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2494319130_322cebc264_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2493484593/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2493484593_22a3545c09_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2494302550/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2494302550_4e7d928b46_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2493482841/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2493482841_cedba85452_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2493482383/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2493482383_b3eda18185_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2493481817/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2493481817_aabe22eafd_s.jpg" /></a></div> <!-- div#flickr -->
+
+
+				
+
+				<dl id="twits" class="menu-block">
+				<h3>Identi.ca feed</h3>
+								</dl>
+
+			</div><!-- end right-content --> 
+		</div><!-- end right --> 
+
+		<!-- Center Column --> 
+		<div id="center" class="column"> 
+			<div id="center-content"> 
+
+				<!-- Main menu -->
+				<div class="menu">
+				<div class="menu-program-container"><ul id="menu-program" class="menu"><li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="about-lgm/index.html">About</a></li>
+<li id="menu-item-166" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-166"><a href="projects/index.html">Projects</a></li>
+<li id="menu-item-716" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716"><a href="registration/index.html">Registration</a></li>
+<li id="menu-item-853" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-853"><a href="whos-coming/index.html">Who&#8217;s coming</a></li>
+<li id="menu-item-358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-358"><a href="submit-talk/index.html">Submit talk</a></li>
+<li id="menu-item-308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-308"><a href="venue/index.html">Venue</a></li>
+<li id="menu-item-324" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-324"><a href="accommodation/index.html">Accommodation</a></li>
+<li id="menu-item-207" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207"><a href="exhibition/index.html">Exhibition</a></li>
+<li id="menu-item-230" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-230"><a href="program/index.html">Program</a></li>
+<li id="menu-item-814" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-814"><a href="press/index.html">Press</a></li>
+<li id="menu-item-263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263"><a href="sponsors/index.html">Sponsors</a></li>
+<li id="menu-item-364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-364"><a href="contact/index.html">Contact</a></li>
+</ul></div>				</div><!-- end menu -->
+				<!-- End Main Menu --> 
+
+
+				<div id="logos"> 
+					<h3>Partners</h3> 
+<a href="http://www.polymtl.ca/"><img src="wp-content/themes/lgm/img/partner_polytechnique.png" style="width:70px; margin-top:20px;" /></a> 
+					<a href="http://create.freedesktop.org"><img src="wp-content/themes/lgm/img/partner_create.png" /></a> 
+			
+					<a href="http://www.francophonie.org/"><img src="wp-content/themes/lgm/img/OIF-monochrome.png"  style="width:140px;"/></a> 
+					<a href="http://www.icgq.qc.ca/"><img src="wp-content/themes/lgm/img/partner_icgq.png" /></a> 
+					 
+				</div><!-- logos --> 
+<div id="social">
+<h3>Follow Us</h3>
+<li><a href="http://www.facebook.com/event.php?eid=187110894667653" title="Facebook Event for those interested!">Facebook Event</a></li>
+<li><a href="https://blueprints.launchpad.net/sprints/lgm2011" title="Support for a spring of projects using Launchpad like Aiki Framework, Inkscape and Open Clip Art Library.">Launchpad Sprint for LGM2011</a></li>
+<li><a href="http://twitter.com/libregfxmtg" title="Twitter Account for LGM">Twitter</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Libre_Graphics_Meeting" title="Wikipedia entry about Libre Graphics Meeting.">Wikipedia</a></li>
+<li><a href="http://identi.ca/lgm" title="LGM on Identi.ca">Identi.ca</a></li>
+</div>
+
+<br />
+<div id="presshits">
+<h3>In the Press</h3>
+<li><a href="http://blog.manufacturaindependente.org/2011/03/libre-graphics-meeting-2011/" title="Post about LGM2011">Manufactura Independente Blog 2011</a></li>
+<li><a href="http://rejon.org/2011/04/libre-graphics-meeting-2011-registration-open-presentation-submission-closes-april-20/" title="Registration opens, and submissions close in two days">Jon Phillips Registration Open Post 2011</a></li>
+<li><a href="http://wiki.creativecommons.org/Libre_Graphics_Meeting_2011" title="Post on Creative Commons Event Wiki">Creative Commons 2011</a></li>
+<li><a href="http://www.jonnor.com/2011/03/going-to-libre-graphics-meeting-2011-in-montreal/" title="A personal blog post by Jon Nordy supportin LGM2011.">Jon Nordby Blog Post 2011</a></li>
+<li><a href="http://www.barrythrew.com/2011/03/16/libre-graphics-meeting-2011-montreal/" title="Blog post supporting LGM2011">Barry Threw 2011</a></li>
+</div>
+
+
+			</div><!-- center-content --> 
+		</div><!-- center --> 
+
+
+	</div><!-- end content -->
+</div><!-- end content-container -->
+
+
+
+
+			<div id="footer-container"> 
+				<div class="footer"> 
+
+<a href="http://bugs.launchpad.net/create-project">Found Bugs?</a> <a href="http://blueprints.launchpad.net/create-project">Want Features?</a> <p><a onclick='document.cookie="wpmp_switcher=mobile;path=/;expires=Tue, 01-01-2030 00:00:00 GMT";' href='/2011/?wpmp_switcher=mobile'>Switch to our mobile site</a></p>
+                <div id="lang_sel_footer">
+                    <ul>
+                    	<li><a href="http://libre-graphics-meeting.org/2011" class="lang_sel_sel"><img src="wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="en" class="iclflag" />&nbsp;<span  class="icl_lang_sel_current">English</span></a></li>
+                    	<li><a href="http://libregraphicsmeeting.org/2011?lang=fr"><img src="wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png" alt="fr" class="iclflag" />&nbsp;<span  class="icl_lang_sel_native">Français</span> <span  class="icl_lang_sel_translated"><span  class="icl_lang_sel_native">(</span>French<span  class="icl_lang_sel_native">)</span></span></a></li>
+                    </ul>
+                </div>				</div><!-- end footer --> 
+
+		    	<div id="bottom-container"> 
+					<div class="bottom">
+					</div> 
+				</div><!-- end bottom-container --> 
+
+			</div><!-- end footer-container -->
+		</div><!-- end page --> 
+	</div><!-- end bla --> 
+</div><!-- end container --> 
+
+
+</body> 
+</html>

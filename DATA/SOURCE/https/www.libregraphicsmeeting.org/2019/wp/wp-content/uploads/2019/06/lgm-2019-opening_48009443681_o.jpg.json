@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:39 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "333729",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 31 Dec 2020 12:16:27 GMT",
+    "etag": "\"517a1-5b7c197ce3cc0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2019/wp/wp-content/uploads/2019/06/lgm-2019-opening_48009443681_o.jpg"
+}

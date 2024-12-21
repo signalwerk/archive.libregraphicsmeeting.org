@@ -1,0 +1,14 @@
+.project {clear:both; padding-top:20px;}
+.projectabstract { float:left; width:150px; border:1px solid black; width:148px; -moz-border-radius:5px; -webkit-border-radius: 5px; */}
+
+.projectframe  {text-align:center; padding-top:1px;}
+
+.projectabstract ul {margin:0 0px 0 20px; list-style-type:square; padding:4px; font-size:0.79em; left:200px;}
+
+.projectdescription {position:relative; margin-left:180px; position:relative; top:0px;}
+
+/* for ie ----> ul.projectlink {margin:0 0px 0 20px; list-style-type:square;} */
+
+ul.projectlink {margin:0 0px 0 0px; list-style-type:none;} 
+ul.projectlink li:before { content: "- " }
+h1 {clear:both;}

@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:04 GMT",
+    "content-type": "image/png",
+    "content-length": "3059",
+    "connection": "keep-alive",
+    "last-modified": "Sun, 16 Mar 2008 00:19:08 GMT",
+    "etag": "\"bf3-44882da0bd700\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2008/gfx/img/sponsors/darmoweprogramy.png"
+}

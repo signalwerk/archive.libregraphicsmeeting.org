@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Libre Graphics Meeting 2019</title>
+	<atom:link href="https://libregraphicsmeeting.org/2019/feed/" rel="self" type="application/rss+xml" />
+	<link>https://libregraphicsmeeting.org/2019</link>
+	<description>Saarbrücken, May 29 - June 2, 2019</description>
+	<lastBuildDate>
+	Tue, 06 Aug 2019 10:30:21 +0000	</lastBuildDate>
+	<language>de-DE</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.1</generator>
+	<item>
+		<title>Photowalk</title>
+		<link>https://libregraphicsmeeting.org/2019/2019/05/24/photowalk/</link>
+				<comments>https://libregraphicsmeeting.org/2019/2019/05/24/photowalk/#respond</comments>
+				<pubDate>Fri, 24 May 2019 12:11:42 +0000</pubDate>
+		<dc:creator><![CDATA[Tobias Ellinghaus]]></dc:creator>
+				<category><![CDATA[Announcements]]></category>
+
+		<guid isPermaLink="false">https://libregraphicsmeeting.org/2019/?p=1701</guid>
+				<description><![CDATA[As in past years there will again be a photo walk. It will take place...]]></description>
+								<content:encoded><![CDATA[<p>As in past years there will again be a photo walk. It will take place on Wednesday, 29th of May. We will meet at 11:00 o&#8217;clock at Ludwigskirche (just across HBK where LGM is happening). From there we will explore the nicer parts of Saarbrücken with lots of opportunities to take photos, have a coffee and discuss all kinds of things. In the afternoon we will find a nice pub or, if the weather allows it, a place to sit in the open. Afterwards we can all go to the LGM opening ceremony together.</p>
+
+				<div id="map_ol3js_1" class="map undefined" data-map_name="undefined" data-map="map_ol3js_1" style="width:95%; height:450px; overflow:hidden;border:thin solid ;" >
+				  <div id="map_ol3js_1_popup" class="ol-popup" >
+					<a href="#" id="map_ol3js_1_popup-closer" class="ol-popup-closer"></a>
+					<div id="map_ol3js_1_popup-content" ></div>
+				  </div>
+				</div>
+			
+				<link rel="stylesheet" href="https://libregraphicsmeeting.org/2019/wp/wp-content/plugins/osm/js/OL/5.3/css/ol.css" type="text/css">
+				<link rel="stylesheet" href="https://libregraphicsmeeting.org/2019/wp/wp-content/plugins/osm/css/osm_map_v3.css" type="text/css">
+				<link rel="stylesheet" href="https://libregraphicsmeeting.org/2019/wp/wp-content/plugins/osm/css/osm_map.css" type="text/css">
+				<!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+				<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+
+				<script src="https://libregraphicsmeeting.org/2019/wp/wp-content/plugins/osm/js/OL/5.3/ol.js" type="text/javascript"></script>
+				<script src="https://libregraphicsmeeting.org/2019/wp/wp-content/plugins/osm/js/osm-v3-plugin-lib.js" type="text/javascript"></script>
+				<script src="https://libregraphicsmeeting.org/2019/wp/wp-content/plugins/osm/js/osm-metabox-events.js" type="text/javascript"></script>
+				<script src="https://libregraphicsmeeting.org/2019/wp/wp-content/plugins/osm/js/osm-startup-lib.js" type="text/javascript"></script>
+				<script type="text/javascript">
+					translations['openlayer'] = "open layer";
+					translations['openlayerAtStartup'] = "open layer at startup";
+					translations['generateLink'] = "Der Link zur Karte mit ausgewählten Overlays und angezeigtem Ausschnitt";
+					translations['shortDescription'] = "Kurzbeschreibung";
+					translations['generatedShortCode'] = "to get a text control link paste this code in your wordpress editor";
+					translations['closeLayer'] = "close layer";
+					translations['cantGenerateLink'] = "put this string in the existing map short code to control this map";
+				</script>
+
+			  <script type="text/javascript">vectorM['map_ol3js_1'] = [];
+
+	var attribution = new ol.control.Attribution({
+        collapsible: false
+      });
+      
+        var raster = new ol.layer.Tile({
+          source: new ol.source.OSM()
+        });
+      var Controls = ol.control.defaults({ attribution: false }).extend([
+          attribution
+      ]); 
+			  map_ol3js_1 = new ol.Map({
+		controls: Controls,
+		
+				interactions: ol.interaction.defaults({mouseWheelZoom:false}),
+				layers: [raster],
+				target: "map_ol3js_1",
+				view: new ol.View({
+				  center: ol.proj.transform([6.9855,49.2327], "EPSG:4326", "EPSG:3857"),
+				  zoom: 17
+				})
+			  });
+			  osm_addMarkerLayer(map_ol3js_1,6.9855,49.2327,"https://libregraphicsmeeting.org/2019/wp/wp-content/plugins/osm/icons/mic_black_camera_01.png",-16,-41,"Meeting point  </a><br />") ; 
+		  var osm_controls = [
+			new ol.control.Attribution(),
+			new ol.control.MousePosition({
+			  undefinedHTML: "outside",
+			  projection: "EPSG:4326",
+			  coordinateFormat: function(coordinate) {
+				 return ol.coordinate.format(coordinate, "{y}, {x}", 5);
+			  }
+			}),
+			new ol.control.OverviewMap({
+			  collapsed: false
+			}),
+			new ol.control.Rotate({
+			  autoHide: false
+			}),
+			new ol.control.ScaleLine(),
+			new ol.control.Zoom(),
+			new ol.control.ZoomSlider(),
+			new ol.control.ZoomToExtent({
+      extent: [-11243808.051695308, 1.202710291, 9561377.290892059, 6852382.107835932]
+    }),
+			new ol.control.FullScreen()
+		  ]; 
+osm_addPopupClickhandler(map_ol3js_1,  "map_ol3js_1"); 
+osm_addMouseHover(map_ol3js_1); </script>
+]]></content:encoded>
+							<wfw:commentRss>https://libregraphicsmeeting.org/2019/2019/05/24/photowalk/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

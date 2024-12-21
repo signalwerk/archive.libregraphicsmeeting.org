@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:43 GMT",
+    "content-type": "application/javascript",
+    "content-length": "3619",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 10 Nov 2014 13:38:48 GMT",
+    "etag": "\"e23-507814841ca00\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2012/wp/wp-includes/js/tw-sack-ver=1.6.1.js"
+}

@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:04 GMT",
+    "content-type": "image/png",
+    "content-length": "78053",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 25 Sep 2007 21:06:50 GMT",
+    "etag": "\"130e5-43afc1d9f6e80\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2008/gfx/img/projects/screen_blender.png"
+}

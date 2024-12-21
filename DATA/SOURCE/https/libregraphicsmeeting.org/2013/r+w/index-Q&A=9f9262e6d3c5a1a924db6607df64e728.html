@@ -1,0 +1,88 @@
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Libre Graphics Questions & Answers</title>
+<script language="javascript">
+
+var initialQtxt;
+var qgreen, agreen = false;
+
+function rawurlencode(str) {
+  return encodeURIComponent(str).replace(/!/g, '%21').replace(/'/g, '%27').replace(/\(/g, '%28').
+  replace(/\)/g, '%29').replace(/\*/g, '%2A').replace(/~/g, '%7E');
+}
+
+window.onresize = function(event) {
+  document.getElementById('answer').style.paddingTop =   (58+((document.getElementById('controls').offsetTop) + 50) - (document.getElementById('answer').offsetTop))  +'px';
+}
+
+function textAreaChanged(elem) {
+
+	if(elem.name == 'question') {
+		if(rawurlencode(elem.value) == initialQtxt) {
+			document.getElementById('questionbg').style.backgroundColor = 'transparent';
+			document.getElementById('allanswers').style.display = 'block';
+			qgreen = false;
+		} else {
+			document.getElementById('questionbg').style.backgroundColor = '#00a651';
+			document.getElementById('write').src = 'i/free/png/interface/write_over.png';
+			document.getElementById('read').style.backgroundImage = 'url(i/free/png/interface/read.png)';
+			document.getElementById('allanswers').style.display = 'none';
+			qgreen = true;
+		}
+	}
+	else if(elem.name == 'answer') {
+		if(elem.value == "") {
+			document.getElementById('answerbg').style.backgroundColor = 'transparent';
+			agreen = false;
+		} else {
+			document.getElementById('answerbg').style.backgroundColor = '#00a651';
+			document.getElementById('write').src = 'i/free/png/interface/write_over.png';
+			document.getElementById('read').style.backgroundImage = 'url(i/free/png/interface/read.png)';
+			agreen = true;
+		}
+	}
+	
+	if(!qgreen && !agreen) {
+		document.getElementById('write').src = 'i/free/png/interface/write.png';
+		document.getElementById('read').style.backgroundImage = 'url(i/free/png/interface/read_over.png)';
+	}
+}
+
+</script>
+
+<link rel="stylesheet" href="q+a.css" type="text/css" />
+</head>
+<body onLoad='onresize();'>
+
+
+<div class='komplett'><form action='post.php' name='voicesfromthepublic' method='post' accept-charset='utf-8'><div id='questionbg' class='questionbg'></div><textarea name='question' onkeyup='textAreaChanged(question)' spellcheck='false' autocomplete='off' class='question'>How to donate in order to contribute for using Open Source programs/tools? 
+</textarea><script>initialQtxt = 'How%20to%20donate%20in%20order%20to%20contribute%20for%20using%20Open%20Source%20programs%2Ftools%3F%20%0A'; </script><div id='answerbg' class='answerbg'></div><textarea name='answer' id='answer' onkeyup='textAreaChanged(answer)' spellcheck='false' autocomplete='off' class='answer'></textarea><div class='people'><img src='i/free/png/people/L-003-m101z002v102h104d101_L.png' class='talkL' /><img src='i/free/png/people/R-002-h108l106b101z001_R.png' class='talkR'  /></div><div id='allanswers' class='allanswers'><div id='answerx' class='answer_2'>Try to get the projects to accept Bitcoin.
+</div><div id='answerx' class='answer_0'>Bitcoin!
+</div><div id='answerx' class='answer_0'>Don't. You better donate to libre projects and ask open source to go libre. Open source just misses the point.
+</div><div id='answerx' class='answer_0'>Go to their Web sites and ask them if they are a libre project or an open source project. If they are the former, ask them to call themselves libre, not open source, because open source just misses the point. If they say they are open source, ask them to call themselves libre, not open source, because open source just misses the point. If they accept, donate.
+</div><div id='answerx' class='answer_3'>Go to the project's website and find the donate link.
+</div><div id='answerx' class='answer_2'>Most of these projects have donations links on their websites.
+</div><div id='answerx' class='answer_1'>FLATTR
+</div><div id='answerx' class='answer_0'>http://pledgie.com/campaigns/19064 to help make developers and designers meet in Madrid!
+</div><div id='answerx' class='answer_3'>Change the banking system.
+</div><div class='pluslinks'><a href='http://www.forkable.eu/generators/r+w/o/__/9f9262e6d3c5a1a924db6607df64e728.html' />see posters for this conversation</a><br/><a href='http://www.forkable.eu/generators/r+w/o/__/SEEME' />see all posters</a><br/><a href='o/free/voice/index.html' />see all conversations</a><br/>(<a href='o/free/pdf/people/L-003-m101v102h104d101_L.pdf' />*</a>|<a href='o/free/pdf/people/R-002-h108l106b101_R.pdf' />*</a>)</div></div>
+<div class='controls' id='controls'>
+	<a href='index.html' class='read' id='read'></a>
+	<input type='image' id='write' name='submit to the pool' src='i/free/png/interface/write.png' class='write'/>
+</div>
+</form>
+</div>
+
+
+<div class='bottom'>
+	<div class='logo'>
+		<a href='../index.html'><img src='http://www.forkable.eu/generators/r+w/o/press/rgb/LGM-Logo+15_Solo_120px.png' class='logo'/></a>
+	</div>
+</div>
+
+
+</body>
+</html>

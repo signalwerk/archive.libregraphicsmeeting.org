@@ -1,0 +1,11 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:11:21 GMT",
+    "content-type": "text/html;charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2011/qui-sera-la/feed/?C=D;O=A"
+}

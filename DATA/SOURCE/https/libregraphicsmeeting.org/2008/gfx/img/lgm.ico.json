@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:36 GMT",
+    "content-type": "image/vnd.microsoft.icon",
+    "content-length": "4286",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 25 Sep 2007 21:06:24 GMT",
+    "etag": "\"10be-43afc1c12b400\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2008/gfx/img/lgm.ico"
+}

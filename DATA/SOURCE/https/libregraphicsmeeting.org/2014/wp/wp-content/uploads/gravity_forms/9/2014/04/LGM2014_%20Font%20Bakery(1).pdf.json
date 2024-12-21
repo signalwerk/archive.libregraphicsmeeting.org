@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:54 GMT",
+    "content-type": "application/pdf",
+    "content-length": "398674",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:36:05 GMT",
+    "etag": "\"61552-50798b6b08b40\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2014/wp/wp-content/uploads/gravity_forms/9/2014/04/LGM2014_%20Font%20Bakery(1).pdf"
+}

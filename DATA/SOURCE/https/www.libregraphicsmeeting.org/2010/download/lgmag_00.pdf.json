@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:43 GMT",
+    "content-type": "application/pdf",
+    "content-length": "1104522",
+    "connection": "keep-alive",
+    "last-modified": "Wed, 16 Jun 2010 21:20:19 GMT",
+    "etag": "\"10da8a-4892c49f1eac0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2010/download/lgmag_00.pdf"
+}

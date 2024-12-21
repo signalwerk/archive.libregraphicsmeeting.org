@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:59 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "12049",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:35:49 GMT",
+    "etag": "\"2f11-50798b5bc6740\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2014/wp/wp-content/uploads/2014/01/ColorHug+-220x126.jpg"
+}

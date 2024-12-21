@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:04 GMT",
+    "content-type": "image/gif",
+    "content-length": "979",
+    "connection": "keep-alive",
+    "last-modified": "Wed, 30 May 2007 21:07:16 GMT",
+    "etag": "\"3d3-431b65de5e900\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2007/images/blender-logo.gif"
+}

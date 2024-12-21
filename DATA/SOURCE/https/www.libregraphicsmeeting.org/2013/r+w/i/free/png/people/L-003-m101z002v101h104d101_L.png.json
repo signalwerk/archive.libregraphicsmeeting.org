@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:11:18 GMT",
+    "content-type": "image/png",
+    "content-length": "4543",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:40:27 GMT",
+    "etag": "\"11bf-50798c64e58c0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2013/r+w/i/free/png/people/L-003-m101z002v101h104d101_L.png"
+}

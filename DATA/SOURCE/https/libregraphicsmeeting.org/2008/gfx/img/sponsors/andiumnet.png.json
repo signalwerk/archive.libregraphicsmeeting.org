@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:04 GMT",
+    "content-type": "image/png",
+    "content-length": "1105",
+    "connection": "keep-alive",
+    "last-modified": "Sun, 06 Jan 2008 23:23:36 GMT",
+    "etag": "\"451-443160864ae00\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2008/gfx/img/sponsors/andiumnet.png"
+}

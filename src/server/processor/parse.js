@@ -112,7 +112,7 @@ export async function parseHtml({ job, events, data, metadata }, next) {
     { selector: "object", attribute: "data" },
 
     // Forms
-    { selector: "form", attribute: "action" },
+    // { selector: "form", attribute: "action" },
 
     // Meta tags
     { selector: "meta[http-equiv=refresh]", attribute: "content" },

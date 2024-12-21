@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:31 GMT",
+    "content-type": "image/gif",
+    "content-length": "721",
+    "connection": "keep-alive",
+    "last-modified": "Fri, 27 Mar 2009 21:09:42 GMT",
+    "etag": "\"2d1-4662026c0d180\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2009/skin/location_studioshotel.gif"
+}

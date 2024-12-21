@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:02 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "3999",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 05 Jan 2016 20:36:57 GMT",
+    "etag": "\"f9f-5289c32de6c40\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2011/flickr/2494426008_f0884f04da_s.jpg"
+}

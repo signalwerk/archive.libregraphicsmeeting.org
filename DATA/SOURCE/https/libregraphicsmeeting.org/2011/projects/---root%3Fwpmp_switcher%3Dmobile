@@ -1,0 +1,418 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+	<title>Projects | 6th Annual “Libre Graphics Meeting” 10-13 May 2011 - Montreal, Quebec</title>
+
+<link rel="stylesheet" href="../wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector-v=2.2.2.css" type="text/css" media="all" />
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" href="../wp-content/themes/lgm/style.css" type="text/css"/>
+        <meta name="Author" content="6th Annual “Libre Graphics Meeting” 10-13 May 2011 &#8211; Montreal, Quebec" />
+        <meta name="robots" content="index, follow" />
+        <link rel="shortcut icon" href="http://libre-graphics-meeting.org/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="http://libre-graphics-meeting.org/favicon.ico" type="image/x-icon" />
+
+<link rel="alternate" type="application/rss+xml" title="6th Annual “Libre Graphics Meeting” 10-13 May 2011 - Montreal, Quebec &raquo; Feed" href="../feed/index.html" />
+
+<link rel="alternate" type="application/rss+xml" title="6th Annual “Libre Graphics Meeting” 10-13 May 2011 - Montreal, Quebec &raquo; Projects Comments Feed" href="feed/index.html" />
+<link rel='stylesheet' id='openid-css'  href='../wp-content/plugins/openid/f/openid-ver=519.css' type='text/css' media='all' />
+<script type='text/javascript' src='../wp-includes/js/l10n-ver=20101110.js'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js?ver=3.1'></script>
+<script type='text/javascript' src='../wp-content/plugins/openid/f/openid-ver=519.js'></script>
+<script type='text/javascript' src='../wp-content/plugins/google-analyticator/external-tracking.min-ver=6.1.2.js'></script>
+<link rel='index' title='6th Annual “Libre Graphics Meeting” 10-13 May 2011 &#8211; Montreal, Quebec' href='../index.html' />
+
+<!-- All in One SEO Pack 1.6.13.2 by Michael Torbert of Semper Fi Web Designob_start_detected [-1,-1] -->
+<meta name="description" content="The Libre Graphics Meeting is developed by, for and with multiple Libre Graphics projects. Your project can be here too if it supports Libre Graphics. Here is a" />
+<link rel="canonical" href="index.html" />
+<!-- /all in one seo pack -->
+<script type="text/javascript">var icl_lang = 'en';var icl_home = 'http://libregraphicsmeeting.org/2011';</script>
+<script type="text/javascript" src="../wp-content/plugins/sitepress-multilingual-cms/res/js/sitepress.js"></script>
+<meta name="generator" content="WPML ver:2.2.2 stt:1,4;0" />
+<!-- Google Analytics Tracking by Google Analyticator 6.1.2: http://ronaldheft.com/code/analyticator/ -->
+<script type="text/javascript">
+	var analyticsFileTypes = [''];
+	var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-8161626-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<script>
+var TEMPLATE_PATH = 'http://libre-graphics-meeting.org/2011/wp-content/themes/lgm';
+</script>
+<script type="text/javascript" src="../wp-content/themes/lgm/js/lgm.js"></script>
+</head>
+<body>
+
+<div id="container" class="action-view">
+
+    <div id="bla">
+    <div id="page">
+
+	<div id="header-container">
+		<div class="header">
+
+			<div id="logo" style="height:305px;">
+				<div class="column" style="float: left; width: 50%;">
+										<a href="../index.html" title="Back to home"><img src="../wp-content/themes/lgm/img/LGM.png" /></a>
+				</div>
+				<div class="column" style="float: right; width: 33.333%;"> 
+					<a id="propose" class="image-link" href="http://www.libregraphicsmeeting.org/2011/registration/"><img alt="review!" src="../wp-content/themes/lgm/img/register.png" border="0" /></a>
+					<a id="donate" class="image-link" href="http://pledgie.com/campaigns/14610"><img alt="review!" src="../donate/pledgie_banner.png" border="0" /></a>
+					<!-- <a id="donate" class="image-link" href="http://pledgie.com/campaigns/14610"><img alt="review!" src="http://libre-graphics-meeting.org/2011/wp-content/themes/lgm/img/pledgie_banner.png" border="0" /></a> -->
+				</div>
+				<div class="column" style="float: right; width: 16.666%;"></div>
+			</div><!-- end logo -->
+
+		</div><!-- end header -->
+	</div><!-- end header-container -->
+
+<div id="content-container">
+	<div id="content">
+ 
+		<!-- Left Column -->
+		<div id="container_lgm">
+			<div id="left" class="column">
+				<div id="left-content">
+
+
+
+<!--
+Array
+(
+    [0] => post-142
+    [1] => page
+    [2] => type-page
+    [3] => status-publish
+    [4] => hentry
+)
+-->
+
+					<div class="viewcontent cc-page " id="post-142">
+
+						<h1><a href="index.html">Projects</a></h1>
+
+						<p>The Libre Graphics Meeting is developed by, for and with multiple Libre Graphics projects. Your project <a href="../contact.html">can be here too</a> if it supports Libre Graphics. Here is a non-exhaustive list of the main projects involved:</p>
+<table class="projects">
+<tr>
+<td class="image"><a href="http://aikiframework.org/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/aiki-framework-80x80.png" alt="Aiki Framework" /></a></td>
+<td class="description">
+<h4><a href="http://aikiframework.org/">Aiki Framework</a></h4>
+<p>Aiki Framework is a flexible free and open source web 2.0 platform that allows programmers to easily create and work with content management systems. Aiki Framework saves all the controllers and output templates in a database or any other storage system. </p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://blender.org"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/logo_blender.png" alt="Blender" /></a></td>
+<td class="description">
+<h4><a href="http://blender.org">Blender</a></h4>
+<p>Blender is a free 3D animation program that can be used for modeling, UV unwrapping, texturing, rigging, skinning, animating, rendering, particle and other simulating, non-linear editing, compositing, and creating interactive 3D applications. The most not</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://chrisdesign.wordpress.com/codefree/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/codefree-72x57.png" alt="code:free" /></a></td>
+<td class="description">
+<h4><a href="http://chrisdesign.wordpress.com/codefree/">code:free</a></h4>
+<p>A pdf magazine/art book for the open source scene. It contains only pictures made with free (not freeware!) software like Xara, Glips, Krita, K-3D, 3D Canvas, Gogh; most of it are made in Inkscape, Gimp or Blender. The magazine itself is made with Scribus</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://www.digikam.org/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/digikam-logo-100.png" alt="DigiKam" /></a></td>
+<td class="description">
+<h4><a href="http://www.digikam.org/">DigiKam</a></h4>
+<p>digiKam is an advanced digital photo management application for Linux, Windows, and Mac-OSX. The people who inspired digiKam&#8217;s design are the photographers like you who want to view, manage, edit, enhance, organize, tag, and share photographs under Linux </p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://www.fontmatrix.net/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/logo_fontmatrix.png" alt="Fontmatrix" /></a></td>
+<td class="description">
+<h4><a href="http://www.fontmatrix.net/">Fontmatrix</a></h4>
+<p>Fontmatrix is a free/libre font manager for GNU/Linux, Windows and OS X. It allows its users to find, choose and classify fonts according to the characteristics of the project they have in mind, to enable and disable fonts on the fly, and to pack the font</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://www.gegl.org/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/GEGL-100.png" alt="GEGL" /></a></td>
+<td class="description">
+<h4><a href="http://www.gegl.org/">GEGL</a></h4>
+<p>GEGL (Generic Graphics Library) is a graph based image processing framework. GEGL&#8217;s original design was made to scratch GIMP&#8217;s itches for a new compositing and processing core. This core is being designed to have minimal dependencies. and a simple well de</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://hugin.sourceforge.net/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/05/hugin-logo-90x52.png" alt="Hugin" /></a></td>
+<td class="description">
+<h4><a href="http://hugin.sourceforge.net/">Hugin</a></h4>
+<p>With hugin you can assemble a mosaic of photographs into a complete immersive panorama, stitch any series of overlapping pictures and much more.</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://www.inkscape.org/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/inkscape-new-bigger.png" alt="Inkscape" /></a></td>
+<td class="description">
+<h4><a href="http://www.inkscape.org/">Inkscape</a></h4>
+<p>Inkscape is an Open Source drawing tool with capabilities similar to Illustrator, CorelDraw, or Xara X, that uses the Scalable Vector Graphics (SVG) file format. Inkscape supports many advanced SVG features (markers, clones, alpha blending, etc.) and grea</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://www.krita.org/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/logo_krita1.png" alt="Krita" /></a></td>
+<td class="description">
+<h4><a href="http://www.krita.org/">Krita</a></h4>
+<p>Krita is a sketching and painting program that offers an end–to–end solution for creating digital painting files from scratch. Krita explicitly supports concept art, creation of comics and textures for rendering. Modelled on existing real-world painting m</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://www.latex-project.org/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/LaTeX_logo-91-38.png" alt="LaTeX" /></a></td>
+<td class="description">
+<h4><a href="http://www.latex-project.org/">LaTeX</a></h4>
+<p>LaTeX is a document markup language and document preparation system for the TeX typesetting program.</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://libregraphicsmag.com/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/05/libregraphicsmag-e1304785893786.png" alt="Libre Graphics Magazine" /></a></td>
+<td class="description">
+<h4><a href="http://libregraphicsmag.com/">Libre Graphics Magazine</a></h4>
+<p>The Libre Graphics magazine is a printed and web publication intended to give voice to the libre graphics user community.</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://www.libregraphicsworld.org/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/LGW-betterlogo-100x15.png" alt="Libre Graphics World" /></a></td>
+<td class="description">
+<h4><a href="http://www.libregraphicsworld.org/">Libre Graphics World</a></h4>
+<p>News ticker and in-depth articles about the libre graphics world.</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://qtpfsgui.sourceforge.net/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/Luminance-100x73.jpg" alt="Luminance" /></a></td>
+<td class="description">
+<h4><a href="http://qtpfsgui.sourceforge.net/">Luminance</a></h4>
+<p>Luminance HDR (previously known as Qtpfsgui) is an open source graphical user interface application that aims to provide a workflow for HDR imaging (High Dynamic Range imaging).</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://www.mypaint.info/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/Screenshot-mypaint-nopointer-100x55.png" alt="Mypaint" /></a></td>
+<td class="description">
+<h4><a href="http://www.mypaint.info/">Mypaint</a></h4>
+<p>MyPaint is a fast and easy open-source graphics application for digital painters. It lets you focus on the art instead of the program. You work on your canvas with minimum distractions, bringing up the interface only when you need it.</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://www.openclipart.org/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/ocal-100x65.png" alt="Open Clip Art Library" /></a></td>
+<td class="description">
+<h4><a href="http://www.openclipart.org/">Open Clip Art Library</a></h4>
+<p>This project aims to create an archive of clip art that can be used for free for any use. There are over 40,000 clips from more than 80,000 artists available for download. The Open Clip Art Library uses open standard SVG files for vector format files and </p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://openfontlibrary.org/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/oflb-logo-100x92.png" alt="Open Font Library" /></a></td>
+<td class="description">
+<h4><a href="http://openfontlibrary.org/">Open Font Library</a></h4>
+<p>Typefaces we can all share. The Open Font Library is a sister project of the Open Clip Art Library. The goal of this project is to collect free software fonts &#8211; those that may be used, changed and shared freely.</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://www.oyranos.org/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/oyranos-100.png" alt="Oyranos" /></a></td>
+<td class="description">
+<h4><a href="http://www.oyranos.org/">Oyranos</a></h4>
+<p>Oyranos is an operating system level Colour Management System (CMS). It allows applications and users to obtain a consistent colour match from supporting applications and workflows. Oyranos is intented to coordinate device specific informations (ICC colou</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://photobatch.stani.be/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/phatch-render-100x75.png" alt="Phatch" /></a></td>
+<td class="description">
+<h4><a href="http://photobatch.stani.be/">Phatch</a></h4>
+<p>Phatch is a user-friendly, cross-platform Photo Batch Processor and Exif Renamer with a nice graphical user interface. Phatch handles all popular image formats and can duplicate (sub)folder hierarchies. Phatch can batch resize, rotate, apply shadows, pers</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://www.pitivi.org/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/pitivi-banner-90x92.png" alt="PiTiVi" /></a></td>
+<td class="description">
+<h4><a href="http://www.pitivi.org/">PiTiVi</a></h4>
+<p>PiTiVi is a free, intuitive and featureful movie editor for the Linux desktop.</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://rawstudio.org/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/rawstudio-logo-66c64.png" alt="Rawstudio" /></a></td>
+<td class="description">
+<h4><a href="http://rawstudio.org/">Rawstudio</a></h4>
+<p>Rawstudio is an open-source program to read and manipulate RAW images from most digital cameras. Rawstudio will convert your RAW files into JPEG, PNG or TIF images which you can then print or send to friends and clients. It has a graphical user interface,</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://www.scribus.net/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/logo_scribus2.png" alt="Scribus" /></a></td>
+<td class="description">
+<h4><a href="http://www.scribus.net/">Scribus</a></h4>
+<p>Scribus is an open-source DTP application with a modern and user-friendly interface. The program&#8217;s main goal is to provide flexible layout and typesetting together with ability to prepare files for professional quality imagesetting equipment. </p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://www.yorba.org/shotwell/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/05/shotwell-94.png" alt="Shotwell" /></a></td>
+<td class="description">
+<h4><a href="http://www.yorba.org/shotwell/">Shotwell</a></h4>
+<p>Shotwell is a free photo manager for GNOME that is fast and easy to use.  Shotwell lets you edit photos non-destructively, organize them by date or tag, and publish them to popular photo sites such as Flickr and Facebook.</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://sk1project.org/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/sk1-header_logo.png" alt="sK1" /></a></td>
+<td class="description">
+<h4><a href="http://sk1project.org/">sK1</a></h4>
+<p>sK1 is an open source vector graphics editor similar to CorelDRAW, Adobe Illustrator, or Freehand. First of all sK1 is oriented for PostScript processing. UniConvertor is a universal vector graphics translator. It uses sK1 engine to convert one format to </p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://www.selapa.net/swatchbooker/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/swatchbooker-logo-100x96.png" alt="SwatchBooker" /></a></td>
+<td class="description">
+<h4><a href="http://www.selapa.net/swatchbooker/">SwatchBooker</a></h4>
+<p>Swatchbooker is a swatch book viewer, convertor and editor. It currently reads color swatches from Adobe aco, QuarkXpress qcl or Scribux xml among more than a dozen other formats. Swatchbooker is able to write in the Adobe ase, Gimp gpl, HTML, OpenOffice.</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://create.freedesktop.org/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/create-logo-100.png" alt="The Create Project" /></a></td>
+<td class="description">
+<h4><a href="http://create.freedesktop.org/">The Create Project</a></h4>
+<p>We catalyze communication and sharing between Free and Open Source creative software communities like Inkscape, Gimp, Scribus, Open Clip Art library, Open Font Library and more. We do Libre Graphics Meeting and share Specifications.</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://gimp.org/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/logo_gimp.png" alt="The Gimp" /></a></td>
+<td class="description">
+<h4><a href="http://gimp.org/">The Gimp</a></h4>
+<p>GIMP is a versatile free bitmap editing tool that accelerates your ability to perform photo retouching, image composition and image authoring. It may be used as a simple paint program, an expert quality photo retouching program, an online batch processing</p>
+</td>
+</tr>
+<tr>
+<td class="image"><a href="http://tango.freedesktop.org/"><img src="http://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/Screenshot-tango-100x56.png" alt="The Tango Desktop Project" /></a></td>
+<td class="description">
+<h4><a href="http://tango.freedesktop.org/">The Tango Desktop Project</a></h4>
+<p>The Tango Desktop Project exists to help create a consistent graphical user interface experience for free and Open Source software. The Tango Desktop Project defines an icon style guideline to which artists and designers can adhere. A sample implementatio</p>
+</td>
+</tr>
+</tr>
+</table>
+<p>This post is also available in: <a href="../logiciels/index-lang=fr.html">French</a></p>
+					</div>
+
+					<div id="pageinfo">
+						<div id="pagerevision">Last edited on April 29, 2011</div>
+						<div class="break"></div>
+					</div>
+
+
+<div class="navigation">
+	<div class="alignright"></div>
+	<div class="alignleft"></div>
+</div>
+
+				</div>
+			</div>
+		</div><!-- end container_lgm -->
+
+
+				<!-- Right Column --> 
+		<div id="right" class="column"> 
+			<div id="right-content"> 
+
+				
+
+				<div id="flickr" class="menu-block">
+				<h3 style="margin-left:0px;"><a href="http://www.flickr.com/groups/776360@N22/pool/">Flickr pool</a></h3>
+				<a href="http://www.flickr.com/photos/66481598@N00/2493607847/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2493607847_c939e99c3b_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2494426008/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2494426008_f0884f04da_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2493606625/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2493606625_1fb7db3395_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2494424606/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2494424606_ddc8d195a2_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2493551123/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2493551123_36b78fe43a_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2493531235/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2493531235_4054af43bf_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2494319130/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2494319130_322cebc264_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2493484593/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2493484593_22a3545c09_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2494302550/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2494302550_4e7d928b46_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2493482841/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2493482841_cedba85452_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2493482383/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2493482383_b3eda18185_s.jpg" /></a><a href="http://www.flickr.com/photos/66481598@N00/2493481817/in/pool-776360@N22/"><img src="http://libregraphicsmeeting.org/2011/flickr/2493481817_aabe22eafd_s.jpg" /></a></div> <!-- div#flickr -->
+
+
+				
+
+				<dl id="twits" class="menu-block">
+				<h3>Identi.ca feed</h3>
+								</dl>
+
+			</div><!-- end right-content --> 
+		</div><!-- end right --> 
+
+		<!-- Center Column --> 
+		<div id="center" class="column"> 
+			<div id="center-content"> 
+
+				<!-- Main menu -->
+				<div class="menu">
+				<div class="menu-program-container"><ul id="menu-program" class="menu"><li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="../about-lgm/index.html">About</a></li>
+<li id="menu-item-166" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-142 current_page_item menu-item-166"><a href="index.html">Projects</a></li>
+<li id="menu-item-716" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716"><a href="../registration/index.html">Registration</a></li>
+<li id="menu-item-853" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-853"><a href="../whos-coming/index.html">Who&#8217;s coming</a></li>
+<li id="menu-item-358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-358"><a href="../submit-talk/index.html">Submit talk</a></li>
+<li id="menu-item-308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-308"><a href="../venue/index.html">Venue</a></li>
+<li id="menu-item-324" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-324"><a href="../accommodation/index.html">Accommodation</a></li>
+<li id="menu-item-207" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207"><a href="../exhibition/index.html">Exhibition</a></li>
+<li id="menu-item-230" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-230"><a href="../program/index.html">Program</a></li>
+<li id="menu-item-814" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-814"><a href="../press/index.html">Press</a></li>
+<li id="menu-item-263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263"><a href="../sponsors/index.html">Sponsors</a></li>
+<li id="menu-item-364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-364"><a href="../contact/index.html">Contact</a></li>
+</ul></div>				</div><!-- end menu -->
+				<!-- End Main Menu --> 
+
+
+				<div id="logos"> 
+					<h3>Partners</h3> 
+<a href="http://www.polymtl.ca/"><img src="../wp-content/themes/lgm/img/partner_polytechnique.png" style="width:70px; margin-top:20px;" /></a> 
+					<a href="http://create.freedesktop.org"><img src="../wp-content/themes/lgm/img/partner_create.png" /></a> 
+			
+					<a href="http://www.francophonie.org/"><img src="../wp-content/themes/lgm/img/OIF-monochrome.png"  style="width:140px;"/></a> 
+					<a href="http://www.icgq.qc.ca/"><img src="../wp-content/themes/lgm/img/partner_icgq.png" /></a> 
+					 
+				</div><!-- logos --> 
+<div id="social">
+<h3>Follow Us</h3>
+<li><a href="http://lanyrd.com/2011/lgm/" title="LGM2011 on Lanyrd Event Tracking Site">Lanyrd</a></li>
+<li><a href="https://blueprints.launchpad.net/sprints/lgm2011" title="Support for a spring of projects using Launchpad like Aiki Framework, Inkscape and Open Clip Art Library.">Launchpad Sprint for LGM2011</a></li>
+<li><a href="http://twitter.com/libregfxmtg" title="Twitter Account for LGM">Twitter</a></li>
+<li><a href="http://identi.ca/lgm" title="LGM on Identi.ca">Identi.ca</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Libre_Graphics_Meeting" title="Wikipedia entry about Libre Graphics Meeting.">Wikipedia</a></li>
+</div>
+
+<br />
+<div id="presshits">
+<h3>In the Press</h3>
+<li><a href="http://chris.raysend.com/2011/05/10/libre-graphics-meeting-2011-montreal" title="Supporting blog post by Christopher Adams (cxadams)">Christopher Adams 2011</a></li>
+<li><a href="http://ryanler.wordpress.com/2011/03/15/libre-graphics-meeting-2011/" title="Ryan Lerch Blog Post 2011">Ryan Lerch Blog Post 2011</a></li>
+<li><a href="http://krita.org/component/content/article/10-news/71-libre-graphics-meeting-2011" title="Post supporting LGM2011 Projects and more">Krita Blog Post 2011</a></li>
+<li><a href="http://libregraphicsworld.org/news.php?readmore=757" title="Libre Graphics World Announces LGM2011">Libre Graphics World Post 2011</a></li>
+<li><a href="http://libregraphicsworld.org/news.php?readmore=754" title="Blog Post About Final Days Accepting Proposals.">Libre Graphics World &quot;Few Days&quot; 2011</a></li>
+</div>
+
+
+			</div><!-- center-content --> 
+		</div><!-- center --> 
+
+
+	</div><!-- end content -->
+</div><!-- end content-container -->
+
+
+
+
+			<div id="footer-container"> 
+				<div class="footer"> 
+
+<a href="http://bugs.launchpad.net/create-project">Found Bugs?</a> <a href="http://blueprints.launchpad.net/create-project">Want Features?</a> <p><a onclick='document.cookie="wpmp_switcher=mobile;path=/;expires=Tue, 01-01-2030 00:00:00 GMT";' href='/2011/projects/?wpmp_switcher=mobile'>Switch to our mobile site</a></p>
+                <div id="lang_sel_footer">
+                    <ul>
+                    	<li><a href="index.html" class="lang_sel_sel"><img src="../wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="en" class="iclflag" />&nbsp;<span  class="icl_lang_sel_current">English</span></a></li>
+                    	<li><a href="../logiciels/index-lang=fr.html"><img src="../wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png" alt="fr" class="iclflag" />&nbsp;<span  class="icl_lang_sel_native">Français</span> <span  class="icl_lang_sel_translated"><span  class="icl_lang_sel_native">(</span>French<span  class="icl_lang_sel_native">)</span></span></a></li>
+                    </ul>
+                </div>				</div><!-- end footer --> 
+
+		    	<div id="bottom-container"> 
+					<div class="bottom">
+					</div> 
+				</div><!-- end bottom-container --> 
+
+			</div><!-- end footer-container -->
+		</div><!-- end page --> 
+	</div><!-- end bla --> 
+</div><!-- end container --> 
+
+
+</body> 
+</html>

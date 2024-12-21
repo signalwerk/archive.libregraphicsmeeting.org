@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:03 GMT",
+    "content-type": "image/png",
+    "content-length": "3413",
+    "connection": "keep-alive",
+    "last-modified": "Sun, 17 Jan 2010 20:59:16 GMT",
+    "etag": "\"d55-47d628277d100\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2010/view/project/logo_oyranos.png"
+}

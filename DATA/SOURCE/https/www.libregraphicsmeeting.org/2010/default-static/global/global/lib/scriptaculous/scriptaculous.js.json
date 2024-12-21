@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:44 GMT",
+    "content-type": "application/javascript",
+    "content-length": "2654",
+    "connection": "keep-alive",
+    "last-modified": "Wed, 10 Mar 2010 21:54:06 GMT",
+    "etag": "\"a5e-481795650bb80\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2010/default-static/global/global/lib/scriptaculous/scriptaculous.js"
+}

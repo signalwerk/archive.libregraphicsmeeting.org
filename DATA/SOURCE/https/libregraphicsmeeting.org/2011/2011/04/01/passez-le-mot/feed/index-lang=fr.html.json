@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:11:29 GMT",
+    "content-type": "text/html",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 10 Nov 2014 13:03:32 GMT"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2011/2011/04/01/passez-le-mot/feed/index-lang=fr.html"
+}

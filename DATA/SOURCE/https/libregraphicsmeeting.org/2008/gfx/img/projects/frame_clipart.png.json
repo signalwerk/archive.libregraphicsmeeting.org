@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:04 GMT",
+    "content-type": "image/png",
+    "content-length": "11455",
+    "connection": "keep-alive",
+    "last-modified": "Sun, 13 Jan 2008 20:15:31 GMT",
+    "etag": "\"2cbf-443a038a4dec0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2008/gfx/img/projects/frame_clipart.png"
+}

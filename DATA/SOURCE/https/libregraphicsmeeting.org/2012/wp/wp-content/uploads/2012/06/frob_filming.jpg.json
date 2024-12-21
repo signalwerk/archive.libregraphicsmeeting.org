@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:34 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "27549",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 10 Nov 2014 13:39:19 GMT",
+    "etag": "\"6b9d-507814a1acfc0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2012/wp/wp-content/uploads/2012/06/frob_filming.jpg"
+}

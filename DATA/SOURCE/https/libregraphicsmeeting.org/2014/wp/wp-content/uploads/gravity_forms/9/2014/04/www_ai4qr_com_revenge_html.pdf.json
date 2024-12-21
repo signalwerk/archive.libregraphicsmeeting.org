@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:56 GMT",
+    "content-type": "application/pdf",
+    "content-length": "49354",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:36:06 GMT",
+    "etag": "\"c0ca-50798b6bfcd80\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2014/wp/wp-content/uploads/gravity_forms/9/2014/04/www_ai4qr_com_revenge_html.pdf"
+}

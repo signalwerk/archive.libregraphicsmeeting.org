@@ -1,0 +1,607 @@
+/*
+Theme Name: LGM
+Description: A nice wordpress-y transmogrification of the previous site
+Author: stresslimitdesign
+Author URL: http://stresslimitdesign.com
+*/
+
+/*  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+		Table of Contents:
+ 
+		Reset
+		General Styles
+			typography
+			links
+			images
+			tables
+			lists
+			forms
+			buttons
+			helpful
+		Layout
+		Section Styles
+
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+
+
+
+/*  --------------------------------------------------------------
+	RESET
+	-------------------------------------------------------------*/
+
+html, body, div, span, a, img,
+h1, h2, h3, h4, h5, h6, hgroup, p,
+dl, dialog, dt, dd, ol, ul, li, 
+abbr, acronym, address, b, big, blockquote, 
+cite, code, del, dfn, em, i, ins, kbd, pre, q, 
+samp, tt, var, small, strong, sub, sup, 
+object, iframe, form, fieldset, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, footer, header, nav, section,
+figure, menu, time, mark, audio, video					{ font-family: inherit; font-size: 100%; font-weight: inherit; font-style: inherit; vertical-align: baseline; white-space: normal; text-align: left; margin: 0; padding: 0; border: 0; outline: 0; background: transparent; }
+textarea, input, select									{ font-family: inherit; font-size: 100%; font-weight: normal; font-style: normal; white-space: normal; text-align: left; margin: 0; padding: 0; }
+article, aside, footer, header, nav, section,
+dialog, figure, hgroup, menu							{ display: block; }
+
+del, ins												{ text-decoration: none; }
+blockquote:before, blockquote:after, q:before, q:after	{ content:''; content:none; }
+ol, ul													{ list-style: none; }
+table													{ border-collapse: separate; border-spacing: 0; background-color: transparent; width: auto; height: auto; }
+:focus													{ outline: 0; }
+
+
+
+html { height:100%; width:100%; }
+body { height:100%; width:100%; font:13px "Lucida Grande",Verdana,sans-serif; color:navy; line-height:16px; }
+
+
+
+/*  --------------------------------------------------------------
+	GENERAL STYLES
+	-------------------------------------------------------------*/
+
+/* typography */
+p { margin:0 0 0.8em 0; }
+strong, b { font-weight:bold; }
+em, i { font-style:italic; }
+blockquote, q { quotes:none; font-size:14px; line-height:18px; }
+sup {font-size: 0.692em; vertical-align: 0.5em; line-height: 0; }
+
+h1,h2,h3,h4,h5 { font-weight:normal; margin:0 0 0.3em 0; padding:0.3em 0 0 0; border-bottom:1px solid #8CACBB; }
+h1 { font-size:28px; line-height:36px; padding-bottom:8px; }
+h2 { font-size:20px; line-height:20px; padding-bottom:10px; }
+h3 { font-size:18px; line-height:22px; padding-bottom:18px; }
+h4 { font-size:14px; line-height:18px; padding-bottom:5px; text-transform:uppercase; }
+h5 { font-size:14px; line-height:20px; padding-bottom:5px; color:#fff; }
+h6 { font-size:11px; line-height:14px; padding-bottom:2px; }
+
+
+h1 { font-size:1.6em; font-weight:bold; }
+h2 { font-size:1.5em; margin-left:1em; margin-top:2.2em; }
+h3 { font-size:1.4em; margin-left:2em; margin-top:1.7em; }
+h4 { font-size:1.2em; margin-left:4em; margin-top:1.3em; }
+
+
+h2 span { font-size: 0.769em; vertical-align: top; }
+h1, h2, h3 { font-size: 1em; line-height: 1.308em; }
+h4 { margin-top: 1.308em; }
+
+.alignleft { float:left; }
+.alignright { float:right; }
+
+
+
+
+
+/* links */
+a			{ text-decoration: none; color: #cc0000; border-bottom: 1px dotted #cc0000; }
+a:hover 	{ border-style: solid; color: #cc0000 !important; }
+a:active	{ outline:none; }
+a			{ -webkit-transition:all 0.2s ease-in-out; -moz-transition:all 0.2s ease-in-out; -o-transition:all 0.2s ease-in-out; }
+a.none, h1 a { border-bottom:none; }
+h1 a 		{ font-size:1.8em; }
+
+/* images */
+img { border:none; }
+div#content span a { border: 0 none; text-decoration: none; }
+
+/* tables */
+table { border-collapse:collapse; border-spacing:0; }
+th { font-weight:bold; }
+td, td img { vertical-align:top; } 
+
+/* lists */
+ul, ol { }
+ul li {}
+ul ul { margin: 0 0 0 1em; }
+ul.bullet li { list-style-position:inside; list-style-type:circle; }
+
+/* forms */
+form { }
+input[type="text"], button[type="submit"] {
+    font-size: 1em;
+    height: 1.308em;
+    line-height: 1.308em;
+    border: 1px solid navy;
+    background-color: white;
+    color: navy;
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    text-align: left;
+    position: relative;
+    top: -2px;
+    bottom: 0;
+    white-space: normal;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+input[type="submit"] { background-color: #cc0000; color:#fff; }
+select { height:26px; padding-right:0; }
+label { display:block; margin-bottom:2px; }
+input[type="checkbox"] { vertical-align:bottom; }
+input:focus { border:1px solid #585858; }
+
+
+/* helpful */
+.centre { text-align:center; }
+.left {}
+.right { float:right !important; }
+.rounded { border-radius:6px; -moz-border-radius:6px; }
+hr { border:none !important; margin:6px 0; background:#eee; height:1px; }
+
+
+
+/*  --------------------------------------------------------------
+	LAYOUT
+	-------------------------------------------------------------*/
+
+div#content .untranslated { background-color:#F5E1CD; }
+
+a.rss { background:url('http://libre-graphics-meeting.org/2011/wp-content/themes/lgm/img/rss.gif') no-repeat left; padding:0.2em 0.2em 0.2em 18px; color:orange; font-weight:bold; text-decoration:underline; }
+div.explain { margin:3em; background-color:#F5E1CD; clear:both; text-align:center; padding:0.9em; -moz-border-radius: 1em; border-radius: 1em; -khtml-border-radius: 1em; }
+div.explain ul, div.explain ol { margin:0px; }
+
+
+iframe { width:100%; height:100%; position:fixed; top:0; left:0;
+	opacity:0.4;
+	filter: alpha(opacity=40);
+}
+/*#bla { position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: auto; margin: 0; padding: 0; }*/
+
+#container_lgm { clear: both; padding-top: 2.616em; }
+
+#page { width:978px; margin:32px auto; position:relative; z-index:2; }
+#header { margin-bottom: 2.616em; }
+#left { float: left; width: 50%;  color: navy; }
+#right { float: right; width: 33.333%; }
+#center { float: right; width: 16.666%; }
+
+#left-content, #center-content, #right-content { margin: 0 1.5em; }
+
+/* footer */
+div.footer { padding-top: 8px; }
+div#footer-container { clear:both; }
+div#footer-container div.footer { text-align:center; }
+div#debug { border:1px solid black; margin-top:3em; padding:0.3em; clear:both; font-size:0.7em; background-color:#F8F8F8; }
+div#exectime { font-size:0.7em; float:right; }
+div#bottom-container div.bottom { font-size:0.8em; text-align:center; }
+
+
+
+/*  --------------------------------------------------------------
+	SECTION STYLES
+	-------------------------------------------------------------*/
+
+/* notices, errors... */
+div.error, div.done { border:1px solid; font-weight:bold; text-align:center; }
+div.error { background-color:pink; border-color:#f00; color:#f00; }
+div.done { background-color:lightgreen; border-color:green; color:green; }
+div.notice { border:1px dashed orange; color:orange; clear:both; padding:0.2em 0.2em 0.2em 25px; margin:0.2em; background:url('http://libre-graphics-meeting.org/2011/wp-content/themes/lgm/img/notice.gif') 5px center no-repeat; }
+
+/* redirection screen */
+div.redirection { border:1px solid #8CACBB; text-align:center; }
+
+/* error screen */
+div.errorexception img, div.errorlock img, div.erroroccurred img { float:left; margin-right:1em; }
+div.errorlock div.errorlockdetails { clear:both; padding:0.4em; text-align:center; background-color:pink; border:1px solid red; -moz-border-radius: 0.5em; border-radius: 0.5em; -khtml-border-radius: 1em; }
+
+/* tables */
+tr.line1 { background-color:#f1f2fe; }
+tr.line2 { background-color:#fff; }
+
+/* table of pages */
+table.tablepages { font-size:0.9em; }
+table.tablepages td { padding:0em 1.6em; text-align:center; }
+table.tablepages td.pagename { text-align:left; }
+
+/* forms */
+div.anwfilter fieldset { background-color:#D3D5FC; border:1px solid #000000; padding:0.3em 0.5em; -moz-border-radius: 0.5em; border-radius: 0.5em; -khtml-border-radius: 1em; }
+div.anwfilter label { padding-right:0.2em; }
+input.intext, select.inselect, input.insubmit, input.inabort, input.inbutton { border:1px solid #000000; }
+input.captcha { width:2.7em; }
+input.insubmit { background-color:lightgreen; }
+input.inbuttonbig { padding:0.4em 0.6em; }
+input.inabort { background-color:pink; }
+input.incomment { background-color:orange; width:25em; }
+input.inpagename { width:23em; background-repeat:no-repeat; background-position:2px center; padding-left:20px; }
+select.languages option { background-repeat:no-repeat; background-position:right; }
+
+/* session nav */
+div#sessionnav { font-size:0.9em; float:right; text-align:right;}
+div#sessionnav select.languages { border:none; }
+a.anwsettings { background-repeat:no-repeat; background-position:right 50%; padding-right:18px; }
+
+/* global nav */
+div#globalnav { height:1.3em; font-size:0.8em; }
+div#globalnav ul { list-style-type:none; margin:0px; padding:0px; }
+div#globalnav ul li { display:inline; margin:0em 0.3em; }
+
+/* pageactions nav */
+div#pageactions { height:1.3em; }
+div#pageactions ul { list-style-type:none; margin:0px; padding:0px; }
+div#pageactions ul li { display:inline; margin:0px 0.2em; }
+div#pageactions a.pageaction { font-size:0.7em; }
+a.action, a.pageaction { background-repeat:no-repeat; }
+a.pageaction { padding:0.1em 0em 0.1em 18px; }
+
+/* language menu */
+#lang_sel_footer { position:absolute; top:0; left:50%; margin-left:200px; z-index:1; border:0; /*background:transparent;*/ }
+#lang_sel_footer ul li a, #lang_sel_footer ul li a:visited { padding: 5px; }
+
+/* top menu */
+/*
+div#topmenu div.menu { position:relative; }
+div#topmenu ul { list-style-type:none; margin:0px; padding:0px; }
+div#topmenu ul li { display:inline; }
+div#topmenu ul li ul { display:none; }
+div#topmenu li.current { font-weight:bold; }
+div#topmenu ul li.current ul { display:block; position:absolute; top:18px; }
+div#topmenu ul li.current ul li { font-weight:normal; }
+div#topmenu ul li.current ul li.current { font-weight:bold; }
+div#topmenu { margin-bottom:10px; }
+*/
+
+div.expandablecontainer, a.expandableswitch { float:right;  }
+a.expandableswitch { display:block; cursor:pointer; width:15px; height:15px; background-repeat:no-repeat; background-position:right center; }
+div.expanded a.expandableswitch { background-image:url('http://libre-graphics-meeting.org/2011/wp-content/themes/lgm/img/unexpand.gif'); }
+div.unexpanded a.expandableswitch { background-image:url('http://libre-graphics-meeting.org/2011/wp-content/themes/lgm/img/expand.gif'); }
+div.unexpanded div.expandablecontainer { display:none; }
+
+/* last changes */
+table.changes td { padding:0px 1.6em; text-align:center; font-size:0.85em; }
+table.changes td.changecomment {}
+div.lastchanges_nav { font-weight:bold; background-color:#FEEFE2; }
+div.lastchanges_nav a { color:black; font-size:12px; text-decoration:none; padding:0px 15px; }
+div.changeinfo { font-size:9px; color:#585858; }
+span.change_similars { font-size:0.8em;font-style:italic; }
+table.changes span.pageid { color:#808080; }
+
+/* settings */
+div.action-settings p { padding-left:6em; clear:both; }
+div.action-settings label { width:18em; float:left; }
+div.action-settings p.submit { padding-top:1.5em; text-align:center; }
+
+/* locks */
+div.lockinfo { background:url('http://libre-graphics-meeting.org/2011/wp-content/themes/lgm/img/lock.gif') no-repeat left; background-color:lightgreen; padding-left:18px; }
+div.lockinfo_expired { background-color:pink; color:#000000; }
+div.lockinfo_expiresoon { background-color:orange; color:#000000; }
+div.lockinfo a.refresh { background:url('http://libre-graphics-meeting.org/2011/wp-content/themes/lgm/img/refresh.gif') no-repeat left; padding-left:16px; }
+
+/* reauth */
+div.reauthinfo img { float:left; margin-right:1em; }
+div.reauthinfo { margin:10px 0; padding:3px; border:1px solid #FF0000; background:pink; }
+div.reauthinfo p { margin:0; padding:0; }
+
+/* misc */
+div.break { clear:both; }
+
+
+
+
+div#pageinfo { background-color:#F8F8F8; margin-top:2em; clear:both; }
+div#pagerevision { font-size:0.8em; }
+div#pagetranslations { font-size:0.7em; float:right; }
+div#pagetranslations ul { list-style-type:none; margin:0px; }
+div#pagetranslations ul li { display:inline; }
+div#pagetranslations ul li a, div#pagetranslations ul li.current { margin-right:1em; padding:0.2em 0em 0.2em 18px; background-repeat:no-repeat; background-position:left 50%; }
+div#pagetranslations ul li.current { font-weight:bold; }
+div.viewcontent { clear:both; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#logo a{ border-style: none; }
+
+.menu {
+    margin-bottom: 2.616em;
+}
+.menu li a {
+    color: navy;
+    text-transform: uppercase;
+    border-color: #cc0000;
+    font-weight: bold;
+}
+.menu li a:hover { border-style: solid; color: #cc0000 !important; }
+/*.menu-block { margin-bottom: 2.616em; }*/
+
+
+
+
+
+#left-content p { margin-bottom: 1.308em; }
+
+
+#twits dt {
+    display: inline;
+    color: #CC0000;
+    /* padding-left: 2em; */
+}
+
+#twits dt span {
+    color: darkgrey;
+    font-weight: normal;
+}
+
+#twits dd { margin-bottom: 1.308em; }
+
+#twits dd a { color: inherit; border-color: navy; }
+#twits dd a:hover { color: inherit; border-color: #C00; }
+
+#logos img {
+    margin-bottom: 1.308em;
+}
+
+#logos a { border-style: none; }
+
+#social ul, #social li, #presshits ul, #presshits li { list-style: none; }
+
+#social li, #presshits li {
+    padding: 1px 0;
+}
+
+.image-link { border-style: none; }
+
+
+
+
+/* About page*/
+.picture-block { margin-bottom: 2.616em; }
+.picture-block img { max-width: 100%; }
+
+.credits {
+    color: darkgrey;
+    font-size: 0.692em;
+}
+
+/*Projects page*/ /* Sponsor page */
+.project { margin-bottom: 2em; }
+.project p ul li, .sponsor p ul li {
+    list-style-position: inside;
+    list-style-type: circle;
+}
+.project ul { margin-top: 0.42em;}
+.project ul, .project li { line-height: 1.725em;}
+.project-links li, .sponsor-links li { display: inline; }
+        
+.project-frame, .sponsor-frame {
+    float: left;
+    width: 33.333%;
+}
+
+.project-description, .sponsor-description {
+    width: 66.666%;
+    float: right;
+}
+.project-frame-content, .sponsor-frame-content {
+    margin: 0 1em 1em 0;
+    font-size: 0.769em;
+    padding-top: 1em;
+}
+.project-description-content, .sponsor-description-content {
+    margin-bottom: 0 1em 1em 0;
+    font-size: 0.769em;
+}
+
+.sponsor { 
+    margin-bottom: 2.616em; 
+}
+.sponsor-category { color: #CC0000 !important; margin: 0;}
+
+
+/* Program page */
+.schedule {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1.8em;
+    
+}
+.schedule tr { border-bottom: 1px dotted #CC0000; }
+.schedule tr:last-child { border: 0; }
+.schedule th {
+    text-align: left;
+    padding: 0.654em 0 0;
+}
+.schedule td {
+    padding: 0.5em 0 0.692em 0;
+}
+caption {text-align: left; font-size: 1em; font-weight: bold; color: #cc0000}
+
+/* People page */
+#list-persons { -moz-column-count: 2; }
+/* Detail Person*/
+#person-projects li { display: inline;}
+
+
+
+/* Locations page */
+#map { border: 1px solid navy; height: 19.5em; margin-top: 1em;}
+
+/* Flickr Widget */
+#flickr p { line-height: 1em; }
+#flickr a { border-style: none; }
+#flickr img { margin: 0 0.308em 0.308em 0; width: 4.923em; height: 4.923em; } /* 4px margin 64 wh */
+
+
+/* action_view.css override */
+/* Overriding anwiki default styles */
+div#pageinfo {
+    background-color: transparent ;
+    clear:both;
+    margin:1.8em 0 2.8em;
+}
+
+div#pagerevision {
+    color:darkgrey;
+    font-size:0.692em;
+	background:#F8F8F8;
+}
+
+div#pagetranslations {
+    float:right;
+    font-size:0.692em;
+}
+
+/* reimplement some styles from anwiki.css (because we descativated it)*/
+div#sessionnav {
+    float:right;
+    text-align:right;
+}
+
+div#sessionnav a {
+    color: navy;
+    border-color:navy;
+}
+
+div#sessionnav a:hover {
+    border-color:#C00;
+}
+
+a.anwsettings {
+    background-position:right 50%;
+    background-repeat:no-repeat;
+    padding-right:18px;
+}
+
+/* Aditional */
+
+#flickr a { color: navy; }
+
+div#content h1, div#content h2, div#content h3, div#content h4, div#content h5 {
+    font-size:1em;
+    margin-left:0;
+    margin-top:0;
+    margin-bottom: 8px;
+    border-bottom-style: none;
+    font-weight:bold;
+    margin:0;
+    padding:0;
+}
+div#content h1:first-child {
+    margin-bottom: 0;
+    background-color: none;
+}
+
+div#content h1,
+div#content h2 {
+    margin-bottom: 10px;
+}
+div#content h1 {
+    color: #CC0000;
+}
+
+.projects {}
+
+.projects .image {
+    width: 100px;
+    padding: 0 10px 10px 0;
+    text-align: center;
+    vertical-align: top;
+}
+
+.projects .description {
+    vertical-align: top;
+}
+
+
+.projects .image a {
+    border: none;
+}
+
+
+/* for posts stuck to top of page */
+.sticky {
+}
+
+/* reimplement some styles from anwiki.css (because we deactivated it)*/
+div#sessionnav {
+    float:right;
+    text-align:right;
+}
+
+div#sessionnav a {
+    color: navy;
+    border-color:navy;
+}
+
+div#sessionnav a:hover {
+    border-color:#C00;
+}
+
+a.anwsettings {
+    background-position:right 50%;
+    background-repeat:no-repeat;
+    padding-right:18px;
+}
+
+/* badges */
+
+a#propose,
+a#donate,
+a#donate2,
+a#join { display: block; position: relative; }
+
+a#propose { left: 150px; width: 147px; height: 147px; }
+a#donate { left: -10px; top: -85px; z-index: 3; width: 139px; height: 139px; }
+a#join { top: -140px; left: 90px; width: 123px; height: 123px; }
+
+a#donate2 {
+	top: -80px;
+	z-index: 3;
+	width: 139px;
+	height: 139px;
+	background: url("http://libre-graphics-meeting.org/2011/view/donate2.png") 0 0; /* Sliding doors CSS technic */
+	border:0;
+}
+
+a#donate2:hover, a#donate2:focus, a#donate2:active {
+	background: url("http://libre-graphics-meeting.org/2011/view/donate2.png") 0 139px; /* Sliding doors CSS technic */
+}

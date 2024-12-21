@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:52 GMT",
+    "content-length": "15016",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 01 Sep 2015 19:00:46 GMT",
+    "etag": "\"3aa8-51eb42aef3745\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2015/call-for-participation"
+}

@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:32 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "15853",
+    "connection": "keep-alive",
+    "last-modified": "Wed, 30 May 2007 21:07:25 GMT",
+    "etag": "\"3ded-431b65e6f3d40\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2007/images/bandeausm.jpg"
+}

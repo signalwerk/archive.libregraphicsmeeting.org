@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:09:35 GMT",
+    "content-type": "text/html",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:38:03 GMT"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2013/r+w/index-Q&A=b0ab0edcaeac917b011b4c8527c8e2c0.html"
+}

@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:03 GMT",
+    "content-type": "image/png",
+    "content-length": "4207",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 17 Feb 2009 22:46:08 GMT",
+    "etag": "\"106f-4632511a7ec00\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2009/skin/banner_swatchbooker.png"
+}

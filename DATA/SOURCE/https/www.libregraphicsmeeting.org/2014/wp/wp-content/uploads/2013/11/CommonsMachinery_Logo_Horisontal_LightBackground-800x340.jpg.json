@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:25 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "57521",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:35:36 GMT",
+    "etag": "\"e0b1-50798b4f60a00\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2014/wp/wp-content/uploads/2013/11/CommonsMachinery_Logo_Horisontal_LightBackground-800x340.jpg"
+}

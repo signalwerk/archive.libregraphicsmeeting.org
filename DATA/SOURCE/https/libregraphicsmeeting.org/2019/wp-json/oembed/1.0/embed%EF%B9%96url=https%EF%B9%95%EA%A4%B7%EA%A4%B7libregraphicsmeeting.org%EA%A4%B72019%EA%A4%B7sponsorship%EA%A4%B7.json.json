@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:46 GMT",
+    "content-type": "application/json",
+    "content-length": "2320",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 31 Dec 2020 12:16:27 GMT",
+    "etag": "\"910-5b7c197ce3cc0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2019/wp-json/oembed/1.0/embed%EF%B9%96url=https%EF%B9%95%EA%A4%B7%EA%A4%B7libregraphicsmeeting.org%EA%A4%B72019%EA%A4%B7sponsorship%EA%A4%B7.json"
+}

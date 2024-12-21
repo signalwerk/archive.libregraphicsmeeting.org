@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:35 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "354",
+    "connection": "keep-alive",
+    "location": "https://libregraphicsmeeting.org/2011/flickr/2494424606_ddc8d195a2_s.jpg"
+  },
+  "status": 301,
+  "uri": "http://libregraphicsmeeting.org/2011/flickr/2494424606_ddc8d195a2_s.jpg",
+  "redirected": "https://libregraphicsmeeting.org/2011/flickr/2494424606_ddc8d195a2_s.jpg"
+}

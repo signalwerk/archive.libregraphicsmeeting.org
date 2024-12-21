@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:59 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "340",
+    "connection": "keep-alive",
+    "location": "https://libregraphicsmeeting.org/2012?lang=de/wp/wp-admin/"
+  },
+  "status": 301,
+  "uri": "http://libregraphicsmeeting.org/2012?lang=de/wp/wp-admin/",
+  "redirected": "https://libregraphicsmeeting.org/2012?lang=de/wp/wp-admin/"
+}

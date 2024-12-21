@@ -1,0 +1,379 @@
+@import url('reset.css');
+
+/* Just add the "cantarell" class to HTML elements you wish to use this typeface */
+
+/*@font-face {font-family:Cantarell; src:url("http://abattis.org/cantarell/Cantarell-Regular.eot");}
+@font-face {font-family:Cantarell; src:url("http://abattis.org/cantarell/Cantarell-Oblique.eot"); font-style:italic;}
+@font-face {font-family:Cantarell; src:url("http://abattis.org/cantarell/Cantarell-Bold.eot"); font-weight:bold;}
+@font-face {font-family:Cantarell; src:url("http://abattis.org/cantarell/Cantarell-BoldOblique.eot"); font-weight:bold; font-style:italic;}
+@font-face {font-family:Cantarell; src:url("http://abattis.org/cantarell/Cantarell-Regular.ttf");}
+@font-face {font-family:Cantarell; src:url("http://abattis.org/cantarell/Cantarell-Oblique.ttf"); font-style:italic;}
+@font-face {font-family:Cantarell; src:url("http://abattis.org/cantarell/Cantarell-Bold.ttf"); font-weight:bold;}
+@font-face {font-family:Cantarell; src:url("http://abattis.org/cantarell/Cantarell-BoldOblique.ttf"); font-weight:bold; font-style:italic;}*/
+
+
+
+
+
+
+html, body {
+    font-size: 13px; 
+}
+
+body, input { font-family:Cantarell, verdana, sans-serif; }
+
+body, * {
+    /* background-image: url("http://libregraphicsmeeting.org/static/css/grid_17px.png");
+    background-repeat: repeat; */
+/*    background-image: url("http://libregraphicsmeeting.org/static/css/fond_bezier.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+*/
+}
+
+input[type="text"], button[type="submit"] {
+    font-size: 1em;
+    height: 1.308em;
+    line-height: 1.308em;
+    /* border: 1px solid #cc0000; */
+    border: 1px solid navy;
+    background-color: white;
+    color: navy;
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    text-align: left;
+    position: relative;
+    top: -2px;
+    bottom: 0;
+    white-space: normal;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+input[type="submit"] {
+    background-color: #cc0000;
+    color: white;    
+}
+
+
+/* Structure */
+
+html, body, iframe {
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: navy;
+}
+
+#background, iframe {
+    position: static;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#bla {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#container_lgm { clear: both; padding-top: 2.616em; }
+
+#page {
+    max-width: 75em;
+    margin: 2.616em;
+}
+#header { margin-bottom: 2.616em; }
+#left {
+    float: left;
+    width: 50%;
+    color: navy;
+}
+
+#right {
+    float: right;
+    width: 33.333%;
+}
+#center {
+    float: right;
+    width: 16.666%;
+}
+
+#left-content, #center-content, #right-content { margin: 0 1.5em; }
+/* End Structure */
+
+/* Visual attributes */
+html {
+    font-size: 13px;
+    color: #cc0000;
+}
+body {
+    font-size: 1em;
+    line-height: 1.308em;
+}
+
+h1 a { border-bottom: none; }
+
+/*h1, h2 {
+    font-size: 2em;
+    line-height: 1.308em;
+}
+*/
+h2 span {
+    font-size: 0.769em;
+    vertical-align: top;
+}
+
+h1, h2, h3 {
+/*    margin-bottom: 1.308em;*/
+    font-size: 1em;
+    line-height: 1.308em;
+}
+
+h4 { margin-top: 1.308em; }
+
+a { text-decoration: none; color: #cc0000; border-bottom: 1px dotted #cc0000; }
+
+a:hover { border-style: solid; color: #cc0000 !important; }
+
+sup {font-size: 0.692em; vertical-align: 0.5em; line-height: 0; }
+
+ul ul { margin: 0 0 0 1em; }
+
+/* TODO: change "class='header'" to "id='header'" */
+/* #header a{ border:0;} */
+#logo a{ border-style: none; }
+
+.menu {
+    margin-bottom: 2.616em;
+}
+.menu-mainitem-title {
+    color: navy;
+    text-transform: uppercase;
+    border-color: #cc0000;
+    font-weight: bold;
+}
+.menu-mainitem-title:hover { border-style: solid; color: #cc0000 !important; }
+
+/*.menu ul a {
+    text-transform: lowercase;
+}
+.menu ul li {
+    font-weight: normal;
+}
+*/
+#left-content p { margin-bottom: 1.308em; }
+
+.menu-block { margin-bottom: 2.616em; }
+
+#twits dt {
+    display: inline;
+    color: #CC0000;
+/*    font-weight: bold;*/
+/*    border-bottom: 1px solid #999;*/
+    padding-left: 2em;
+}
+
+#twits dt span {
+    color: darkgrey;
+    font-weight: normal;
+/*    font-size: 0.692em;*/
+}
+
+#twits dd { margin-bottom: 1.308em; }
+
+#twits dd a { color: inherit; border-color: navy; }
+#twits dd a:hover { color: inherit; border-color: #C00; }
+
+#logos img {
+/*    width: 75%;*/
+    margin-bottom: 1.308em;
+}
+
+#logos a { border-style: none; }
+
+.image-link { border-style: none; }
+
+
+/* About page*/
+.picture-block { margin-bottom: 2.616em; }
+.picture-block img { max-width: 100%; }
+
+.credits {
+    color: darkgrey;
+    font-size: 0.692em;
+}
+
+/*Projects page*/ /* Sponsor page */
+.project { margin-bottom: 2em; }
+/*    .project h4 { padding-left: 2.616em; }*/
+/*    .project h4 { margin-bottom: 1.308em; }*/
+.project p ul li, .sponsor p ul li {
+    list-style-position: inside;
+    list-style-type: circle;
+}
+.project ul { margin-top: 0.42em;}
+.project ul, .project li { line-height: 1.725em;}
+/*    .project-links { padding-left: 2.616em; }*/
+.project-links li, .sponsor-links li { display: inline; }
+        
+.project-frame, .sponsor-frame {
+    float: left;
+    width: 33.333%;
+}
+
+.project-description, .sponsor-description {
+    width: 66.666%;
+    float: right;
+}
+.project-frame-content, .sponsor-frame-content {
+    margin: 0 1em 1em 0;
+    font-size: 0.769em;
+    padding-top: 1em;
+}
+.project-description-content, .sponsor-description-content {
+    margin-bottom: 0 1em 1em 0;
+    font-size: 0.769em;
+}
+
+.sponsor { margin-bottom: 2.616em; }
+.sponsor-category { color: #CC0000 !important; margin: 0;}
+
+/* Program page */
+.schedule {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1.8em;
+    
+}
+.schedule tr { border-bottom: 1px dotted #CC0000; }
+.schedule tr:last-child { border: 0; }
+.schedule th {
+    text-align: left;
+    padding: 0.654em 0 0;
+}
+.schedule td {
+    padding: 0.5em 0 0.692em 0;
+}
+caption {text-align: left; font-size: 1em; font-weight: bold; color: #cc0000}
+
+/* People page */
+#list-persons { -moz-column-count: 2; }
+/* Detail Person*/
+#person-projects li { display: inline;}
+
+
+
+/* Locations page */
+#map { border: 1px solid navy; height: 19.5em; margin-top: 1em;}
+
+/* Flickr Widget */
+#flickr p { line-height: 1em; }
+#flickr a { border-style: none; }
+#flickr img { margin: 0 0.308em 0.308em 0; width: 4.923em; height: 4.923em; } /* 4px margin 64 wh */
+
+
+/* action_view.css override */
+/* Overriding anwiki default styles */
+div#pageinfo {
+    background-color: transparent ;
+    clear:both;
+    margin-top: 2.625em;
+}
+
+div#pagerevision {
+    color:darkgrey;
+    font-size:0.692em;
+}
+
+div#pagetranslations {
+    float:right;
+    font-size:0.692em;
+}
+
+/* reimplement some styles from anwiki.css (because we descativated it)*/
+div#sessionnav {
+    float:right;
+    text-align:right;
+}
+
+div#sessionnav a {
+    color: navy;
+    border-color:navy;
+}
+
+div#sessionnav a:hover {
+    border-color:#C00;
+}
+
+a.anwsettings {
+    background-position:right 50%;
+    background-repeat:no-repeat;
+    padding-right:18px;
+}
+
+/* Aditional */
+
+#flickr a { color: navy; }
+
+div#content h1, div#content h2, div#content h3, div#content h4, div#content h5 {
+    font-size:1em;
+    margin-left:0;
+    margin-top:0;
+    border-bottom-style: none;
+    font-weight:bold;
+    margin:0;
+    padding:0;
+}
+
+/* reimplement some styles from anwiki.css (because we deactivated it)*/
+div#sessionnav {
+    float:right;
+    text-align:right;
+}
+
+div#sessionnav a {
+    color: navy;
+    border-color:navy;
+}
+
+div#sessionnav a:hover {
+    border-color:#C00;
+}
+
+a.anwsettings {
+    background-position:right 50%;
+    background-repeat:no-repeat;
+    padding-right:18px;
+}
+
+/* badges */
+
+a#propose,
+a#donate,
+a#join { display: block; position: relative; }
+
+a#propose { left: 120px; width: 147px; height: 147px; }
+a#donate { top: -80px; z-index: 3; width: 139px; height: 139px; }
+a#join { top: -140px; left: 90px; width: 123px; height: 123px; }
+
+/* a.l.e */
+a.none {
+  border-bottom:none;
+}
+
+

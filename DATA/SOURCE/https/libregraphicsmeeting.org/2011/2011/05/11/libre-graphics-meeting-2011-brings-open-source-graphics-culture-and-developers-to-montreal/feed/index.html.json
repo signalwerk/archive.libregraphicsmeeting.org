@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:01 GMT",
+    "content-type": "text/html",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 10 Nov 2014 13:03:30 GMT"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2011/2011/05/11/libre-graphics-meeting-2011-brings-open-source-graphics-culture-and-developers-to-montreal/feed/index.html"
+}

@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:31 GMT",
+    "content-type": "image/png",
+    "content-length": "19282",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 17 Feb 2009 22:46:07 GMT",
+    "etag": "\"4b52-463251198a9c0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2009/skin/frame_gimp.png"
+}

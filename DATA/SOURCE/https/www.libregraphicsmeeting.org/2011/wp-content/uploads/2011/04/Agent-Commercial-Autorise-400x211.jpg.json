@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:59 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "20446",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 05 Jan 2016 20:27:10 GMT",
+    "etag": "\"4fde-5289c0fe18380\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/Agent-Commercial-Autorise-400x211.jpg"
+}

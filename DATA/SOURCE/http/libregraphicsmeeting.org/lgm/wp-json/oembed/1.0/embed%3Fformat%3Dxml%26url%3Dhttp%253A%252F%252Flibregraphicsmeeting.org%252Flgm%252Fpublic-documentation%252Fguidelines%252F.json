@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:07:11 GMT",
+    "content-type": "text/xml; charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "x-powered-by": "PHP/7.3.31-1~deb10u1",
+    "x-robots-tag": "noindex",
+    "link": "<http://libregraphicsmeeting.org/lgm/wp-json/>; rel=\"https://api.w.org/\"",
+    "x-content-type-options": "nosniff, nosniff",
+    "access-control-expose-headers": "X-WP-Total, X-WP-TotalPages, Link",
+    "access-control-allow-headers": "Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type",
+    "allow": "GET",
+    "vary": "Origin",
+    "cache-control": "max-age=0",
+    "expires": "Sat, 21 Dec 2024 22:07:07 GMT",
+    "x-ua-compatible": "IE=edge"
+  },
+  "status": 200,
+  "uri": "http://libregraphicsmeeting.org/lgm/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flibregraphicsmeeting.org%2Flgm%2Fpublic-documentation%2Fguidelines%2F&format=xml"
+}

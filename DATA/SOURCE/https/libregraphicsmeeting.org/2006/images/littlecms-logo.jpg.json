@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:07:02 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "9264",
+    "connection": "keep-alive",
+    "last-modified": "Wed, 12 Mar 2008 09:30:42 GMT",
+    "etag": "\"2430-4483a173cb480\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2006/images/littlecms-logo.jpg"
+}

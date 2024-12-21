@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:22 GMT",
+    "content-type": "image/png",
+    "content-length": "214765",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 13 May 2021 15:59:15 GMT",
+    "etag": "\"346ed-5c238358670bf\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2021/en/tk-kdenlive5.png"
+}

@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:27 GMT",
+    "content-type": "text/css",
+    "content-length": "36383",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:38:59 GMT",
+    "etag": "\"8e1f-50798c10f92c0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2013/wp/wp-admin/css/colors-fresh-ver=3.4.1.css"
+}

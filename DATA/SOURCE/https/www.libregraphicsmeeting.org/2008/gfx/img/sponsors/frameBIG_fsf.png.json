@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:32 GMT",
+    "content-type": "image/png",
+    "content-length": "2656",
+    "connection": "keep-alive",
+    "last-modified": "Sun, 04 May 2008 12:39:48 GMT",
+    "etag": "\"a60-44c66e919cd00\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2008/gfx/img/sponsors/frameBIG_fsf.png"
+}

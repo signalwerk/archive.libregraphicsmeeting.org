@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:03 GMT",
+    "content-type": "image/svg+xml",
+    "content-length": "47002",
+    "connection": "keep-alive",
+    "last-modified": "Sun, 28 Feb 2010 17:49:54 GMT",
+    "etag": "\"b79a-480acc2933480\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2010/download/LGM_flyer01.svg"
+}

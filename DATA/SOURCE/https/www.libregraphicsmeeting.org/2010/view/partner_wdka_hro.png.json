@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:43 GMT",
+    "content-type": "image/png",
+    "content-length": "3774",
+    "connection": "keep-alive",
+    "last-modified": "Sun, 29 Nov 2009 23:08:02 GMT",
+    "etag": "\"ebe-4798a98bfd880\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2010/view/partner_wdka_hro.png"
+}

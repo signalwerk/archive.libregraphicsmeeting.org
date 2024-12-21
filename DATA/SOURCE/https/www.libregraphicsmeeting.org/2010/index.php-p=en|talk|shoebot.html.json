@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:31 GMT",
+    "content-type": "text/html",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 10 Nov 2014 12:46:05 GMT"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2010/index.php-p=en|talk|shoebot.html"
+}

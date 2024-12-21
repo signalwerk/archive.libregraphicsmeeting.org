@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:35 GMT",
+    "content-type": "image/png",
+    "content-length": "7614",
+    "connection": "keep-alive",
+    "last-modified": "Wed, 10 Nov 2010 20:29:40 GMT",
+    "etag": "\"1dbe-494b8b77a9500\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2010/view/2011.png"
+}

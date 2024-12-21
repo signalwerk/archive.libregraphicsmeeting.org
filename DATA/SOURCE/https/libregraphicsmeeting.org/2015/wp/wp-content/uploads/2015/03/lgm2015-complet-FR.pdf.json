@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:57 GMT",
+    "content-type": "application/pdf",
+    "content-length": "11580",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 01 Sep 2015 19:00:30 GMT",
+    "etag": "\"2d3c-51eb429f2af3b\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2015/wp/wp-content/uploads/2015/03/lgm2015-complet-FR.pdf"
+}

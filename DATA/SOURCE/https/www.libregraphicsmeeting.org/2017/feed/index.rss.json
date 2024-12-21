@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:41 GMT",
+    "content-type": "application/x-rss+xml",
+    "content-length": "7113",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 31 Dec 2020 12:09:00 GMT",
+    "etag": "\"1bc9-5b7c17d298f00\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2017/feed/index.rss"
+}

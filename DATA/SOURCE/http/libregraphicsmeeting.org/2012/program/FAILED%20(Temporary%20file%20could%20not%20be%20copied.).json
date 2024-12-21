@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:59 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "384",
+    "connection": "keep-alive",
+    "location": "https://libregraphicsmeeting.org/2012/program/FAILED%20(Temporary%20file%20could%20not%20be%20copied.)"
+  },
+  "status": 301,
+  "uri": "http://libregraphicsmeeting.org/2012/program/FAILED%20(Temporary%20file%20could%20not%20be%20copied.)",
+  "redirected": "https://libregraphicsmeeting.org/2012/program/FAILED%20(Temporary%20file%20could%20not%20be%20copied.)"
+}

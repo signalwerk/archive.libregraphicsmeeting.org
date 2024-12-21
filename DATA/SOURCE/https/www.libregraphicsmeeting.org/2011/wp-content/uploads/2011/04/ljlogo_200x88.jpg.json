@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:59 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "11876",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 05 Jan 2016 20:27:11 GMT",
+    "etag": "\"2e64-5289c0ff0c5c0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/ljlogo_200x88.jpg"
+}

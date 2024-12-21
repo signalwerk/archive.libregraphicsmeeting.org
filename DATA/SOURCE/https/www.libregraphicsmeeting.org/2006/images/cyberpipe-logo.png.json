@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:08:04 GMT",
+    "content-type": "image/png",
+    "content-length": "6858",
+    "connection": "keep-alive",
+    "last-modified": "Wed, 12 Mar 2008 09:28:12 GMT",
+    "etag": "\"1aca-4483a0e4be300\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2006/images/cyberpipe-logo.png"
+}

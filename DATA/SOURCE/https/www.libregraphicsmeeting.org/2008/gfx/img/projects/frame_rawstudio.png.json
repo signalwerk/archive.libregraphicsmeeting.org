@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:32 GMT",
+    "content-type": "image/png",
+    "content-length": "23340",
+    "connection": "keep-alive",
+    "last-modified": "Sun, 13 Jan 2008 19:32:27 GMT",
+    "etag": "\"5b2c-4439f9ea028c0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2008/gfx/img/projects/frame_rawstudio.png"
+}

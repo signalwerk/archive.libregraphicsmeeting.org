@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:04 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "12467",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 25 Sep 2007 21:06:30 GMT",
+    "etag": "\"30b3-43afc1c6e4180\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2008/gfx/img/wroclaw4.jpg"
+}

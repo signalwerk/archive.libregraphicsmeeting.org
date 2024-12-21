@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:08:04 GMT",
+    "content-type": "text/html",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 10 Nov 2014 13:03:31 GMT"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2011/2011/10/13/le-libre-graphics-meeting-2012-aura-lieu-a-vienne/feed/index-lang=fr.html"
+}

@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:00 GMT",
+    "content-type": "image/svg+xml",
+    "content-length": "21947",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 10 Nov 2014 13:38:08 GMT",
+    "etag": "\"55bb-5078145df7000\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2012/download/lgm_2012_de.svg"
+}

@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:26 GMT",
+    "content-type": "image/png",
+    "content-length": "50449",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 22 Feb 2024 09:00:31 GMT",
+    "etag": "\"c511-611f4acf2b553\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2024/conf-amro.png"
+}

@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:36 GMT",
+    "content-type": "text/css",
+    "content-length": "7152",
+    "connection": "keep-alive",
+    "last-modified": "Sat, 08 Nov 2014 20:17:33 GMT",
+    "etag": "\"1bf0-5075e9e9d9140\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2008/gfx/main.css"
+}

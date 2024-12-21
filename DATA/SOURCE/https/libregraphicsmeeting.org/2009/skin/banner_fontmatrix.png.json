@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:03 GMT",
+    "content-type": "image/png",
+    "content-length": "4305",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 17 Feb 2009 22:46:09 GMT",
+    "etag": "\"10d1-4632511b72e40\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2009/skin/banner_fontmatrix.png"
+}

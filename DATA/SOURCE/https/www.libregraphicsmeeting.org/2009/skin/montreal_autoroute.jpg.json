@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:31 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "34411",
+    "connection": "keep-alive",
+    "last-modified": "Sun, 08 Mar 2009 12:38:55 GMT",
+    "etag": "\"866b-4649acd1095c0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2009/skin/montreal_autoroute.jpg"
+}

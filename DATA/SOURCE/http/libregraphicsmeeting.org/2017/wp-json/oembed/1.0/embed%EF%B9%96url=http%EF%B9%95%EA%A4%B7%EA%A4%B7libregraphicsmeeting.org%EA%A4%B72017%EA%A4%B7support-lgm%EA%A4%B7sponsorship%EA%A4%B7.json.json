@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:47 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "479",
+    "connection": "keep-alive",
+    "location": "https://libregraphicsmeeting.org/2017/wp-json/oembed/1.0/embed%ef%b9%96url=http%ef%b9%95%ea%a4%b7%ea%a4%b7libregraphicsmeeting.org%ea%a4%b72017%ea%a4%b7support-lgm%ea%a4%b7sponsorship%ea%a4%b7.json"
+  },
+  "status": 301,
+  "uri": "http://libregraphicsmeeting.org/2017/wp-json/oembed/1.0/embed%EF%B9%96url=http%EF%B9%95%EA%A4%B7%EA%A4%B7libregraphicsmeeting.org%EA%A4%B72017%EA%A4%B7support-lgm%EA%A4%B7sponsorship%EA%A4%B7.json",
+  "redirected": "https://libregraphicsmeeting.org/2017/wp-json/oembed/1.0/embed%ef%b9%96url=http%ef%b9%95%ea%a4%b7%ea%a4%b7libregraphicsmeeting.org%ea%a4%b72017%ea%a4%b7support-lgm%ea%a4%b7sponsorship%ea%a4%b7.json"
+}

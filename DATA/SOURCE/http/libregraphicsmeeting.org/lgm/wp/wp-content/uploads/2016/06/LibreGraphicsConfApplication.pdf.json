@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 21:57:51 GMT",
+    "content-type": "application/pdf",
+    "content-length": "443416",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 20 Jun 2016 08:21:01 GMT",
+    "accept-ranges": "bytes",
+    "cache-control": "max-age=2592000",
+    "expires": "Mon, 20 Jan 2025 21:57:51 GMT",
+    "x-content-type-options": "nosniff"
+  },
+  "status": 200,
+  "uri": "http://libregraphicsmeeting.org/lgm/wp/wp-content/uploads/2016/06/LibreGraphicsConfApplication.pdf"
+}

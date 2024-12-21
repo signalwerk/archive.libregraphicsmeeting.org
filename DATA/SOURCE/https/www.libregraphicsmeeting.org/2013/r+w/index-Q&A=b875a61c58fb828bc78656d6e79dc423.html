@@ -1,0 +1,88 @@
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Libre Graphics Questions & Answers</title>
+<script language="javascript">
+
+var initialQtxt;
+var qgreen, agreen = false;
+
+function rawurlencode(str) {
+  return encodeURIComponent(str).replace(/!/g, '%21').replace(/'/g, '%27').replace(/\(/g, '%28').
+  replace(/\)/g, '%29').replace(/\*/g, '%2A').replace(/~/g, '%7E');
+}
+
+window.onresize = function(event) {
+  document.getElementById('answer').style.paddingTop =   (58+((document.getElementById('controls').offsetTop) + 50) - (document.getElementById('answer').offsetTop))  +'px';
+}
+
+function textAreaChanged(elem) {
+
+	if(elem.name == 'question') {
+		if(rawurlencode(elem.value) == initialQtxt) {
+			document.getElementById('questionbg').style.backgroundColor = 'transparent';
+			document.getElementById('allanswers').style.display = 'block';
+			qgreen = false;
+		} else {
+			document.getElementById('questionbg').style.backgroundColor = '#00a651';
+			document.getElementById('write').src = 'i/free/png/interface/write_over.png';
+			document.getElementById('read').style.backgroundImage = 'url(i/free/png/interface/read.png)';
+			document.getElementById('allanswers').style.display = 'none';
+			qgreen = true;
+		}
+	}
+	else if(elem.name == 'answer') {
+		if(elem.value == "") {
+			document.getElementById('answerbg').style.backgroundColor = 'transparent';
+			agreen = false;
+		} else {
+			document.getElementById('answerbg').style.backgroundColor = '#00a651';
+			document.getElementById('write').src = 'i/free/png/interface/write_over.png';
+			document.getElementById('read').style.backgroundImage = 'url(i/free/png/interface/read.png)';
+			agreen = true;
+		}
+	}
+	
+	if(!qgreen && !agreen) {
+		document.getElementById('write').src = 'i/free/png/interface/write.png';
+		document.getElementById('read').style.backgroundImage = 'url(i/free/png/interface/read_over.png)';
+	}
+}
+
+</script>
+
+<link rel="stylesheet" href="q+a.css" type="text/css" />
+</head>
+<body onLoad='onresize();'>
+
+
+<div class='komplett'><form action='post.php' name='voicesfromthepublic' method='post' accept-charset='utf-8'><div id='questionbg' class='questionbg'></div><textarea name='question' onkeyup='textAreaChanged(question)' spellcheck='false' autocomplete='off' class='question'>Do you want a operating system to have named its commands after digestive noises: awk, grep, fsck, nroff, ...</textarea><script>initialQtxt = 'Do%20you%20want%20a%20operating%20system%20to%20have%20named%20its%20commands%20after%20digestive%20noises%3A%20awk%2C%20grep%2C%20fsck%2C%20nroff%2C%20...'; </script><div id='answerbg' class='answerbg'></div><textarea name='answer' id='answer' onkeyup='textAreaChanged(answer)' spellcheck='false' autocomplete='off' class='answer'></textarea><div class='people'><img src='i/free/png/people/L-002-h102b103l103z001_L.png' class='talkL' /><img src='i/free/png/people/R-002-h107l102b104z001_R.png' class='talkR'  /></div><div id='allanswers' class='allanswers'><div id='answerx' class='answer_3'>Well, I don't know an operating system that doesn't do that. So you're out of luck unfortunately.
+</div><div id='answerx' class='answer_1'>I've never thought of it that way before. But yes, I still do.
+</div><div id='answerx' class='answer_1'>alias always-be-polite-and-talk-proper-even-when-non-sensical='awk'
+</div><div id='answerx' class='answer_3'>The digestive noises you mentioned were actually called after those commands.
+</div><div id='answerx' class='answer_0'>Would you rather have memory address to call? It's just symbolics, up to you to map it up.
+</div><div id='answerx' class='answer_3'>Groff!
+</div><div id='answerx' class='answer_0'>Body noises is better than software from a company that tries to patent everything.
+</div><div id='answerx' class='answer_2'>Hahaha, so funny.
+</div><div id='answerx' class='answer_3'>Allow the user to tailor the environment.
+</div><div id='answerx' class='answer_1'>Bon appetit! 
+</div><div class='pluslinks'><a href='http://www.forkable.eu/generators/r+w/o/__/b875a61c58fb828bc78656d6e79dc423.html' />see posters for this conversation</a><br/><a href='http://www.forkable.eu/generators/r+w/o/__/SEEME' />see all posters</a><br/><a href='o/free/voice/index.html' />see all conversations</a><br/>(<a href='o/free/pdf/people/L-002-h102b103l103_L.pdf' />*</a>|<a href='o/free/pdf/people/R-002-h107l102b104_R.pdf' />*</a>)</div></div>
+<div class='controls' id='controls'>
+	<a href='index.html' class='read' id='read'></a>
+	<input type='image' id='write' name='submit to the pool' src='i/free/png/interface/write.png' class='write'/>
+</div>
+</form>
+</div>
+
+
+<div class='bottom'>
+	<div class='logo'>
+		<a href='../index.html'><img src='http://www.forkable.eu/generators/r+w/o/press/rgb/LGM-Logo+15_Solo_120px.png' class='logo'/></a>
+	</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:09:26 GMT",
+    "content-type": "image/png",
+    "content-length": "21160",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 12 Mar 2019 17:19:20 GMT",
+    "etag": "\"52a8-583e8e3bcb600\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2016/wp/wp-content/uploads/2016/04/how_to_connect_with_wicd-208x300.png"
+}

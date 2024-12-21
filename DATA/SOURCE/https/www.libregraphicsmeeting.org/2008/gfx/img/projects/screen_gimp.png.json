@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:32 GMT",
+    "content-type": "image/png",
+    "content-length": "127156",
+    "connection": "keep-alive",
+    "last-modified": "Fri, 10 Aug 2007 13:10:00 GMT",
+    "etag": "\"1f0b4-4375817a23a00\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2008/gfx/img/projects/screen_gimp.png"
+}

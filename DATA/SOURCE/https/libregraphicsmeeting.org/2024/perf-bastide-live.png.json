@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:11:21 GMT",
+    "content-type": "image/png",
+    "content-length": "26554",
+    "connection": "keep-alive",
+    "last-modified": "Wed, 24 Apr 2024 09:04:46 GMT",
+    "etag": "\"67ba-616d3f64fa23a\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2024/perf-bastide-live.png"
+}

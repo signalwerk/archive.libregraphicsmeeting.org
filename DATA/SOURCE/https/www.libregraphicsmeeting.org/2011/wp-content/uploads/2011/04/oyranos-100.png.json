@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:58 GMT",
+    "content-type": "image/png",
+    "content-length": "6115",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 05 Jan 2016 20:18:21 GMT",
+    "etag": "\"17e3-5289bf0599d40\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/oyranos-100.png"
+}

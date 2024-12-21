@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:41 GMT",
+    "content-type": "application/javascript",
+    "content-length": "7200",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:35:15 GMT",
+    "etag": "\"1c20-50798b3b59ac0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2014/wp/wp-includes/js/jquery/jquery-migrate.min-ver=1.2.1.js"
+}

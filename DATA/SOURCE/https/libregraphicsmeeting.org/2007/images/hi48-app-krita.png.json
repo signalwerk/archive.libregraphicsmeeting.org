@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:04 GMT",
+    "content-type": "image/png",
+    "content-length": "2587",
+    "connection": "keep-alive",
+    "last-modified": "Wed, 30 May 2007 21:07:19 GMT",
+    "etag": "\"a1b-431b65e13afc0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2007/images/hi48-app-krita.png"
+}

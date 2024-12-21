@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:28 GMT",
+    "content-type": "image/png",
+    "content-length": "21686",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 10 Nov 2014 13:39:16 GMT",
+    "etag": "\"54b6-5078149ed0900\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2012/wp/wp-content/uploads/2012/01/OIF-logographe-400x198-300x148.png"
+}

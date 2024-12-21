@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:09:40 GMT",
+    "content-type": "image/gif",
+    "content-length": "216",
+    "connection": "keep-alive",
+    "last-modified": "Sat, 20 Nov 2004 20:16:24 GMT",
+    "etag": "\"d8-3e9564c23b600\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/icons/back.gif"
+}

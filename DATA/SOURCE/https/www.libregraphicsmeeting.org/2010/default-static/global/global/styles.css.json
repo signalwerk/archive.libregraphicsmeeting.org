@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:44 GMT",
+    "content-type": "text/css",
+    "content-length": "7129",
+    "connection": "keep-alive",
+    "last-modified": "Sat, 08 Nov 2014 20:17:41 GMT",
+    "etag": "\"1bd9-5075e9f17a340\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2010/default-static/global/global/styles.css"
+}

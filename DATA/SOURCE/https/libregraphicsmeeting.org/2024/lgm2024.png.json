@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:09:43 GMT",
+    "content-type": "image/png",
+    "content-length": "94499",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 18 Dec 2023 14:24:23 GMT",
+    "etag": "\"17123-60cc981ac4451\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2024/lgm2024.png"
+}

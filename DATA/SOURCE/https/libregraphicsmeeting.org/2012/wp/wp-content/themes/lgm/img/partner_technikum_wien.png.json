@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:34 GMT",
+    "content-type": "image/png",
+    "content-length": "7699",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 10 Nov 2014 13:39:20 GMT",
+    "etag": "\"1e13-507814a2a1200\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2012/wp/wp-content/themes/lgm/img/partner_technikum_wien.png"
+}

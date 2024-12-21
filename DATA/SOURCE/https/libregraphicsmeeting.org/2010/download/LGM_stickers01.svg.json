@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:03 GMT",
+    "content-type": "image/svg+xml",
+    "content-length": "13374",
+    "connection": "keep-alive",
+    "last-modified": "Sun, 28 Feb 2010 15:54:43 GMT",
+    "etag": "\"343e-480ab26a5b6c0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2010/download/LGM_stickers01.svg"
+}

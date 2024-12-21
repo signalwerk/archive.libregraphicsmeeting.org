@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:31 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "27829",
+    "connection": "keep-alive",
+    "last-modified": "Sun, 08 Mar 2009 12:39:05 GMT",
+    "etag": "\"6cb5-4649acda92c40\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2009/skin/montreal_train_station.jpg"
+}

@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:11:20 GMT",
+    "content-type": "application/pdf",
+    "content-length": "3565",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:42:30 GMT",
+    "etag": "\"ded-50798cda32d80\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2013/r+w/o/free/pdf/people/R-002-h108b101l102_R.pdf"
+}

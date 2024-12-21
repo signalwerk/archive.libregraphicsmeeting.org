@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:22 GMT",
+    "content-type": "image/png",
+    "content-length": "158981",
+    "connection": "keep-alive",
+    "last-modified": "Fri, 30 Apr 2021 14:54:52 GMT",
+    "etag": "\"26d05-5c131cb51f905\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2021/en/tk-end.png"
+}

@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:32 GMT",
+    "content-type": "image/png",
+    "content-length": "12554",
+    "connection": "keep-alive",
+    "last-modified": "Sun, 18 May 2008 20:34:15 GMT",
+    "etag": "\"310a-44d872ba4ffc0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2008/gfx/img/projects/frame_ufraw.png"
+}

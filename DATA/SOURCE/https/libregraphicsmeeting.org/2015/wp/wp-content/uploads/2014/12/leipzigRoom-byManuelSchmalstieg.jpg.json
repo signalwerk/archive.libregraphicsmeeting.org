@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:51 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "101070",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 01 Sep 2015 18:58:03 GMT",
+    "etag": "\"18ace-51eb42132674a\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2015/wp/wp-content/uploads/2014/12/leipzigRoom-byManuelSchmalstieg.jpg"
+}

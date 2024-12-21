@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:32 GMT",
+    "content-type": "text/html",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:33:27 GMT"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2014/9th-annual-lgm-leipzig/index.html"
+}

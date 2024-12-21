@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:40 GMT",
+    "content-type": "text/css",
+    "content-length": "14474",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 31 Dec 2020 12:16:27 GMT",
+    "etag": "\"388a-5b7c197ce3cc0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2019/wp/wp-content/themes/madrigal-master/framework/front-end/js/video/video-js.min%EF%B9%96ver=5.1.1.css"
+}

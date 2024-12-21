@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:32 GMT",
+    "content-type": "image/png",
+    "content-length": "2469",
+    "connection": "keep-alive",
+    "last-modified": "Sun, 16 Mar 2008 00:16:44 GMT",
+    "etag": "\"9a5-44882d1769300\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2008/gfx/img/sponsors/linuxmagazine.png"
+}

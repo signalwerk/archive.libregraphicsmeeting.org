@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:58 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "350",
+    "connection": "keep-alive",
+    "location": "https://libregraphicsmeeting.org/2012/?lang=de/wp/uber-uns/contact/"
+  },
+  "status": 301,
+  "uri": "https://libregraphicsmeeting.org/2012?lang=de/wp/uber-uns/contact/",
+  "redirected": "https://libregraphicsmeeting.org/2012/?lang=de/wp/uber-uns/contact/"
+}

@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:00 GMT",
+    "content-type": "text/html",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 10 Nov 2014 13:38:58 GMT"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2012/2012/05/the-lgm-has-started/feed/index.html"
+}

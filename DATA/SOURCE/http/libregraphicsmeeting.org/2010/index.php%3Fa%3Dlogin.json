@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:59 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "337",
+    "connection": "keep-alive",
+    "location": "https://libregraphicsmeeting.org/2010/index.php?a=login"
+  },
+  "status": 301,
+  "uri": "http://libregraphicsmeeting.org/2010/index.php?a=login",
+  "redirected": "https://libregraphicsmeeting.org/2010/index.php?a=login"
+}

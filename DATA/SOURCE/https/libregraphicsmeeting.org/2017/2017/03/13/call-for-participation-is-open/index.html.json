@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:05:30 GMT",
+    "content-type": "text/html",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 31 Dec 2020 12:09:00 GMT"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2017/2017/03/13/call-for-participation-is-open/index.html"
+}

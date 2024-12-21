@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:04 GMT",
+    "content-type": "image/png",
+    "content-length": "8375",
+    "connection": "keep-alive",
+    "last-modified": "Sun, 02 Mar 2008 19:52:47 GMT",
+    "etag": "\"20b7-447799d9141c0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2008/gfx/img/projects/frame_oyranos.png"
+}

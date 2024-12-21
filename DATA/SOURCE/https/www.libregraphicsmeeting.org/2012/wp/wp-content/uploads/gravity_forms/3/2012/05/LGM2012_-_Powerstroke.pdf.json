@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:27 GMT",
+    "content-type": "application/pdf",
+    "content-length": "782434",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 10 Nov 2014 13:39:29 GMT",
+    "etag": "\"bf062-507814ab36640\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2012/wp/wp-content/uploads/gravity_forms/3/2012/05/LGM2012_-_Powerstroke.pdf"
+}

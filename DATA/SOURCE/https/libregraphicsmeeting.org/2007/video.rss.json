@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:04 GMT",
+    "content-type": "application/x-rss+xml",
+    "content-length": "8802",
+    "connection": "keep-alive",
+    "last-modified": "Fri, 01 Jun 2007 07:40:55 GMT",
+    "etag": "\"2262-431d355d92fc0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2007/video.rss"
+}

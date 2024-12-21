@@ -1,0 +1,83 @@
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Libre Graphics Questions & Answers</title>
+<script language="javascript">
+
+var initialQtxt;
+var qgreen, agreen = false;
+
+function rawurlencode(str) {
+  return encodeURIComponent(str).replace(/!/g, '%21').replace(/'/g, '%27').replace(/\(/g, '%28').
+  replace(/\)/g, '%29').replace(/\*/g, '%2A').replace(/~/g, '%7E');
+}
+
+window.onresize = function(event) {
+  document.getElementById('answer').style.paddingTop =   (58+((document.getElementById('controls').offsetTop) + 50) - (document.getElementById('answer').offsetTop))  +'px';
+}
+
+function textAreaChanged(elem) {
+
+	if(elem.name == 'question') {
+		if(rawurlencode(elem.value) == initialQtxt) {
+			document.getElementById('questionbg').style.backgroundColor = 'transparent';
+			document.getElementById('allanswers').style.display = 'block';
+			qgreen = false;
+		} else {
+			document.getElementById('questionbg').style.backgroundColor = '#00a651';
+			document.getElementById('write').src = 'i/free/png/interface/write_over.png';
+			document.getElementById('read').style.backgroundImage = 'url(i/free/png/interface/read.png)';
+			document.getElementById('allanswers').style.display = 'none';
+			qgreen = true;
+		}
+	}
+	else if(elem.name == 'answer') {
+		if(elem.value == "") {
+			document.getElementById('answerbg').style.backgroundColor = 'transparent';
+			agreen = false;
+		} else {
+			document.getElementById('answerbg').style.backgroundColor = '#00a651';
+			document.getElementById('write').src = 'i/free/png/interface/write_over.png';
+			document.getElementById('read').style.backgroundImage = 'url(i/free/png/interface/read.png)';
+			agreen = true;
+		}
+	}
+	
+	if(!qgreen && !agreen) {
+		document.getElementById('write').src = 'i/free/png/interface/write.png';
+		document.getElementById('read').style.backgroundImage = 'url(i/free/png/interface/read_over.png)';
+	}
+}
+
+</script>
+
+<link rel="stylesheet" href="q+a.css" type="text/css" />
+</head>
+<body onLoad='onresize();'>
+
+
+<div class='komplett'><form action='post.php' name='voicesfromthepublic' method='post' accept-charset='utf-8'><div id='questionbg' class='questionbg'></div><textarea name='question' onkeyup='textAreaChanged(question)' spellcheck='false' autocomplete='off' class='question'>Why are there so many GNU/Linux distributions? How do you choose one of them?</textarea><script>initialQtxt = 'Why%20are%20there%20so%20many%20GNU%2FLinux%20distributions%3F%20How%20do%20you%20choose%20one%20of%20them%3F'; </script><div id='answerbg' class='answerbg'></div><textarea name='answer' id='answer' onkeyup='textAreaChanged(answer)' spellcheck='false' autocomplete='off' class='answer'></textarea><div class='people'><img src='i/free/png/people/L-002-h103b101l102z002_L.png' class='talkL' /><img src='i/free/png/people/R-002-h106b101l102z001_R.png' class='talkR'  /></div><div id='allanswers' class='allanswers'><div id='answerx' class='answer_2'>There are so many GNU/Linux distributions because nobody is preventing you from taking the code and making your own.
+</div><div id='answerx' class='answer_2'>Here's a thought: start with the ten most popular one on DistroWatch, do a little casual comparison, and settle on what seems most interesting to you. As a designer, probably nothing will suit you better than the Fedora Design Suite (a "spin" of Fedora).
+</div><div id='answerx' class='answer_2'>Personally, I read about it, hear about it, maybe watch a video about it. And I ask about it, as well. What would be the best way to find out about the distribution you would want to use?
+</div><div id='answerx' class='answer_3'>Choose one if it doesn't work. Choose another one to get the best one you need to try.
+</div><div id='answerx' class='answer_3'>Choose life.
+</div><div class='pluslinks'><a href='http://www.forkable.eu/generators/r+w/o/__/37b60e1a5617ecebd4644562871c585b.html' />see posters for this conversation</a><br/><a href='http://www.forkable.eu/generators/r+w/o/__/SEEME' />see all posters</a><br/><a href='o/free/voice/index.html' />see all conversations</a><br/>(<a href='o/free/pdf/people/L-002-h103b101l102_L.pdf' />*</a>|<a href='o/free/pdf/people/R-002-h106b101l102_R.pdf' />*</a>)</div></div>
+<div class='controls' id='controls'>
+	<a href='index.html' class='read' id='read'></a>
+	<input type='image' id='write' name='submit to the pool' src='i/free/png/interface/write.png' class='write'/>
+</div>
+</form>
+</div>
+
+
+<div class='bottom'>
+	<div class='logo'>
+		<a href='../index.html'><img src='http://www.forkable.eu/generators/r+w/o/press/rgb/LGM-Logo+15_Solo_120px.png' class='logo'/></a>
+	</div>
+</div>
+
+
+</body>
+</html>

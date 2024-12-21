@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:11:16 GMT",
+    "content-type": "application/pdf",
+    "content-length": "3433",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:42:38 GMT",
+    "etag": "\"d69-50798ce1d3f80\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2013/r+w/o/free/pdf/people/L-002-h104b102l104_L.pdf"
+}

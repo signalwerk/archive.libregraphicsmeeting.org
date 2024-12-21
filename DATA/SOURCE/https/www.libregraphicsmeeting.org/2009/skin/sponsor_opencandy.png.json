@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 22:06:31 GMT",
+    "content-type": "image/png",
+    "content-length": "6584",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 16 Apr 2009 21:02:51 GMT",
+    "etag": "\"19b8-467b26314f4c0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2009/skin/sponsor_opencandy.png"
+}
