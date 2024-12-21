@@ -56,15 +56,14 @@ export async function parseHtml({ job, events, data, metadata }, next) {
     absoluteUrl($("base")?.attr("href") || "", job.data.uri) || job.data.uri;
 
   function processElements(configurations) {
-    configurations.forEach(({ selector, attribute }) => {
+    configurations.forEach(({ selector, attribute, splitOnComma = false }) => {
       $(selector).each((index, element) => {
         let originalValue = $(element).attr(attribute);
 
         if (!originalValue) return;
 
-        job.log(`Processing URLs for ${JSON.stringify({ originalValue })}`);
-        // Split attribute value if it contains multiple URLs (like srcset)
-        const urls = originalValue.includes(",")
+        // Use splitOnComma flag from configuration
+        const urls = splitOnComma
           ? originalValue.split(",").map((part) => part.trim().split(/\s+/)[0])
           : [originalValue];
 
@@ -78,14 +77,6 @@ export async function parseHtml({ job, events, data, metadata }, next) {
             _parent: job.id,
           };
 
-          // job.log(
-          //   `Created request for resource: ${fullUrl} ${JSON.stringify({
-          //     originalValue,
-          //     urls,
-          //     url,
-          //     baseUrl,
-          //   })}`,
-          // );
           job.log(`Created request for resource: ${fullUrl}`);
           events?.emit("createRequestJob", requestJobData);
         });
@@ -101,9 +92,9 @@ export async function parseHtml({ job, events, data, metadata }, next) {
 
     // Media elements
     { selector: "img", attribute: "src" },
-    { selector: "img", attribute: "srcset" },
+    { selector: "img", attribute: "srcset", splitOnComma: true },
     { selector: "source", attribute: "src" },
-    { selector: "source", attribute: "srcset" },
+    { selector: "source", attribute: "srcset", splitOnComma: true },
     { selector: "video", attribute: "src" },
     { selector: "video", attribute: "poster" },
     { selector: "audio", attribute: "src" },
