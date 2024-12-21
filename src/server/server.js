@@ -7,11 +7,11 @@ import { Server as SocketIOServer } from "socket.io";
 // import { dirname } from "path";
 import { Queue } from "./queue.js";
 import {
-  addFetchJob,
   isDomainValid,
   isAlreadyRequested,
 } from "./processor/request.js";
-import { parseHtml } from "./processor/parse.js";
+import { addParseJob, parseHtml } from "./processor/parse.js";
+import { addFetchJob } from "./processor/fetch.js";
 import { isCached, fetchHttp } from "./processor/fetch.js";
 import { Cache } from "./utils/Cache.js";
 import { RequestTracker } from "./utils/RequestTracker.js";
@@ -89,7 +89,12 @@ fetchQueue
   })
   .use(async (job, next) => {
     await fetchHttp({ job, cache, events }, next);
+  })
+  // process parse job
+  .use(async (job, next) => {
+    await addParseJob({ job, events }, next);
   });
+  
 
 parseQueue.use(async (job, next) => {
   const { data, metadata } = cache.get(job.data.cache.key);
@@ -108,7 +113,8 @@ parseQueue.use(async (job, next) => {
     }
     case "text/css":
     case "application/javascript":
-//
+    //
+    case "text/plain":
     case "image/png":
     case "image/jpeg":
     case "image/jpg":
@@ -128,9 +134,13 @@ parseQueue.use(async (job, next) => {
     case "application/rdf+xml":
     case "application/rss+xml":
     case "application/rdf+xml":
+    case "application/x-rss+xml":
     case "application/xml":
     case "application/x-www-form-urlencoded":
-    case "application/x-shockwave-flash": {
+    case "application/x-shockwave-flash":
+    case "application/epub+zip": 
+    //
+    {
       break;
     }
     default: {

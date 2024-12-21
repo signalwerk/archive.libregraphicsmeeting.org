@@ -1,5 +1,28 @@
 import axios from "axios";
 
+export async function addFetchJob({ job, events }, next) {
+  try {
+    // Add validation logic here for the URI or other request parameters
+    if (!job.data.uri) {
+      throw new Error("No URI provided");
+    }
+
+    // Create a fetch job with the validated data
+    const fetchJobData = {
+      ...job.data,
+      _parent: job.id,
+    };
+
+    // Emit event to create new fetch job
+    events?.emit("createFetchJob", fetchJobData);
+
+    job.log(`Created fetch job request`);
+    next();
+  } catch (error) {
+    throw new Error(`Error: ${error.message}`);
+  }
+}
+
 export async function fetchHttp({ job, cache, events }, next) {
   let uri = job.data.uri;
   let isCached = job.data.cache.status === "cached";
@@ -7,13 +30,6 @@ export async function fetchHttp({ job, cache, events }, next) {
 
   if (isCached) {
     job.log(`skip fetch, file already in cache`);
-    // Add parse job here for cached files
-    const parseJobData = {
-      ...job.data,
-      _parent: job.id,
-      cache: job.data.cache,
-    };
-    events?.emit("createParseJob", parseJobData);
     return next();
   }
 
@@ -90,7 +106,6 @@ export async function fetchHttp({ job, cache, events }, next) {
     _parent: job.id,
     cache: job.data.cache,
   };
-  events?.emit("createParseJob", parseJobData);
   next();
 }
 

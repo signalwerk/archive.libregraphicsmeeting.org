@@ -1,11 +1,34 @@
 import * as cheerio from "cheerio";
 import { absoluteUrl } from "../utils/absoluteUrl.js";
 
+export async function addParseJob({ job, events }, next) {
+  try {
+    // Add validation logic here for the URI or other request parameters
+    if (!job.data.uri) {
+      throw new Error("No URI provided");
+    }
+
+    // Create a parse job with the validated data
+    const parseJobData = {
+      ...job.data,
+      _parent: job.id,
+    };
+
+    // Emit event to create new parse job
+    events?.emit("createParseJob", parseJobData);
+
+    job.log(`Created parse job request`);
+    next();
+  } catch (error) {
+    throw new Error(`Error: ${error.message}`);
+  }
+}
+
 export async function parseHtml({ job, events, data, metadata }, next) {
   const $ = cheerio.load(data);
 
   let baseUrl =
-    absoluteUrl($("base")?.attr("href"), job.data.uri) || job.data.uri;
+    absoluteUrl($("base")?.attr("href") || "", job.data.uri) || job.data.uri;
 
   function processElements(configurations) {
     configurations.forEach(({ selector, attribute }) => {
@@ -29,12 +52,15 @@ export async function parseHtml({ job, events, data, metadata }, next) {
             _parent: job.id,
           };
 
-          job.log(
-            `Created request for resource: ${fullUrl} ${JSON.stringify({
-              originalValue,
-              urls,
-            })}`,
-          );
+          // job.log(
+          //   `Created request for resource: ${fullUrl} ${JSON.stringify({
+          //     originalValue,
+          //     urls,
+          //     url,
+          //     baseUrl,
+          //   })}`,
+          // );
+          job.log(`Created request for resource: ${fullUrl}`);
           events?.emit("createRequestJob", requestJobData);
         });
       });
