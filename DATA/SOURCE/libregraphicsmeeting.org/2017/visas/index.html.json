@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:09:12 GMT",
+    "content-type": "text/html",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 31 Dec 2020 12:09:00 GMT"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2017/visas/index.html"
+}

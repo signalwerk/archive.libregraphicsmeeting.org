@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 15:47:28 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "248192",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 22 Feb 2024 09:30:58 GMT",
+    "etag": "\"3c980-611f519da58c9\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2024/ppp.jpg"
+}

@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 15:51:19 GMT",
+    "content-type": "application/javascript",
+    "content-length": "683",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 31 Dec 2020 12:14:22 GMT",
+    "etag": "\"2ab-5b7c1905ae380\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2018/wp/wp-content/themes/twentyseventeen/assets/js/skip-link-focus-fix%EF%B9%96ver=1.0.js"
+}

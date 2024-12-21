@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 17:16:02 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "249",
+    "connection": "keep-alive",
+    "location": "https://www.libregraphicsmeeting.org/lgm/",
+    "cache-control": "max-age=0",
+    "expires": "Sat, 21 Dec 2024 17:16:02 GMT"
+  },
+  "status": 301,
+  "uri": "https://www.libregraphicsmeeting.org/lgm",
+  "redirected": "https://www.libregraphicsmeeting.org/lgm/"
+}

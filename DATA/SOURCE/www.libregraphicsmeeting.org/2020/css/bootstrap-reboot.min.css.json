@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:07:26 GMT",
+    "content-type": "text/css",
+    "content-length": "4021",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 04 Nov 2019 15:22:32 GMT",
+    "etag": "\"fb5-59686e27203ff\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2020/css/bootstrap-reboot.min.css"
+}

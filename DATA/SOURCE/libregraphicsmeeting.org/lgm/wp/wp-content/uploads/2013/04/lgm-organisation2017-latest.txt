@@ -1,0 +1,139 @@
+Notes from last year: https://titanpad.com/lgm-organisation2016
+
+mailinglists: 
+general/public: 
+libre-graphics-meeting@lists.freedesktop.org
+https://lists.freedesktop.org/mailman/listinfo/libre-graphics-meeting
+
+for organisers (and organizers), moderated:
+Libre-graphics-meeting-org@lists.freedesktop.org
+https://lists.freedesktop.org/mailman/listinfo/libre-graphics-meeting-org
+
+-- all organis/zers read the general mailinglist, so no need to crosspost
+
+irc #lgm (Freenode)
+
+titanpad: http://lgm.titanpad.com :-)
+
+everybody should be on
+libre-graphics-meeting@lists.freedesktop.org
+
+everybody involved in the organisation in
+libre-graphics-meeting-org@lists.freedesktop.org
+
+Funding team
+Requires coherent definition, branding? Define difference between a meeting and a conference
+
+ *  Nate Willis
+ *  Frank Trampe
+ *  João
+ *  Raniere Silva
+
+Local team
+visa, invitations, everything else, translations
+how about people understanding/speaking english?
+
+ * João
+ * Cadunico
+ * Alexandre Rezende
+ * Gulherme Razgriz
+ *  
+ *  
+ *  
+
+Program/content team
+write call, publish, help process of receiving/processing proposals (e-mails, clarifications), selection, puzzle program, feed back to presenters and web team + State fo the libre graphics.
+
+ * Femke
+ * Pippin
+ * ale
+ * Phil
+ * Simon (state of libre graphics)
+ * Ale González
+ * Yorik
+
+Video-archiving, documentation
+have our own camera etc. (there is one from GIMP), a larger team, to have a set-up separate from the technical set-up. Feed from the projector
+Call for volunteers; it is a key thing!
+Also care for pictures etc. produced
+
+ * ville ?
+ * chris
+
+Communication
+Video recording is key. Not very well structured at the moment. Very related to local team. For now mainly social media
+Write on this year, to announce the next.
+Guerilla gardening, how to make sure different voices are there
+
+ * Julien
+ * João, Raniere and local have already some contacts ready
+ * Nate (writes about LGM every year)
+ * Pat David
+ * Frank
+ * Simon (as SLG responsible)
+ * Liam Quin
+
+The team will meet within the next few weeks and deliver a year-round communications plan.
+Possibly plan monthly (ish?) meetings to consider opportunities to publicize LG to a wider audience.
+The communications team will consider ways to improve outreach to software projects.
+Define a "Mission Statement" or "Vision Statement" for the meeting. (per Julien).
+
+
+"Branding" (design? please?)
+Should this actually be the responsibility of the local organisation? A difference between global and a local branding? Consistency and the price of it?
+
+On-line infrastructure
+
+ * Ale
+ * Manuel
+ * (lara removed student participants after the meeting and reconsidering their involvement)
+
+
+LGM 2018 - call for locations
+Create coherence? The problem of the communication black hole post-lgm
+
+local?
+
+Other
+subtitling videos (helps indexing!)
+ * translating webcontent
+ * communicate with teams (SLG)
+ * a manifesto! (a definition, a mission statement, a vision statement)
+ *  
+ *  
+
+
+LGM-single-sentence-Manifestos
+LGM is  a congregation of artists, developers and enthusiasts for graphics, video, design and publishing free software, engaged in sharing ideas, work and teaching. 
+
+LGM is about tools to create Libre culture. (Ale Gonzãlez)
+
+an understanding that the tools we use, shape the artistic work we create
+
+A meeting of people involved with developing & using libre graphics to do professional quality work, with a focus on showing what can be done and on building what can't.
+
+LGM is the meeting where you find representants of all FLOSS related with arts.
+
+A tribe of diverse voices and interests gathering around talks, workshops and empowering activities related to visual, graphics, processes and tools all published under open licenses.
+
+
+Libre Graphics Meeting provides an opportunity for artists, designers, and engineers to exchange ideas and to demonstrate products so as to make each more capable of building, creating, and communicating.
+
+LGM is the annual, in-person gathering of users and developers of the free-software graphics community, where the people involved exchange ideas, collaborate, and share what their work for the ultimate enrichment of the community as a whole. (Nate Willis)
+
+LG(M) is a meeting place - of people and projects; online through the year and physically manifest somewhere on the planet once a year. Where directions and voice operators, dreamers and crafters of cultural; visual digital media technologies converge or collide.
+
+an annual release of a year's pent-up joy, excitement and agony which those who don't use F/LOSS could never understand :)
+
+An occasion to expermiment with possible connections between creative  users, creative developers and creative activists caring about Free, libre and open source software.
+
+The Libre Graphics Meeting is a gathering of people from the software and art spectrum. It fosters communication and the exchange of ideas with a strong focus on free software tools. (Simon)
+
+intersections in free software. an extensible meeting of many perspectives - in, on and around - the implementation, culture and practice of FLOSS
+
+The one time in the year when programmers, developers and users of for free and open source software for graphics are leaving their virtual communities and make huge progresses. (ale)
+
+A place to meet and hangout with the people who are involved with/ make, cool tools that I use,  and complain about all the things I want to get fixed.
+
+LGM is a collection of artists, designers, and developers coming together based on principles of Free Software (and (Open) Culture) to share their work and experiences with each other and the public. (patdavid)
+

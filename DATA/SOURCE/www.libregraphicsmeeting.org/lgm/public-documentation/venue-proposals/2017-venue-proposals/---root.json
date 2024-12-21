@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:07:39 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "x-powered-by": "PHP/7.3.31-1~deb10u1",
+    "link": "<https://www.libregraphicsmeeting.org/lgm/wp-json/>; rel=\"https://api.w.org/\", <https://www.libregraphicsmeeting.org/lgm/wp-json/wp/v2/pages/384>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://www.libregraphicsmeeting.org/lgm/?p=384>; rel=shortlink",
+    "cache-control": "max-age=0",
+    "expires": "Sat, 21 Dec 2024 19:07:33 GMT",
+    "x-ua-compatible": "IE=edge",
+    "x-content-type-options": "nosniff"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/lgm/public-documentation/venue-proposals/2017-venue-proposals/"
+}

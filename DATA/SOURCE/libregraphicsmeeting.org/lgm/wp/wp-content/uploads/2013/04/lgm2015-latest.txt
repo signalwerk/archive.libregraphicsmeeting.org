@@ -1,0 +1,126 @@
+Saturday April 5 2014 10:00 SR5
+
+Sarup Banskota, ginger coons, Sirko Kemter, Femke Snelting, Martin Owens, Michael Schumacher, Peter Westenberg, Ale Rimoldi, Louis Desjardins, Gregory Pitman, Fridrich Strba, Valek Filippov
+
+AGENDA
+
+Learning from 2014
+- short report by Sirko
+@ Create clear job descriptions for each team. Allow members to be more indepent, based on job descriptions
+@ It was not clear how many people would join: gambling on catering, size of social event
+To do: figure out a system of making the system more obliging? payment online ?
+
+suggestions: 
+- ask a very small entry fee (10 euro / dollar ), an investment engages people to come. 
+goal would not be to earn money, but to have a system that lowers unregistered / faulty registrations
+- improve communication of informal donations for lunch. it was there but not clear for all ..
+
+concerns: is open for all policy not damaged ?
+- lower the error margin by countng the registrations in time (two weeks ahead)
+
+- We should review the forms (co-speakers mentioned in comment box)
+- Dietary restrictions are an issue: can we collect information beforehand to make sure food needs are taken care of?
+- Infrastructure needs: how can we make sure the registration system lets us do everything we need?
+- Current registration system is brittle. Needs to be more robust.
+- Asking designers to improve the website's usability
+- Food is important! Having food on site makes it easier to keep people in the building.
+- People can be cost-averse: Making clear what participants will get for their money, if there is money involved, is important
+
+Teams and description of tasks
+
+notes: 
+@ Too strict division between teams and tasks can be counter-productive
+@ Teams were headless, responsibilities are not always clear - per team a contact person is needed who is informed about the teams' work
+@ Too many mailinglists ... 
+@ delay of respsonse
+@ cross team communication: regular irc meetings can help diminish the mountain of mails .. get a meetbot (https://wiki.debian.org/MeetBot) to record meetings and distribute minutes
+@ having clearer agendas for meetings and expectations before meetings start
+
+Community management, 
+
+ * General Purpose organisers:
+   * Louis 
+   * Back up person replacing Femke (pippin?)
+
+ * Code of Conduct
+   * Tasks:
+   * People:
+     * Michael
+     * Femke
+     * ginger
+     * Susan
+     * Steve
+     * Jon
+
+ * Video archiving
+   * Tasks: taking care of team, equipment, webspace, recording conference, annotations, encoding etc.
+   * People: 
+     * Peter / Constant
+     * Larisa
+
+ * Local team (to be decided after this LGM)
+   * Tasks: 
+     * physical logistics, 
+     * location, 
+     * technique
+     * catering, coffee, tea, ... dietary restrictions
+     * Printing, signage
+     * Local distribution of PR materials
+     * venue selection
+     * technical details (mics, batteries, projection, technicians, power, power bars, extension cords, connectors, internet)
+     * liasing with the venue, making clear of what expectations are at the venue
+     * Visa support (check: there is a manual  for free software conferences ... Floss-manuals?), making clear what expectations and timelines are around getting visas
+
+ * Communication 
+   * Tasks: 
+     * Timing is crucial: press releases etc
+     * Social media, 
+     * communication of the event
+     * banners & posters
+     * collect experiences about how to communicate the content of the conference.
+   * People:
+     * ginger: communication strategy, press release strategy, media kit, etc. Will take responsibility for Communication team if not the local organizer.
+     * Fridrich Strba
+     * Pat David: Blogging (needs input and info from all the teams)
+     * Michael
+     * Sarup: blogging
+     * Louis: updating the website, doing some press release work
+     * Greg: proofreading, etc.
+     * Julien: social media (ex: https://www.rebelmouse.com/lgm2014/ )
+
+ * Sponsoring
+   * Tasks: 
+     * Finances, 
+     * reimbursement, 
+     * sponsors
+   * People
+     * Louis
+     * Nate? (ask if he is willing to continue the role)
+
+ * Programme/content
+   * Tasks: 
+     * Write open call
+     * Select submissions
+     * Organise programme (in dialogue with local organisers)
+     * Take care of State of Libre Graphics slides
+   * People:
+     * Femke (NO general caretaker in 2015, she will look out for a replacement)
+     * Ale
+     * Larisa (if London does not get picked)
+     * pippin (-> FS: confirmed)
+     * Local (not ginger)
+
+ * Online infrastructure
+   * Tasks: website, mailinglist?
+     * registration, (note: reflect on forms and procedures on time)
+     * mailinglists. Review LGM - Create - private lists
+     * meetbot install (see above)
+     * feeds from various social media platforms
+   * People:
+     * Michael (technical input)
+     * Sarup
+     * Ale (provided that the local organizing team is willing to use the infrastructure in place)
+     * Manuel Schmalstieg (WordPress)
+     * Camille Bissuel
+     * Martin Owens
+

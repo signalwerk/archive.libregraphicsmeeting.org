@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 17:16:06 GMT",
+    "content-type": "application/x-rss+xml",
+    "content-length": "16394",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 31 Dec 2020 12:14:22 GMT",
+    "etag": "\"400a-5b7c1905ae380\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2018/es/author/ale-2/feed/index.rss"
+}

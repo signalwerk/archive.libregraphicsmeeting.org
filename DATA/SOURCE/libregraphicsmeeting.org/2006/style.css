@@ -1,0 +1,153 @@
+/* LGM style sheet */
+
+html, body {
+  background: white;
+  color: black;
+  font-family: helvetica,arial,lucida,sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+#menu {
+  float: left;
+  width: 150px;
+  margin: 20px;
+}
+
+table.att {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+.att td,th {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+#menu ul {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+#menu li ul {
+  padding-left: 25px;
+}
+
+#menu li {
+  color: #6E7FA6;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+#menu .menubottom {
+  text-align: right;
+  margin-right: 20px;
+}
+
+#contents {
+  margin-left: 200px;
+  border-left: 1px solid gray;
+  padding: 20px;
+}
+
+.header {
+  text-align:center;
+  font-style: italic;  
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 30px;
+}
+
+.header p {
+  color: #6E7FA6;
+}
+
+div#contents:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+#footer {
+  clear: both;
+  border-top: 1px solid gray;
+  padding-right: 10px;
+  padding-top: 5px;
+  text-align: right;
+}
+
+.projectlinks li {
+  list-style-image: url(images/puce.png);
+  list-style-type: circle;
+}
+
+.logos {
+  text-align: center;
+}
+
+img {
+  border: 0px;
+}
+
+.logos a, .logos img {
+  margin: 0px 1em 0px 1em;
+}
+
+a {
+  color: #6E7FA6;
+  text-decoration: none
+}
+
+a:hover {
+  color: #528FAB;
+}
+
+
+h2 {
+  font-style: italic;
+  font-size: x-large;
+  color: #777;
+}
+
+h3 {
+  color: gray;
+  font-weight: 300;
+  margin-bottom: 12px;
+  padding-left: 6px;
+}
+
+h4 {
+  color: gray;
+  font-weight: 300;
+  margin-top: 4px;
+}
+
+hr {
+  height: 1px;
+  width: 40px;
+  color: #6E7FA6;
+}
+
+#contents p {
+  margin: 20px;
+}
+
+.newsitem {
+  margin-bottom: 50px;
+}
+
+.newsitem p {
+  padding-left: 20px;
+}
+
+#contents p.author {
+  margin-bottom: 0px;
+}
+
+#contents p.date {
+  margin-top: 0px;
+  font-style: italic;  
+  color: #6E7FA6;
+}
+

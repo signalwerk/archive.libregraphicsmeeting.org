@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 15:45:13 GMT",
+    "content-type": "application/javascript",
+    "content-length": "421",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 25 Sep 2007 21:06:20 GMT",
+    "etag": "\"1a5-43afc1bd5ab00\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2008/gfx/js/validate_form.js"
+}

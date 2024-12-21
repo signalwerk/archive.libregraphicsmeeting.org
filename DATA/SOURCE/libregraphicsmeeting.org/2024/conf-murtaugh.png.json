@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 15:47:28 GMT",
+    "content-type": "image/png",
+    "content-length": "61188",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 22 Feb 2024 08:33:59 GMT",
+    "etag": "\"ef04-611f44e08bf09\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2024/conf-murtaugh.png"
+}

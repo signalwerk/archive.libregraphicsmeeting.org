@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:07:28 GMT",
+    "content-type": "image/png",
+    "content-length": "4417",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 05 Jan 2016 20:18:22 GMT",
+    "etag": "\"1141-5289bf068df80\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2011/wp-content/uploads/2011/04/logo_krita1.png"
+}

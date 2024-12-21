@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 15:45:15 GMT",
+    "content-type": "text/css",
+    "content-length": "1853",
+    "connection": "keep-alive",
+    "last-modified": "Wed, 12 Mar 2008 07:57:01 GMT",
+    "etag": "\"73d-44838c8330d40\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "http://libregraphicsmeeting.org/2006/style.css"
+}

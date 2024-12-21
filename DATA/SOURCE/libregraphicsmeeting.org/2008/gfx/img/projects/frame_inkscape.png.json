@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 15:45:12 GMT",
+    "content-type": "image/png",
+    "content-length": "17371",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 25 Sep 2007 21:06:38 GMT",
+    "etag": "\"43db-43afc1ce85380\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2008/gfx/img/projects/frame_inkscape.png"
+}

@@ -1,0 +1,271 @@
+ENGLISH VERSION HERE, FRENCH VERSION BELOW
+
+Organisation meeting notes for 2015: https://titanpad.com/lgm2015
+ 
+Present: Fridrich Strba, Dave Crossland, Phil Langley, pippin, Simon Budig, Michael Schumacher, Nate Willis, Femke Snelting, LarisaBlasic, Liam Quinn, ginger coons, Antonio Roberts, Peter Westenberg, Julien Deswaef (on-line)
+ 
+Teams and description of tasks
+ 
+Funding team
+Local team
+Program/content team
+Video-archiving
+Communication
+On-line infrastructure
+ 
+People on organising teams are also involved in discussing and deciding the next location for LGM2017, on behalf of/in dialogue with LGM community (spring 2015)
+ 
+notes:
+@ Too strict division between teams and tasks can be counter-productive
+@  Teams were headless, responsibilities are not always clear - per team a  contact person is needed who is informed about the teams' work
+@ Too many mailinglists ... 
+@ delay of response
+@ cross team communication: regular irc meetings can help diminish the mountain of mails .. get a meetbot (https://wiki.debian.org/MeetBot) to record meetings and distribute minutes
+@ having clearer agendas for meetings and expectations before meetings start
+ 
+This year evaluation (short)
+Julien did a lot -- not a lot of people on the team. Comm with local media fell between.
+ 
+Some updates for next year:
+- next year Furtherfield and others are involved
+- students will be volunteers 
+- media arts and design students will show work
+- larisa is doing a pilot workshop in june to see if/how participation of students is possible. 
+- question is how to deal with lodging, is it possible to use students housing? she is looking into it.
+- LGM 2016 In the easter break which opens opportunities 
+ 
+- Date (unconfirmed): 15 - 20 april
+Lara will confirm in two months!
+ 
+- Antonio and lara are busy with two smaller events that will gain interest for lgm: booksprint , floss manuals ... Meeting between Phil, Lara and Antonio to brainstorm
+ 
+- For London: Staying north of harrow can reduce costs for those staying in Airbnb. 
+ 
+Funding team
+People: Nate Willis, Louis Desjardins (reimbursements 2015), ... anyone else?
+ 
+Tasks: 
+ * Make financial structure LGM sustainable
+ * Arrange reimbursements
+ * Find sponsors
+ 
+Budget clarity will help when talking to potential sponsors. Louis has knowledge of where the money goes, and with this and we can now structure such knowledge to raise funds for next year. We need to restructure the way finances work.
+ 
+Funding for 2015 will (probably) not cover all travel cost applications. 
+ 
+- remark : budgets should be fixed earlier, 
+- rethink the reimbursements structure, transparancy. Make it a goal to be a bit further in the general structure.
+ 
+Nate (re)starts a team and task list.
+ 
+Julien: Jumping in with a link to a financial transparency report from the SFPC (as inspiration?) https://github.com/SFPC/finance-and-administration/tree/master/01
+ 
+Helpful to have letters of invitation, specifics needs to be look into by local team
+ 
+Local team
+People: Larisa Blasic (Antonio Roberts, Phil Langley)
+ 
+Suggestion: Regular IRC meetings, starting in November. Initiated by Larisa, with clear agenda so that others can help out with organising.
+ 
+Tasks: 
+ * communicating to/with teams (program, communication, funding)
+ * physical logistics
+ * location
+ * technique
+ * catering, coffee, tea, ... dietary restrictions
+ * Printing, signage
+ * Local distribution of PR materials
+ * venue selection
+ * technical details (mics, batteries, projection, technicians, power, power bars, extension cords, connectors, internet)
+ * liasing with the venue, making clear of what expectations are at the venue
+ * Visa support (check: there is a manual  for free software conferences ... Floss-manuals?), making clear what expectations and timelines are around getting visas
+ * Letters of invitation may be required; the local team should be able to provide the letters and (hopefully) get the language correct -- e.g., clarify that the event is a "hobbyist conference" and thus does not necessitate a work visa.
+ * Make website ok/visual profile of the edition
+ * needs to have minimal budget to operate
+ * One of the things that means is that we need a couple of
+ * people willing to serve as points of contact if someone attending has an
+ * issue or concern with regard to code of conduct issues.
+ * Making sure Code of Conduct is enacted: 
+   * Appoint contact people and provide them with a SIM card/phone
+   * Make sure local human rights are known
+ 
+Content team
+People: Pippin, ginger, Phil Langley, Femke, Ale
+ 
+suggestions:
+- Ask for topics to be discussed, and proposals for speakers on those topics (no guarantees we get them!)
+- What about keynote speakers confirmed help interest from sponsors, from potential participants ...
+- The reminder for the submission deadline in fosdem was helpful 
+so: deadline after fosdem would help
+- we ask for an LGM booth in fosdem (Femke, Peter take care of that)
+check deadlne, fill it with stuff ... Simon willing to jump in
+ 
+Tasks: 
+ * Write open call
+ * Select submissions
+ * Organise programme (in dialogue with local organisers)
+ * Take care of State of Libre Graphics slides
+ 
+Video archiving
+People: Nobody volunteered yet
+ 
+ * Tasks: taking care of team, equipment, webspace, recording conference, annotations, encoding etc.
+ 
+Communication
+People: Julien Deswaef, Liam Quin (minimal help), ... anybody else?
+ 
+Tasks:
+ * other libre graphics events promote LGM
+ * Timing is crucial: press releases etc
+ * Social media
+ * communication of the event
+ * banners & posters
+ * collect experiences about how to communicate the content of the conference.
+ * webdesign program (in collaboration with local team + program team) + program printout
+ 
+Online infrastructure
+People: Ale (others on 2015 team: Manuel Schmalstieg (WordPress), Camille Bissuel, Martin Owens ... continue:??)
+ 
+Tasks:
+ * website, mailinglist?
+ * registration (note: reflect on forms and procedures on time)
+ * mailinglists. Review LGM - Create - private lists
+ * meetbot install (see above)
+ * feeds from various social media platforms
+
+FRENCH VERSION
+
+Réunion d'organisation Note pou r 2015: https://titanpad.com/lgm2015
+
+Présents: Fridrich Strba, Dave Crossland, Phil Langley, reinette, Simon Budig, Michael Schumacher, Nate Willis, Femke Snelting , L arisa B la zi c, L iam Quinn, le gingembre co o ns, An tonio Roberts, P eter Westenberg, Julien Deswaef (en ligne)
+
+Équipes ET Description de Tâche s
+
+équipe de financement
+Équipe locale
+équipe du programme / contenu
+Vidéo-archivage
+Communication
+Infrastructures en ligne
+
+Les gens sur l'organisation des equipes are also impliqués Dans la discussion et de Décider de la mise en place Prochaine versez LGM2017, au nom de / Dans le Dialogue avec la Communauté LGM (printemps 2015)
+
+notes:
+@ Division Trop stricte Entre les Équipes et les Tâches can be contre-productif
+@ equipes décapités de ÉTAIENT, les Responsabilités ne are pas Toujours claires - par équipe Une personne de contact avec is Nécessaire, Qui est Informé sur le travail des Équipes
+@ Trop de listes de diffusion ... 
+@ Délai de réponse
+@ Croix communication d'équipe: des réunions régulières irc peuvent aider à diminuer la montagne de mails .. obtenir un meetbot ( https://wiki.debian.org/MeetBot) pour enregistrer des réunions et distribuer minutes
+@ Ayant ordres du jour clairs pour les réunions et les attentes avant le début des réunions
+
+Cette évaluation de l'année (court)
+Julien a fait beaucoup - pas beaucoup de personnes de l'équipe. Comm avec les médias locaux a diminué entre.
+
+Certaines mises à jour pour l'année prochaine:
+- Prochaine vous un r Furtherfield et d'autres sont impliqués
+- Étudiants w malades soient bénévoles 
+- Arts médiatiques et les étudiants en design montreront travail
+- Larisa fait un atelier pilote en juin pour voir si / comment la participation des étudiants est possible. 
+- Question est comment faire face à l'hébergement, est-il possible d'utiliser les étudiants logement? elle est à la recherche en elle.
+- LGM 2016, dans le congé de Pâques qui ouvre des opportunités 
+
+- Date (non confirmée): 15 au 20 avril
+Lara confirmera en deux mois!
+
+- Antonio et Lara sont occupés avec deux petits événements qui gagneront l'intérêt pour LGM: booksprint, manuels de soie ... Rencontre entre Phil, Lara et Antonio à un remue-méninges
+
+- Pour Londres: Rester  au nord de herse peut réduire les coûts pour ceux qui séjournent dans Airbnb. 
+
+équipe de financement
+Personnes: Nate Willis, Louis Desjardins (2015) remboursements, ... quelqu'un d'autre?
+
+Tâches: 
+ * Assurez structure financière LGM durable
+ * Disposer remboursements
+ * Trouver des sponsors
+
+Budget clarté aidera quand  parler potentiels  sponsors. Louis ha de la connaissance de l'endroit où l'  argent va, et avec cela et nous pouvons maintenant structurer ces connaissances pour recueillir des fonds pour l'année prochaine. Nous devons restructurer la façon dont les finances travaillent .
+
+Financement f ou 2015 sera (probablement) pas couvrir toutes les applications de coûts de Voyage. 
+
+- Remarque: les budgets devraient être fixés plus tôt, 
+- Repenser la structure des remboursements, transparance. Faire un objectif d'être un peu plus loin dans la structure générale.
+
+Nate (re) commence une liste d'équipe et la tâche.
+
+Julien: (? Comme source d'inspiration) Saut avec un lien vers un rapport de transparence financière de la CEPF https://github.com/SFPC/finance-and-administration/tree/master/01
+
+Utile d'avoir des lettres d'invitation, les spécificités doit être regarder dans par l'équipe locale
+
+Équipe locale
+Personnes: Larisa Blazic ( Antonio Roberts, Phil Langley )
+
+Suggestion: réunions IRC régulières, à partir de Novembre. Initié par Larisa, avec ordre du jour clair afin que d'autres peuvent aider à l'organisation.
+
+Tâches: 
+ * communiquer à / avec des équipes (programme, communication, financement)
+ * la logistique physique
+ * emplacement
+ * technique
+ * restauration, café, thé, ... restrictions alimentaires
+ * Impression, signalétique
+ * La distribution locale de matériaux de PR
+ * sélection lieu
+ * détails techniques (micros, batteries, projection, techniciens, puissance, barres d'alimentation, rallonges, connecteurs, internet)
+ * assurer la liaison avec le lieu, ce qui rend claire de ce que sont les attentes sur le site
+ * le soutien de Visa (vérifier: il ya un manuel pour les conférences de logiciels libres ... bourre manuels?), ce qui rend ce visas attentes et les échéanciers sont autour Mise en clair
+ * Des lettres d'invitation peuvent être nécessaires; l'équipe locale devrait être en mesure de fournir les lettres et (espérons-le) obtenir la bonne langue - par exemple, préciser que l'événement est une "conférence de amateur" et donc ne nécessite pas un visa de travail.
+ * Faire site profil ok / visuel de l'édition
+ * doit avoir budget minimal pour fonctionner
+ * Une des choses que cela signifie est que nous avons besoin d'un couple de
+ * des gens prêts à servir de points de contact si quelqu'un assister a un
+ * question ou préoccupation à l'égard de code de problèmes de conduite.
+ * Making sure Code of Conduct is enacted: 
+   * Appoint contact people and provide them with a SIM card/phone
+   * Make sure local human rights are known
+
+Content team
+People: Pippin, ginger, Phil Langley, Femke, Ale
+
+suggestions:
+- Ask for topics to be discussed, and proposals for speakers on those topics (no guarantees we get them!)
+- What about keynote speakers confirmed help interest from sponsors, from potential participants ...
+- The reminder for the submission deadline in fosdem was helpful 
+so: deadline after fosdem would help
+- we ask for an LGM booth in fosdem (Femke, Peter take care of that)
+check deadlne, fill it with stuff ... Simon willing to jump in
+
+Tasks: 
+ * Write open call
+ * Select submissions
+ * Organise programme (in dialogue with local organisers)
+ * Take care of State of Libre Graphics slides
+
+Video archiving
+People: Nobody volunteered yet
+
+ * Tasks: taking care of team, equipment, webspace, recording conference, annotations, encoding etc.
+
+Communication
+People: Julien Deswaef, Liam Quin (minimal help), ... anybody else?
+Loraine Furter (website program + print, banners & posters, map … trailer if we want)
+
+Tasks:
+ * other libre graphics events promote LGM
+ * Timing is crucial: press releases etc
+ * Social media
+ * communication of the event
+ * banners & posters
+ * collect experiences about how to communicate the content of the conference.
+ * webdesign program (in collaboration with local team + program team) + program printout
+
+Online infrastructure
+People: Ale (others on 2015 team: Manuel Schmalstieg (WordPress), Camille Bissuel, Martin Owens ... continue:??)
+
+Tasks:
+ * website, mailinglist?
+ * registration (note: reflect on forms and procedures on time)
+ * mailinglists. Review LGM - Create - private lists
+ * meetbot install (see above)
+ * feeds from various social media platforms
+

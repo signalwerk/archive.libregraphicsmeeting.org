@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 15:51:20 GMT",
+    "content-type": "image/png",
+    "content-length": "133331",
+    "connection": "keep-alive",
+    "last-modified": "Fri, 30 Apr 2021 14:54:50 GMT",
+    "etag": "\"208d3-5c131cb304042\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2021/en/dm-terminedia.png"
+}

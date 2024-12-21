@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 16:08:08 GMT",
+    "content-type": "text/plain; charset=utf-8",
+    "content-length": "5012",
+    "connection": "keep-alive",
+    "last-modified": "Wed, 06 May 2015 13:33:27 GMT",
+    "accept-ranges": "bytes",
+    "cache-control": "max-age=2592000",
+    "expires": "Mon, 20 Jan 2025 16:08:08 GMT",
+    "x-content-type-options": "nosniff"
+  },
+  "status": 200,
+  "uri": "http://libregraphicsmeeting.org/lgm/wp/wp-content/uploads/2013/04/lgm2015-latest.txt"
+}

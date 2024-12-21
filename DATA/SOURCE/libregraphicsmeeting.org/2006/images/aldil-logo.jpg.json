@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 15:45:15 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "5086",
+    "connection": "keep-alive",
+    "last-modified": "Wed, 12 Mar 2008 09:28:09 GMT",
+    "etag": "\"13de-4483a0e1e1c40\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "http://libregraphicsmeeting.org/2006/images/aldil-logo.jpg"
+}
