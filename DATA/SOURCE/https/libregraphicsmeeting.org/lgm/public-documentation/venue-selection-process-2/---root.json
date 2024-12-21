@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:40:49 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "x-powered-by": "PHP/7.3.31-1~deb10u1",
+    "x-pingback": "https://libregraphicsmeeting.org/lgm/wp/xmlrpc.php",
+    "link": "<https://libregraphicsmeeting.org/lgm/wp-json/>; rel=\"https://api.w.org/\", <https://libregraphicsmeeting.org/lgm/wp-json/wp/v2/pages/138>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://libregraphicsmeeting.org/lgm/?p=138>; rel=shortlink",
+    "cache-control": "max-age=0",
+    "expires": "Sat, 21 Dec 2024 19:40:41 GMT",
+    "x-ua-compatible": "IE=edge",
+    "x-content-type-options": "nosniff"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/lgm/public-documentation/venue-selection-process-2/"
+}

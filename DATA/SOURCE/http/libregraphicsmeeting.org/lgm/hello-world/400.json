@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:40:38 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "x-powered-by": "PHP/7.3.31-1~deb10u1",
+    "expires": "Wed, 11 Jan 1984 05:00:00 GMT",
+    "cache-control": "no-cache, must-revalidate, max-age=0",
+    "x-redirect-by": "WordPress",
+    "location": "http://libregraphicsmeeting.org/lgm/hello-world/",
+    "x-ua-compatible": "IE=edge",
+    "x-content-type-options": "nosniff"
+  },
+  "status": 301,
+  "uri": "http://libregraphicsmeeting.org/lgm/hello-world/400",
+  "redirected": "http://libregraphicsmeeting.org/lgm/hello-world/"
+}

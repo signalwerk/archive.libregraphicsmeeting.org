@@ -4,8 +4,9 @@ import { JobItem } from "./components/JobItem";
 import { JobItemSmall } from "./components/JobItemSmall";
 import "./App.css";
 
-// const demoURL = "https://www.libregraphicsmeeting.org/2008/LGM2008_%20LOGO.svg";
-const demoURL = "https://www.libregraphicsmeeting.org/";
+// const requestURL = "https://www.libregraphicsmeeting.org/2008/LGM2008_%20LOGO.svg";
+const requestURL = "https://www.libregraphicsmeeting.org/";
+// const requestURL = "https://www.libregraphicsmeeting.org/2006/style.css";
 
 const socket = io();
 
@@ -149,7 +150,7 @@ function App() {
         </button>
         <button
           className="button"
-          onClick={() => addJob("request", { uri: demoURL })}
+          onClick={() => addJob("request", { uri: requestURL })}
         >
           Add Test Request Job
         </button>

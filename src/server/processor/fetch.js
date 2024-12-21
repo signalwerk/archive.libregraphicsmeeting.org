@@ -97,6 +97,7 @@ export async function fetchHttp({ job, cache, events }, next) {
     status: response.status,
     uri: uri,
   };
+
   await cache.set(job.data.cache.key, { metadata, data: response.data });
   job.data.cache.status = "cached";
   job.log(`saved data and metadata to cache`);
@@ -110,7 +111,7 @@ export async function fetchHttp({ job, cache, events }, next) {
   next();
 }
 
-export function isCached({ job,events, cache, getKey }, next) {
+export function isCached({ job, events, cache, getKey }, next) {
   const key = getKey(job);
 
   if (cache.has(key)) {

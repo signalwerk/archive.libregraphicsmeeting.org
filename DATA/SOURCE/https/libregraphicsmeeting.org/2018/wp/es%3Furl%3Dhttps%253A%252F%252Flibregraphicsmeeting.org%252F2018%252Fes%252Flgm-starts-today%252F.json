@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sat, 21 Dec 2024 19:40:35 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "404",
+    "connection": "keep-alive",
+    "location": "https://libregraphicsmeeting.org/2018/wp/es/?url=https%3A%2F%2Flibregraphicsmeeting.org%2F2018%2Fes%2Flgm-starts-today%2F"
+  },
+  "status": 301,
+  "uri": "https://libregraphicsmeeting.org/2018/wp/es?url=https%3A%2F%2Flibregraphicsmeeting.org%2F2018%2Fes%2Flgm-starts-today%2F",
+  "redirected": "https://libregraphicsmeeting.org/2018/wp/es/?url=https%3A%2F%2Flibregraphicsmeeting.org%2F2018%2Fes%2Flgm-starts-today%2F"
+}

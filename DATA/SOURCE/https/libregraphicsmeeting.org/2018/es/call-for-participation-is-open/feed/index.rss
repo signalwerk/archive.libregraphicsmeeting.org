@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comentarios en: La Llamada a la Participación se ha abierto</title>
+	<atom:link href="https://libregraphicsmeeting.org/2018/es/call-for-participation-is-open/feed/" rel="self" type="application/rss+xml" />
+	<link>https://libregraphicsmeeting.org/2018/es/call-for-participation-is-open/</link>
+	<description>Seville - April 26th to 30th 2018</description>
+	<lastBuildDate>Tue, 13 Feb 2018 12:29:06 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.1</generator>
+	<item>
+		<title>Por: Gonzalo Mier</title>
+		<link>https://libregraphicsmeeting.org/2018/es/call-for-participation-is-open/#comment-6</link>
+		<dc:creator><![CDATA[Gonzalo Mier]]></dc:creator>
+		<pubDate>Sun, 07 Jan 2018 14:53:09 +0000</pubDate>
+		<guid isPermaLink="false">http://libregraphicsmeeting.org/2018/?p=159#comment-6</guid>
+		<description><![CDATA[Hola!! Mi nombre es Gonzalo, vivo en Montevideo, Uruguay.
+Formidable este evento. 
+Soy docente en enseñanza media en Uruguay, utulizo blender como material didactico. Es genial, sobre todo la filosofía del software libre en el &quot;cambio de cabeza&quot;.
+
+Trataré de participar.
+Éxitos!!
+Saludos.]]></description>
+		<content:encoded><![CDATA[<p>Hola!! Mi nombre es Gonzalo, vivo en Montevideo, Uruguay.<br />
+Formidable este evento.<br />
+Soy docente en enseñanza media en Uruguay, utulizo blender como material didactico. Es genial, sobre todo la filosofía del software libre en el &#8220;cambio de cabeza&#8221;.</p>
+<p>Trataré de participar.<br />
+Éxitos!!<br />
+Saludos.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
