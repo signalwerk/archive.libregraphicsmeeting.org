@@ -1,0 +1,35 @@
+{
+  "name": "neofetch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf ./DATA",
+    "dev:server": "nodemon --watch ./src/server --exec node ./src/server/server.js",
+    "dev:client": "vite",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "build": "vite build",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "concurrently": "^8.2.2",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "vite": "^5.4.11"
+  },
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

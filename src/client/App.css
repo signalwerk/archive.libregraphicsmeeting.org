@@ -1,0 +1,102 @@
+.queue-admin {
+  position: relative;
+}
+
+.queue-admin__header {
+  margin-bottom: 2rem;
+}
+
+.queue-admin__controls {
+  margin-bottom: 2rem;
+}
+
+.queue-admin__filters {
+  margin-bottom: 1rem;
+}
+
+.queue-admin__filter-group {
+  margin-bottom: 0.5rem;
+}
+
+.queue-admin__filter-checkbox {
+  margin-right: 1rem;
+}
+
+.queue-admin__filter-select {
+  margin-right: 1rem;
+}
+
+.queue-admin__drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40rem;
+  height: 100vh;
+  background: white;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+
+.queue-admin__drawer--open {
+  transform: translateX(0);
+}
+
+.queue-admin__drawer-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.queue-admin__drawer-close {
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  background-color: #f0f0f0;
+  line-height: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.queue-admin__drawer-close-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+  display: inline-block;
+  transform: translateY(-0.1rem);
+}
+
+.queue-admin__drawer-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(100%);
+  transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease;
+}
+
+.queue-admin__drawer-backdrop--visible {
+  transform: none;
+  opacity: 1;
+  visibility: visible;
+}
+
+.queue-admin__active {
+  max-height: 50vh;
+  overflow-y: auto;
+  margin-bottom: 2rem;
+  padding-right: 1rem;
+}
+
+.queue-admin__history {
+  margin-bottom: 2rem;
+}
