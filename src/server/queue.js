@@ -14,12 +14,15 @@ function uuid(name) {
 }
 
 export class Queue {
-  constructor(name) {
+  constructor(name, options = {}) {
     this.name = name;
     this.processors = [];
     this.jobs = [];
     this.history = [];
     this.events = new EventEmitter();
+    this.maxConcurrent = options.maxConcurrent || 20; // Default to 20 concurrent jobs
+    this.runningJobs = 0;
+    this.pendingJobs = [];
   }
 
   // Register a new processor
@@ -45,47 +48,68 @@ export class Queue {
         createdAt: new Date().toISOString(),
         text: entry,
       });
-      //   this.events.emit("jobLog", job.id, entry);
     };
 
     this.jobs.push(job);
     this.events.emit("jobAdded", job);
-    await this.processJob(job);
+    
+    // Check if we can process the job now or need to queue it
+    if (this.runningJobs < this.maxConcurrent) {
+      this.runningJobs++;
+      await this.processJob(job);
+    } else {
+      this.pendingJobs.push(job);
+    }
+    
     return job.id;
   }
 
   // Process a job through all processors
   async processJob(job) {
-    job.status = "in-progress";
-    job.startedAt = new Date().toISOString();
-    this.events.emit("jobStarted", job);
+    try {
+      job.status = "in-progress";
+      job.startedAt = new Date().toISOString();
+      this.events.emit("jobStarted", job);
 
-    let index = 0;
-    const next = async (error, terminate) => {
-      if (error) {
-        return this.failJob(job, error);
-      }
+      let index = 0;
+      const next = async (error, terminate) => {
+        if (error) {
+          return this.failJob(job, error);
+        }
 
-      // If terminate is true, complete the job without running remaining processors
-      if (terminate) {
-        return this.completeJob(job);
-      }
+        if (terminate) {
+          return this.completeJob(job);
+        }
 
-      const processor = this.processors[index];
-      index++;
+        const processor = this.processors[index];
+        index++;
 
-      if (!processor) {
-        return this.completeJob(job);
-      }
+        if (!processor) {
+          return this.completeJob(job);
+        }
 
-      try {
-        await processor(job, next);
-      } catch (err) {
-        await this.failJob(job, err);
-      }
-    };
+        try {
+          await processor(job, next);
+        } catch (err) {
+          await this.failJob(job, err);
+        }
+      };
 
-    await next();
+      await next();
+    } finally {
+      // Decrease running jobs counter and process next job if available
+      this.runningJobs--;
+      this.processNextJob();
+    }
+  }
+
+  // New method to process next pending job
+  processNextJob() {
+    if (this.pendingJobs.length > 0 && this.runningJobs < this.maxConcurrent) {
+      const nextJob = this.pendingJobs.shift();
+      this.runningJobs++;
+      this.processJob(nextJob);
+    }
   }
 
   // Complete a job

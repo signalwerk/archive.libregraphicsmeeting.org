@@ -241,7 +241,8 @@ function App() {
           ) : (
             <>
               <p className="queue-admin__results-count">
-                Showing {matchingJobs.length} matching jobs {matchingJobs.length === 300 ? '(limited to first 300)' : ''}
+                Showing {matchingJobs.length} matching jobs{" "}
+                {matchingJobs.length === 300 ? "(limited to first 300)" : ""}
               </p>
               {matchingJobs.map((job) => (
                 <JobItem
@@ -270,6 +271,7 @@ function App() {
         }`}
       >
         <div className="queue-admin__drawer-header">
+          <h2>Job Details</h2>
           <button
             className="queue-admin__drawer-close"
             onClick={() => setJobDetail(null)}
@@ -279,8 +281,6 @@ function App() {
         </div>
 
         <div className="queue-admin__drawer-content">
-          <h2>Job Details</h2>
-
           {jobDetail && (
             <JobItem job={jobDetail} onParentClick={getDetailJob} />
           )}

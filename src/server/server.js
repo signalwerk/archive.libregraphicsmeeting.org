@@ -28,10 +28,10 @@ const io = new SocketIOServer(server);
 // JSON middleware for APIs
 app.use(express.json());
 
-// Create queues
-const requestQueue = new Queue("request");
-const fetchQueue = new Queue("fetch");
-const parseQueue = new Queue("parse");
+// Create queues with custom concurrency limits
+const requestQueue = new Queue("request", { maxConcurrent: 100 });
+const fetchQueue = new Queue("fetch", { maxConcurrent: 10 });
+const parseQueue = new Queue("parse", { maxConcurrent: 100 });
 
 const events = new EventEmitter();
 events.on("createRequestJob", (data) => {

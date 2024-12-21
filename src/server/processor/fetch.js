@@ -16,7 +16,7 @@ export async function addFetchJob({ job, events }, next) {
     // Emit event to create new fetch job
     events?.emit("createFetchJob", fetchJobData);
 
-    job.log(`Created fetch job request`);
+    job.log(`Created fetch job`);
     next();
   } catch (error) {
     throw new Error(`Error: ${error.message}`);
