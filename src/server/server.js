@@ -7,7 +7,12 @@ import { Server as SocketIOServer } from "socket.io";
 // import { dirname } from "path";
 import { Queue } from "./queue.js";
 import { isDomainValid, isAlreadyRequested } from "./processor/request.js";
-import { addParseJob, guessMimeType, parseHtml } from "./processor/parse.js";
+import {
+  addParseJob,
+  guessMimeType,
+  parseHtml,
+  parseCss,
+} from "./processor/parse.js";
 import { addFetchJob } from "./processor/fetch.js";
 import { isCached, fetchHttp } from "./processor/fetch.js";
 import { Cache } from "./utils/Cache.js";
