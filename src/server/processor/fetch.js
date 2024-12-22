@@ -82,6 +82,18 @@ export async function fetchHttp({ job, cache, events }, next) {
     // Add error logging
     job.error = axiosError.response?.status;
 
+    // Save error to cache
+    const metadata = {
+      headers: axiosError.response.headers,
+      status: axiosError.response.status,
+      uri: uri,
+      error: axiosError.response?.status,
+    };
+    await cache.set(job.data.cache.key, { metadata });
+
+    job.data.cache.status = "cached";
+    job.log(`saved error to cache`);
+
     throw new Error(
       `Request failed. Status: ${
         axiosError.response?.status || "unknown"

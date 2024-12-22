@@ -32,6 +32,10 @@ export async function addParseJob({ job, events }, next) {
       throw new Error("No URI provided");
     }
 
+    if (job.error) {
+      throw new Error(`Job has error: ${job.error} no need to parse`);
+    }
+
     // Create a parse job with the validated data
     const parseJobData = {
       ...job.data,
@@ -49,9 +53,9 @@ export async function addParseJob({ job, events }, next) {
 }
 export async function parseCss({ job, events, data, metadata }, next) {
   job.log(`parseCss start`);
-  
+
   const { plugin, resources } = await findResources();
-  
+
   try {
     // Process the CSS content using PostCSS
     await postcss([plugin])
