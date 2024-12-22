@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sun, 22 Dec 2024 00:18:38 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive"
+  },
+  "status": 404,
+  "uri": "https://libregraphicsmeeting.org/2017/wp-json/oembed/1.0/embed%ef%b9%96url=http%ef%b9%95%ea%a4%b7%ea%a4%b7libregraphicsmeeting.org%ea%a4%b72017%ea%a4%b72017%ea%a4%b704%ea%a4%b719%ea%a4%b7lgm-starting-tomorrow%ea%a4%b7&format=xml.xml",
+  "error": 404
+}

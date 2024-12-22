@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sun, 22 Dec 2024 00:18:36 GMT",
+    "content-type": "image/png",
+    "content-length": "3949",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 15 Mar 2021 13:55:44 GMT",
+    "etag": "\"f6d-5bd939b21fa7b\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2021/css/img/pattern01-seamless-o30.png"
+}

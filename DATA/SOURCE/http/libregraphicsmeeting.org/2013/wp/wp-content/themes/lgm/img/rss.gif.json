@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sun, 22 Dec 2024 00:18:28 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "356",
+    "connection": "keep-alive",
+    "location": "https://libregraphicsmeeting.org/2013/wp/wp-content/themes/lgm/img/rss.gif"
+  },
+  "status": 301,
+  "uri": "http://libregraphicsmeeting.org/2013/wp/wp-content/themes/lgm/img/rss.gif",
+  "redirected": "https://libregraphicsmeeting.org/2013/wp/wp-content/themes/lgm/img/rss.gif"
+}

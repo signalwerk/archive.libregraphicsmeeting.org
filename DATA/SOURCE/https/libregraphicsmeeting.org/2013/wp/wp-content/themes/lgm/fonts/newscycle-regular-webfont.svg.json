@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sun, 22 Dec 2024 00:18:28 GMT",
+    "content-type": "image/svg+xml",
+    "content-length": "942227",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:42:55 GMT",
+    "etag": "\"e6093-50798cf20a5c0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2013/wp/wp-content/themes/lgm/fonts/newscycle-regular-webfont.svg#news_cycleregular"
+}

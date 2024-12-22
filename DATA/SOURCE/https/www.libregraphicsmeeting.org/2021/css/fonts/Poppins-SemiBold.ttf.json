@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sun, 22 Dec 2024 00:18:32 GMT",
+    "content-type": "font/ttf",
+    "content-length": "141612",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 15 Mar 2021 13:45:53 GMT",
+    "etag": "\"2292c-5bd9377e8b431\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2021/css/fonts/Poppins-SemiBold.ttf"
+}

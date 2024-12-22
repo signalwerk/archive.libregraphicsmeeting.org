@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sun, 22 Dec 2024 00:18:42 GMT",
+    "content-type": "image/gif",
+    "content-length": "395",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 10 Nov 2014 13:38:44 GMT",
+    "etag": "\"18b-507814804c100\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2012/wp/wp-admin/images/bubble_bg.gif"
+}

@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sun, 22 Dec 2024 00:18:31 GMT",
+    "content-type": "image/gif",
+    "content-length": "248",
+    "connection": "keep-alive",
+    "last-modified": "Wed, 10 Mar 2010 21:54:06 GMT",
+    "etag": "\"f8-481795650bb80\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2010/default-static/global/global/img/refresh.gif"
+}

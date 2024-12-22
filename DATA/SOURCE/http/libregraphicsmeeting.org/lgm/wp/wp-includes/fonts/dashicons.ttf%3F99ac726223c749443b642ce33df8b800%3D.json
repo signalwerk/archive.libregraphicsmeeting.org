@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sun, 22 Dec 2024 00:18:51 GMT",
+    "content-type": "application/x-font-ttf",
+    "content-length": "56392",
+    "connection": "keep-alive",
+    "last-modified": "Sun, 03 Jan 2021 21:11:16 GMT",
+    "accept-ranges": "bytes",
+    "cache-control": "max-age=2592000",
+    "expires": "Tue, 21 Jan 2025 00:18:51 GMT",
+    "x-content-type-options": "nosniff",
+    "access-control-allow-origin": "*"
+  },
+  "status": 200,
+  "uri": "http://libregraphicsmeeting.org/lgm/wp/wp-includes/fonts/dashicons.ttf?99ac726223c749443b642ce33df8b800"
+}

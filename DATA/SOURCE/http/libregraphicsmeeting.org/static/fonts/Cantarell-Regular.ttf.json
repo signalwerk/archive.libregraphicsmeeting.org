@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sun, 22 Dec 2024 00:18:31 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "349",
+    "connection": "keep-alive",
+    "location": "https://libregraphicsmeeting.org/static/fonts/Cantarell-Regular.ttf"
+  },
+  "status": 301,
+  "uri": "http://libregraphicsmeeting.org/static/fonts/Cantarell-Regular.ttf",
+  "redirected": "https://libregraphicsmeeting.org/static/fonts/Cantarell-Regular.ttf"
+}

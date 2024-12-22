@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sun, 22 Dec 2024 00:18:50 GMT",
+    "content-type": "font/ttf",
+    "content-length": "18000",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 01 Sep 2015 19:00:37 GMT",
+    "etag": "\"4650-51eb42a5baa10\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "http://libregraphicsmeeting.org/2015/wp/wp-content/plugins/formidable/fonts/s11-fp.ttf"
+}

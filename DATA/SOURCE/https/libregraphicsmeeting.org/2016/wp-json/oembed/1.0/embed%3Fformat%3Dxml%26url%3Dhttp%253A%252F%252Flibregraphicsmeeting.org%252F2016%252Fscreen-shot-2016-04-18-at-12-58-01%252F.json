@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sun, 22 Dec 2024 00:18:56 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive"
+  },
+  "status": 404,
+  "uri": "https://libregraphicsmeeting.org/2016/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flibregraphicsmeeting.org%2F2016%2Fscreen-shot-2016-04-18-at-12-58-01%2F&format=xml",
+  "error": 404
+}

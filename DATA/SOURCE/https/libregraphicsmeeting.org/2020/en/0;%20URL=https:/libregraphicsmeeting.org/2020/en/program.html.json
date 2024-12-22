@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sun, 22 Dec 2024 00:18:46 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive"
+  },
+  "status": 404,
+  "uri": "https://libregraphicsmeeting.org/2020/en/0;%20URL=https://libregraphicsmeeting.org/2020/en/program.html",
+  "error": 404
+}

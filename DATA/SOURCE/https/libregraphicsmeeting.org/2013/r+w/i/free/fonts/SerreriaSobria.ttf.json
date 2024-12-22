@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sun, 22 Dec 2024 00:18:50 GMT",
+    "content-type": "font/ttf",
+    "content-length": "28212",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:39:32 GMT",
+    "etag": "\"6e34-50798c3071d00\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2013/r+w/i/free/fonts/SerreriaSobria.ttf"
+}

@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sun, 22 Dec 2024 00:18:32 GMT",
+    "content-type": "font/ttf",
+    "content-length": "171272",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 04 Nov 2019 15:22:32 GMT",
+    "etag": "\"29d08-59686e27622ad\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2020/css/fonts/Roboto-Regular.ttf"
+}

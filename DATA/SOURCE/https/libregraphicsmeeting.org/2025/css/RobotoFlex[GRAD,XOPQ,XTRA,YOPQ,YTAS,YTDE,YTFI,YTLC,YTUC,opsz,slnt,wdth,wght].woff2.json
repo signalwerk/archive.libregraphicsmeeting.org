@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sun, 22 Dec 2024 00:18:56 GMT",
+    "content-type": "font/woff2",
+    "content-length": "791824",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 17 Dec 2024 20:23:59 GMT",
+    "etag": "\"c1510-6297d13bd11a8\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2025/css/RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].woff2"
+}

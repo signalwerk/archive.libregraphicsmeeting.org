@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sun, 22 Dec 2024 00:18:28 GMT",
+    "content-type": "font/woff",
+    "content-length": "76284",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:42:57 GMT",
+    "etag": "\"129fc-50798cf3f2a40\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2013/wp/wp-content/themes/lgm/fonts/newscycle-bold-webfont.woff"
+}

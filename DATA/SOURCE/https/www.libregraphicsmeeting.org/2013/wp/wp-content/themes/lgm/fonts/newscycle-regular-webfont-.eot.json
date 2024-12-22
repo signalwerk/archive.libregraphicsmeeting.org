@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sun, 22 Dec 2024 00:18:34 GMT",
+    "content-type": "application/vnd.ms-fontobject",
+    "content-length": "115456",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 11 Nov 2014 17:42:52 GMT",
+    "etag": "\"1c300-50798cef2df00\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2013/wp/wp-content/themes/lgm/fonts/newscycle-regular-webfont-.eot#iefix"
+}

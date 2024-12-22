@@ -145,6 +145,11 @@ parseQueue
       case "application/vnd.oasis.opendocument.text":
       case "application/pdf":
       case "application/json":
+      case "application/x-font-ttf":
+      case "font/ttf":
+      case "font/woff":
+      case "font/woff2":
+      case "application/vnd.ms-fontobject": // eot
       case "application/rss+xml":
       case "application/atom+xml":
       case "application/rdf+xml":

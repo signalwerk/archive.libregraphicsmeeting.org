@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sun, 22 Dec 2024 00:18:23 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "x-powered-by": "PHP/7.3.31-1~deb10u1",
+    "expires": "Wed, 11 Jan 1984 05:00:00 GMT",
+    "cache-control": "no-cache, must-revalidate, max-age=0",
+    "link": "<https://libregraphicsmeeting.org/lgm/wp-json/>; rel=\"https://api.w.org/\"",
+    "x-ua-compatible": "IE=edge",
+    "x-content-type-options": "nosniff"
+  },
+  "status": 404,
+  "uri": "https://libregraphicsmeeting.org/lgm/archives/",
+  "error": 404
+}
