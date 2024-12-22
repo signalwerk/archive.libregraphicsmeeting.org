@@ -26,14 +26,17 @@ class DataPatcher {
    * @private
    */
   _categorizePatterns(patterns) {
-    return patterns.reduce((acc, p) => {
-      if (typeof p === "string") {
-        acc.strings.push(p);
-      } else if (p instanceof RegExp) {
-        acc.regexes.push(p);
-      }
-      return acc;
-    }, { strings: [], regexes: [] });
+    return patterns.reduce(
+      (acc, p) => {
+        if (typeof p === "string") {
+          acc.strings.push(p);
+        } else if (p instanceof RegExp) {
+          acc.regexes.push(p);
+        }
+        return acc;
+      },
+      { strings: [], regexes: [] },
+    );
   }
 
   /**
@@ -58,7 +61,24 @@ class DataPatcher {
    * @param {string} data
    * @returns {string}
    */
-  patch(path, data) {
+  patch(path, data, log = false) {
+    if (this.rules.length === 0) {
+      return data;
+    }
+
+    if (!data) {
+      if (log) {
+        throw new Error("No data to patch");
+      }
+      return data;
+    }
+    // else {
+    //   if (log) {
+    //     log(`Patching data of type ${typeof data}`);
+    //     log(`Data: ${data.slice(0, 100)}`);
+    //   }
+    // }
+
     return this.rules.reduce((patchedData, rule) => {
       // If includes exist, path must match at least one
       if (
@@ -75,7 +95,6 @@ class DataPatcher {
         return patchedData;
       }
 
-      // Apply the rule
       return patchedData.replace(rule.search, rule.replace);
     }, data);
   }

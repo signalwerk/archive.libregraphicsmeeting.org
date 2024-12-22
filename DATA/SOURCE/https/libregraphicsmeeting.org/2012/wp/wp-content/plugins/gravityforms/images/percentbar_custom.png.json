@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Sun, 22 Dec 2024 02:47:46 GMT",
+    "content-type": "image/png",
+    "content-length": "547",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 10 Nov 2014 13:39:06 GMT",
+    "etag": "\"223-5078149547280\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2012/wp/wp-content/plugins/gravityforms/images/percentbar_custom.png"
+}
