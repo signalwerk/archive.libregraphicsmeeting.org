@@ -17,10 +17,31 @@ import { addFetchJob } from "./processor/fetch.js";
 import { isCached, fetchHttp } from "./processor/fetch.js";
 import { Cache } from "./utils/Cache.js";
 import { RequestTracker } from "./utils/RequestTracker.js";
-
+import { DataPatcher } from "./utils/DataPatcher.js";
 // Replace cache object with instance
 const cache = new Cache();
 const requestTracker = new RequestTracker();
+const dataPatcher = new DataPatcher();
+
+dataPatcher
+  .addRule({
+    includes: [
+      //
+      "https://libregraphicsmeeting.org/2009/skin/project.css"
+    ],
+    search:
+      ".projectabstract { float:left; width:150px; border:1px solid black; width:148px; -moz-border-radius:5px; -webkit-border-radius: 5px; */}",
+    replace:
+      ".projectabstract { float:left; width:150px; border:1px solid black; width:148px; -moz-border-radius:5px; -webkit-border-radius: 5px; }",
+  })
+  .addRule({
+    includes: [
+      //
+      "https://libregraphicsmeeting.org/2013/wp/wp-content/plugins/gravityforms/css/forms-ver=1.5.1.1.css",
+    ],
+    search: ".entry ul li:after {content:none; #}",
+    replace: ".entry ul li:after {content:none; }",
+  });
 
 // Get __dirname equivalent in ES modules
 // const __filename = fileURLToPath(import.meta.url);
@@ -106,7 +127,9 @@ parseQueue
 
   // now parse the data
   .use(async (job, next) => {
-    const { data, metadata } = cache.get(job.data.cache.key);
+    const { data: dataFromCache, metadata } = cache.get(job.data.cache.key);
+
+   const data = dataPatcher.patch(job.data.uri, dataFromCache);
 
     if (!data || !metadata) {
       throw new Error(
@@ -119,11 +142,11 @@ parseQueue
     switch (mimeType) {
       case "application/xhtml+xml":
       case "text/html": {
-        await parseHtml({ job, events, data, metadata }, next);
+        await parseHtml({ job, events, data }, next);
         break;
       }
       case "text/css": {
-        await parseCss({ job, events, data, metadata }, next);
+        await parseCss({ job, events, data }, next);
         break;
       }
       case "application/javascript":

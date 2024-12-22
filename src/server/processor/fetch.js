@@ -146,8 +146,9 @@ export function isCached({ job, events, cache, getKey }, next) {
       return next(null, true);
     } else if (metadata.error) {
       job.error = metadata.error;
-      job.log(`Job has error: ${job.error} no need to parse`);
-      return next();
+      throw new Error(
+        `Job is cached but has error: ${job.error} no need proceed`,
+      );
     } else {
       job.data.cache = {
         status: "cached",

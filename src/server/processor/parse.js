@@ -51,7 +51,7 @@ export async function addParseJob({ job, events }, next) {
     throw new Error(`Error: ${error.message}`);
   }
 }
-export async function parseCss({ job, events, data, metadata }, next) {
+export async function parseCss({ job, events, data }, next) {
   job.log(`parseCss start`);
 
   const { plugin, resources } = await findResources();
@@ -173,7 +173,7 @@ function findResources() {
   });
 }
 
-export async function parseHtml({ job, events, data, metadata }, next) {
+export async function parseHtml({ job, events, data }, next) {
   job.log(`parseHtml start`);
   const $ = cheerio.load(data);
 

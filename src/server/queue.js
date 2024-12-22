@@ -88,12 +88,12 @@ export class Queue {
           return this.completeJob(job);
         }
 
-        try {
-          await processor(job, next);
-        } catch (err) {
-          await this.failJob(job, err);
-        }
-      };
+      try {
+        await processor(job, next);
+      } catch (err) {
+        await this.failJob(job, err);
+      }
+    };
 
       await next();
     } finally {
