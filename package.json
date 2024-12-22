@@ -6,6 +6,7 @@
   "scripts": {
     "clean": "rm -rf ./DATA",
     "dev:server": "nodemon --watch ./src/server --exec node ./src/server/server.js",
+    "server": "node ./src/server/server.js",
     "dev:client": "vite",
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "build": "vite build",
