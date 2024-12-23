@@ -10,7 +10,9 @@ const LCG = (s) => {
 let rand = LCG(42);
 
 function uuid(name) {
-  return `${name}-${rand().toString(16).substring(2, 15)}${rand().toString(16).substring(2, 15)}`;
+  return `${name}-${rand().toString(16).substring(2, 15)}${rand()
+    .toString(16)
+    .substring(2, 15)}`;
 }
 
 export class Queue {
@@ -23,6 +25,15 @@ export class Queue {
     this.maxConcurrent = options.maxConcurrent || 20; // Default to 20 concurrent jobs
     this.runningJobs = 0;
     this.pendingJobs = [];
+    this.stats = {
+      totalActive: 0,
+      totalHistory: 0,
+      statusCounts: {
+        completed: 0,
+        failed: 0,
+      },
+    };
+    this.historyLimit = options.historyLimit || 1000; // Limit history size
   }
 
   // Register a new processor
@@ -52,7 +63,7 @@ export class Queue {
 
     this.jobs.push(job);
     this.events.emit("jobAdded", job);
-    
+
     // Check if we can process the job now or need to queue it
     if (this.runningJobs < this.maxConcurrent) {
       this.runningJobs++;
@@ -60,7 +71,7 @@ export class Queue {
     } else {
       this.pendingJobs.push(job);
     }
-    
+
     return job.id;
   }
 
@@ -88,12 +99,12 @@ export class Queue {
           return this.completeJob(job);
         }
 
-      try {
-        await processor(job, next);
-      } catch (err) {
-        await this.failJob(job, err);
-      }
-    };
+        try {
+          await processor(job, next);
+        } catch (err) {
+          await this.failJob(job, err);
+        }
+      };
 
       await next();
     } finally {
@@ -134,7 +145,11 @@ export class Queue {
     const index = this.jobs.findIndex((j) => j.id === job.id);
     if (index !== -1) {
       this.jobs.splice(index, 1);
-      this.history.push(job);
+      this.history.unshift(job); // Add to start of history
+
+      // Update stats
+      this.stats.totalHistory++;
+      this.stats.statusCounts[job.status]++;
     }
   }
 
@@ -170,5 +185,37 @@ export class Queue {
   clearHistory() {
     this.history = [];
     this.events.emit("historyCleared");
+  }
+
+  // Add these new methods
+  getStats() {
+    return {
+      name: this.name,
+      active: this.runningJobs,
+      pending: this.pendingJobs.length,
+      ...this.stats,
+    };
+  }
+
+  getFilteredHistory({ status, searchTerm, limit = 50 }) {
+    let filtered = this.history;
+
+    if (status && status !== "all") {
+      filtered = filtered.filter((job) => job.status === status);
+    }
+
+    if (searchTerm) {
+      const term = searchTerm.toLowerCase();
+      filtered = filtered.filter(
+        (job) =>
+          job.id.toLowerCase().includes(term) ||
+          JSON.stringify(job.data).toLowerCase().includes(term),
+      );
+    }
+
+    return {
+      total: filtered.length,
+      jobs: filtered.slice(0, limit),
+    };
   }
 }

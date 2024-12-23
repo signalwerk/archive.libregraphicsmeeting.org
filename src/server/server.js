@@ -215,15 +215,79 @@ parseQueue
     next();
   });
 
-// API endpoint to get all jobs in queues
-app.get("/api/jobs", (req, res) => {
-  const allJobs = {
-    request: requestQueue.getAllJobs(),
-    fetch: fetchQueue.getAllJobs(),
-    parse: parseQueue.getAllJobs(),
+// Add debounce utility
+const debounce = (fn, delay) => {
+  let timeoutId;
+  return (...args) => {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => fn(...args), delay);
   };
-  res.json(allJobs);
+};
+
+// Modify API endpoints
+app.get("/api/stats", (req, res) => {
+  const stats = {
+    request: requestQueue.getStats(),
+    fetch: fetchQueue.getStats(),
+    parse: parseQueue.getStats()
+  };
+  res.json(stats);
 });
+
+app.get("/api/history", (req, res) => {
+  const { status, search, queues, errorFilter, limit = 50 } = req.query;
+  const selectedQueues = queues ? queues.split(',') : ['request', 'fetch', 'parse'];
+  
+  // Get filtered results from selected queues
+  const results = {};
+  selectedQueues.forEach(queueName => {
+    const queue = {
+      'request': requestQueue,
+      'fetch': fetchQueue,
+      'parse': parseQueue
+    }[queueName];
+
+    if (queue) {
+      results[queueName] = queue.getFilteredHistory({ 
+        status, 
+        searchTerm: search, 
+        errorFilter,
+        limit 
+      });
+    }
+  });
+  
+  // Combine results using round-robin
+  const combined = {
+    total: Object.values(results).reduce((sum, r) => sum + r.total, 0),
+    jobs: []
+  };
+  
+  let remaining = Math.min(limit, 
+    Math.max(...Object.values(results).map(r => r.jobs.length))
+  );
+  
+  while (remaining > 0) {
+    for (const queueResults of Object.values(results)) {
+      if (queueResults.jobs.length > 0) {
+        combined.jobs.push(queueResults.jobs.shift());
+      }
+    }
+    remaining--;
+  }
+  
+  res.json(combined);
+});
+
+// API endpoint to get all jobs in queues
+// app.get("/api/jobs", (req, res) => {
+//   const allJobs = {
+//     request: requestQueue.getAllJobs(),
+//     fetch: fetchQueue.getAllJobs(),
+//     parse: parseQueue.getAllJobs(),
+//   };
+//   res.json(allJobs);
+// });
 
 // API endpoint to get a specific job
 app.get("/api/jobs/:id", (req, res) => {
@@ -276,21 +340,21 @@ app.post("/api/jobs/clear-cache", (req, res) => {
   res.json({ success: true });
 });
 
-// Listen to queue events and send updates to connected clients
-[requestQueue, fetchQueue, parseQueue].forEach((queue) => {
-  queue.events.on("jobAdded", (job) =>
-    io.emit("jobUpdate", { type: "added", job }),
-  );
-  queue.events.on("jobStarted", (job) =>
-    io.emit("jobUpdate", { type: "started", job }),
-  );
-  queue.events.on("jobCompleted", (job) =>
-    io.emit("jobUpdate", { type: "completed", job }),
-  );
-  queue.events.on("jobFailed", (job) =>
-    io.emit("jobUpdate", { type: "failed", job }),
-  );
-  queue.events.on("historyCleared", () => io.emit("historyCleared"));
+// Modify Socket.IO updates
+const emitQueueStats = debounce(() => {
+  const stats = {
+    request: requestQueue.getStats(),
+    fetch: fetchQueue.getStats(),
+    parse: parseQueue.getStats()
+  };
+  io.emit('queueStats', stats);
+}, 1000);
+
+[requestQueue, fetchQueue, parseQueue].forEach(queue => {
+  queue.events.on("jobAdded", () => emitQueueStats());
+  queue.events.on("jobStarted", () => emitQueueStats());
+  queue.events.on("jobCompleted", () => emitQueueStats());
+  queue.events.on("jobFailed", () => emitQueueStats());
 });
 
 // Socket.IO connection handler

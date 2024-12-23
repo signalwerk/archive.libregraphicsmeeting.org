@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { io } from "socket.io-client";
 import { JobItem } from "./components/JobItem";
 import { JobItemSmall } from "./components/JobItemSmall";
@@ -12,7 +12,56 @@ const requestURL = "https://www.libregraphicsmeeting.org/";
 
 const socket = io();
 
+const debounce = (fn, delay) => {
+  let timeoutId;
+  return (...args) => {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => fn(...args), delay);
+  };
+};
+
 function App() {
+  const [queueStats, setQueueStats] = useState({});
+  const [historyJobs, setHistoryJobs] = useState({ total: 0, jobs: [] });
+  const [filters, setFilters] = useState({
+    status: 'all',
+    search: '',
+    queues: new Set(['request', 'fetch', 'parse']),
+    errorFilter: 'all'
+  });
+
+  useEffect(() => {
+    // Listen for queue stats updates
+    socket.on("queueStats", (stats) => {
+      setQueueStats(stats);
+    });
+
+    // Fetch initial stats
+    // fetch('/api/stats').then(res => res.json()).then(setQueueStats);
+
+    return () => socket.off("queueStats");
+  }, []);
+
+  // Debounced history fetch
+  const fetchHistory = useMemo(() => 
+    debounce(async (filters) => {
+      const params = new URLSearchParams({
+        status: filters.status,
+        search: filters.search,
+        queues: Array.from(filters.queues).join(','),
+        errorFilter: filters.errorFilter
+      });
+      const res = await fetch(`/api/history?${params}`);
+      const data = await res.json();
+      setHistoryJobs(data);
+    }, 1000)
+  , []);
+
+  useEffect(() => {
+    console.log("fetching history", filters);
+    fetchHistory(filters);
+  }, [filters, fetchHistory]);
+
   const [queues, setQueues] = useState({});
   const [jobDetail, setJobDetail] = useState(null);
   const [selectedQueues, setSelectedQueues] = useState(
@@ -87,34 +136,6 @@ function App() {
     });
   };
 
-  const getAllHistoryJobs = () => {
-    const allJobs = Object.entries(queues).flatMap(([queueName, queueData]) =>
-      queueData.history.map((job) => ({
-        ...job,
-      })),
-    );
-
-    return allJobs
-      .filter((job) => selectedQueues.has(job.queueName))
-      .filter((job) => statusFilter === "all" || job.status === statusFilter)
-      .filter((job) => {
-        if (errorFilter === "all") return true;
-        if (errorFilter.startsWith("!")) {
-          // Handle "not" filters (e.g., "!404" means "not 404")
-          const errorCode = Number(errorFilter.slice(1));
-          return job.error !== errorCode;
-        }
-        return job.error === Number(errorFilter);
-      })
-      .filter(
-        (job) =>
-          searchTerm === "" ||
-          JSON.stringify(job).toLowerCase().includes(searchTerm.toLowerCase()),
-      )
-      .sort((a, b) => b.sort - a.sort)
-      .slice(0, 300);
-  };
-
   const getDetailJob = async (jobId) => {
     console.log("Getting detail job:", jobId);
     try {
@@ -134,6 +155,18 @@ function App() {
 
   const clearCache = async () => {
     await fetch("/api/jobs/clear-cache", { method: "POST" });
+  };
+
+  const toggleQueue = (queueName) => {
+    setFilters(prev => {
+      const newQueues = new Set(prev.queues);
+      if (newQueues.has(queueName)) {
+        newQueues.delete(queueName);
+      } else {
+        newQueues.add(queueName);
+      }
+      return { ...prev, queues: newQueues };
+    });
   };
 
   return (
@@ -187,21 +220,13 @@ function App() {
         <h2>Job History</h2>
 
         <div className="queue-admin__filters">
-          <div className="queue-admin__filter-group">
-            {Object.keys(queues).map((queueName) => (
-              <label key={queueName} className="queue-admin__filter-checkbox">
+          <div className="queue-admin__queue-filters">
+            {['request', 'fetch', 'parse'].map(queueName => (
+              <label key={queueName} className="checkbox-label">
                 <input
                   type="checkbox"
-                  checked={selectedQueues.has(queueName)}
-                  onChange={(e) => {
-                    const newSelected = new Set(selectedQueues);
-                    if (e.target.checked) {
-                      newSelected.add(queueName);
-                    } else {
-                      newSelected.delete(queueName);
-                    }
-                    setSelectedQueues(newSelected);
-                  }}
+                  checked={filters.queues.has(queueName)}
+                  onChange={() => toggleQueue(queueName)}
                 />
                 {queueName}
               </label>
@@ -210,8 +235,8 @@ function App() {
 
           <select
             className="select queue-admin__filter-select"
-            value={statusFilter}
-            onChange={(e) => setStatusFilter(e.target.value)}
+            value={filters.status}
+            onChange={(e) => setFilters(prev => ({ ...prev, status: e.target.value }))}
           >
             <option value="all">All Status</option>
             <option value="completed">Completed</option>
@@ -220,48 +245,44 @@ function App() {
 
           <select
             className="select queue-admin__filter-select"
-            value={errorFilter}
-            onChange={(e) => setErrorFilter(e.target.value)}
+            value={filters.errorFilter}
+            onChange={(e) => setFilters(prev => ({ ...prev, errorFilter: e.target.value }))}
           >
-            <option value="all">No Errors-Code filter</option>
-            <option value="404">404 Not Found</option>
-            <option value="!404">All but 404 Not Found</option>
-            <option value="500">500 Internal Server Error</option>
+            <option value="all">All Errors</option>
+            <option value="with">With Errors</option>
+            <option value="without">Without Errors</option>
           </select>
 
           <input
             type="text"
             className="input queue-admin__filter-input"
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
+            value={filters.search}
+            onChange={(e) => setFilters(prev => ({ ...prev, search: e.target.value }))}
             placeholder="Search jobs..."
           />
         </div>
 
-        {(() => {
-          const matchingJobs = getAllHistoryJobs();
-          return matchingJobs.length === 0 ? (
-            <p className="queue-admin__no-results">
-              No jobs match your search criteria
+        {historyJobs.jobs.length === 0 ? (
+          <p className="queue-admin__no-results">
+            No jobs match your search criteria
+          </p>
+        ) : (
+          <>
+            <p className="queue-admin__results-count">
+              Showing {historyJobs.jobs.length} of {historyJobs.total} matching
+              jobs
             </p>
-          ) : (
-            <>
-              <p className="queue-admin__results-count">
-                Showing {matchingJobs.length} matching jobs{" "}
-                {matchingJobs.length === 300 ? "(limited to first 300)" : ""}
-              </p>
-              {matchingJobs.map((job) => (
-                <JobItem
-                  key={job.id}
-                  job={job}
-                  onDetailClick={getDetailJob}
-                  onParentClick={getDetailJob}
-                  isActive={jobDetail?.id === job.id}
-                />
-              ))}
-            </>
-          );
-        })()}
+            {historyJobs.jobs.map((job) => (
+              <JobItem
+                key={job.id}
+                job={job}
+                onDetailClick={getDetailJob}
+                onParentClick={getDetailJob}
+                isActive={jobDetail?.id === job.id}
+              />
+            ))}
+          </>
+        )}
       </div>
 
       <div
