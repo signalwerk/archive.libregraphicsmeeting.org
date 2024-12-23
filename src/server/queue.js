@@ -15,6 +15,7 @@ function uuid(name) {
     .substring(2, 15)}`;
 }
 
+
 export class Queue {
   constructor(name, options = {}) {
     this.name = name;
@@ -193,6 +194,7 @@ export class Queue {
       name: this.name,
       active: this.runningJobs,
       pending: this.pendingJobs.length,
+      activeJobs: this.jobs,
       ...this.stats,
     };
   }

@@ -23,6 +23,7 @@ const debounce = (fn, delay) => {
 function App() {
   const [queueStats, setQueueStats] = useState({});
   const [historyJobs, setHistoryJobs] = useState({ total: 0, jobs: [] });
+  const [jobDetail, setJobDetail] = useState(null);
   const [filters, setFilters] = useState({
     status: 'all',
     search: '',
@@ -30,25 +31,13 @@ function App() {
     errorFilter: 'all'
   });
 
-  useEffect(() => {
-    // Listen for queue stats updates
-    socket.on("queueStats", (stats) => {
-      setQueueStats(stats);
-    });
-
-    // Fetch initial stats
-    // fetch('/api/stats').then(res => res.json()).then(setQueueStats);
-
-    return () => socket.off("queueStats");
-  }, []);
-
-  // Debounced history fetch
+  // Create fetchHistory first
   const fetchHistory = useMemo(() => 
     debounce(async (filters) => {
       const params = new URLSearchParams({
         status: filters.status,
         search: filters.search,
-        queues: Array.from(filters.queues).join(','),
+        queues: Array.from(filters.queues).join(',') ,
         errorFilter: filters.errorFilter
       });
       const res = await fetch(`/api/history?${params}`);
@@ -58,83 +47,40 @@ function App() {
   , []);
 
   useEffect(() => {
-    console.log("fetching history", filters);
+    // Listen for queue stats updates
+    socket.on("queueStats", (stats) => {
+      setQueueStats(stats);
+    });
+
+    // Listen for history updates
+    socket.on("historyUpdate", () => {
+      fetchHistory(filters);
+    });
+
+    // Fetch initial stats
+    fetch('/api/stats').then(res => res.json()).then(setQueueStats);
+
+    return () => {
+      socket.off("queueStats");
+      socket.off("historyUpdate");
+    };
+  }, [filters, fetchHistory]);
+
+  // Fetch history when filters change
+  useEffect(() => {
     fetchHistory(filters);
   }, [filters, fetchHistory]);
 
-  const [queues, setQueues] = useState({});
-  const [jobDetail, setJobDetail] = useState(null);
-  const [selectedQueues, setSelectedQueues] = useState(
-    new Set(["request", "fetch", "parse", "write"]),
-  );
-  const [statusFilter, setStatusFilter] = useState("all");
-  const [errorFilter, setErrorFilter] = useState("all");
-  const [searchTerm, setSearchTerm] = useState("");
-
+  // Add escape key listener
   useEffect(() => {
-    // Add escape key listener
     const handleEscape = (e) => {
       if (e.key === "Escape") {
         setJobDetail(null);
       }
     };
     window.addEventListener("keydown", handleEscape);
-
-    // Replace multiple event handlers with a single jobUpdate handler
-    socket.on("jobUpdate", ({ type, job }) => {
-      setQueues((prevQueues) => {
-        const newQueues = { ...prevQueues };
-        const queue = newQueues[job.queueName];
-
-        if (!queue) return prevQueues;
-
-        switch (type) {
-          case "added":
-          case "started":
-            // Remove from history if exists
-            queue.history = queue.history.filter((j) => j.id !== job.id);
-            // Update or add to active
-            queue.active = queue.active.filter((j) => j.id !== job.id);
-            queue.active.push(job);
-            break;
-          case "completed":
-          case "failed":
-            // Remove from active
-            queue.active = queue.active.filter((j) => j.id !== job.id);
-            // Add to history
-            queue.history = queue.history.filter((j) => j.id !== job.id);
-            queue.history.push(job);
-            break;
-        }
-
-        return newQueues;
-      });
-    });
-
-    socket.on("historyCleared", () => loadJobs());
-    socket.on("initialData", (data) => setQueues(data));
-
-    return () => {
-      window.removeEventListener("keydown", handleEscape);
-      socket.off("jobUpdate");
-      socket.off("historyCleared");
-      socket.off("initialData");
-    };
+    return () => window.removeEventListener("keydown", handleEscape);
   }, []);
-
-  const loadJobs = async () => {
-    const res = await fetch("/api/jobs");
-    const data = await res.json();
-    setQueues(data);
-  };
-
-  const addJob = async (type, data) => {
-    await fetch("/api/jobs", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ type, data }),
-    });
-  };
 
   const getDetailJob = async (jobId) => {
     console.log("Getting detail job:", jobId);
@@ -143,14 +89,12 @@ function App() {
       const data = await res.json();
       setJobDetail(data);
     } catch (err) {
-      console.error("Failed to fetch parent job:", err);
+      console.error("Failed to fetch job:", err);
     }
   };
 
   const clearHistory = async () => {
     await fetch("/api/jobs/clear-history", { method: "POST" });
-    loadJobs();
-    setJobDetail(null);
   };
 
   const clearCache = async () => {
@@ -174,9 +118,6 @@ function App() {
       <h1 className="queue-admin__header">Queue Admin Viewer</h1>
 
       <div className="queue-admin__controls">
-        <button className="button" onClick={loadJobs}>
-          Refresh Jobs
-        </button>
         <button className="button" onClick={clearHistory}>
           Clear History
         </button>
@@ -185,7 +126,14 @@ function App() {
         </button>
         <button
           className="button"
-          onClick={() => addJob("request", { uri: requestURL })}
+          onClick={() => fetch("/api/jobs", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ 
+              type: "request", 
+              data: { uri: requestURL }
+            }),
+          })}
         >
           Add Test Request Job
         </button>
@@ -197,18 +145,18 @@ function App() {
           {["request", "fetch", "parse"].map((queueName) => (
             <div key={queueName} className="queue-admin__active-column">
               <h3>
-                {queueName} Queue ({queues[queueName]?.active?.length || 0})
+                {queueName} Queue ({queueStats[queueName]?.active || 0})
               </h3>
-              {queues[queueName]?.active?.slice(0, 10).map((job) => (
+              {queueStats[queueName]?.activeJobs?.slice(0, 10).map((job) => (
                 <JobItemSmall
                   key={job.id}
                   onDetailClick={getDetailJob}
                   job={job}
                 />
               ))}
-              {(queues[queueName]?.active?.length || 0) > 10 && (
+              {(queueStats[queueName]?.activeJobs?.length || 0) > 10 && (
                 <div className="queue-admin__more-items">
-                  +{queues[queueName].active.length - 10} more items
+                  +{queueStats[queueName].activeJobs.length - 10} more items
                 </div>
               )}
             </div>

@@ -236,7 +236,7 @@ app.get("/api/stats", (req, res) => {
 
 app.get("/api/history", (req, res) => {
   const { status, search, queues, errorFilter, limit = 50 } = req.query;
-  const selectedQueues = queues ? queues.split(',') : ['request', 'fetch', 'parse'];
+  const selectedQueues = queues ? queues.split(',') : [];
   
   // Get filtered results from selected queues
   const results = {};
@@ -304,7 +304,7 @@ app.get("/api/jobs/:id", (req, res) => {
 });
 
 // API endpoint to add a job (for testing)
-app.post("/api/jobs", (req, res) => {
+app.post("/api/jobs", async (req, res) => {
   const { type, data } = req.body;
   let queue;
 
@@ -323,6 +323,7 @@ app.post("/api/jobs", (req, res) => {
   }
 
   const jobId = queue.addJob(data);
+  emitQueueStats();
   res.json({ success: true, jobId });
 });
 
@@ -332,6 +333,7 @@ app.post("/api/jobs/clear-history", (req, res) => {
   fetchQueue.clearHistory();
   parseQueue.clearHistory();
   requestTracker.clear();
+  emitQueueStats();
   res.json({ success: true });
 });
 
@@ -348,13 +350,16 @@ const emitQueueStats = debounce(() => {
     parse: parseQueue.getStats()
   };
   io.emit('queueStats', stats);
+  console.log('emitting queue stats');
 }, 1000);
 
 [requestQueue, fetchQueue, parseQueue].forEach(queue => {
+  console.log("run emitQueueStats");
   queue.events.on("jobAdded", () => emitQueueStats());
   queue.events.on("jobStarted", () => emitQueueStats());
   queue.events.on("jobCompleted", () => emitQueueStats());
   queue.events.on("jobFailed", () => emitQueueStats());
+  queue.events.on("jobProgress", () => emitQueueStats());
 });
 
 // Socket.IO connection handler
