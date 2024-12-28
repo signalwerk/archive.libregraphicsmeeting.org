@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf ./DATA",
-    "dev:server": "nodemon --watch ./src/server --exec node ./src/server/",
+    "dev:server": "nodemon --watch ./src/server --exec node ./src/",
     "dev:client": "vite",
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",

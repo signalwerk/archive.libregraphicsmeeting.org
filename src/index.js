@@ -1,17 +1,17 @@
-import { WebServer } from "./server.js";
-import { Cache } from "./utils/Cache.js";
-import { RequestTracker } from "./utils/RequestTracker.js";
-import { DataPatcher } from "./utils/DataPatcher.js";
+import { WebServer } from "./server/server.js";
+import { Cache } from "./server/utils/Cache.js";
+import { RequestTracker } from "./server/utils/RequestTracker.js";
+import { DataPatcher } from "./server/utils/DataPatcher.js";
 
-import { isDomainValid, isAlreadyRequested } from "./processor/request.js";
+import { isDomainValid, isAlreadyRequested } from "./server/processor/request.js";
 import {
   addParseJob,
   guessMimeType,
   parseHtml,
   parseCss,
-} from "./processor/parse.js";
-import { addFetchJob } from "./processor/fetch.js";
-import { isCached, fetchHttp } from "./processor/fetch.js";
+} from "./server/processor/parse.js";
+import { addFetchJob } from "./server/processor/fetch.js";
+import { isCached, fetchHttp } from "./server/processor/fetch.js";
 
 // Create instances of required components
 const cache = new Cache();
