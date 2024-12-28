@@ -15,7 +15,6 @@ function uuid(name) {
     .substring(2, 15)}`;
 }
 
-
 export class Queue {
   constructor(name, options = {}) {
     this.name = name;
@@ -85,6 +84,9 @@ export class Queue {
 
       let index = 0;
       const next = async (error, terminate) => {
+        // Emit progress event on each step
+        this.events.emit("jobProgress", job);
+
         if (error) {
           return this.failJob(job, error);
         }
@@ -151,6 +153,8 @@ export class Queue {
       // Update stats
       this.stats.totalHistory++;
       this.stats.statusCounts[job.status]++;
+      // Emit an event when a job moves to history
+      this.events.emit("jobMoved", job);
     }
   }
 

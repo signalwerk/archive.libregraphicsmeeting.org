@@ -25,26 +25,28 @@ function App() {
   const [historyJobs, setHistoryJobs] = useState({ total: 0, jobs: [] });
   const [jobDetail, setJobDetail] = useState(null);
   const [filters, setFilters] = useState({
-    status: 'all',
-    search: '',
-    queues: new Set(['request', 'fetch', 'parse']),
-    errorFilter: 'all'
+    status: "all",
+    search: "",
+    queues: new Set(["request", "fetch", "parse"]),
+    errorFilter: "all",
   });
 
   // Create fetchHistory first
-  const fetchHistory = useMemo(() => 
-    debounce(async (filters) => {
-      const params = new URLSearchParams({
-        status: filters.status,
-        search: filters.search,
-        queues: Array.from(filters.queues).join(',') ,
-        errorFilter: filters.errorFilter
-      });
-      const res = await fetch(`/api/history?${params}`);
-      const data = await res.json();
-      setHistoryJobs(data);
-    }, 1000)
-  , []);
+  const fetchHistory = useMemo(
+    () =>
+      debounce(async (filters) => {
+        const params = new URLSearchParams({
+          status: filters.status,
+          search: filters.search,
+          queues: Array.from(filters.queues).join(","),
+          errorFilter: filters.errorFilter,
+        });
+        const res = await fetch(`/api/history?${params}`);
+        const data = await res.json();
+        setHistoryJobs(data);
+      }, 1000),
+    [],
+  );
 
   useEffect(() => {
     // Listen for queue stats updates
@@ -57,14 +59,26 @@ function App() {
       fetchHistory(filters);
     });
 
+    // Listen for individual job updates
+    socket.on("jobUpdate", (updatedJob) => {
+      // Update job if it's currently being viewed
+      if (jobDetail && jobDetail.id === updatedJob.id) {
+        setJobDetail(updatedJob);
+      }
+    });
+
     // Fetch initial stats
-    fetch('/api/stats').then(res => res.json()).then(setQueueStats);
+    fetch("/api/stats")
+      .then((res) => res.json())
+      .then(setQueueStats)
+      .catch(console.error);
 
     return () => {
       socket.off("queueStats");
       socket.off("historyUpdate");
+      socket.off("jobUpdate");
     };
-  }, [filters, fetchHistory]);
+  }, [filters, fetchHistory, jobDetail]);
 
   // Fetch history when filters change
   useEffect(() => {
@@ -102,7 +116,7 @@ function App() {
   };
 
   const toggleQueue = (queueName) => {
-    setFilters(prev => {
+    setFilters((prev) => {
       const newQueues = new Set(prev.queues);
       if (newQueues.has(queueName)) {
         newQueues.delete(queueName);
@@ -126,14 +140,16 @@ function App() {
         </button>
         <button
           className="button"
-          onClick={() => fetch("/api/jobs", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ 
-              type: "request", 
-              data: { uri: requestURL }
-            }),
-          })}
+          onClick={() =>
+            fetch("/api/jobs", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                type: "request",
+                data: { uri: requestURL },
+              }),
+            })
+          }
         >
           Add Test Request Job
         </button>
@@ -169,7 +185,7 @@ function App() {
 
         <div className="queue-admin__filters">
           <div className="queue-admin__queue-filters">
-            {['request', 'fetch', 'parse'].map(queueName => (
+            {["request", "fetch", "parse"].map((queueName) => (
               <label key={queueName} className="checkbox-label">
                 <input
                   type="checkbox"
@@ -184,7 +200,9 @@ function App() {
           <select
             className="select queue-admin__filter-select"
             value={filters.status}
-            onChange={(e) => setFilters(prev => ({ ...prev, status: e.target.value }))}
+            onChange={(e) =>
+              setFilters((prev) => ({ ...prev, status: e.target.value }))
+            }
           >
             <option value="all">All Status</option>
             <option value="completed">Completed</option>
@@ -194,7 +212,9 @@ function App() {
           <select
             className="select queue-admin__filter-select"
             value={filters.errorFilter}
-            onChange={(e) => setFilters(prev => ({ ...prev, errorFilter: e.target.value }))}
+            onChange={(e) =>
+              setFilters((prev) => ({ ...prev, errorFilter: e.target.value }))
+            }
           >
             <option value="all">All Errors</option>
             <option value="with">With Errors</option>
@@ -205,7 +225,9 @@ function App() {
             type="text"
             className="input queue-admin__filter-input"
             value={filters.search}
-            onChange={(e) => setFilters(prev => ({ ...prev, search: e.target.value }))}
+            onChange={(e) =>
+              setFilters((prev) => ({ ...prev, search: e.target.value }))
+            }
             placeholder="Search jobs..."
           />
         </div>

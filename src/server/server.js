@@ -229,44 +229,45 @@ app.get("/api/stats", (req, res) => {
   const stats = {
     request: requestQueue.getStats(),
     fetch: fetchQueue.getStats(),
-    parse: parseQueue.getStats()
+    parse: parseQueue.getStats(),
   };
   res.json(stats);
 });
 
 app.get("/api/history", (req, res) => {
   const { status, search, queues, errorFilter, limit = 50 } = req.query;
-  const selectedQueues = queues ? queues.split(',') : [];
-  
+  const selectedQueues = queues ? queues.split(",") : [];
+
   // Get filtered results from selected queues
   const results = {};
-  selectedQueues.forEach(queueName => {
+  selectedQueues.forEach((queueName) => {
     const queue = {
-      'request': requestQueue,
-      'fetch': fetchQueue,
-      'parse': parseQueue
+      request: requestQueue,
+      fetch: fetchQueue,
+      parse: parseQueue,
     }[queueName];
 
     if (queue) {
-      results[queueName] = queue.getFilteredHistory({ 
-        status, 
-        searchTerm: search, 
+      results[queueName] = queue.getFilteredHistory({
+        status,
+        searchTerm: search,
         errorFilter,
-        limit 
+        limit,
       });
     }
   });
-  
+
   // Combine results using round-robin
   const combined = {
     total: Object.values(results).reduce((sum, r) => sum + r.total, 0),
-    jobs: []
+    jobs: [],
   };
-  
-  let remaining = Math.min(limit, 
-    Math.max(...Object.values(results).map(r => r.jobs.length))
+
+  let remaining = Math.min(
+    limit,
+    Math.max(...Object.values(results).map((r) => r.jobs.length)),
   );
-  
+
   while (remaining > 0) {
     for (const queueResults of Object.values(results)) {
       if (queueResults.jobs.length > 0) {
@@ -275,7 +276,7 @@ app.get("/api/history", (req, res) => {
     }
     remaining--;
   }
-  
+
   res.json(combined);
 });
 
@@ -347,19 +348,25 @@ const emitQueueStats = debounce(() => {
   const stats = {
     request: requestQueue.getStats(),
     fetch: fetchQueue.getStats(),
-    parse: parseQueue.getStats()
+    parse: parseQueue.getStats(),
   };
-  io.emit('queueStats', stats);
-  console.log('emitting queue stats');
-}, 1000);
+  io.emit("queueStats", stats);
+  // Also emit a history update event
+  io.emit("historyUpdate");
+}, 250); // Reduce debounce time to 250ms for more responsive updates
 
-[requestQueue, fetchQueue, parseQueue].forEach(queue => {
-  console.log("run emitQueueStats");
-  queue.events.on("jobAdded", () => emitQueueStats());
-  queue.events.on("jobStarted", () => emitQueueStats());
-  queue.events.on("jobCompleted", () => emitQueueStats());
-  queue.events.on("jobFailed", () => emitQueueStats());
-  queue.events.on("jobProgress", () => emitQueueStats());
+// Add job progress events
+[requestQueue, fetchQueue, parseQueue].forEach((queue) => {
+  queue.events.on("jobAdded", emitQueueStats);
+  queue.events.on("jobStarted", emitQueueStats);
+  queue.events.on("jobCompleted", emitQueueStats);
+  queue.events.on("jobFailed", emitQueueStats);
+  queue.events.on("jobProgress", emitQueueStats);
+
+  // Add log updates
+  queue.events.on("jobLog", (job) => {
+    io.emit("jobUpdate", job);
+  });
 });
 
 // Socket.IO connection handler
