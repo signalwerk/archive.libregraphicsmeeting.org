@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Fri, 02 May 2025 17:23:25 GMT",
+    "content-type": "text/html",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 22 Apr 2025 12:23:53 GMT"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2025/program/elephant_in_the_room-who_owns_the_image/"
+}

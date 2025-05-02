@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Fri, 02 May 2025 17:23:22 GMT",
+    "content-type": "image/svg+xml",
+    "content-length": "1522",
+    "connection": "keep-alive",
+    "last-modified": "Wed, 09 Apr 2025 07:08:45 GMT",
+    "etag": "\"5f2-6325323d9deb7\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2025/img/partners/karl-broeger-zentrum_logo.svg"
+}

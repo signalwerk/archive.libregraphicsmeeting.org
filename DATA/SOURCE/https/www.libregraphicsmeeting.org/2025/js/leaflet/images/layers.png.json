@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Fri, 02 May 2025 17:23:38 GMT",
+    "content-type": "image/png",
+    "content-length": "696",
+    "connection": "keep-alive",
+    "last-modified": "Sat, 25 Jan 2025 15:15:49 GMT",
+    "etag": "\"2b8-62c8951806d40\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2025/js/leaflet/images/layers.png"
+}

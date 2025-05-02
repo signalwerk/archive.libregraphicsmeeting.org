@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8">
+        <title>Program - Libre Graphics Meeting 2025 – RE:imagination, Nuremberg, Germany</title>
+        <meta name="viewport" content="initial-scale=1,shrink-to-fit=no">
+        <link
+            rel="alternate"
+            type="application/atom+xml"
+            href="https://libregraphicsmeeting.org/2025/feed.xml" />
+        <link rel="stylesheet"
+            href="/2025/js/leaflet/leaflet.css" />
+        <link
+            rel="stylesheet"
+            href="/2025/css/main.css?cacheBuster=6ac40597b365a1d8d06d2aa4e9bb8c83d36db12b8dbc136b6f4e11f6287d8161"/>
+        <script src="/2025/js/main.js?cacheBuster=8b021e3cb938d9eb95b9cf93ae1c33f2f89cd6a9c4c318f640ec953a5fcfce33"
+            async
+            type="module"></script>
+        <!-- for syntax highlighting https://www.11ty.dev/docs/plugins/syntaxhighlight/-->
+        <!--
+        <link
+            href="https://unpkg.com/prismjs@1.29.0/themes/prism-tomorrow.min.css"
+            rel="stylesheet"
+        />
+        -->
+        
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="donate"><a href="/2025/donate">Donate!</a></div>
+            <header>
+                <svg
+   class="identity-logo identity-logo-boxes"
+   viewBox="0 0 1050 500"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+  <mask
+       id="logo-boxes-mask">
+       <rect x="-10" y="-10" width="10000" height="10000" fill="white" />
+       <path
+              style="fill:#000;"
+              d="M383.32222,0l38.197,142.557l258.252,-69.2l37.856,141.282l259.021,-69.405l71.457,266.682l-266.681,71.457l-22.666,-84.594l-315.709,84.594l-22.696,-84.703l-316.107,84.701l-102.149,-381.223z"
+       />
+  </mask>
+   <rect
+       style="fill:#fff"
+       width="1070"
+       height="520"
+       x="-10"
+       y="-10"
+       mask="url(#logo-boxes-mask)"
+       />
+</svg>
+
+                <svg
+   class="identity-logo identity-logo-text"
+   viewBox="0 0 1020 600"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <g
+     transform="translate(0, 0)">
+    <mask
+       id="logo-text-mask">
+       <rect x="-10" y="-10" width="10000" height="10000" fill="white" />
+       <text
+           xml:space="preserve"
+           style="font-size:166.299px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 46, 'wght' 1000, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+           x="0"
+           y="297.48778"
+             >MEETING</text>
+       <text
+           xml:space="preserve"
+           style="font-size:166.299px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 90, 'wght' 1000, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+           x="0"
+           y="444.28721"
+             >NUREMBERG</text>
+    </mask>
+
+    <rect
+       style="fill:#fff"
+       width="1070"
+       height="613.3717"
+       x="-10"
+       y="-10"
+       mask="url(#logo-text-mask)"
+       />
+    <text
+       xml:space="preserve"
+       style="font-size:170.079px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 41, 'wght' 805, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+       x="0"
+       y="150.48723"
+         >LIBRE GRAPHICS</text>
+    <text
+       xml:space="preserve"
+       style="font-size:170.079px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 98, 'wght' 805, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+       x="0"
+       y="591.45513"
+       >MAY 28 — 31</text>
+
+    <text
+       xml:space="preserve"
+       style="font-size:166.299px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 73, 'wght' 805, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+       x="660.28653"
+       y="297.48778"
+       >2025</text>
+  </g>
+</svg>
+
+                <svg
+   class="identiy-reimagination"
+   viewBox="0 0 2720 350"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <g
+     transform="translate(0, 0)">
+    <mask
+       style="fill:#fff;"
+       id="reimagination-text-mask">
+       <rect x="-10" y="-10" width="10000" height="10000" fill="white" />
+       <text
+           xml:space="preserve"
+           style="font-size:400px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 46, 'wght' 1000, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+           x="455"
+           y="310"
+             >IMAGINATION</text>
+    </mask>
+
+    <rect
+       style="fill:#fff"
+       width="3000"
+       height="420"
+       x="-10"
+       y="-10"
+       mask="url(#reimagination-text-mask)"
+       />
+    <text
+       xml:space="preserve"
+       style="font-size:400px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 41, 'wght' 805, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+       x="0"
+       y="310"
+         >RE:</text>
+  </g>
+</svg>
+
+                <div class="filler filler-1"></div>
+                <div class="filler filler-2"></div>
+                <h1>Libre Graphics Meeting 2025 – RE:imagination</h1>
+                <h2>28-31 May Nuremberg, Germany</h2>
+
+                <nav>
+                    <ul><li><a href="/2025/">Home</a><ul><li><a href="/2025/news/">News</a></li>
+<li><a href="/2025/sponsors/">Sponsors</a></li>
+<li><a href="/2025/partners/">Partners</a></li>
+<li><a href="/2025/about/">About</a></li>
+<li><a href="/2025/code-of-conduct/">Code of Conduct</a></li>
+<li><a href="/2025/contact/">Contact</a></li></ul></li>
+<li class="active"><a href="/2025/program/">Program</a><ul><li><a href="/2025/venues/">Venues</a></li>
+<li><a href="/2025/call-for-participation/">Call for Participation</a></li></ul></li>
+<li><a href="/2025/register/">Register!</a><ul><li><a href="/2025/donate/">Donate!</a></li>
+<li><a href="/2025/reimbursement/">Reimbursement</a></li></ul></li></ul><div class="past_editions">
+                    <span>Past Editions</span>
+                    <ul><!-- The archive of past editions. -->
+                        <li><a href="/2024/"><em>2024</em> | <span>Rennes</span></a></li><li><a href="/2021/en/index.html"><em>2021</em> | <span>(online)</span></a></li><li><a href="/2020/en/index.html"><em>2020</em> | <span>Rennes (online)</span></a></li><li><a href="/2019/"><em>2019</em> | <span>Saarbruck</span></a></li><li><a href="/2018/"><em>2018</em> | <span>Sevilla</span></a></li><li><a href="/2017/"><em>2017</em> | <span>Rio de Janeiro</span></a></li><li><a href="/2016/"><em>2016</em> | <span>London</span></a></li><li><a href="/2015/"><em>2015</em> | <span>Toronto</span></a></li><li><a href="/2014/"><em>2014</em> | <span>Leipzig</span></a></li><li><a href="/2013/"><em>2013</em> | <span>Madrid</span></a></li><li><a href="/2012/"><em>2012</em> | <span>Vienna</span></a></li><li><a href="/2011/"><em>2011</em> | <span>Montreal</span></a></li><li><a href="/2010/"><em>2010</em> | <span>Brussels</span></a></li><li><a href="/2009/"><em>2009</em> | <span>Montreal</span></a></li><li><a href="/2008/"><em>2008</em> | <span>Wrocław</span></a></li><li><a href="/2007/"><em>2007</em> | <span>Montreal</span></a></li><li><a href="/2006/"><em>2006</em> | <span>Lyon</span></a></li>
+                    </ul>
+                    </div>
+                    <button type="button" class="play_pause"
+                        title="Play and pause the animation of the background."
+                        ><span class="is_pausing-label">Play</span
+                        ><span class="is_playing-label">Pause</span
+                        ><span class="play_pause-purpose"> background animation.</span
+                    ></button>
+                </nav>
+            </header>
+
+            <article class="content">
+                <h1><a
+            id="program"
+            href="#program"
+            class="heading_anchor"
+            aria-hidden="true"
+            >#</a>Program</h1>
+    <section class="schedule-legend">
+  <h3>Legend</h3>
+  <span class="legend-general">general, LGM-community</span>
+  <span class="legend-talk">talk, lightning talks</span>
+  <span class="legend-sessions">parallel sessions</span>
+</section>
+    
+    
+    <h2><a
+            id="Wednesday"
+            href="#Wednesday"
+            class="heading_anchor"
+            aria-hidden="true"
+            >#</a>Wednesday, May 28, 2025 at GMT+2</h2>
+<table class="schedule">
+    
+    
+<tr class="schedule_item schedule_item-type-break">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-28T11:00:00.000Z">13:00</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    Doors Open (45 min)
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-general">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-28T11:45:00.000Z">13:45</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/welcome/">Welcome</a>
+      <a class="host-link" href="/2025/hosts/LGM/">LGM Community</a>
+    
+      <a class="host-link" href="/2025/hosts/Lasse/">Lasse Fister</a>
+    
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-community">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-28T12:15:00.000Z">14:15</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/re-imagination_primer/">RE:imagination Primer</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/LGM/">LGM Community</a>
+    
+      <a class="host-link" href="/2025/hosts/Lasse/">Lasse Fister</a>
+    
+      <a class="host-link" href="/2025/hosts/SimonH/">Simon Harhues</a>
+    
+      <a class="label-link" href="/2025/program/label-re-imagination">#re:imagination</a>
+      <a class="label-link" href="/2025/program/label-community">#community</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-general">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-28T12:40:00.000Z">14:40</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/state_of_libre_graphics/">State of Libre Graphics</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/LGM/">LGM Community</a>
+    
+      <a class="host-link" href="/2025/hosts/MABarbe/">MABarbe</a>
+    
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-28T13:05:00.000Z">15:05</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/state_of_processing/">The State of Processing: How We’re Bringing a Creative Coding Icon Back to Life</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Raphaël/">Raphaël de Courville</a>
+    
+      <a class="host-link" href="/2025/hosts/Stef/">Stef Tervelde</a>
+    
+      <a class="label-link" href="/2025/program/label-processing">#Processing</a>
+      <a class="label-link" href="/2025/program/label-community">#community</a>
+      <a class="label-link" href="/2025/program/label-live">#live</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-28T13:30:00.000Z">15:30</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/upstage_presentation/">UpStage</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Helen/">Helen Varley Jamieson</a>
+    
+      <a class="host-link" href="/2025/hosts/Gloria/">Gloria W.</a>
+    
+      <a class="label-link" href="/2025/program/label-upstage">#UpStage</a>
+      <a class="label-link" href="/2025/program/label-cyberformance">#cyberformance</a>
+      <a class="label-link" href="/2025/program/label-live">#live</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-break">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-28T13:55:00.000Z">15:55</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    Coffee Break (25 min)
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-28T14:20:00.000Z">16:20</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/back_to_bitmap_fonts/">Let&#39;s All Go Back To Bitmap Fonts!</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Nathan/">Nathan Willis</a>
+    
+      <a class="label-link" href="/2025/program/label-fonts">#fonts</a>
+      <a class="label-link" href="/2025/program/label-typography">#typography</a>
+      <a class="label-link" href="/2025/program/label-vector">#vector</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-28T14:45:00.000Z">16:45</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/curious_case_of_splines_freecad/">The Curious Case of Splines in FreeCAD</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Ajinkya/">Ajinkya Dahale</a>
+    
+      <a class="label-link" href="/2025/program/label-freecad">#FreeCAD</a>
+      <a class="label-link" href="/2025/program/label-splines">#splines</a>
+      <a class="label-link" href="/2025/program/label-cad">#cad</a>
+      <a class="label-link" href="/2025/program/label-vector">#vector</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-28T15:10:00.000Z">17:10</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/permacomputing_fermenting_regenerative_aesthetics/">Permacomputing: Fermenting Regenerative Aesthetics</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Brendan/">Brendan Howell</a>
+    
+      <a class="label-link" href="/2025/program/label-permacomputing">#permacomputing</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-28T15:35:00.000Z">17:35</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/open-source_video_editing_landscape/">A View on the Open-Source Video Editing Landscape</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Simran/">Simran Spiller</a>
+    
+      <a class="label-link" href="/2025/program/label-video">#video</a>
+      <a class="label-link" href="/2025/program/label-toolbox">#toolbox</a>
+  
+    </td>
+</tr>
+    
+    
+    
+    
+<tr class="schedule_item schedule_item-type-inject">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-28T16:00:00.000Z">18:00</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    Day&#39;s End
+  
+    </td>
+</tr>
+</table>
+
+    <section class="schedule-legend">
+  <h3>Legend</h3>
+  <span class="legend-general">general, LGM-community</span>
+  <span class="legend-talk">talk, lightning talks</span>
+  <span class="legend-sessions">parallel sessions</span>
+</section>
+    
+    
+    <h2><a
+            id="Thursday"
+            href="#Thursday"
+            class="heading_anchor"
+            aria-hidden="true"
+            >#</a>Thursday, May 29, 2025 at GMT+2</h2>
+<table class="schedule">
+    
+    
+<tr class="schedule_item schedule_item-type-break">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-29T08:00:00.000Z">10:00</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    Doors Open (10 min)
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-community">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-29T08:10:00.000Z">10:10</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/re-imagination_workshop/">RE:imagination Workshop</a><span class="schedule_item-own_type">—interactive</span>
+      <a class="host-link" href="/2025/hosts/LGM/">LGM Community</a>
+    
+      <a class="host-link" href="/2025/hosts/Lasse/">Lasse Fister</a>
+    
+      <a class="host-link" href="/2025/hosts/SimonH/">Simon Harhues</a>
+    
+      <a class="label-link" href="/2025/program/label-re-imagination">#re:imagination</a>
+      <a class="label-link" href="/2025/program/label-community">#community</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-break">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-29T10:10:00.000Z">12:10</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    Lunch Break (90 min)
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-sessions">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-29T11:40:00.000Z">13:40</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <h3>Parallel Sessions</h3>
+  <ul><li><a class="page-link" href="/2025/program/open-source_immersive_animations/">Open Source Immersive Animations</a><span class="schedule_item-own_type">—workshop</span>
+      <a class="host-link" href="/2025/hosts/Brent/">Brent D. Patterson</a>
+    
+      <a class="label-link" href="/2025/program/label-animation">#animation</a>
+      <a class="label-link" href="/2025/program/label-blender">#Blender</a>
+      <a class="label-link" href="/2025/program/label-live">#live</a>
+      <a class="label-link" href="/2025/program/label-3d">#3d</a></li><li><a class="page-link" href="/2025/program/re-imagination_bof/">RE:imagination</a><span class="schedule_item-own_type">—BoF</span>
+      <a class="host-link" href="/2025/hosts/LGM/">LGM Community</a>
+    
+      <a class="host-link" href="/2025/hosts/Lasse/">Lasse Fister</a>
+    
+      <a class="label-link" href="/2025/program/label-re-imagination">#re:imagination</a>
+      <a class="label-link" href="/2025/program/label-community">#community</a></li><li><a class="page-link" href="/2025/program/curved_geometry_freecad/">Curved Geometry in FreeCAD</a><span class="schedule_item-own_type">—BoF</span>
+      <a class="host-link" href="/2025/hosts/Ajinkya/">Ajinkya Dahale</a>
+    
+      <a class="label-link" href="/2025/program/label-freecad">#FreeCAD</a>
+      <a class="label-link" href="/2025/program/label-splines">#splines</a>
+      <a class="label-link" href="/2025/program/label-cad">#cad</a>
+      <a class="label-link" href="/2025/program/label-vector">#vector</a></li><li><a class="page-link" href="/2025/program/upstage_workshop/">UpStage</a><span class="schedule_item-own_type">—workshop</span>
+      <a class="host-link" href="/2025/hosts/Helen/">Helen Varley Jamieson</a>
+    
+      <a class="label-link" href="/2025/program/label-upstage">#UpStage</a>
+      <a class="label-link" href="/2025/program/label-cyberformance">#cyberformance</a>
+      <a class="label-link" href="/2025/program/label-live">#live</a></li></ul>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-break">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-29T13:40:00.000Z">15:40</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    Transition Break (10 min)
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-lightning">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-29T13:50:00.000Z">15:50</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/lightning_talks/">Lightning Talks</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/LGM/">LGM Community</a>
+    
+      <a class="host-link" href="/2025/hosts/TBD/">TBD (Undetermined)</a>
+    
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-break">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-29T14:50:00.000Z">16:50</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    Coffee Break (25 min)
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-29T15:15:00.000Z">17:15</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/pcb_artwork_with_kicad/">PCB Artwork with KiCAD</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/SimonB/">Simon Budig</a>
+    
+      <a class="label-link" href="/2025/program/label-kicad">#KiCAD</a>
+      <a class="label-link" href="/2025/program/label-cad">#cad</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-29T15:40:00.000Z">17:40</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/fontra/">Fontra —
+The Browser-Based Font Editor</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Lasse/">Lasse Fister</a>
+    
+      <a class="host-link" href="/2025/hosts/TBD/">TBD (Undetermined)</a>
+    
+      <a class="label-link" href="/2025/program/label-fonts">#fonts</a>
+      <a class="label-link" href="/2025/program/label-typography">#typography</a>
+      <a class="label-link" href="/2025/program/label-vector">#vector</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-29T16:05:00.000Z">18:05</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/hyper_8_video_system/">Hyper 8 Video System</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/SimonR/">Simon Repp</a>
+    
+      <a class="label-link" href="/2025/program/label-video">#video</a>
+      <a class="label-link" href="/2025/program/label-web">#web</a>
+      <a class="label-link" href="/2025/program/label-peertube">#PeerTube</a>
+  
+    </td>
+</tr>
+    
+    
+    
+    
+<tr class="schedule_item schedule_item-type-inject">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-29T16:30:00.000Z">18:30</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    Day&#39;s End
+  
+    </td>
+</tr>
+</table>
+
+    <section class="schedule-legend">
+  <h3>Legend</h3>
+  <span class="legend-general">general, LGM-community</span>
+  <span class="legend-talk">talk, lightning talks</span>
+  <span class="legend-sessions">parallel sessions</span>
+</section>
+    
+    
+    <h2><a
+            id="Friday"
+            href="#Friday"
+            class="heading_anchor"
+            aria-hidden="true"
+            >#</a>Friday, May 30, 2025 at GMT+2</h2>
+<table class="schedule">
+    
+    
+<tr class="schedule_item schedule_item-type-break">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-30T08:00:00.000Z">10:00</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    Doors Open (10 min)
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-30T08:10:00.000Z">10:10</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/re-imagining_3D_interactive_internet_presentation/">Re:Imagining a 3D and Interactive Internet</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Gottfried/">Gottfried Hofmann</a>
+    
+      <a class="host-link" href="/2025/hosts/Frederik/">Frederik Steinmetz</a>
+    
+      <a class="label-link" href="/2025/program/label-hubs">#Hubs</a>
+      <a class="label-link" href="/2025/program/label-blender">#Blender</a>
+      <a class="label-link" href="/2025/program/label-web">#web</a>
+      <a class="label-link" href="/2025/program/label-3d">#3d</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-30T08:35:00.000Z">10:35</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/making_waterfalls/">Making Waterfalls</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Tom/">Tom Lechner</a>
+    
+      <a class="label-link" href="/2025/program/label-godot">#Godot</a>
+      <a class="label-link" href="/2025/program/label-blender">#Blender</a>
+      <a class="label-link" href="/2025/program/label-gimp">#Gimp</a>
+      <a class="label-link" href="/2025/program/label-krita">#Krita</a>
+      <a class="label-link" href="/2025/program/label-3d">#3d</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-30T09:00:00.000Z">11:00</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/type-roof/">TypeRoof —
+Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Lasse/">Lasse Fister</a>
+    
+      <a class="label-link" href="/2025/program/label-fonts">#fonts</a>
+      <a class="label-link" href="/2025/program/label-typography">#typography</a>
+      <a class="label-link" href="/2025/program/label-web">#web</a>
+      <a class="label-link" href="/2025/program/label-printing">#printing</a>
+      <a class="label-link" href="/2025/program/label-animation">#animation</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-30T09:25:00.000Z">11:25</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/introduction_usability-ux_evaluation_methods/">Introduction to Usability/UX Evaluation Methods</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/SimonH/">Simon Harhues</a>
+    
+      <a class="label-link" href="/2025/program/label-usability">#usability</a>
+      <a class="label-link" href="/2025/program/label-ux">#ux</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-break">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-30T09:50:00.000Z">11:50</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    Lunch Break (90 min)
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-sessions">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-30T11:20:00.000Z">13:20</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <h3>Parallel Sessions</h3>
+  <ul><li><a class="page-link" href="/2025/program/from_import_to_website_part_1/">From the Import to the Website — part 1: importing and developing raw captures</a><span class="schedule_item-own_type">—workshop</span>
+      <a class="host-link" href="/2025/hosts/Anna/">Anna Simon</a>
+    
+      <a class="label-link" href="/2025/program/label-photography">#photography</a>
+      <a class="label-link" href="/2025/program/label-web">#web</a>
+      <a class="label-link" href="/2025/program/label-art">#ART</a>
+      <a class="label-link" href="/2025/program/label-rawtherapee">#RawTherapee</a>
+      <a class="label-link" href="/2025/program/label-toolbox">#toolbox</a></li><li><a class="page-link" href="/2025/program/run_brief_usability_test/">Run a Brief Usability Test to Find Usability Issues</a><span class="schedule_item-own_type">—workshop</span>
+      <a class="host-link" href="/2025/hosts/SimonH/">Simon Harhues</a>
+    
+      <a class="label-link" href="/2025/program/label-usability">#usability</a>
+      <a class="label-link" href="/2025/program/label-ux">#ux</a></li><li><a class="page-link" href="/2025/program/permacomputing_bof/">Permacomputing</a><span class="schedule_item-own_type">—BoF</span>
+      <a class="host-link" href="/2025/hosts/Brendan/">Brendan Howell</a>
+    
+      <a class="label-link" href="/2025/program/label-permacomputing">#permacomputing</a></li><li><a class="page-link" href="/2025/program/re-imagining_3D_interactive_internet_workshop/">Re:Imagining a 3D and Interactive Internet</a><span class="schedule_item-own_type">—workshop</span>
+      <a class="host-link" href="/2025/hosts/Gottfried/">Gottfried Hofmann</a>
+    
+      <a class="host-link" href="/2025/hosts/Frederik/">Frederik Steinmetz</a>
+    
+      <a class="label-link" href="/2025/program/label-hubs">#Hubs</a>
+      <a class="label-link" href="/2025/program/label-blender">#Blender</a>
+      <a class="label-link" href="/2025/program/label-web">#web</a>
+      <a class="label-link" href="/2025/program/label-3d">#3d</a></li></ul>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-break">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-30T13:20:00.000Z">15:20</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    Transition Break (10 min)
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-lightning">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-30T13:30:00.000Z">15:30</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/lightning_talks/">Lightning Talks</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/LGM/">LGM Community</a>
+    
+      <a class="host-link" href="/2025/hosts/TBD/">TBD (Undetermined)</a>
+    
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-break">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-30T14:30:00.000Z">16:30</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    Coffee Break (20 min)
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-30T14:50:00.000Z">16:50</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/art_on_wayland/">Art on Wayland – Challenges and Opportunities for Graphic Tablets</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Nicolas/">Nicolas Fella</a>
+    
+      <a class="label-link" href="/2025/program/label-wayland">#Wayland</a>
+      <a class="label-link" href="/2025/program/label-krita">#Krita</a>
+      <a class="label-link" href="/2025/program/label-kdenlive">#Kdenlive</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-30T15:15:00.000Z">17:15</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/from_printer_dust_till_graphics_dawn_presentation/">From Printer Dust Till Graphics Dawn</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/XPUB/">XPUB</a>
+    
+      <a class="host-link" href="/2025/hosts/Manetta/">Manetta Berends</a>
+    
+      <a class="host-link" href="/2025/hosts/Joseph/">Joseph Knierzinger</a>
+    
+      <a class="label-link" href="/2025/program/label-printing">#printing</a>
+      <a class="label-link" href="/2025/program/label-postscript">#PostScript</a>
+      <a class="label-link" href="/2025/program/label-ghostscript">#Ghostscript</a>
+      <a class="label-link" href="/2025/program/label-xpub">#XPUB</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-30T15:40:00.000Z">17:40</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/elephant_in_the_room-who_owns_the_image/">The Elephant in the Room: Who Owns the Image?</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Eylul/">Eylul Dogruel</a>
+    
+      <a class="label-link" href="/2025/program/label-ai">#ai</a>
+      <a class="label-link" href="/2025/program/label-ownership">#ownership</a>
+      <a class="label-link" href="/2025/program/label-intelectual-property">#intelectual-property</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-30T16:05:00.000Z">18:05</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/libre_designers_and_the_software_apocalypse/">Libre Designers and the Software Apocalypse</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Neil/">Neil C Smith</a>
+    
+      <a class="label-link" href="/2025/program/label-coding">#coding</a>
+      <a class="label-link" href="/2025/program/label-tools">#tools</a>
+      <a class="label-link" href="/2025/program/label-ui">#ui</a>
+      <a class="label-link" href="/2025/program/label-ux">#ux</a>
+  
+    </td>
+</tr>
+    
+    
+    
+    
+<tr class="schedule_item schedule_item-type-inject">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-30T16:30:00.000Z">18:30</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    Day&#39;s End
+  
+    </td>
+</tr>
+</table>
+
+    <section class="schedule-legend">
+  <h3>Legend</h3>
+  <span class="legend-general">general, LGM-community</span>
+  <span class="legend-talk">talk, lightning talks</span>
+  <span class="legend-sessions">parallel sessions</span>
+</section>
+    
+    
+    <h2><a
+            id="Saturday"
+            href="#Saturday"
+            class="heading_anchor"
+            aria-hidden="true"
+            >#</a>Saturday, May 31, 2025 at GMT+2</h2>
+<table class="schedule">
+    
+    
+<tr class="schedule_item schedule_item-type-break">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-31T08:00:00.000Z">10:00</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    Doors Open (10 min)
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-31T08:10:00.000Z">10:10</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/inkscape_ui_vision_going_forward/">Inkscape UI Vision Going Forward</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Henrique/">Henrique Perticarati</a>
+    
+      <a class="label-link" href="/2025/program/label-inkscape">#Inkscape</a>
+      <a class="label-link" href="/2025/program/label-ui">#ui</a>
+      <a class="label-link" href="/2025/program/label-ux">#ux</a>
+      <a class="label-link" href="/2025/program/label-vector">#vector</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-31T08:35:00.000Z">10:35</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/the_pdf_toolbox/">The PDF Toolbox</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Cédric/">Cédric Gémy</a>
+    
+      <a class="label-link" href="/2025/program/label-pdf">#pdf</a>
+      <a class="label-link" href="/2025/program/label-toolbox">#toolbox</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-31T09:00:00.000Z">11:00</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/printing_maps_with_spot_colors/">Printing Maps with Spot Colors</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Atelier_cartographique/">Atelier cartographique</a>
+    
+      <a class="host-link" href="/2025/hosts/Pierre/">Pierre Marchand</a>
+    
+      <a class="host-link" href="/2025/hosts/Julie/">Julie Vanderhaeghen</a>
+    
+      <a class="label-link" href="/2025/program/label-printing">#printing</a>
+      <a class="label-link" href="/2025/program/label-maps">#maps</a>
+      <a class="label-link" href="/2025/program/label-qgis">#Qgis</a>
+      <a class="label-link" href="/2025/program/label-scribus">#Scribus</a>
+      <a class="label-link" href="/2025/program/label-inkscape">#Inkscape</a>
+      <a class="label-link" href="/2025/program/label-ghostscript">#Ghostscript</a>
+      <a class="label-link" href="/2025/program/label-postscript">#PostScript</a>
+      <a class="label-link" href="/2025/program/label-toolbox">#toolbox</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-31T09:25:00.000Z">11:25</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/building_website_design_system_with_atomic_design_principles/">Building a Website Design System with Atomic Design Principles Using Penpot</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/María/">María &quot;Tatica&quot; Leandro</a>
+    
+      <a class="label-link" href="/2025/program/label-penpot">#Penpot</a>
+      <a class="label-link" href="/2025/program/label-web">#web</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-break">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-31T09:50:00.000Z">11:50</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    Lunch Break (90 min)
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-sessions">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-31T11:20:00.000Z">13:20</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <h3>Parallel Sessions</h3>
+  <ul><li><a class="page-link" href="/2025/program/from_import_to_website_part_2/">From the Import to the Website — part 2: editing metadata and creating a sophisticated web photo gallery or archive</a><span class="schedule_item-own_type">—workshop</span>
+      <a class="host-link" href="/2025/hosts/Anna/">Anna Simon</a>
+    
+      <a class="label-link" href="/2025/program/label-photography">#photography</a>
+      <a class="label-link" href="/2025/program/label-web">#web</a>
+      <a class="label-link" href="/2025/program/label-digikam">#Digikam</a>
+      <a class="label-link" href="/2025/program/label-wordpress">#Wordpress</a>
+      <a class="label-link" href="/2025/program/label-toolbox">#toolbox</a></li><li><a class="page-link" href="/2025/program/usability_conduct_heuristic_evaluation/">Conduct a Heuristic Evaluation of your/an Application to Find Potential Usability Issues</a><span class="schedule_item-own_type">—workshop</span>
+      <a class="host-link" href="/2025/hosts/SimonH/">Simon Harhues</a>
+    
+      <a class="label-link" href="/2025/program/label-usability">#usability</a>
+      <a class="label-link" href="/2025/program/label-ux">#ux</a></li><li><a class="page-link" href="/2025/program/from_printer_dust_till_graphics_dawn_workshop/">From Printer Dust Till Graphics Dawn</a><span class="schedule_item-own_type">—workshop</span>
+      <a class="host-link" href="/2025/hosts/XPUB/">XPUB</a>
+    
+      <a class="host-link" href="/2025/hosts/Manetta/">Manetta Berends</a>
+    
+      <a class="host-link" href="/2025/hosts/Joseph/">Joseph Knierzinger</a>
+    
+      <a class="label-link" href="/2025/program/label-printing">#printing</a>
+      <a class="label-link" href="/2025/program/label-postscript">#PostScript</a>
+      <a class="label-link" href="/2025/program/label-ghostscript">#Ghostscript</a>
+      <a class="label-link" href="/2025/program/label-xpub">#XPUB</a></li><li><a class="page-link" href="/2025/program/graphics_and_creative_coding_on_the_jvm/">Graphics and Creative Coding on the JVM</a><span class="schedule_item-own_type">—BoF</span>
+      <a class="host-link" href="/2025/hosts/Abe/">Abe Pazos Solatie</a>
+    
+      <a class="host-link" href="/2025/hosts/Edwin/">Edwin Jakobs</a>
+    
+      <a class="host-link" href="/2025/hosts/Neil/">Neil C Smith</a>
+    
+      <a class="host-link" href="/2025/hosts/Raphaël/">Raphaël de Courville</a>
+    
+      <a class="host-link" href="/2025/hosts/Stef/">Stef Tervelde</a>
+    
+      <a class="label-link" href="/2025/program/label-processing">#Processing</a>
+      <a class="label-link" href="/2025/program/label-live">#live</a>
+      <a class="label-link" href="/2025/program/label-community">#community</a>
+      <a class="label-link" href="/2025/program/label-openjdk">#OpenJDK</a>
+      <a class="label-link" href="/2025/program/label-jvm">#JVM</a></li></ul>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-break">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-31T13:20:00.000Z">15:20</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    Transition Break (10 min)
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-31T13:30:00.000Z">15:30</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/how_to_run_a_film_festival_on_libre_graphics/">How to Run a Film Festival on Libre Graphics</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Marc/">Marc Rodrigues</a>
+    
+      <a class="label-link" href="/2025/program/label-toolbox">#toolbox</a>
+      <a class="label-link" href="/2025/program/label-events">#events</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-31T13:55:00.000Z">15:55</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/ink-stitch/">Ink/Stitch</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Kaalleen/">Kaalleen</a>
+    
+      <a class="label-link" href="/2025/program/label-inkscape">#Inkscape</a>
+      <a class="label-link" href="/2025/program/label-inkstitch">#InkStitch</a>
+      <a class="label-link" href="/2025/program/label-embroidery">#embroidery</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-break">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-31T14:20:00.000Z">16:20</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    Coffee Break (30 min)
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-community">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-31T14:50:00.000Z">16:50</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/next_LGM/">Next year&#39;s meeting</a><span class="schedule_item-own_type">—discussion</span>
+      <a class="host-link" href="/2025/hosts/LGM/">LGM Community</a>
+    
+      <a class="host-link" href="/2025/hosts/TBD/">TBD (Undetermined)</a>
+    
+      <a class="label-link" href="/2025/program/label-re-imagination">#re:imagination</a>
+      <a class="label-link" href="/2025/program/label-community">#community</a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-general">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-31T15:40:00.000Z">17:40</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    <a class="page-link" href="/2025/program/goodbye/">Closing session</a>
+      <a class="host-link" href="/2025/hosts/LGM/">LGM Community</a>
+    
+      <a class="host-link" href="/2025/hosts/Lasse/">Lasse Fister</a>
+    
+  
+    </td>
+</tr>
+    
+    
+    
+    
+<tr class="schedule_item schedule_item-type-inject">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-31T16:00:00.000Z">18:00</time>
+    </th>
+    <td class="schedule_item-content">
+    
+    Day&#39;s End
+  
+    </td>
+</tr>
+</table>
+
+
+
+
+
+            </article>
+            <footer><a href="/2025/impressum">Impressum</a></footer>
+        </div> <!-- wrapper -->
+    </body>
+</html>

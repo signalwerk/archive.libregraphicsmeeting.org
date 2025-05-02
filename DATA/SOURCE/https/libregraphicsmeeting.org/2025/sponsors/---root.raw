@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8">
+        <title>Sponsors - Libre Graphics Meeting 2025 – RE:imagination, Nuremberg, Germany</title>
+        <meta name="viewport" content="initial-scale=1,shrink-to-fit=no">
+        <link
+            rel="alternate"
+            type="application/atom+xml"
+            href="https://libregraphicsmeeting.org/2025/feed.xml" />
+        <link rel="stylesheet"
+            href="/2025/js/leaflet/leaflet.css" />
+        <link
+            rel="stylesheet"
+            href="/2025/css/main.css?cacheBuster=6ac40597b365a1d8d06d2aa4e9bb8c83d36db12b8dbc136b6f4e11f6287d8161"/>
+        <script src="/2025/js/main.js?cacheBuster=8b021e3cb938d9eb95b9cf93ae1c33f2f89cd6a9c4c318f640ec953a5fcfce33"
+            async
+            type="module"></script>
+        <!-- for syntax highlighting https://www.11ty.dev/docs/plugins/syntaxhighlight/-->
+        <!--
+        <link
+            href="https://unpkg.com/prismjs@1.29.0/themes/prism-tomorrow.min.css"
+            rel="stylesheet"
+        />
+        -->
+        
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="donate"><a href="/2025/donate">Donate!</a></div>
+            <header>
+                <svg
+   class="identity-logo identity-logo-boxes"
+   viewBox="0 0 1050 500"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+  <mask
+       id="logo-boxes-mask">
+       <rect x="-10" y="-10" width="10000" height="10000" fill="white" />
+       <path
+              style="fill:#000;"
+              d="M383.32222,0l38.197,142.557l258.252,-69.2l37.856,141.282l259.021,-69.405l71.457,266.682l-266.681,71.457l-22.666,-84.594l-315.709,84.594l-22.696,-84.703l-316.107,84.701l-102.149,-381.223z"
+       />
+  </mask>
+   <rect
+       style="fill:#fff"
+       width="1070"
+       height="520"
+       x="-10"
+       y="-10"
+       mask="url(#logo-boxes-mask)"
+       />
+</svg>
+
+                <svg
+   class="identity-logo identity-logo-text"
+   viewBox="0 0 1020 600"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <g
+     transform="translate(0, 0)">
+    <mask
+       id="logo-text-mask">
+       <rect x="-10" y="-10" width="10000" height="10000" fill="white" />
+       <text
+           xml:space="preserve"
+           style="font-size:166.299px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 46, 'wght' 1000, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+           x="0"
+           y="297.48778"
+             >MEETING</text>
+       <text
+           xml:space="preserve"
+           style="font-size:166.299px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 90, 'wght' 1000, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+           x="0"
+           y="444.28721"
+             >NUREMBERG</text>
+    </mask>
+
+    <rect
+       style="fill:#fff"
+       width="1070"
+       height="613.3717"
+       x="-10"
+       y="-10"
+       mask="url(#logo-text-mask)"
+       />
+    <text
+       xml:space="preserve"
+       style="font-size:170.079px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 41, 'wght' 805, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+       x="0"
+       y="150.48723"
+         >LIBRE GRAPHICS</text>
+    <text
+       xml:space="preserve"
+       style="font-size:170.079px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 98, 'wght' 805, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+       x="0"
+       y="591.45513"
+       >MAY 28 — 31</text>
+
+    <text
+       xml:space="preserve"
+       style="font-size:166.299px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 73, 'wght' 805, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+       x="660.28653"
+       y="297.48778"
+       >2025</text>
+  </g>
+</svg>
+
+                <svg
+   class="identiy-reimagination"
+   viewBox="0 0 2720 350"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <g
+     transform="translate(0, 0)">
+    <mask
+       style="fill:#fff;"
+       id="reimagination-text-mask">
+       <rect x="-10" y="-10" width="10000" height="10000" fill="white" />
+       <text
+           xml:space="preserve"
+           style="font-size:400px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 46, 'wght' 1000, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+           x="455"
+           y="310"
+             >IMAGINATION</text>
+    </mask>
+
+    <rect
+       style="fill:#fff"
+       width="3000"
+       height="420"
+       x="-10"
+       y="-10"
+       mask="url(#reimagination-text-mask)"
+       />
+    <text
+       xml:space="preserve"
+       style="font-size:400px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 41, 'wght' 805, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+       x="0"
+       y="310"
+         >RE:</text>
+  </g>
+</svg>
+
+                <div class="filler filler-1"></div>
+                <div class="filler filler-2"></div>
+                <h1>Libre Graphics Meeting 2025 – RE:imagination</h1>
+                <h2>28-31 May Nuremberg, Germany</h2>
+
+                <nav>
+                    <ul><li><a href="/2025/">Home</a><ul><li><a href="/2025/news/">News</a></li>
+<li class="active"><a href="/2025/sponsors/">Sponsors</a></li>
+<li><a href="/2025/partners/">Partners</a></li>
+<li><a href="/2025/about/">About</a></li>
+<li><a href="/2025/code-of-conduct/">Code of Conduct</a></li>
+<li><a href="/2025/contact/">Contact</a></li></ul></li>
+<li><a href="/2025/program/">Program</a><ul><li><a href="/2025/venues/">Venues</a></li>
+<li><a href="/2025/call-for-participation/">Call for Participation</a></li></ul></li>
+<li><a href="/2025/register/">Register!</a><ul><li><a href="/2025/donate/">Donate!</a></li>
+<li><a href="/2025/reimbursement/">Reimbursement</a></li></ul></li></ul><div class="past_editions">
+                    <span>Past Editions</span>
+                    <ul><!-- The archive of past editions. -->
+                        <li><a href="/2024/"><em>2024</em> | <span>Rennes</span></a></li><li><a href="/2021/en/index.html"><em>2021</em> | <span>(online)</span></a></li><li><a href="/2020/en/index.html"><em>2020</em> | <span>Rennes (online)</span></a></li><li><a href="/2019/"><em>2019</em> | <span>Saarbruck</span></a></li><li><a href="/2018/"><em>2018</em> | <span>Sevilla</span></a></li><li><a href="/2017/"><em>2017</em> | <span>Rio de Janeiro</span></a></li><li><a href="/2016/"><em>2016</em> | <span>London</span></a></li><li><a href="/2015/"><em>2015</em> | <span>Toronto</span></a></li><li><a href="/2014/"><em>2014</em> | <span>Leipzig</span></a></li><li><a href="/2013/"><em>2013</em> | <span>Madrid</span></a></li><li><a href="/2012/"><em>2012</em> | <span>Vienna</span></a></li><li><a href="/2011/"><em>2011</em> | <span>Montreal</span></a></li><li><a href="/2010/"><em>2010</em> | <span>Brussels</span></a></li><li><a href="/2009/"><em>2009</em> | <span>Montreal</span></a></li><li><a href="/2008/"><em>2008</em> | <span>Wrocław</span></a></li><li><a href="/2007/"><em>2007</em> | <span>Montreal</span></a></li><li><a href="/2006/"><em>2006</em> | <span>Lyon</span></a></li>
+                    </ul>
+                    </div>
+                    <button type="button" class="play_pause"
+                        title="Play and pause the animation of the background."
+                        ><span class="is_pausing-label">Play</span
+                        ><span class="is_playing-label">Pause</span
+                        ><span class="play_pause-purpose"> background animation.</span
+                    ></button>
+                </nav>
+            </header>
+
+            <article class="content">
+                <h1><a id="sponsoring-the-libre-graphics-meeting" class="heading_anchor" href="#sponsoring-the-libre-graphics-meeting" aria-hidden="true">#</a>Sponsoring the Libre Graphics Meeting</h1>
+<p>Thank you to all our sponsoring partners: without your support, LGM would
+not be the incredible event it is. Your contributions make all the
+difference, and we truly appreciate your partnership.</p>
+<h2><a id="silver-partners" class="heading_anchor" href="#silver-partners" aria-hidden="true">#</a>Silver Partners</h2>
+<div class="sponsorship sponsorship-level_silver">
+    <a class="sponsorship-logo" href="https://www.b1-systems.de"><img src="/2025/img/partners/b1-systems_logo.svg" alt="Logo Sponsor: B1 Systems" /></a>
+    <span class="sponsorship-info"><a class="sponsorship-link" href="https://www.b1-systems.de">B1 Systems</a> – Linux/Open Source Consulting, Training, Managed Service &amp; Support</span>
+</div>
+<h2><a id="bronze-partners" class="heading_anchor" href="#bronze-partners" aria-hidden="true">#</a>Bronze Partners</h2>
+<div class="sponsorship sponsorship-level_silver wide">
+    <a class="sponsorship-logo" href="https://www.suse.com"><img src="/2025/img/partners/SUSE_OpenSource-Community-Logo-Positive-Padding.svg" alt="Logo Sponsor: SUSE" /></a>
+    <span class="sponsorship-info"><a class="sponsorship-link" href="https://www.suse.com">SUSE</a> – Open Source Community Citizens</span>
+</div>
+<hr>
+<h2><a id="sponsorship-information" class="heading_anchor" href="#sponsorship-information" aria-hidden="true">#</a>Sponsorship Information</h2>
+<p>The Libre Graphics Meeting (LGM) is the annual event for developers and
+users of free software graphics applications. It provides a unique opportunity
+to collaborate and advance the cause of high-quality Free/Libre graphics
+software. Since 2006, communities including Inkscape, Scribus, GIMP, Blender,
+Krita, and many more have come together for this annual conference.</p>
+<p>The 18th annual Libre Graphics Meeting (LGM) will be held in Nuremberg, Germany on May 28-31, 2025.</p>
+<h2><a id="special-focus--reimagination" class="heading_anchor" href="#special-focus--reimagination" aria-hidden="true">#</a>Special focus – RE:imagination</h2>
+<p>The Libre Graphics Meeting faced significant challenges during and after
+the pandemic. In <a href="/2024">Rennes</a>, France, 2024, the local organization team revitalized
+the event, and now we aim to rebuild the international community and
+strengthen the structures around the Libre Graphics Meeting. Beyond the
+customary contributions, we are looking for presentations and discussions
+that embrace the theme of <strong>RE:imagination</strong>, exploring the future of the
+Libre Graphics Meeting together.</p>
+<h2><a id="allocation-of-funds" class="heading_anchor" href="#allocation-of-funds" aria-hidden="true">#</a>Allocation of Funds</h2>
+<p>As part of our commitment to openness and participation in technology,
+we aim to provide <a href="/2025/reimbursement">travel subsidies</a> to
+<a href="http://localhost:8081/2025/reimbursement/#who-can-be-reimbursed">speakers and active contributors</a>
+attending the event. Participants include developers, designers, artists,
+academics, and activists from around the world, all passionate about
+Free/Libre graphics software and technology. LGM is the annual gathering
+where they can discuss projects, coordinate efforts, and, most importantly,
+meet in person.</p>
+<p><strong>We welcome sponsors who want to help us achieve our goals.</strong>
+All funds raised will go towards covering conference expenses and
+reimbursing travel costs for participants who actively contribute to
+libre graphics and those presenting at the meeting.</p>
+<h2><a id="the-libre-graphics-meeting-organisation-seeks-sponsorship-at-the-following-levels" class="heading_anchor" href="#the-libre-graphics-meeting-organisation-seeks-sponsorship-at-the-following-levels" aria-hidden="true">#</a>The Libre Graphics Meeting organisation seeks sponsorship at the following levels:</h2>
+<h3><a id="gold--5000" class="heading_anchor" href="#gold--5000" aria-hidden="true">#</a>Gold € 5.000</h3>
+<ul>
+<li>Thanked in all press releases.</li>
+<li>Your logo and link on sponsors page of the website.</li>
+<li>Your logo in digital and/or printed printed info-materials at the event<a href="#digital-or-printed">*</a>.</li>
+<li>Thanked in a dedicated sponsorship announcement in our <a href="/2025/news">News</a> and social media.</li>
+</ul>
+<h3><a id="silver--3000" class="heading_anchor" href="#silver--3000" aria-hidden="true">#</a>Silver € 3.000</h3>
+<ul>
+<li>Your logo and link on sponsors page of the website.</li>
+<li>Your logo in digital and/or printed printed info-materials at the event<a href="#digital-or-printed">*</a>.</li>
+<li>Thanked in a dedicated sponsorship announcement in our <a href="/2025/news">News</a> and social media.</li>
+</ul>
+<h3><a id="bronze--1000" class="heading_anchor" href="#bronze--1000" aria-hidden="true">#</a>Bronze € 1.000</h3>
+<ul>
+<li>Your logo and link on sponsors page of the website.</li>
+<li>Thanked in a consolidated sponsorship announcement in our <a href="/2025/news">News</a>.</li>
+</ul>
+<h3><a id="iron--50000" class="heading_anchor" href="#iron--50000" aria-hidden="true">#</a>Iron € 500.00</h3>
+<ul>
+<li>Your name and link on sponsors page of the website.</li>
+<li>Thanked in a consolidated sponsorship announcement in our <a href="/2025/news">News</a>.</li>
+</ul>
+<h3><a id="special-commitment" class="heading_anchor" href="#special-commitment" aria-hidden="true">#</a>Special Commitment</h3>
+<p>Please contact us directly to discuss your ideas.</p>
+<h2><a id="contact" class="heading_anchor" href="#contact" aria-hidden="true">#</a>Contact</h2>
+<p>If you wish to become a sponsor, please contact
+Lasse Fister via <a href="mailto:libregraphicsmeeting@strong-type.systems">libregraphicsmeeting@strong-type.systems</a>.</p>
+<blockquote>
+<p>Thank you for your support!</p>
+</blockquote>
+<h4><a id="details" class="heading_anchor" href="#details" aria-hidden="true">#</a>Details</h4>
+<p><span id="digital-or-printed">*</span>  At the event a digital program
+display will feature programming information and sponsors in a continuous
+loop slideshow. However, the decision on whether a printed program will be
+available is still pending. If a printed program is produced, it will include
+a sponsors page featuring your logo.</p>
+
+            </article>
+            <footer><a href="/2025/impressum">Impressum</a></footer>
+        </div> <!-- wrapper -->
+    </body>
+</html>

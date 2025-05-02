@@ -1,0 +1,1196 @@
+@font-face {
+  font-family: RobotoFlex;
+  src:url("./RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].woff2") format("woff2");
+  font-weight:100 900;
+}
+
+@font-face {
+  font-family: RobotoFlex;
+  src:url("./RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].woff2") format("woff2");
+  font-style:italic;
+  font-weight:100 900;
+}
+
+:root {
+    background: #333;
+    font-family: RobotoFlex;
+    --hue-offset: 0turn;
+    --greenyellow: oklch(91.3% 0.2335 calc(130.02deg + var(--hue-offset)));
+    --hotpink: oklch(72.83% 0.19707545854163525 calc(351.9947080594076deg + var(--hue-offset)));
+    /* use as specific override only --text-opsz: 12; /* 12 pt equals 16 px */
+    --text-wdth: 100;
+    --text-wght: 400;
+    --text-grad: 0;
+    --text-slnt: 0;
+    /* use this instead of em*/
+    --font-size: 1;
+    /* only used for opsz. We don't yet get the actual document fs*/
+    --document-font-size-pt: 12;
+}
+
+
+* {
+    /* if --document-font-size-pt would be dynamic according to the document
+     * something like this:
+     * font-size: calc(var(--font-size, 1) * var(--document-font-size-pt, 12) * 1pt);
+     */
+    font-size: calc(var(--font-size, 1) * 1rem);
+    --text-opsz: calc(var(--font-size, 1) * var(--document-font-size-pt, 12));
+    font-variation-settings: "opsz" var(--text-opsz, 12),
+            "wdth" var(--text-wdth, 100),
+            "wght" var(--text-wght, 400),
+            "GRAD" var(--text-grad, 0),
+            "slnt" var(--text-slnt, 0);
+}
+
+h1 {
+    --font-size: 2;
+}
+h2 {
+    --font-size: 1.5;
+}
+h3 {
+    --font-size: 1.333;
+}
+h4 {
+    --font-size: 1.2;
+}
+h5 {
+    --font-size: 1;
+}
+
+b, strong {
+    --text-wght: 600;
+}
+i, em {
+    --text-slnt: -7;
+}
+
+body {
+    max-width: 72em;
+    margin: 0 auto;
+    --background: repeating-conic-gradient(from 81.9603deg at 54.4795% 53.4716%, color(srgb 0.678291 0.999957 0.183961 / 0.24) 251.636deg, color(srgb 0.678291 0.999957 0.183961 / 0.24) 257.269deg, color(srgb 1 0.411768 0.705885 / 0.35) 321.258deg, color(srgb 1 0.411768 0.705885 / 0.35) 278.634deg, color(srgb 0.678292 0.999957 0.183961 / 0.64) 305.367deg, color(srgb 0.678292 0.999957 0.183961 / 0.64) 284.348deg, color(srgb 1 0.411768 0.705885 / 0.26) 171.895deg, color(srgb 1 0.411768 0.705885 / 0.26) 172.615deg, color(srgb 0.678291 0.999957 0.183961 / 0.096) 201.29deg, color(srgb 0.678291 0.999957 0.183961 / 0.096) 167.761deg, color(srgb 1 0.411768 0.705885 / 0.736) 100.876deg, color(srgb 1 0.411768 0.705885 / 0.736) 170.399deg), repeating-conic-gradient(from 28.652deg at 21.1301% 25.2994%, color(srgb 0.678291 0.999957 0.183961 / 0.52) 187.956deg, color(srgb 0.678291 0.999957 0.183961 / 0.52) 227.671deg, color(srgb 1 0.411768 0.705885 / 0.714) 296.99deg, color(srgb 1 0.411768 0.705885 / 0.714) 288.584deg, color(srgb 0.678291 0.999957 0.183961 / 0.552) 294.305deg, color(srgb 0.678291 0.999957 0.183961 / 0.552) 72.76deg, color(srgb 1 0.411768 0.705885 / 0.697) 182.181deg, color(srgb 1 0.411768 0.705885 / 0.697) 90.8138deg, color(srgb 0.678291 0.999957 0.183961 / 0.415) 217.87deg, color(srgb 0.678291 0.999957 0.183961 / 0.415) 195.732deg, color(srgb 1 0.411768 0.705885 / 0.48) 267.512deg, color(srgb 1 0.411768 0.705885 / 0.48) 173.085deg), repeating-conic-gradient(from 37.138deg at 53.942% 34.3715%, color(srgb 0.678291 0.999957 0.183961 / 0.76) 54.1519deg, color(srgb 0.678291 0.999957 0.183961 / 0.76) 43.0496deg, color(srgb 1 0.411768 0.705885 / 0.874) 284.457deg, color(srgb 1 0.411768 0.705885 / 0.874) 290.071deg, color(srgb 0.678291 0.999957 0.183961 / 0.715) 27.9959deg, color(srgb 0.678291 0.999957 0.183961 / 0.715) 82.3657deg, color(srgb 1 0.411768 0.705885 / 0.882) 59.0745deg, color(srgb 1 0.411768 0.705885 / 0.882) 66.9433deg, color(srgb 0.678291 0.999957 0.183961 / 0.829) 279.571deg, color(srgb 0.678291 0.999957 0.183961 / 0.829) 238.35deg, color(srgb 1 0.411768 0.705885 / 0.87) 287.701deg, color(srgb 1 0.411768 0.705885 / 0.87) 259.235deg), none;
+    background: var(--background);
+}
+
+
+/* move out of view as we use SVG to dispaly the information visually */
+header :is(h1, h2){
+    position: absolute;
+    top: -1000vh
+}
+
+
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 1em;
+    container: wrapper / inline-size;
+}
+
+
+.content {
+    background: white;
+    flex: max-content;
+}
+
+
+header {
+    display: grid;
+    --nav-full-height: 2.6em;
+
+    grid-template-columns: 17em auto;
+    grid-template-rows: auto auto 1fr var(--nav-full-height);
+    grid-template-areas:
+        "logo-boxes filler-1"
+        "logo-text reimagination"
+        "logo-text filler-2"
+        "logo-text nav";
+}
+
+
+.filler {
+    background: white;
+}
+
+header .filler-1 {
+    grid-area: filler-1;
+}
+
+/*
+ * Safari (IOS) seems to have a clipping issue with our SVGs
+ * at a 1px gap someties the background shines through. This
+ * fixes it.
+ */
+header > *, .content, footer {
+    outline: 1px solid white;
+}
+nav {
+    outline: none;
+}
+
+footer{
+    background: black;
+    outline-color: black;
+    color: white;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+
+header .filler-2 {
+    grid-area: filler-2;
+}
+
+.identity-logo-container{
+    grid-area: logo;
+}
+
+:is(.identity-logo-boxes, .identity-logo-text, .identiy-reimagination) {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    border-style: solid;
+    border-color: white;
+    border-bottom: none;
+    border-width: 0;
+
+}
+
+.identity-logo-boxes {
+    grid-area: logo-boxes;
+    border-width: 1.5em .2em 0 .2em;
+}
+
+.identity-logo-text {
+    grid-area: logo-text;
+    border-width: 0 .5em 0 .5em;
+}
+
+.identiy-reimagination {
+    grid-area: reimagination;
+    border-width: 0 .5em 0 0;
+}
+
+nav {
+    grid-area: nav;
+    display: flex;
+    overflow: visible;
+    --nav-gap-size: .4em;
+    /*
+    height: 2.5em;
+    */
+
+    z-index: 500;
+    white-space: nowrap;
+}
+
+nav > ul > li,
+.past_editions {
+    position: relative;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.past_editions > span,
+nav > ul > li {
+    display: inline-block;
+}
+
+.past_editions ul a,
+nav li > ul a {
+    display: block;
+    margin: var(--nav-gap-size);
+    height: calc(var(--nav-full-height) - 2* var(--nav-gap-size));
+    line-height: calc(var(--nav-full-height) - 2* var(--nav-gap-size));
+}
+
+.past_editions > span,
+nav > ul > li > a,
+nav button {
+    margin: var(--nav-gap-size);
+    display: inline-block;
+    height: calc(var(--nav-full-height) - 2* var(--nav-gap-size));
+    line-height: calc(var(--nav-full-height) - 2* var(--nav-gap-size));
+}
+
+.past_editions > span {
+    padding-right: 0;
+}
+.past_editions > span,
+nav > ul > li > a {
+    margin-right: 0;
+}
+
+
+
+:is(.past_editions > span, nav li:has(> ul)):after,
+:is(.past_editions > span, nav li:has(> ul)):before {
+    content: "▽\FE0E";
+    text-align: center;
+    display: inline-block;
+    width: 2em;
+    height: calc(var(--nav-full-height) - 2* var(--nav-gap-size));
+    line-height: calc(var(--nav-full-height) - 2* var(--nav-gap-size));
+}
+
+:is(.past_editions > span, nav li:has(> ul)):before {
+    display: none;
+}
+
+.past_editions > span,
+.past_editions > span:after,
+.past_editions > span:before,
+nav li:has(> ul):after,
+nav li:has(> ul):before {
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+
+nav .past_editions > ul,
+nav ul > li > ul {
+    position: absolute;
+    top: calc(var(--nav-full-height) - var(--nav-gap-size));
+    left: var(--nav-gap-size);
+    background: linear-gradient(var(--greenyellow, greenyellow), var(--hotpink, hotpink));
+    white-space: nowrap;
+    display: none;
+}
+
+@media (hover: hover) {
+    /*
+     * in IOS the hover style interferes with being able to
+     * collapse the sub-menu again, so this style is only
+     * added when hover is truly available.
+     */
+    nav .past_editions:hover > ul,
+    nav li:has(> ul):hover > ul {
+        display: block;
+    }
+
+    .past_editions:hover > span:after, nav li:has(> ul):hover:after,
+    .past_editions:hover > span:before, nav li:has(> ul):hover:before {
+        content: '▼\FE0E';
+    }
+
+}
+
+:is(.past_editions, li).ui_collapsible_mixin-open > ul {
+    display: block;
+}
+
+:is(.past_editions.ui_collapsible_mixin-open > span, li.ui_collapsible_mixin-open):after,
+:is(.past_editions.ui_collapsible_mixin-open > span, li.ui_collapsible_mixin-open):before {
+    content: '▼\FE0E';
+}
+
+
+nav a {
+    color: black;
+    background: white;
+    text-decoration: none;
+}
+
+nav a,
+.past_editions > span,
+nav button span {
+    --text-wdth: 60;
+    --text-wght: 700;
+    text-transform: uppercase;
+}
+
+nav a,
+.past_editions > span {
+    padding: 0 .3em;
+}
+
+.past_editions > span {
+    padding-right: 0;
+}
+
+nav a:hover {
+    color: var(--hotpink, hotpink);
+    text-decoration: underline;
+    text-decoration-thickness: .2em;
+    text-decoration-color: var(--greenyellow, greenyellow);
+}
+
+nav li:has(li.active) > a{
+    background: var(--greenyellow, greenyellow);
+}
+nav li:has(li.active) > a:hover {
+    --text-grad: 70;
+    text-decoration-color: white;
+}
+
+nav li.active > a {
+    background: var(--hotpink, hotpink);
+}
+
+nav li.active > a:hover {
+    color: white;
+}
+
+
+.play_pause, .play_pause:before, .play_pause:after{
+    --symbol-url-is-pausing: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='10 12 12 24'><path d='M10,31.4v-14.8l11,7.4'></path></svg>");
+    --symbol-url-is-playing: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='10 12 12 24'><path d='M10,32v-16h4v16zm6,0v-16h4v16z'></path></svg>");
+    --symbol-size: 2.5em;
+    --icon-width: calc(var(--symbol-size) * .4);
+}
+.play_pause {
+    font: unset;
+    border: none;
+    cursor: pointer;
+    background: none;
+    white-space: nowrap;
+    color: white;
+    position: relative;
+    padding-left: var(--icon-width);
+    padding-right: 0;
+    margin-left: var(--nav-gap-size);
+    margin-right: 0;
+}
+
+
+.play_pause:before {
+    content: "";
+    mask-image: var(--symbol-url-is-pausing);
+    mask-repeat: no-repeat;
+    mask-position: left center;
+    width: var(--icon-width);
+    height: 100%;
+    display: block;
+    position: absolute;
+    left:0;
+    top:0;
+    background-color: white;
+}
+
+
+.play_pause {
+    /* no javascript generated classes: we don't need this*/
+    display: none;
+}
+
+.play_pause:where(.is_pausing, .is_playing) {
+    display: block;
+}
+
+.play_pause span{
+    display: none;
+}
+
+.play_pause.is_pausing .is_pausing-label,
+.play_pause.is_playing .is_playing-label {
+    display: inline;
+}
+
+.play_pause.is_pausing:before{
+    mask-image: var(--symbol-url-is-pausing);
+}
+.play_pause.is_playing:before{
+    mask-image: var(--symbol-url-is-playing);
+}
+
+
+.donate {
+    background: var(--background);
+    position: fixed;
+    width: 10em;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    left: max(3.8em, calc((100% - 72em) / 2 + 3.8em ));
+    top: 22em;
+    border: .5em solid black;
+    background-size: 100vw 100vh;
+    background-position: -3.8em 35em;
+}
+
+.donate a {
+    --font-size: 2;
+    --text-wght: 900;
+    --text-wdth: 54;
+    text-transform: uppercase;
+    display: block;
+
+    width: 90%;
+    aspect-ratio: 1;
+    margin: 5%;
+    border-radius: 50%;
+
+    position: absolute;
+    text-align: center;
+    line-height: 4em;
+    text-decoration-style: double;
+    text-decoration-thickness: .15em;
+
+    background: black;
+    color: white;
+    text-decoration-color: greenyellow;
+}
+.donate a:hover {
+    background: white;
+    color: black;
+    text-decoration-color: hotpink;
+}
+
+@container wrapper (width <= 56em) {
+    header {
+        grid-template-areas:
+            "logo-boxes filler-1"
+            "logo-text filler-2"
+            "logo-text reimagination"
+            "nav nav";
+        grid-template-rows: auto 1fr auto var(--nav-full-height);
+    }
+
+    nav > ul > li:first-child > a {
+        margin-left: 0;
+    }
+    nav > ul > li:first-child > ul {
+        left: 0
+    }
+
+    header .identity-logo-text {
+        border-bottom: .5em solid white;
+    }
+
+    .donate {
+        left: unset;
+        right: 20%;
+        top: 3em;
+        position: absolute;
+        background: transparent;
+    }
+}
+
+@container  wrapper (width <= 48em) {
+    header .filler-2 {
+        display: none;
+    }
+
+    header .identity-logo-boxes {
+        border-bottom: .5em solid white;
+    }
+
+    header .identity-logo-text {
+        border-bottom: none;
+    }
+
+    header {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto 1fr auto var(--nav-full-height);
+        grid-template-areas:
+            "logo-boxes logo-text"
+            "filler-1 logo-text"
+            "reimagination reimagination"
+            "nav nav";
+    }
+    header .identiy-reimagination{
+        border: .5em solid white;
+    }
+
+    .donate {
+        left: 10%;
+        right: unset;
+        top: 3em;
+    }
+}
+@container wrapper (width <= 36em) {
+    header {
+        display: block;
+    }
+
+    header .filler {
+        display: none;
+    }
+    header nav:before,header nav.ui_collapsible_mixin-open:after {
+        content: '•••';
+        display: block;
+        text-align: center;
+        height: var(--nav-full-size);
+        cursor: pointer;
+        background: black;
+        color: white;
+    }
+
+    header nav.ui_collapsible_mixin-closed > * {
+        display: none;
+    }
+
+    header li.ui_collapsible_mixin-open_in_mobile > ul {
+        display: block;
+    }
+
+    header nav {
+        padding: var(--nav-gap-size) 0;
+        height: initial;
+    }
+    header nav,header nav > ul {
+        flex-direction: column;
+    }
+    header nav .past_editions > ul,header nav ul > li > ul {
+        position: initial;
+    }
+
+    header .past_editions > span,header nav > ul > li > a,header .play_pause {
+        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    header .play_pause {
+        height: var(--nav-full-height);
+    }
+    header .play_pause span {
+        position: initial;
+    }
+
+    header :is(nav .past_editions > ul,nav ul > li > ul) > li {
+        padding: 0 0 var(--nav-gap-size) 2em;
+    }
+     header nav ul > li > ul > li:first-child {
+        padding-top: var(--nav-gap-size);
+    }
+
+    header .past_editions ul a,header nav li > ul a {
+        margin: 0;
+    }
+
+    header .past_editions > span,header nav > ul > li > a {
+        display: block;
+    }
+    header .past_editions > span {
+        padding-left: 0;
+    }
+
+    header nav li:has(ul) {
+        overflow: hidden;
+    }
+    header nav li:has(ul) > a {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        padding-left: 2.3em;
+    }
+    header :is(.past_editions > span,nav li:has( > ul)):before {
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+    }
+    header :is(.past_editions > span,nav li:has( > ul)):after {
+        display: none;
+    }
+
+    header nav .past_editions > ul,header nav ul > li > ul {
+        background: transparent;
+    }
+
+    header .play_pause {
+        background-color: white;
+        color: black;
+        height: fit-content;
+        text-align: left;
+        padding-left: calc(var(--icon-width) + var(--nav-gap-size));
+    }
+    header .play_pause:before {
+        background-color: black;
+        left: var(--nav-gap-size);
+    }
+    header .play_pause .play_pause-purpose{
+        display: inline;
+    }
+
+    .donate {
+        left: unset;
+        right: 1em;
+        top: 10vw;
+        bottom: unset;
+    }
+}
+
+
+.content .heading_anchor{
+    text-decoration: none;
+    --font-size: 1;
+    color: grey;
+    font-weight: normal;
+    --text-wght: 400;
+    --text-wdth: 100;
+    margin-inline-start: -.8em;
+}
+
+.content {
+    --left-padding: 17em;
+    --right-padding: 4em;
+    padding: 1.5em 0;
+    padding-left: var(--left-padding);
+    padding-right: var(--right-padding);
+}
+.content .page-nav{
+    margin-bottom: 1.5em;
+}
+
+@container wrapper (width <= 61.625em) {
+    .content {
+        /* from 61.625 to 59.125*/
+        /** now reduce 2.5em of padding -right **/
+        --right-padding: calc(1.5em + 100cqw - 59.125em);
+    }
+}
+
+.content {
+    --text-wdth: calc(90 + 35 * var(--text-wdth-ratio, 1));
+    --line-height: 1.4;
+}
+
+@container wrapper (width <= 59.125em) {
+    .content {
+        /* Now:
+         * 59.125 - 3 = 56.125 line length
+         *
+         */
+        --text-wdth-ratio: 1;
+        /* fix it now */
+        --right-padding: 1.5em;
+    }
+}
+
+
+@container wrapper (width <= 58.34375em) {
+    .content {
+        --text-wdth-ratio: 0.75;
+        --line-height: 1.35;
+    }
+}
+@container wrapper (width <= 57.5625em) {
+    .content {
+        --text-wdth-ratio: 0.5;
+        --line-height: 1.3;
+    }
+}
+
+@container wrapper (width <= 56.78125em) {
+    .content {
+        --text-wdth-ratio: 0.25;
+        --line-height: 1.25;
+    }
+}
+
+@container wrapper (width <= 56em) {
+
+    .content {
+        /* this is a big break, we get most of the left-padding added
+         * to the line-length an basically are back to the
+         * original line-length
+         */
+        --text-wdth-ratio: 1;
+        --right-padding: 4em;
+        --left-padding: 1.5em;
+        --line-height: 1.4;
+    }
+}
+
+@container wrapper (width <= 40.625em) {
+    .content {
+        /** now reduce 2.5em of padding -right
+         * from 40.625em to 38.125em.
+         * */
+        --right-padding: calc(1.5em + 100cqw - 38.125em);
+    }
+}
+
+@container wrapper (width <= 38.125em) {
+    .content {
+        --right-padding: 1.5em;
+        --text-wdth-ratio: 1;
+    }
+}
+
+@container wrapper (width <= 27.34375em) {
+    .content {
+        --text-wdth-ratio: 0.75;
+        --line-height: 1.35;
+    }
+}
+@container wrapper (width <= 36.5625em) {
+    .content {
+        --text-wdth-ratio: 0.5;
+        --line-height: 1.3;
+    }
+}
+
+@container wrapper (width <= 35.78125em) {
+    .content {
+        --text-wdth-ratio: 0.25;
+        --line-height: 1.25;
+    }
+}
+
+@container wrapper (width <= 35em) {
+    .content {
+        --text-wdth-ratio: 0;
+        --line-height: 1.2;
+    }
+}
+
+@container wrapper (width <= 30em) {
+    .content :is(p, li) {
+        hyphens: auto;
+    }
+}
+
+.content h1 {
+    --font-size: 4;
+    --text-wdth: 54;
+    --text-wght: 500;
+    margin-block-start: 0;
+    text-transform: uppercase;
+}
+
+:is(.host, .event) .content h1 {
+    text-transform: initial;
+}
+
+@container wrapper (width <= 35em) {
+    .content h1 {
+        --font-size: 2.5;
+        --text-wdth: 50;
+        --text-wght: 550;
+    }
+}
+
+.content .news article h1 {
+    --font-size: 1.5;
+    --text-wght: 600;
+}
+
+ol.news{
+    list-style: none;
+      padding-inline-start: 0;
+}
+
+.content :is(h1, h2, h3, h4, h5, h5) {
+    margin-block-end: 0;
+    line-height: 1.2;
+}
+
+.content :is(h2,h3,h4,h5) {
+    --text-wght: 600
+}
+
+.content :is(p, li, .sponsorship, time, table.schedule) {
+    --text-grad: 0;
+    --font-size: 1.4;
+    margin: 0;
+    line-height: var(--line-height, 1.4);
+}
+
+:is(.label-events, .host-events) time {
+    display: inline;
+    --text-wght: 600;
+}
+
+.content .news li article {
+    /*reset*/
+    --font-size: 1;
+}
+
+.content p.lead {
+    margin-bottom: 1lh;
+    font-style: italic;
+    --text-slnt: -7;
+}
+
+.news p.lead{
+    margin-bottom: .5lh;
+}
+
+.content p:not(.lead) + p {
+    text-indent: 1.5em;
+}
+
+
+.content blockquote p {
+    --font-size: 2.5;
+    --text-wght: 200;
+    --text-slnt: -7;
+    --text-wdth: 100;
+    line-height: 1.1em;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.content a {
+    color: black;
+    text-decoration: underline;
+    text-decoration-thickness: .2em;
+    text-decoration-color: var(--greenyellow, greenyellow);
+}
+.content a:hover {
+    --text-grad: 50;
+}
+
+.call_for_action {
+  color: white;
+  background: var(--hotpink);
+  --text-wght: 1000;
+  --font-size: calc(2  + 1 * var(--text-wdth-ratio, 1));
+  --text-wdth: 60;
+  text-align: center;
+  border: .3em double var(--greenyellow);
+  margin: 1rlh 0;
+}
+.call_for_action a {
+    text-decoration-thickness: .1em;
+    text-decoration-style: double;
+    text-transform: uppercase;
+
+}
+.call_for_action a:hover {
+    --text-wght: 800;
+}
+
+.open_street_map-container {
+    aspect-ratio: 16/9;
+}
+
+.block-image {
+    display: block;
+}
+
+.block-image img {
+        max-width: 100%;
+    }
+
+.content :is(.sponsorship, .partner) {
+    display: flex;
+    gap: .5em;
+    flex-flow: row wrap;
+    margin-top: .5lh;
+}
+
+:is(.sponsorship, .partner) :is(.sponsorship-logo, .partner-logo) {
+    display: block;
+    text-decoration: none;
+    --min-width: min(100%, max(var(--sponsor-small-max, 13em), var(--sponsor-width, 100%)));
+    flex: 0 0 var(--min-width);
+}
+
+:is(.sponsorship, .partner).wide :is(.sponsorship-logo, .partner-logo) {
+    --min-width: 100%;
+}
+
+
+:is(.sponsorship, .partner) :is(.sponsorship-info, .partner-info) {
+    display: block;
+    text-decoration: none;
+    flex: 1 1 10em;
+}
+
+:is(.sponsorship, .partner) :is(.sponsorship-logo, .partner-logo) img {
+    width: 100%;
+}
+
+.partner,
+.sponsorship-level_gold {
+    --sponsor-width: 40%;
+    --sponsor-small-max: 13em;
+}
+
+.sponsorship-level_silver {
+    --sponsor-width: 33%;
+    --sponsor-small-max: 11em;
+}
+
+.sponsorship-level_bronze {
+    --sponsor-width: 25%;
+    --sponsor-small-max: 9em;
+}
+
+.sponsorship-level_iron {
+    --sponsor-width: 20%;
+    --sponsor-small-max: 7em;
+}
+
+
+
+h1 .event-type{
+    --text-wght: 300;
+    white-space: nowrap;
+}
+
+:is(.label-events, .host-events) .event-type{
+    --text-wght: 600;
+    white-space: nowrap;
+}
+
+h2:has(+ .event-hosts, + .event-labels) {
+    display: inline-block;
+    --font-size: 1.4;
+}
+
+.event-hosts,
+.event-labels {
+    display: inline;
+    margin: 0;
+    padding: 0 0 0 .5em;
+}
+
+:is(.event-hosts,.event-labels) li {
+        display: inline;
+    }
+
+:is(.event-hosts,.event-labels) li:not(:last-child)::after {
+        content: ", ";
+    }
+
+:is(.event-hosts,.event-labels):after {
+        content: '';
+        display: block;
+    }
+
+.event-times {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.schedule :is(td, th){
+    vertical-align: top;
+}
+
+.schedule .page-link {
+    --text-wght: 600;
+    --text-wdth: 54;
+}
+
+.schedule .page-link:hover {
+    --text-grad: -100;
+}
+
+.content .schedule h3 {
+  margin-block: 0;
+  line-height: unset;
+  --font-size: inherit;
+}
+
+.schedule_item-type-sessions ul{
+    margin: 0;
+    padding: 0;
+}
+
+.schedule {
+    border-collapse: collapse;
+}
+.schedule :is(th) {
+    padding-inline-start: .1em;
+    padding-inline-end: .6em;
+}
+
+.schedule td, .schedule_item-type-sessions li:not(:last-child) {
+    padding-block-end: .4em;
+}
+
+.content .schedule a {
+    text-decoration-thickness: .1em;
+}
+
+.legend-general,
+.schedule :is(.schedule_item-type-general, .schedule_item-type-community) {
+    --mark-color: #fb7cae;
+}
+.legend-talk,
+.schedule :is(.schedule_item-type-talk, .schedule_item-type-lightning) {
+    --mark-color: #b9f54a;
+}
+.legend-sessions,
+.schedule .schedule_item-type-sessions {
+    --mark-color: #ddc982;
+}
+
+
+
+.schedule_item th, .schedule-legend span {
+    background: linear-gradient(0.75turn, #ffffff00, var(--mark-color));
+}
+
+.schedule-legend span {
+    display: inline-block;
+    padding: .3em;
+    --font-size: 1.2;
+}
+
+.host-link, .label-link, .schedule_item-own_type {
+    white-space: nowrap;
+}
+
+.label-link {
+    --text-wght: 300;
+    --font-size: 1.2;
+}
+
+.host-link:has(+ .host-link):after {
+    content: ',';
+}
+
+.clips-container {
+    max-width: initial;
+    /* for target 1080p/50  */
+    height: 1080px;
+    width: 1920px;
+    overflow: hidden;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+
+.clips-container .filler-1 {
+    grid-area: filler-1;
+}
+.clips-container .filler-1 {
+    grid-area: filler-2;
+}
+
+.clips-container .presentation-payload {
+    grid-area: content;
+    background: white;
+    font-size: 40pt;
+}
+
+.clips-container article {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-template-rows: auto 1fr auto auto 1fr auto;
+    grid-template-areas:
+        "logo-boxes content"
+        "filler-1 content"
+        "logo-text content"
+        "logo-text content"
+        "filler-2 filler-2"
+        "reimagination reimagination";
+    height: 100%;
+    border: 25px solid white;
+    box-sizing: border-box;
+}
+
+.clips-container .presentation-payload {
+    padding-left: 50px;
+    padding-top: 30px;
+
+    /* bottom align content */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* this is an adjustment to bring the base-line down to the logo/title baseline */
+    margin-bottom: -0.2em;
+    z-index: 100;
+    position: relative;
+    /* end micro adjustment */
+}
+
+:is(.clips-container .presentation-payload) h1 {
+        --font-size: 9.1;
+        --text-wght: 650;
+        --text-wdth: 70;
+        text-transform: uppercase;
+        margin: 0;
+        line-height: 1;
+        white-space: pre-wrap;
+    }
+
+.adjust-long-title:is(.clips-container .presentation-payload) h1 {
+        --font-size: 7.8;
+    }
+
+.adjust-very-long-title:is(.clips-container .presentation-payload) h1 {
+         --font-size: 7.1;
+    }
+
+:is(.clips-container .presentation-payload) .heading_anchor {
+        display: none;
+    }
+
+:is(.clips-container .presentation-payload) ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+:is(.clips-container .presentation-payload) li {
+        display: inline;
+        --font-size: 3.6;
+        --text-wght: 550;
+        /* This way, with a long 4 line title, we hit the baseline
+         * of the bottom logo text "May 28 - 31"
+         * h1 font-size/line-height is important as well!
+         * */
+        line-height: 1.2;
+        margin: 0;
+        white-space: nowrap;
+    }
+
+:is(.clips-container .presentation-payload) li:after {
+        content: ", ";
+    }
+
+:is(.clips-container .presentation-payload) li:last-child:after{
+        content: ""
+    }
+
+@media print {
+  :root, body {
+    background: white;
+    --document-font-size-pt: 8;
+  }
+  .wrapper{
+    width: 13cm;
+  }
+  .donate {
+    display: none;
+  }
+  header {
+    display: block;
+  }
+
+  header :is(.identity-logo-text, .identiy-reimagination, .filler-1, .filler-2, nav) {
+    display: none;
+  }
+
+  .identity-logo.identity-logo-boxes{
+    /* Prevent printers from removing background-images of controls. */
+    background: black;
+    width: 10em;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  header :is(h1, h2) {
+    position: initial;
+    --text-wght: 800;
+    --text-wdth: 70;
+    text-transform: uppercase;
+  }
+
+  .content{
+        --left-padding: 0;
+  }
+  * {
+    font-size: calc(var(--font-size, 1) * var(--document-font-size-pt, 12) * 1pt);
+  }
+}

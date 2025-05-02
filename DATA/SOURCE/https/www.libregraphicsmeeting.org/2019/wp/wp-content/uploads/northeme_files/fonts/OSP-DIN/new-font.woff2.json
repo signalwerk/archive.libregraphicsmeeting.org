@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Fri, 02 May 2025 17:23:35 GMT",
+    "content-type": "font/woff2",
+    "content-length": "11780",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 31 Dec 2020 12:16:27 GMT",
+    "etag": "\"2e04-5b7c197ce3cc0\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2019/wp/wp-content/uploads/northeme_files/fonts/OSP-DIN/new-font.woff2"
+}

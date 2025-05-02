@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Fri, 02 May 2025 17:23:15 GMT",
+    "content-type": "application/javascript",
+    "content-length": "24618",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 22 Apr 2025 12:23:52 GMT",
+    "etag": "\"602a-6335d0ec4452f\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2025/js/main.js?cacheBuster=8b021e3cb938d9eb95b9cf93ae1c33f2f89cd6a9c4c318f640ec953a5fcfce33"
+}

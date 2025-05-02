@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Fri, 02 May 2025 17:23:24 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "340",
+    "connection": "keep-alive",
+    "location": "https://libregraphicsmeeting.org/2025/program/label-hubs/"
+  },
+  "status": 301,
+  "uri": "https://libregraphicsmeeting.org/2025/program/label-hubs",
+  "redirected": "https://libregraphicsmeeting.org/2025/program/label-hubs/"
+}

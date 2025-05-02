@@ -1,11 +1,11 @@
 {
   "headers": {
     "server": "nginx/1.6.2",
-    "date": "Sat, 21 Dec 2024 23:40:51 GMT",
+    "date": "Fri, 02 May 2025 17:23:15 GMT",
     "content-type": "text/html",
     "transfer-encoding": "chunked",
     "connection": "keep-alive",
-    "last-modified": "Thu, 19 Dec 2024 11:02:27 GMT"
+    "last-modified": "Tue, 22 Apr 2025 12:23:52 GMT"
   },
   "status": 200,
   "uri": "https://libregraphicsmeeting.org/2025/code-of-conduct/"

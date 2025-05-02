@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Fri, 02 May 2025 17:23:37 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "204964",
+    "connection": "keep-alive",
+    "last-modified": "Sat, 25 Jan 2025 15:15:49 GMT",
+    "etag": "\"320a4-62c8951804630\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2025/img/KBZ-combined-small.jpeg"
+}

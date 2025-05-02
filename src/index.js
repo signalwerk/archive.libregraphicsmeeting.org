@@ -66,10 +66,22 @@ dataPatcher
   .addRule({
     includes: [
       //
+      "https://libregraphicsmeeting.org/2007/global.css",
       "https://www.libregraphicsmeeting.org/2007/global.css",
     ],
     search: "color}",
     replace: "}",
+  })
+  .addRule({
+    includes: [
+      //
+      "https://libregraphicsmeeting.org/2024/index.html",
+      "https://www.libregraphicsmeeting.org/2024/index.html",
+      "https://libregraphicsmeeting.org/2024/",
+      "https://www.libregraphicsmeeting.org/2024/",
+    ],
+    search: "libregraphicsmeeting.org/2021/en/index.html/",
+    replace: "libregraphicsmeeting.org/2021/en/index.html",
   });
 
 // Create server instance

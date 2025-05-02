@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Fri, 02 May 2025 17:23:41 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive"
+  },
+  "status": 404,
+  "uri": "https://www.libregraphicsmeeting.org/2025/hosts/Nicolas/@nicofee@floss.social",
+  "error": 404
+}

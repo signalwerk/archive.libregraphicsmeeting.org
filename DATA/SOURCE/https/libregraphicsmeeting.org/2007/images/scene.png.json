@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Fri, 02 May 2025 17:28:29 GMT",
+    "content-type": "image/png",
+    "content-length": "7816",
+    "connection": "keep-alive",
+    "last-modified": "Wed, 30 May 2007 21:07:22 GMT",
+    "etag": "\"1e88-431b65e417680\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2007/images/scene.png"
+}
