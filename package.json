@@ -1,35 +1,44 @@
 {
-  "name": "neofetch",
-  "version": "1.0.0",
+  "name": "scrape-helpers",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf ./DATA",
-    "dev:server": "nodemon --watch ./src/server --exec node ./src/",
-    "dev:client": "vite",
+    "dev:server": "nodemon --watch ./src --watch ./packages/scrape-helpers/src/server --exec node ./src/",
+    "dev:client": "vite --config ./packages/scrape-helpers/src/client/vite.config.js",
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "build:post": "rm -rf ./docs && mv DATA/OUT/dostag.ch ./docs && cp -a ./public/. ./docs/ && cp ./docs/Hauptseite.html ./docs/index.html",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/signalwerk/scrape-helpers.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/signalwerk/scrape-helpers/issues"
+  },
+  "homepage": "https://github.com/signalwerk/scrape-helpers#readme",
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",
     "axios": "^1.7.9",
     "cheerio": "^1.0.0",
     "concurrently": "^8.2.2",
     "express": "^4.21.2",
+    "jest": "^29.7.0",
     "nodemon": "^3.1.7",
     "postcss": "^8.4.49",
+    "prettier": "^3.4.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "socket.io": "^4.8.1",
     "socket.io-client": "^4.8.1",
-    "vite": "^5.4.11"
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
   },
-  "type": "module",
-  "devDependencies": {
-    "jest": "^29.7.0"
-  }
+  "type": "module"
 }
