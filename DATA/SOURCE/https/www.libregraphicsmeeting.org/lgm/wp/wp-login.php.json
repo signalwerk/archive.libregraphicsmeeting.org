@@ -1,15 +1,16 @@
 {
   "headers": {
     "server": "nginx/1.6.2",
-    "date": "Sat, 21 Dec 2024 23:40:02 GMT",
+    "date": "Fri, 13 Jun 2025 08:18:55 GMT",
     "content-type": "text/html; charset=UTF-8",
     "transfer-encoding": "chunked",
     "connection": "keep-alive",
     "x-powered-by": "PHP/7.3.31-1~deb10u1",
     "expires": "Wed, 11 Jan 1984 05:00:00 GMT",
-    "cache-control": "no-cache, must-revalidate, max-age=0",
+    "cache-control": "no-cache, must-revalidate, max-age=0, no-store, private",
     "x-frame-options": "SAMEORIGIN",
-    "set-cookie": "wordpress_test_cookie=WP+Cookie+check; path=/lgm/; secure, wordpress_test_cookie=WP+Cookie+check; path=/lgm/wp/; secure",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "set-cookie": "wordpress_test_cookie=WP+Cookie+check; path=/lgm/; secure; HttpOnly, wordpress_test_cookie=WP+Cookie+check; path=/lgm/wp/; secure; HttpOnly",
     "x-ua-compatible": "IE=edge",
     "x-content-type-options": "nosniff"
   },

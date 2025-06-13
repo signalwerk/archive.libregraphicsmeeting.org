@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Fri, 13 Jun 2025 08:15:37 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "344",
+    "connection": "keep-alive",
+    "location": "https://libregraphicsmeeting.org/2025/program/label-software/"
+  },
+  "status": 301,
+  "uri": "https://libregraphicsmeeting.org/2025/program/label-software",
+  "redirected": "https://libregraphicsmeeting.org/2025/program/label-software/"
+}

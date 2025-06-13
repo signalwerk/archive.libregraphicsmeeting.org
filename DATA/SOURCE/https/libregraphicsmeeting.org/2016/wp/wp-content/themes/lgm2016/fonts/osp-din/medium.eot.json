@@ -1,7 +1,7 @@
 {
   "headers": {
     "server": "nginx/1.6.2",
-    "date": "Sun, 22 Dec 2024 00:18:40 GMT",
+    "date": "Fri, 13 Jun 2025 08:15:39 GMT",
     "content-type": "application/vnd.ms-fontobject",
     "content-length": "11409",
     "connection": "keep-alive",
@@ -10,5 +10,5 @@
     "accept-ranges": "bytes"
   },
   "status": 200,
-  "uri": "https://libregraphicsmeeting.org/2016/wp/wp-content/themes/lgm2016/fonts/osp-din/medium.eot?#iefix"
+  "uri": "https://libregraphicsmeeting.org/2016/wp/wp-content/themes/lgm2016/fonts/osp-din/medium.eot"
 }

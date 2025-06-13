@@ -12,7 +12,7 @@
             href="/2025/js/leaflet/leaflet.css" />
         <link
             rel="stylesheet"
-            href="/2025/css/main.css?cacheBuster=6ac40597b365a1d8d06d2aa4e9bb8c83d36db12b8dbc136b6f4e11f6287d8161"/>
+            href="/2025/css/main.css?cacheBuster=9d3687e8c0693bf3c06eb291f966e4326fe4fb621531ea226ed820d9e8e3bc42"/>
         <script src="/2025/js/main.js?cacheBuster=8b021e3cb938d9eb95b9cf93ae1c33f2f89cd6a9c4c318f640ec953a5fcfce33"
             async
             type="module"></script>
@@ -189,8 +189,10 @@
 <li><a href="/2025/code-of-conduct/">Code of Conduct</a></li>
 <li><a href="/2025/contact/">Contact</a></li></ul></li>
 <li class="active"><a href="/2025/program/">Program</a><ul><li><a href="/2025/venues/">Venues</a></li>
-<li><a href="/2025/call-for-participation/">Call for Participation</a></li></ul></li>
-<li><a href="/2025/register/">Register!</a><ul><li><a href="/2025/donate/">Donate!</a></li>
+<li><a href="/2025/call-for-participation/">Call for Participation</a></li>
+<li><a href="/2025/news/2025-05-06_0001-call-for-slides-state-of-libre-graphics/">Call for Slides: State of Libre Graphics</a></li>
+<li><a href="/2025/news/2025-05-08_0001-call-for-local-organizers-2026-2027/">Call for Local Organizers</a></li></ul></li>
+<li><a href="/2025/donate/">Donate!</a><ul><li><a href="/2025/register/">Register!</a></li>
 <li><a href="/2025/reimbursement/">Reimbursement</a></li></ul></li></ul><div class="past_editions">
                     <span>Past Editions</span>
                     <ul><!-- The archive of past editions. -->
@@ -215,7 +217,7 @@ Back to <a href="/2025/program">Program</a><br />
             href="#María"
             class="heading_anchor"
             aria-hidden="true"
-            >#</a>María "Tatica" Leandro</h1>
+            >#</a>María “Tatica” Leandro</h1>
 
 <h2><a id="biography" class="heading_anchor" href="#biography" aria-hidden="true">#</a>Biography</h2>
 <p>My name is Maria “tatica” Leandro, and I am a passionate advocate for
@@ -231,14 +233,10 @@ open-source technologies with over 20 years of experience in design.</p>
             href="#events"
             class="heading_anchor"
             aria-hidden="true"
-            >#</a>Events by María "Tatica" Leandro</h2>
+            >#</a>Events by María “Tatica” Leandro</h2>
 
 <ul class="host-events">
 
-    
-    <li>
-    <time datetime="2025-05-31T09:25:00.000Z">Saturday 11:25</time>
-    <a href="/2025/program/building_website_design_system_with_atomic_design_principles/">Building a Website Design System with Atomic Design Principles Using Penpot</a><span class="event-type">—talk</span></li>
     
 
 </ul>

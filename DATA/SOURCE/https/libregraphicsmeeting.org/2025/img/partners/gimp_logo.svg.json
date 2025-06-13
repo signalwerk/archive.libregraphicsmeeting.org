@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Fri, 13 Jun 2025 08:15:16 GMT",
+    "content-type": "image/svg+xml",
+    "content-length": "9604",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 15 May 2025 15:32:37 GMT",
+    "etag": "\"2584-6352e6014e7e5\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2025/img/partners/gimp_logo.svg"
+}

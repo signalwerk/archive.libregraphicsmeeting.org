@@ -12,7 +12,7 @@
             href="/2025/js/leaflet/leaflet.css" />
         <link
             rel="stylesheet"
-            href="/2025/css/main.css?cacheBuster=6ac40597b365a1d8d06d2aa4e9bb8c83d36db12b8dbc136b6f4e11f6287d8161"/>
+            href="/2025/css/main.css?cacheBuster=9d3687e8c0693bf3c06eb291f966e4326fe4fb621531ea226ed820d9e8e3bc42"/>
         <script src="/2025/js/main.js?cacheBuster=8b021e3cb938d9eb95b9cf93ae1c33f2f89cd6a9c4c318f640ec953a5fcfce33"
             async
             type="module"></script>
@@ -194,8 +194,10 @@
 <li><a href="/2025/code-of-conduct/">Code of Conduct</a></li>
 <li><a href="/2025/contact/">Contact</a></li></ul></li>
 <li><a href="/2025/program/">Program</a><ul><li><a href="/2025/venues/">Venues</a></li>
-<li><a href="/2025/call-for-participation/">Call for Participation</a></li></ul></li>
-<li><a href="/2025/register/">Register!</a><ul><li><a href="/2025/donate/">Donate!</a></li>
+<li><a href="/2025/call-for-participation/">Call for Participation</a></li>
+<li><a href="/2025/news/2025-05-06_0001-call-for-slides-state-of-libre-graphics/">Call for Slides: State of Libre Graphics</a></li>
+<li><a href="/2025/news/2025-05-08_0001-call-for-local-organizers-2026-2027/">Call for Local Organizers</a></li></ul></li>
+<li><a href="/2025/donate/">Donate!</a><ul><li><a href="/2025/register/">Register!</a></li>
 <li><a href="/2025/reimbursement/">Reimbursement</a></li></ul></li></ul><div class="past_editions">
                     <span>Past Editions</span>
                     <ul><!-- The archive of past editions. -->
@@ -213,25 +215,26 @@
 
             <article class="content">
                 <div class="call_for_action">
-Please<br />
-<a href="/2025/register">Register!</a><br />
-yourself.
+Spread the recordings!
 </div>
 <h1><a id="welcome" class="heading_anchor" href="#welcome" aria-hidden="true">#</a>Welcome</h1>
-<p>The 18th annual Libre Graphics Meeting (LGM) will be held in Nuremberg, Germany on May 28-31, 2025.</p>
-<p>The Libre Graphics Meeting  is an annual meeting on Free/Libre and
+<p>The 18th annual Libre Graphics Meeting (LGM) took place in Nuremberg, Germany on May 28–31, 2025.</p>
+<p>The Libre Graphics Meeting is the annual meeting on Free/Libre and
 Open Source software for graphics.</p>
-<h2><a id="key-actions" class="heading_anchor" href="#key-actions" aria-hidden="true">#</a>Key Actions</h2>
-<ol>
-<li>Read our <a href="/2025/program">Program</a>,</li>
-<li>
+<div class="block-image">
+<p><a href="/2025/img/lgm-group-photo-2025-full.jpg"><img
+    src="/2025/img/lgm-group-photo-2025.jpg"
+    alt="Group photo" /></a></p>
+</div>
+<h2><a id="the-recordings" class="heading_anchor" href="#the-recordings" aria-hidden="true">#</a>The recordings</h2>
+<p>All talks have been recorded by <a href="https://chaoswest.tv/">Chaos-West TV</a> and can be found on <a href="https://media.ccc.de/b/events/lgm/2025">media.ccc.de</a>.
+In the <a href="/2025/program">Program</a>, you’ll find a direct link to each recorded event.</p>
+<h2><a id="stay-in-contact" class="heading_anchor" href="#stay-in-contact" aria-hidden="true">#</a>Stay in contact</h2>
+<p>You can get in touch with the people of the Libre Graphics Meeting:</p>
 <ul>
-<li>if you plan to attend, please <a href="/2025/register">Register!</a> yourself,</li>
-<li>otherwise, <a href="/2025/news/2025-03-29_0001-video-streaming-and-recording/">a live broadcast and recordings will be available</a>, monitor this site for further directions,</li>
+<li>Join our <a href="/2025/contact/#chat--matrix-and-irc">IRC/Matrix Channel</a>.</li>
+<li>Follow us in the Fediverse: <a href="https://post.lurk.org/@lgm">@lgm@post.lurk.org</a></li>
 </ul>
-</li>
-<li>and consider to <a href="/2025/donate">Donate!</a>.</li>
-</ol>
 <article>
 <h1><a
             id="latest-news"
@@ -242,27 +245,32 @@ Open Source software for graphics.</p>
 <p>Follow us in the Fediverse: <a href="https://post.lurk.org/@lgm">@lgm@post.lurk.org</a></p>
 <ol class="news"><li><article>
         <span class="date"></span>
-        <time datetime="2025-04-11T22:00:00.000Z">Sat Apr 12 2025</time>
-        <h1><a href="/2025/news/2025-04-12_0001-revive-the-state-of-libre-graphics/">Revive the 'State of Libre Graphics'</a></h1>
-        <p class="lead">Looking for someone or a group to organize and host the 'State of Libre Graphics' presentation at LGM!<a href="/2025/news/2025-04-12_0001-revive-the-state-of-libre-graphics/">(… full announcement)</a></p>
+        <time datetime="2025-05-19T00:00:00.000Z">Mon May 19 2025</time>
+        <h1><a href="/2025/news/2025-05-19_0002-sponsoring-update-welcome-fontbureau/">Sponsorship Announcement: Font Bureau</a></h1>
+        <p class="lead">📜 We're overjoyed to announce that the <a href="https://www.myfonts.com/collections/font-bureau-foundry?srsltid=AfmBOoow76AMX2wjZS58rQQJL9GD0fpnnmBL1DOPddYAo3b1ADOy391l" >Font Bureau</a> is a gold 🥇 sponsor for the Libre Graphics Meeting 2025!
+ <a href="/2025/news/2025-05-19_0002-sponsoring-update-welcome-fontbureau/">(… full announcement)</a></p>
         </article></li>
 <li><article>
         <span class="date"></span>
-        <time datetime="2025-03-28T23:00:00.000Z">Sat Mar 29 2025</time>
-        <h1><a href="/2025/news/2025-03-29_0001-video-streaming-and-recording/">LGM will be streamed and recorded</a></h1>
-        <p class="lead">Nothing can beat meeting in person, but the second best thing is live streams and recordings.
-<a href="/2025/news/2025-03-29_0001-video-streaming-and-recording/">(… full announcement)</a></p>
+        <time datetime="2025-05-19T00:00:00.000Z">Mon May 19 2025</time>
+        <h1><a href="/2025/news/2025-05-19_0001-sponsoring-update-welcome-gimp/">Sponsorship Announcement: GIMP</a></h1>
+        <p class="lead">🎈 We're delighted to announce that <a href="https://www.gimp.org/">GIMP</a> – GNU Image Manipulation Program is a gold 🥇 sponsor for the Libre Graphics Meeting 2025!
+ <a href="/2025/news/2025-05-19_0001-sponsoring-update-welcome-gimp/">(… full announcement)</a></p>
         </article></li>
 <li><article>
         <span class="date"></span>
-        <time datetime="2025-03-11T23:00:00.000Z">Wed Mar 12 2025</time>
-        <h1><a href="/2025/news/2025-03-12_0001-program-registrations-donations/">Program public, Registrations open, Donate!</a></h1>
-        <p class="lead">We are thrilled to announce that the program for this year's Libre Graphics Meeting is now public!
-<a href="/2025/news/2025-03-12_0001-program-registrations-donations/">(… full announcement)</a></p>
+        <time datetime="2025-05-09T00:00:00.000Z">Fri May 09 2025</time>
+        <h1><a href="/2025/news/2025-05-09_0001-call-for-acts-for-the-closing-night-party/">Call for Acts for the Closing Night Party</a></h1>
+        <p class="lead"><s>Saturday, May 31st: After the conference program, we have a venue but not a line-up. Yet!</s> <a href="/2025/news/2025-05-09_0001-call-for-acts-for-the-closing-night-party/">(… full announcement)</a></p>
         </article></li>
 </ol>
 <p><a href="/2025/news">… all news</a></p>
 </article>
+<div class="call_for_action">
+Call for<br />
+<a href="/2025/news/2025-05-08_0001-call-for-local-organizers-2026-2027">Local organizers</a><br />
+2026 and 2027.
+</div>
 <h2><a id="special-focus--reimagination" class="heading_anchor" href="#special-focus--reimagination" aria-hidden="true">#</a>Special focus – RE:imagination</h2>
 <p>The Libre Graphics Meeting faced significant challenges during and after
 the pandemic. In <a href="/2024">Rennes</a>, France, 2024, the local organization team revitalized

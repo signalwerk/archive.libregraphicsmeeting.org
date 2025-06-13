@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Fri, 13 Jun 2025 08:18:18 GMT",
+    "content-type": "image/svg+xml",
+    "content-length": "3806",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 19 May 2025 17:17:30 GMT",
+    "etag": "\"ede-635804e969188\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2025/img/partners/strong-type-systems_logo.svg"
+}

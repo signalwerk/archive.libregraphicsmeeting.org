@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Fri, 13 Jun 2025 08:18:18 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "353",
+    "connection": "keep-alive",
+    "location": "https://www.libregraphicsmeeting.org/2025/program/label-developer/"
+  },
+  "status": 301,
+  "uri": "https://www.libregraphicsmeeting.org/2025/program/label-developer",
+  "redirected": "https://www.libregraphicsmeeting.org/2025/program/label-developer/"
+}

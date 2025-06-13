@@ -1,10 +1,10 @@
 {
   "headers": {
     "server": "nginx/1.6.2",
-    "date": "Sat, 21 Dec 2024 23:38:59 GMT",
+    "date": "Fri, 13 Jun 2025 08:15:31 GMT",
     "content-type": "application/pdf",
     "content-length": "3144332",
-    "connection": "keep-alive",
+    "connection": "close",
     "last-modified": "Mon, 24 May 2010 14:19:06 GMT",
     "etag": "\"2ffa8c-48757b934ea80\"",
     "accept-ranges": "bytes"

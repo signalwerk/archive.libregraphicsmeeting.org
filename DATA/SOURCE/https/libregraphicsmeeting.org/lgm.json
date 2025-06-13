@@ -1,13 +1,13 @@
 {
   "headers": {
     "server": "nginx/1.6.2",
-    "date": "Sat, 21 Dec 2024 23:41:18 GMT",
+    "date": "Fri, 13 Jun 2025 08:15:16 GMT",
     "content-type": "text/html; charset=iso-8859-1",
     "content-length": "245",
     "connection": "keep-alive",
     "location": "https://libregraphicsmeeting.org/lgm/",
     "cache-control": "max-age=0",
-    "expires": "Sat, 21 Dec 2024 23:41:18 GMT"
+    "expires": "Fri, 13 Jun 2025 08:15:16 GMT"
   },
   "status": 301,
   "uri": "https://libregraphicsmeeting.org/lgm",

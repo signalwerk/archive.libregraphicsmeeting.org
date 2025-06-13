@@ -12,7 +12,7 @@
             href="/2025/js/leaflet/leaflet.css" />
         <link
             rel="stylesheet"
-            href="/2025/css/main.css?cacheBuster=6ac40597b365a1d8d06d2aa4e9bb8c83d36db12b8dbc136b6f4e11f6287d8161"/>
+            href="/2025/css/main.css?cacheBuster=9d3687e8c0693bf3c06eb291f966e4326fe4fb621531ea226ed820d9e8e3bc42"/>
         <script src="/2025/js/main.js?cacheBuster=8b021e3cb938d9eb95b9cf93ae1c33f2f89cd6a9c4c318f640ec953a5fcfce33"
             async
             type="module"></script>
@@ -189,8 +189,10 @@
 <li><a href="/2025/code-of-conduct/">Code of Conduct</a></li>
 <li><a href="/2025/contact/">Contact</a></li></ul></li>
 <li><a href="/2025/program/">Program</a><ul><li><a href="/2025/venues/">Venues</a></li>
-<li><a href="/2025/call-for-participation/">Call for Participation</a></li></ul></li>
-<li><a href="/2025/register/">Register!</a><ul><li><a href="/2025/donate/">Donate!</a></li>
+<li><a href="/2025/call-for-participation/">Call for Participation</a></li>
+<li><a href="/2025/news/2025-05-06_0001-call-for-slides-state-of-libre-graphics/">Call for Slides: State of Libre Graphics</a></li>
+<li><a href="/2025/news/2025-05-08_0001-call-for-local-organizers-2026-2027/">Call for Local Organizers</a></li></ul></li>
+<li><a href="/2025/donate/">Donate!</a><ul><li><a href="/2025/register/">Register!</a></li>
 <li><a href="/2025/reimbursement/">Reimbursement</a></li></ul></li></ul><div class="past_editions">
                     <span>Past Editions</span>
                     <ul><!-- The archive of past editions. -->
@@ -210,6 +212,11 @@
                 <h1><a id="our-partners" class="heading_anchor" href="#our-partners" aria-hidden="true">#</a>Our Partners</h1>
 <p>Thank you to our partners. Your contributions play a vital role
 in making LGM happen. We appreciate your dedication and support.</p>
+<h2><a id="organization-event-management-design-and-web" class="heading_anchor" href="#organization-event-management-design-and-web" aria-hidden="true">#</a>Organization, Event Management, Design, and Web</h2>
+<div class="partner">
+    <a class="partner-logo" href="https://strong-type.systems/"><img src="/2025/img/partners/strong-type-systems_logo.svg" alt="Logo Sponsor: Strong Type Systems GmbH" /></a>
+    <span class="partner-info"><a class="partner-link" href="https://strong-type.systems/">Strong Type Systems GmbH</a></span>
+</div>
 <h2><a id="live-streaming-and-video-recording" class="heading_anchor" href="#live-streaming-and-video-recording" aria-hidden="true">#</a>Live Streaming and Video Recording</h2>
 <div class="partner">
     <a class="partner-logo" href="https://chaoswest.tv/"><img src="/2025/img/partners/chaos-west-tv_logo.svg" alt="Logo Sponsor: Chaos-West TV" /></a>

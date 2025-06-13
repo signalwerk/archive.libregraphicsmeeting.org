@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Fri, 13 Jun 2025 08:15:22 GMT",
+    "content-type": "image/svg+xml",
+    "content-length": "3007",
+    "connection": "keep-alive",
+    "last-modified": "Sun, 25 May 2025 20:51:30 GMT",
+    "etag": "\"bbf-635fbfef5187a\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2025/img/partners/media-ccc-de_logo.svg"
+}

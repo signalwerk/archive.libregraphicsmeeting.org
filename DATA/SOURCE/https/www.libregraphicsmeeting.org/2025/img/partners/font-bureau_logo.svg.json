@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Fri, 13 Jun 2025 08:18:18 GMT",
+    "content-type": "image/svg+xml",
+    "content-length": "3830",
+    "connection": "keep-alive",
+    "last-modified": "Mon, 12 May 2025 08:08:37 GMT",
+    "etag": "\"ef6-634ebd2bbb4be\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://www.libregraphicsmeeting.org/2025/img/partners/font-bureau_logo.svg"
+}

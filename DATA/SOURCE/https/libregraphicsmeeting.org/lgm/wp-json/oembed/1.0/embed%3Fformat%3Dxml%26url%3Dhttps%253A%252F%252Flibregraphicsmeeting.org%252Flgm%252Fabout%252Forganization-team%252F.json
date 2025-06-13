@@ -1,7 +1,7 @@
 {
   "headers": {
     "server": "nginx/1.6.2",
-    "date": "Sat, 21 Dec 2024 23:39:48 GMT",
+    "date": "Fri, 13 Jun 2025 08:16:22 GMT",
     "content-type": "text/xml; charset=UTF-8",
     "transfer-encoding": "chunked",
     "connection": "keep-alive",
@@ -14,7 +14,7 @@
     "allow": "GET",
     "vary": "Origin",
     "cache-control": "max-age=0",
-    "expires": "Sat, 21 Dec 2024 23:39:45 GMT",
+    "expires": "Fri, 13 Jun 2025 08:16:09 GMT",
     "x-ua-compatible": "IE=edge"
   },
   "status": 200,

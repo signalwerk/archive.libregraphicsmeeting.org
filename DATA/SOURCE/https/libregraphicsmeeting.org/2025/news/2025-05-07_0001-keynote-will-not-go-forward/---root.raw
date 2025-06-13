@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8">
+        <title>The Keynote Will NOT Go Forward - Libre Graphics Meeting 2025 – RE:imagination, Nuremberg, Germany</title>
+        <meta name="viewport" content="initial-scale=1,shrink-to-fit=no">
+        <link
+            rel="alternate"
+            type="application/atom+xml"
+            href="https://libregraphicsmeeting.org/2025/feed.xml" />
+        <link rel="stylesheet"
+            href="/2025/js/leaflet/leaflet.css" />
+        <link
+            rel="stylesheet"
+            href="/2025/css/main.css?cacheBuster=9d3687e8c0693bf3c06eb291f966e4326fe4fb621531ea226ed820d9e8e3bc42"/>
+        <script src="/2025/js/main.js?cacheBuster=8b021e3cb938d9eb95b9cf93ae1c33f2f89cd6a9c4c318f640ec953a5fcfce33"
+            async
+            type="module"></script>
+        <!-- for syntax highlighting https://www.11ty.dev/docs/plugins/syntaxhighlight/-->
+        <!--
+        <link
+            href="https://unpkg.com/prismjs@1.29.0/themes/prism-tomorrow.min.css"
+            rel="stylesheet"
+        />
+        -->
+        
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="donate"><a href="/2025/donate">Donate!</a></div>
+            <header>
+                <svg
+   class="identity-logo identity-logo-boxes"
+   viewBox="0 0 1050 500"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+  <mask
+       id="logo-boxes-mask">
+       <rect x="-10" y="-10" width="10000" height="10000" fill="white" />
+       <path
+              style="fill:#000;"
+              d="M383.32222,0l38.197,142.557l258.252,-69.2l37.856,141.282l259.021,-69.405l71.457,266.682l-266.681,71.457l-22.666,-84.594l-315.709,84.594l-22.696,-84.703l-316.107,84.701l-102.149,-381.223z"
+       />
+  </mask>
+   <rect
+       style="fill:#fff"
+       width="1070"
+       height="520"
+       x="-10"
+       y="-10"
+       mask="url(#logo-boxes-mask)"
+       />
+</svg>
+
+                <svg
+   class="identity-logo identity-logo-text"
+   viewBox="0 0 1020 600"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <g
+     transform="translate(0, 0)">
+    <mask
+       id="logo-text-mask">
+       <rect x="-10" y="-10" width="10000" height="10000" fill="white" />
+       <text
+           xml:space="preserve"
+           style="font-size:166.299px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 46, 'wght' 1000, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+           x="0"
+           y="297.48778"
+             >MEETING</text>
+       <text
+           xml:space="preserve"
+           style="font-size:166.299px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 90, 'wght' 1000, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+           x="0"
+           y="444.28721"
+             >NUREMBERG</text>
+    </mask>
+
+    <rect
+       style="fill:#fff"
+       width="1070"
+       height="613.3717"
+       x="-10"
+       y="-10"
+       mask="url(#logo-text-mask)"
+       />
+    <text
+       xml:space="preserve"
+       style="font-size:170.079px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 41, 'wght' 805, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+       x="0"
+       y="150.48723"
+         >LIBRE GRAPHICS</text>
+    <text
+       xml:space="preserve"
+       style="font-size:170.079px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 98, 'wght' 805, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+       x="0"
+       y="591.45513"
+       >MAY 28 — 31</text>
+
+    <text
+       xml:space="preserve"
+       style="font-size:166.299px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 73, 'wght' 805, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+       x="660.28653"
+       y="297.48778"
+       >2025</text>
+  </g>
+</svg>
+
+                <svg
+   class="identiy-reimagination"
+   viewBox="0 0 2720 350"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <g
+     transform="translate(0, 0)">
+    <mask
+       style="fill:#fff;"
+       id="reimagination-text-mask">
+       <rect x="-10" y="-10" width="10000" height="10000" fill="white" />
+       <text
+           xml:space="preserve"
+           style="font-size:400px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 46, 'wght' 1000, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+           x="455"
+           y="310"
+             >IMAGINATION</text>
+    </mask>
+
+    <rect
+       style="fill:#fff"
+       width="3000"
+       height="420"
+       x="-10"
+       y="-10"
+       mask="url(#reimagination-text-mask)"
+       />
+    <text
+       xml:space="preserve"
+       style="font-size:400px;
+              font-family:'RobotoFlex';
+              font-variation-settings:'GRAD' 0, 'opsz' 60, 'slnt' 0, 'wdth' 41, 'wght' 805, 'XOPQ' 96, 'XTRA' 468, 'YOPQ' 79, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738, 'YTLC' 514, 'YTUC' 712;
+              fill:#000000"
+       x="0"
+       y="310"
+         >RE:</text>
+  </g>
+</svg>
+
+                <div class="filler filler-1"></div>
+                <div class="filler filler-2"></div>
+                <h1>Libre Graphics Meeting 2025 – RE:imagination</h1>
+                <h2>28-31 May Nuremberg, Germany</h2>
+
+                <nav>
+                    <ul><li><a href="/2025/">Home</a><ul><li><a href="/2025/news/">News</a></li>
+<li><a href="/2025/sponsors/">Sponsors</a></li>
+<li><a href="/2025/partners/">Partners</a></li>
+<li><a href="/2025/about/">About</a></li>
+<li><a href="/2025/code-of-conduct/">Code of Conduct</a></li>
+<li><a href="/2025/contact/">Contact</a></li></ul></li>
+<li><a href="/2025/program/">Program</a><ul><li><a href="/2025/venues/">Venues</a></li>
+<li><a href="/2025/call-for-participation/">Call for Participation</a></li>
+<li><a href="/2025/news/2025-05-06_0001-call-for-slides-state-of-libre-graphics/">Call for Slides: State of Libre Graphics</a></li>
+<li><a href="/2025/news/2025-05-08_0001-call-for-local-organizers-2026-2027/">Call for Local Organizers</a></li></ul></li>
+<li><a href="/2025/donate/">Donate!</a><ul><li><a href="/2025/register/">Register!</a></li>
+<li><a href="/2025/reimbursement/">Reimbursement</a></li></ul></li></ul><div class="past_editions">
+                    <span>Past Editions</span>
+                    <ul><!-- The archive of past editions. -->
+                        <li><a href="/2024/"><em>2024</em> | <span>Rennes</span></a></li><li><a href="/2021/en/index.html"><em>2021</em> | <span>(online)</span></a></li><li><a href="/2020/en/index.html"><em>2020</em> | <span>Rennes (online)</span></a></li><li><a href="/2019/"><em>2019</em> | <span>Saarbruck</span></a></li><li><a href="/2018/"><em>2018</em> | <span>Sevilla</span></a></li><li><a href="/2017/"><em>2017</em> | <span>Rio de Janeiro</span></a></li><li><a href="/2016/"><em>2016</em> | <span>London</span></a></li><li><a href="/2015/"><em>2015</em> | <span>Toronto</span></a></li><li><a href="/2014/"><em>2014</em> | <span>Leipzig</span></a></li><li><a href="/2013/"><em>2013</em> | <span>Madrid</span></a></li><li><a href="/2012/"><em>2012</em> | <span>Vienna</span></a></li><li><a href="/2011/"><em>2011</em> | <span>Montreal</span></a></li><li><a href="/2010/"><em>2010</em> | <span>Brussels</span></a></li><li><a href="/2009/"><em>2009</em> | <span>Montreal</span></a></li><li><a href="/2008/"><em>2008</em> | <span>Wrocław</span></a></li><li><a href="/2007/"><em>2007</em> | <span>Montreal</span></a></li><li><a href="/2006/"><em>2006</em> | <span>Lyon</span></a></li>
+                    </ul>
+                    </div>
+                    <button type="button" class="play_pause"
+                        title="Play and pause the animation of the background."
+                        ><span class="is_pausing-label">Play</span
+                        ><span class="is_playing-label">Pause</span
+                        ><span class="play_pause-purpose"> background animation.</span
+                    ></button>
+                </nav>
+            </header>
+
+            <article class="content">
+                <nav class="page-nav">
+Back to <a href="/2025/news">News</a><br />
+</nav>
+
+<time datetime="2025-05-07T00:00:00.000Z">Wed May 07 2025</time>
+
+<h1><a
+            id="2025-05-07_0001-keynote-will-not-go-forward"
+            href="#2025-05-07_0001-keynote-will-not-go-forward"
+            class="heading_anchor"
+            aria-hidden="true"
+            >#</a>The Keynote Will NOT Go Forward</h1>
+<p class="lead">Due to concerns from the LGM community the planned keynote with Dr. Richard Stallman is cancelled.</p>
+<p>The <a href="/2025/news/2025-05-06_0002-keynote-announcement-richard-stallman">announcement</a>
+made many people angry and upset, and anger and division are not what
+LGM is about. Public debate was one of the factors that led to this decision. The discussion can be read here:
+<a href="https://post.lurk.org/@lgm/114462101041791903">Inital post on Mastodon</a>.</p>
+<hr>
+<p><strong>[NOTE]</strong> <em>The following sentence mentioning our Code of Conduct in this
+announcement could be interpreted as suggesting we believe Richard Stallman’s
+presence would make the event less safe. <strong>That interpretation is not our
+intention; we don’t think that way.</strong> We don’t all think that Stallman’s
+talk would have been a problem. Some of us wanted to hear him. The context
+of the discussion linked above is important to correctly interpret this
+announcement and the reasons that led to it. Some people voiced general
+discomfort about the LGM in the debate; we take these concerns seriously.</em></p>
+<hr>
+<p>LGM is committed to being an inclusive and safe venue for members of the
+Libre Graphics community, and we stand by the commitments to safety outlined
+by our <a href="/2025/code-of-conduct">Code of Conduct</a>.</p>
+<h2><a id="personal-note-of-the-organizer" class="heading_anchor" href="#personal-note-of-the-organizer" aria-hidden="true">#</a>Personal Note of the Organizer</h2>
+<p>I’ll be welcoming everyone seeking a conversation with me about the topic.</p>
+<p>– Lasse</p>
+
+
+            </article>
+            <footer><a href="/2025/impressum">Impressum</a></footer>
+        </div> <!-- wrapper -->
+    </body>
+</html>

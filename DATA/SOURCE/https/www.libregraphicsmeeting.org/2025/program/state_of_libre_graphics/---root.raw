@@ -12,7 +12,7 @@
             href="/2025/js/leaflet/leaflet.css" />
         <link
             rel="stylesheet"
-            href="/2025/css/main.css?cacheBuster=6ac40597b365a1d8d06d2aa4e9bb8c83d36db12b8dbc136b6f4e11f6287d8161"/>
+            href="/2025/css/main.css?cacheBuster=9d3687e8c0693bf3c06eb291f966e4326fe4fb621531ea226ed820d9e8e3bc42"/>
         <script src="/2025/js/main.js?cacheBuster=8b021e3cb938d9eb95b9cf93ae1c33f2f89cd6a9c4c318f640ec953a5fcfce33"
             async
             type="module"></script>
@@ -189,8 +189,10 @@
 <li><a href="/2025/code-of-conduct/">Code of Conduct</a></li>
 <li><a href="/2025/contact/">Contact</a></li></ul></li>
 <li class="active"><a href="/2025/program/">Program</a><ul><li><a href="/2025/venues/">Venues</a></li>
-<li><a href="/2025/call-for-participation/">Call for Participation</a></li></ul></li>
-<li><a href="/2025/register/">Register!</a><ul><li><a href="/2025/donate/">Donate!</a></li>
+<li><a href="/2025/call-for-participation/">Call for Participation</a></li>
+<li><a href="/2025/news/2025-05-06_0001-call-for-slides-state-of-libre-graphics/">Call for Slides: State of Libre Graphics</a></li>
+<li><a href="/2025/news/2025-05-08_0001-call-for-local-organizers-2026-2027/">Call for Local Organizers</a></li></ul></li>
+<li><a href="/2025/donate/">Donate!</a><ul><li><a href="/2025/register/">Register!</a></li>
 <li><a href="/2025/reimbursement/">Reimbursement</a></li></ul></li></ul><div class="past_editions">
                     <span>Past Editions</span>
                     <ul><!-- The archive of past editions. -->
@@ -242,8 +244,22 @@ Back to <a href="/2025/program">Program</a><br />
 
 
 
-
 <h2><a
+            id="recording"
+            href="#recording"
+            class="heading_anchor"
+            aria-hidden="true"
+            >#</a>Recording</h2>
+<iframe
+    style="aspect-ratio: 1024/576"
+    width="100%"
+    src="https://media.ccc.de/v/lgm25-upstream-2025-83646-state-of-libre-graphics/oembed"
+    frameborder="0"
+    allowfullscreen></iframe>
+<p><a class="media-ccc-link show-title"
+    title="Recording of State of Libre Graphics"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83646-state-of-libre-graphics"
+    ><span>Recording of  State of Libre Graphics</span></a></p><h2><a
             id="abstract"
             href="#abstract"
             class="heading_anchor"
@@ -256,6 +272,8 @@ Back to <a href="/2025/program">Program</a><br />
 details to the format and process are in the README of the repository. If
 you have trouble contributing this way, feel free to contact us directly:
 <a href="mailto:libregraphicsmeeting@strong-type.systems">libregraphicsmeeting@strong-type.systems</a>.</p>
+<h2><a id="call-for-slides" class="heading_anchor" href="#call-for-slides" aria-hidden="true">#</a>Call for Slides</h2>
+<p>The public announcement is at: <a href="/2025/news/2025-05-06_0001-call-for-slides-state-of-libre-graphics/">Call for Slides: State of Libre Graphics</a>.</p>
 
 
 

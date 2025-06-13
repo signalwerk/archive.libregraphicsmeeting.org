@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Fri, 13 Jun 2025 08:15:38 GMT",
+    "content-type": "text/css; charset=utf-8",
+    "content-length": "116363",
+    "connection": "keep-alive",
+    "last-modified": "Tue, 15 Apr 2025 22:16:06 GMT",
+    "accept-ranges": "bytes",
+    "cache-control": "max-age=604800",
+    "expires": "Fri, 20 Jun 2025 08:15:38 GMT",
+    "x-content-type-options": "nosniff"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/lgm/wp/wp-includes/css/dist/block-library/style.min.css?ver=6.8.1"
+}

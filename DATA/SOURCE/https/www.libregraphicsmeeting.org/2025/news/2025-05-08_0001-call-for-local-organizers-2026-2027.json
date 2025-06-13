@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Fri, 13 Jun 2025 08:16:54 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "386",
+    "connection": "keep-alive",
+    "location": "https://www.libregraphicsmeeting.org/2025/news/2025-05-08_0001-call-for-local-organizers-2026-2027/"
+  },
+  "status": 301,
+  "uri": "https://www.libregraphicsmeeting.org/2025/news/2025-05-08_0001-call-for-local-organizers-2026-2027",
+  "redirected": "https://www.libregraphicsmeeting.org/2025/news/2025-05-08_0001-call-for-local-organizers-2026-2027/"
+}

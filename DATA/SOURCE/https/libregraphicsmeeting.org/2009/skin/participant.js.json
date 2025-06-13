@@ -1,10 +1,10 @@
 {
   "headers": {
     "server": "nginx/1.6.2",
-    "date": "Sat, 21 Dec 2024 23:39:01 GMT",
+    "date": "Fri, 13 Jun 2025 08:15:34 GMT",
     "content-type": "application/javascript",
     "content-length": "1117",
-    "connection": "keep-alive",
+    "connection": "close",
     "last-modified": "Tue, 03 Mar 2009 23:28:15 GMT",
     "etag": "\"45d-4643f4a0e21c0\"",
     "accept-ranges": "bytes"

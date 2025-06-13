@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Fri, 13 Jun 2025 08:15:16 GMT",
+    "content-type": "image/jpeg",
+    "content-length": "294125",
+    "connection": "keep-alive",
+    "last-modified": "Thu, 05 Jun 2025 18:54:09 GMT",
+    "etag": "\"47ced-636d7a382606d\"",
+    "accept-ranges": "bytes"
+  },
+  "status": 200,
+  "uri": "https://libregraphicsmeeting.org/2025/img/lgm-group-photo-2025.jpg"
+}

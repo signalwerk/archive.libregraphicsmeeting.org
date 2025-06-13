@@ -12,7 +12,7 @@
             href="/2025/js/leaflet/leaflet.css" />
         <link
             rel="stylesheet"
-            href="/2025/css/main.css?cacheBuster=6ac40597b365a1d8d06d2aa4e9bb8c83d36db12b8dbc136b6f4e11f6287d8161"/>
+            href="/2025/css/main.css?cacheBuster=9d3687e8c0693bf3c06eb291f966e4326fe4fb621531ea226ed820d9e8e3bc42"/>
         <script src="/2025/js/main.js?cacheBuster=8b021e3cb938d9eb95b9cf93ae1c33f2f89cd6a9c4c318f640ec953a5fcfce33"
             async
             type="module"></script>
@@ -189,8 +189,10 @@
 <li><a href="/2025/code-of-conduct/">Code of Conduct</a></li>
 <li class="active"><a href="/2025/contact/">Contact</a></li></ul></li>
 <li><a href="/2025/program/">Program</a><ul><li><a href="/2025/venues/">Venues</a></li>
-<li><a href="/2025/call-for-participation/">Call for Participation</a></li></ul></li>
-<li><a href="/2025/register/">Register!</a><ul><li><a href="/2025/donate/">Donate!</a></li>
+<li><a href="/2025/call-for-participation/">Call for Participation</a></li>
+<li><a href="/2025/news/2025-05-06_0001-call-for-slides-state-of-libre-graphics/">Call for Slides: State of Libre Graphics</a></li>
+<li><a href="/2025/news/2025-05-08_0001-call-for-local-organizers-2026-2027/">Call for Local Organizers</a></li></ul></li>
+<li><a href="/2025/donate/">Donate!</a><ul><li><a href="/2025/register/">Register!</a></li>
 <li><a href="/2025/reimbursement/">Reimbursement</a></li></ul></li></ul><div class="past_editions">
                     <span>Past Editions</span>
                     <ul><!-- The archive of past editions. -->
@@ -208,21 +210,22 @@
 
             <article class="content">
                 <h1><a id="contact" class="heading_anchor" href="#contact" aria-hidden="true">#</a>Contact</h1>
-<h2><a id="organization" class="heading_anchor" href="#organization" aria-hidden="true">#</a>Organization</h2>
-<p>The 2025 edition is organized by <a href="https://strong-type.systems">Strong Type Systems GmbH</a>
-for inquiries regarding the local organization please write to:
-<a href="mailto:libregraphicsmeeting@strong-type.systems">libregraphicsmeeting@strong-type.systems</a>.</p>
+<h2><a id="chat--matrix-and-irc" class="heading_anchor" href="#chat--matrix-and-irc" aria-hidden="true">#</a>Chat – Matrix and IRC</h2>
+<ul>
+<li>We have a <strong>Matrix</strong> channel at <a href="https://matrix.to/#/%23lgm:kde.org">#lgm:kde.org</a>.</li>
+<li>We are also on <strong>IRC</strong> at “<code>#lgm</code>” on <a href="https://libera.chat/guides/connect">irc.libera.chat</a>. The channel is bridged with the Matrix one.</li>
+</ul>
 <h2><a id="lgm-mailing-list" class="heading_anchor" href="#lgm-mailing-list" aria-hidden="true">#</a>LGM mailing list</h2>
 <p>The <a href="http://lists.freedesktop.org/mailman/listinfo/libre-graphics-meeting">Libre Graphic Meeting mailling list</a>
 is  the place for the discussion among the LGM organization team. Each
 member of the team should be subscribed. Other people can subscribe and
 follow the discussion and give occasional contributions (if your contributions
 become regular, you should probably get into the team).</p>
-<h2><a id="chat--matrix-and-irc" class="heading_anchor" href="#chat--matrix-and-irc" aria-hidden="true">#</a>Chat – Matrix and IRC</h2>
-<ul>
-<li>Our <strong>IRC</strong> is at “<code>#lgm</code>” at <a href="https://libera.chat/guides/connect">irc.libera.chat</a>.</li>
-<li>There is a <strong>Matrix</strong> channel that also bridges to the IRC at <a href="https://matrix.to/#/%23lgm:kde.org">#lgm:kde.org</a>.</li>
-</ul>
+<p>Every mail gets read, but it might get some time to the relevant people to read your inquiry.</p>
+<h2><a id="organization" class="heading_anchor" href="#organization" aria-hidden="true">#</a>Organization</h2>
+<p>The 2025 edition has been organized by <a href="https://strong-type.systems">Strong Type Systems GmbH</a>
+for inquiries regarding the local organization please write to:
+<a href="mailto:libregraphicsmeeting@strong-type.systems">libregraphicsmeeting@strong-type.systems</a>.</p>
 <h2><a id="website" class="heading_anchor" href="#website" aria-hidden="true">#</a>Website</h2>
 <p>If there is a problem on this website, please report it on GitHub: <a href="https://github.com/strong-type-systems/libregraphicsmeeting/issues">https://github.com/strong-type-systems/libregraphicsmeeting/issues</a></p>
 

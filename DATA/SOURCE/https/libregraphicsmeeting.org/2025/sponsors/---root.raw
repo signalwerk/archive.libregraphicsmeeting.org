@@ -12,7 +12,7 @@
             href="/2025/js/leaflet/leaflet.css" />
         <link
             rel="stylesheet"
-            href="/2025/css/main.css?cacheBuster=6ac40597b365a1d8d06d2aa4e9bb8c83d36db12b8dbc136b6f4e11f6287d8161"/>
+            href="/2025/css/main.css?cacheBuster=9d3687e8c0693bf3c06eb291f966e4326fe4fb621531ea226ed820d9e8e3bc42"/>
         <script src="/2025/js/main.js?cacheBuster=8b021e3cb938d9eb95b9cf93ae1c33f2f89cd6a9c4c318f640ec953a5fcfce33"
             async
             type="module"></script>
@@ -189,8 +189,10 @@
 <li><a href="/2025/code-of-conduct/">Code of Conduct</a></li>
 <li><a href="/2025/contact/">Contact</a></li></ul></li>
 <li><a href="/2025/program/">Program</a><ul><li><a href="/2025/venues/">Venues</a></li>
-<li><a href="/2025/call-for-participation/">Call for Participation</a></li></ul></li>
-<li><a href="/2025/register/">Register!</a><ul><li><a href="/2025/donate/">Donate!</a></li>
+<li><a href="/2025/call-for-participation/">Call for Participation</a></li>
+<li><a href="/2025/news/2025-05-06_0001-call-for-slides-state-of-libre-graphics/">Call for Slides: State of Libre Graphics</a></li>
+<li><a href="/2025/news/2025-05-08_0001-call-for-local-organizers-2026-2027/">Call for Local Organizers</a></li></ul></li>
+<li><a href="/2025/donate/">Donate!</a><ul><li><a href="/2025/register/">Register!</a></li>
 <li><a href="/2025/reimbursement/">Reimbursement</a></li></ul></li></ul><div class="past_editions">
                     <span>Past Editions</span>
                     <ul><!-- The archive of past editions. -->
@@ -211,6 +213,15 @@
 <p>Thank you to all our sponsoring partners: without your support, LGM would
 not be the incredible event it is. Your contributions make all the
 difference, and we truly appreciate your partnership.</p>
+<h2><a id="gold-partners" class="heading_anchor" href="#gold-partners" aria-hidden="true">#</a>Gold Partners</h2>
+<div class="sponsorship sponsorship-level_gold">
+    <a class="sponsorship-logo" href="https://www.myfonts.com/collections/font-bureau-foundry?srsltid=AfmBOoow76AMX2wjZS58rQQJL9GD0fpnnmBL1DOPddYAo3b1ADOy391l"><img src="/2025/img/partners/font-bureau_logo.svg" alt="Logo Sponsor: Font Bureau" /></a>
+    <span class="sponsorship-info"><a class="sponsorship-link" href="https://www.myfonts.com/collections/font-bureau-foundry?srsltid=AfmBOoow76AMX2wjZS58rQQJL9GD0fpnnmBL1DOPddYAo3b1ADOy391l">Font Bureau</a></span>
+</div>
+<div class="sponsorship sponsorship-level_gold">
+    <a class="sponsorship-logo" href="https://www.gimp.org/"><img src="/2025/img/partners/gimp_logo.svg" alt="Logo Sponsor: GIMP" /></a>
+    <span class="sponsorship-info"><a class="sponsorship-link" href="https://www.gimp.org/">GIMP</a> – GNU Image Manipulation Program </span>
+</div>
 <h2><a id="silver-partners" class="heading_anchor" href="#silver-partners" aria-hidden="true">#</a>Silver Partners</h2>
 <div class="sponsorship sponsorship-level_silver">
     <a class="sponsorship-logo" href="https://www.b1-systems.de"><img src="/2025/img/partners/b1-systems_logo.svg" alt="Logo Sponsor: B1 Systems" /></a>

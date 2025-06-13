@@ -1,12 +1,12 @@
 {
   "headers": {
     "server": "nginx/1.6.2",
-    "date": "Sat, 21 Dec 2024 23:38:56 GMT",
+    "date": "Fri, 13 Jun 2025 08:15:17 GMT",
     "content-type": "text/html",
     "transfer-encoding": "chunked",
     "connection": "keep-alive",
     "last-modified": "Fri, 05 Jun 2020 09:39:10 GMT"
   },
   "status": 200,
-  "uri": "https://libregraphicsmeeting.org/2020/en/contact.html#presskit"
+  "uri": "https://libregraphicsmeeting.org/2020/en/contact.html#contact"
 }

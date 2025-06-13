@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Fri, 13 Jun 2025 08:18:24 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "388",
+    "connection": "keep-alive",
+    "location": "https://www.libregraphicsmeeting.org/2025/news/2025-05-06_0002-keynote-announcement-richard-stallman/"
+  },
+  "status": 301,
+  "uri": "https://www.libregraphicsmeeting.org/2025/news/2025-05-06_0002-keynote-announcement-richard-stallman",
+  "redirected": "https://www.libregraphicsmeeting.org/2025/news/2025-05-06_0002-keynote-announcement-richard-stallman/"
+}

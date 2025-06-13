@@ -1,10 +1,10 @@
 {
   "headers": {
     "server": "nginx/1.6.2",
-    "date": "Sat, 21 Dec 2024 23:42:26 GMT",
+    "date": "Fri, 13 Jun 2025 08:18:32 GMT",
     "content-type": "text/html;charset=UTF-8",
     "transfer-encoding": "chunked",
-    "connection": "close"
+    "connection": "keep-alive"
   },
   "status": 200,
   "uri": "https://www.libregraphicsmeeting.org/2011/logiciels/feed/?C=M;O=A"

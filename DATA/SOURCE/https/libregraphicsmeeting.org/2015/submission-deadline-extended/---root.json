@@ -1,12 +1,12 @@
 {
   "headers": {
     "server": "nginx/1.6.2",
-    "date": "Sat, 21 Dec 2024 23:38:33 GMT",
+    "date": "Fri, 13 Jun 2025 08:15:24 GMT",
     "content-type": "text/html",
     "transfer-encoding": "chunked",
     "connection": "keep-alive",
     "last-modified": "Tue, 12 Mar 2019 18:49:04 GMT"
   },
   "status": 200,
-  "uri": "https://libregraphicsmeeting.org/2015/submission-deadline-extended/#respond"
+  "uri": "https://libregraphicsmeeting.org/2015/submission-deadline-extended/"
 }

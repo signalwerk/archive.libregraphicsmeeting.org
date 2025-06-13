@@ -1,0 +1,13 @@
+{
+  "headers": {
+    "server": "nginx/1.6.2",
+    "date": "Fri, 13 Jun 2025 08:15:16 GMT",
+    "content-type": "text/html; charset=iso-8859-1",
+    "content-length": "352",
+    "connection": "keep-alive",
+    "location": "https://libregraphicsmeeting.org/2025/program/label-suedstadtforum-1/"
+  },
+  "status": 301,
+  "uri": "https://libregraphicsmeeting.org/2025/program/label-suedstadtforum-1",
+  "redirected": "https://libregraphicsmeeting.org/2025/program/label-suedstadtforum-1/"
+}

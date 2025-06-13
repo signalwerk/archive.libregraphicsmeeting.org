@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>camille &#8211; Libre Graphics Meeting</title>
+	<atom:link href="https://www.libregraphicsmeeting.org/lgm/author/camille/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.libregraphicsmeeting.org/lgm</link>
+	<description>annual international convention for free and open source software</description>
+	<lastBuildDate>Mon, 17 Aug 2015 08:34:14 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.1</generator>
+	<item>
+		<title>Launching this website</title>
+		<link>https://www.libregraphicsmeeting.org/lgm/hello-world/</link>
+		
+		<dc:creator><![CDATA[camille]]></dc:creator>
+		<pubDate>Tue, 23 Apr 2013 09:18:17 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">http://libregraphicsmeeting.org/?p=1</guid>
+
+					<description><![CDATA[Infrastructure team of LGM is proud to annouce this new website, which is part of our new organisation !]]></description>
+										<content:encoded><![CDATA[<p>Infrastructure team of LGM is proud to annouce this new website, which is part of our new organisation !</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

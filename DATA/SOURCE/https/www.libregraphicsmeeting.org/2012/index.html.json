@@ -1,12 +1,12 @@
 {
   "headers": {
     "server": "nginx/1.6.2",
-    "date": "Sat, 21 Dec 2024 23:38:14 GMT",
+    "date": "Fri, 13 Jun 2025 08:17:04 GMT",
     "content-type": "text/html",
     "transfer-encoding": "chunked",
     "connection": "keep-alive",
     "last-modified": "Mon, 10 Nov 2014 14:17:21 GMT"
   },
   "status": 200,
-  "uri": "https://www.libregraphicsmeeting.org/2012/index.html"
+  "uri": "https://www.libregraphicsmeeting.org/2012/index.html#"
 }

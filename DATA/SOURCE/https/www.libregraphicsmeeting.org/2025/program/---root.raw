@@ -12,7 +12,7 @@
             href="/2025/js/leaflet/leaflet.css" />
         <link
             rel="stylesheet"
-            href="/2025/css/main.css?cacheBuster=6ac40597b365a1d8d06d2aa4e9bb8c83d36db12b8dbc136b6f4e11f6287d8161"/>
+            href="/2025/css/main.css?cacheBuster=9d3687e8c0693bf3c06eb291f966e4326fe4fb621531ea226ed820d9e8e3bc42"/>
         <script src="/2025/js/main.js?cacheBuster=8b021e3cb938d9eb95b9cf93ae1c33f2f89cd6a9c4c318f640ec953a5fcfce33"
             async
             type="module"></script>
@@ -189,8 +189,10 @@
 <li><a href="/2025/code-of-conduct/">Code of Conduct</a></li>
 <li><a href="/2025/contact/">Contact</a></li></ul></li>
 <li class="active"><a href="/2025/program/">Program</a><ul><li><a href="/2025/venues/">Venues</a></li>
-<li><a href="/2025/call-for-participation/">Call for Participation</a></li></ul></li>
-<li><a href="/2025/register/">Register!</a><ul><li><a href="/2025/donate/">Donate!</a></li>
+<li><a href="/2025/call-for-participation/">Call for Participation</a></li>
+<li><a href="/2025/news/2025-05-06_0001-call-for-slides-state-of-libre-graphics/">Call for Slides: State of Libre Graphics</a></li>
+<li><a href="/2025/news/2025-05-08_0001-call-for-local-organizers-2026-2027/">Call for Local Organizers</a></li></ul></li>
+<li><a href="/2025/donate/">Donate!</a><ul><li><a href="/2025/register/">Register!</a></li>
 <li><a href="/2025/reimbursement/">Reimbursement</a></li></ul></li></ul><div class="past_editions">
                     <span>Past Editions</span>
                     <ul><!-- The archive of past editions. -->
@@ -213,6 +215,8 @@
             class="heading_anchor"
             aria-hidden="true"
             >#</a>Program</h1>
+
+
     <section class="schedule-legend">
   <h3>Legend</h3>
   <span class="legend-general">general, LGM-community</span>
@@ -226,7 +230,7 @@
             href="#Wednesday"
             class="heading_anchor"
             aria-hidden="true"
-            >#</a>Wednesday, May 28, 2025 at GMT+2</h2>
+            >#</a>Wednesday, 28 May 2025 at CEST</h2>
 <table class="schedule">
     
     
@@ -253,6 +257,10 @@
     
       <a class="host-link" href="/2025/hosts/Lasse/">Lasse Fister</a>
     
+        <a class="media-ccc-link "
+    title="Recording of Welcome"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83644-welcome"
+    ><span>Recording of  Welcome</span></a>
   
     </td>
 </tr>
@@ -273,6 +281,10 @@
     
       <a class="label-link" href="/2025/program/label-re-imagination">#re:imagination</a>
       <a class="label-link" href="/2025/program/label-community">#community</a>
+        <a class="media-ccc-link "
+    title="Recording of RE:imagination Primer"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83645-re-imagination-primer"
+    ><span>Recording of  RE:imagination Primer</span></a>
   
     </td>
 </tr>
@@ -289,25 +301,10 @@
     
       <a class="host-link" href="/2025/hosts/MABarbe/">MABarbe</a>
     
-  
-    </td>
-</tr>
-    
-    
-<tr class="schedule_item schedule_item-type-talk">
-    <th class="schedule_item-time">
-        <time datetime="2025-05-28T13:05:00.000Z">15:05</time>
-    </th>
-    <td class="schedule_item-content">
-    
-    <a class="page-link" href="/2025/program/state_of_processing/">The State of Processing: How We’re Bringing a Creative Coding Icon Back to Life</a><span class="schedule_item-own_type">—talk</span>
-      <a class="host-link" href="/2025/hosts/Raphaël/">Raphaël de Courville</a>
-    
-      <a class="host-link" href="/2025/hosts/Stef/">Stef Tervelde</a>
-    
-      <a class="label-link" href="/2025/program/label-processing">#Processing</a>
-      <a class="label-link" href="/2025/program/label-community">#community</a>
-      <a class="label-link" href="/2025/program/label-live">#live</a>
+        <a class="media-ccc-link "
+    title="Recording of State of Libre Graphics"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83646-state-of-libre-graphics"
+    ><span>Recording of  State of Libre Graphics</span></a>
   
     </td>
 </tr>
@@ -319,6 +316,29 @@
     </th>
     <td class="schedule_item-content">
     
+    <a class="page-link" href="/2025/program/state_of_processing/">The State of Processing: How We’re Bringing a Creative Coding Icon Back to Life</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Raphaël/">Raphaël de Courville</a>
+    
+      <a class="host-link" href="/2025/hosts/Stef/">Stef Tervelde</a>
+    
+      <a class="label-link" href="/2025/program/label-processing">#Processing</a>
+      <a class="label-link" href="/2025/program/label-community">#community</a>
+      <a class="label-link" href="/2025/program/label-live">#live</a>
+        <a class="media-ccc-link "
+    title="Recording of The State of Processing: How We’re Bringing a Creative Coding Icon Back to Life"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83647-the-state-of-processing-how-we-re-bringing-a-creative-coding-icon-back-to-life"
+    ><span>Recording of  The State of Processing: How We’re Bringing a Creative Coding Icon Back to Life</span></a>
+  
+    </td>
+</tr>
+    
+    
+<tr class="schedule_item schedule_item-type-talk">
+    <th class="schedule_item-time">
+        <time datetime="2025-05-28T13:55:00.000Z">15:55</time>
+    </th>
+    <td class="schedule_item-content">
+    
     <a class="page-link" href="/2025/program/upstage_presentation/">UpStage</a><span class="schedule_item-own_type">—talk</span>
       <a class="host-link" href="/2025/hosts/Helen/">Helen Varley Jamieson</a>
     
@@ -327,6 +347,10 @@
       <a class="label-link" href="/2025/program/label-upstage">#UpStage</a>
       <a class="label-link" href="/2025/program/label-cyberformance">#cyberformance</a>
       <a class="label-link" href="/2025/program/label-live">#live</a>
+        <a class="media-ccc-link "
+    title="Recording of UpStage"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83648-upstage"
+    ><span>Recording of  UpStage</span></a>
   
     </td>
 </tr>
@@ -334,11 +358,11 @@
     
 <tr class="schedule_item schedule_item-type-break">
     <th class="schedule_item-time">
-        <time datetime="2025-05-28T13:55:00.000Z">15:55</time>
+        <time datetime="2025-05-28T14:20:00.000Z">16:20</time>
     </th>
     <td class="schedule_item-content">
     
-    Coffee Break (25 min)
+    Coffee Break (30 min)
   
     </td>
 </tr>
@@ -346,7 +370,7 @@
     
 <tr class="schedule_item schedule_item-type-talk">
     <th class="schedule_item-time">
-        <time datetime="2025-05-28T14:20:00.000Z">16:20</time>
+        <time datetime="2025-05-28T14:50:00.000Z">16:50</time>
     </th>
     <td class="schedule_item-content">
     
@@ -356,6 +380,10 @@
       <a class="label-link" href="/2025/program/label-fonts">#fonts</a>
       <a class="label-link" href="/2025/program/label-typography">#typography</a>
       <a class="label-link" href="/2025/program/label-vector">#vector</a>
+        <a class="media-ccc-link "
+    title="Recording of Let&#39;s All Go Back To Bitmap Fonts!"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83649-let-s-all-go-back-to-bitmap-fonts-"
+    ><span>Recording of  Let&#39;s All Go Back To Bitmap Fonts!</span></a>
   
     </td>
 </tr>
@@ -363,7 +391,7 @@
     
 <tr class="schedule_item schedule_item-type-talk">
     <th class="schedule_item-time">
-        <time datetime="2025-05-28T14:45:00.000Z">16:45</time>
+        <time datetime="2025-05-28T15:15:00.000Z">17:15</time>
     </th>
     <td class="schedule_item-content">
     
@@ -374,6 +402,10 @@
       <a class="label-link" href="/2025/program/label-splines">#splines</a>
       <a class="label-link" href="/2025/program/label-cad">#cad</a>
       <a class="label-link" href="/2025/program/label-vector">#vector</a>
+        <a class="media-ccc-link "
+    title="Recording of The Curious Case of Splines in FreeCAD"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83650-the-curious-case-of-splines-in-freecad"
+    ><span>Recording of  The Curious Case of Splines in FreeCAD</span></a>
   
     </td>
 </tr>
@@ -381,7 +413,7 @@
     
 <tr class="schedule_item schedule_item-type-talk">
     <th class="schedule_item-time">
-        <time datetime="2025-05-28T15:10:00.000Z">17:10</time>
+        <time datetime="2025-05-28T15:40:00.000Z">17:40</time>
     </th>
     <td class="schedule_item-content">
     
@@ -389,6 +421,10 @@
       <a class="host-link" href="/2025/hosts/Brendan/">Brendan Howell</a>
     
       <a class="label-link" href="/2025/program/label-permacomputing">#permacomputing</a>
+        <a class="media-ccc-link "
+    title="Recording of Permacomputing: Fermenting Regenerative Aesthetics"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83651-permacomputing-fermenting-regenerative-aesthetics"
+    ><span>Recording of  Permacomputing: Fermenting Regenerative Aesthetics</span></a>
   
     </td>
 </tr>
@@ -396,7 +432,7 @@
     
 <tr class="schedule_item schedule_item-type-talk">
     <th class="schedule_item-time">
-        <time datetime="2025-05-28T15:35:00.000Z">17:35</time>
+        <time datetime="2025-05-28T16:05:00.000Z">18:05</time>
     </th>
     <td class="schedule_item-content">
     
@@ -405,6 +441,10 @@
     
       <a class="label-link" href="/2025/program/label-video">#video</a>
       <a class="label-link" href="/2025/program/label-toolbox">#toolbox</a>
+        <a class="media-ccc-link "
+    title="Recording of A View on the Open-Source Video Editing Landscape"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83652-a-view-on-the-open-source-video-editing-landscape"
+    ><span>Recording of  A View on the Open-Source Video Editing Landscape</span></a>
   
     </td>
 </tr>
@@ -414,7 +454,7 @@
     
 <tr class="schedule_item schedule_item-type-inject">
     <th class="schedule_item-time">
-        <time datetime="2025-05-28T16:00:00.000Z">18:00</time>
+        <time datetime="2025-05-28T16:30:00.000Z">18:30</time>
     </th>
     <td class="schedule_item-content">
     
@@ -423,6 +463,10 @@
     </td>
 </tr>
 </table>
+
+
+
+
 
     <section class="schedule-legend">
   <h3>Legend</h3>
@@ -437,7 +481,7 @@
             href="#Thursday"
             class="heading_anchor"
             aria-hidden="true"
-            >#</a>Thursday, May 29, 2025 at GMT+2</h2>
+            >#</a>Thursday, 29 May 2025 at CEST</h2>
 <table class="schedule">
     
     
@@ -539,11 +583,15 @@
     </th>
     <td class="schedule_item-content">
     
-    <a class="page-link" href="/2025/program/lightning_talks/">Lightning Talks</a><span class="schedule_item-own_type">—talk</span>
+    <a class="page-link" href="/2025/program/lightning_talks_thursday/">Lightning Talks Thursday</a><span class="schedule_item-own_type">—talk</span>
       <a class="host-link" href="/2025/hosts/LGM/">LGM Community</a>
     
       <a class="host-link" href="/2025/hosts/TBD/">TBD (Undetermined)</a>
     
+        <a class="media-ccc-link "
+    title="Recording of Lightning Talks Thursday"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83681-lightning-talks-thursday"
+    ><span>Recording of  Lightning Talks Thursday</span></a>
   
     </td>
 </tr>
@@ -572,6 +620,10 @@
     
       <a class="label-link" href="/2025/program/label-kicad">#KiCAD</a>
       <a class="label-link" href="/2025/program/label-cad">#cad</a>
+        <a class="media-ccc-link "
+    title="Recording of PCB Artwork with KiCAD"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83655-pcb-artwork-with-kicad"
+    ><span>Recording of  PCB Artwork with KiCAD</span></a>
   
     </td>
 </tr>
@@ -583,15 +635,15 @@
     </th>
     <td class="schedule_item-content">
     
-    <a class="page-link" href="/2025/program/fontra/">Fontra —
-The Browser-Based Font Editor</a><span class="schedule_item-own_type">—talk</span>
-      <a class="host-link" href="/2025/hosts/Lasse/">Lasse Fister</a>
+    <a class="page-link" href="/2025/program/the_pdf_toolbox/">The PDF Toolbox</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Cédric/">Cédric Gémy</a>
     
-      <a class="host-link" href="/2025/hosts/TBD/">TBD (Undetermined)</a>
-    
-      <a class="label-link" href="/2025/program/label-fonts">#fonts</a>
-      <a class="label-link" href="/2025/program/label-typography">#typography</a>
-      <a class="label-link" href="/2025/program/label-vector">#vector</a>
+      <a class="label-link" href="/2025/program/label-pdf">#pdf</a>
+      <a class="label-link" href="/2025/program/label-toolbox">#toolbox</a>
+        <a class="media-ccc-link "
+    title="Recording of The PDF Toolbox"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83656-the-pdf-toolbox"
+    ><span>Recording of  The PDF Toolbox</span></a>
   
     </td>
 </tr>
@@ -609,6 +661,10 @@ The Browser-Based Font Editor</a><span class="schedule_item-own_type">—talk</s
       <a class="label-link" href="/2025/program/label-video">#video</a>
       <a class="label-link" href="/2025/program/label-web">#web</a>
       <a class="label-link" href="/2025/program/label-peertube">#PeerTube</a>
+        <a class="media-ccc-link "
+    title="Recording of Hyper 8 Video System"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83657-hyper-8-video-system"
+    ><span>Recording of  Hyper 8 Video System</span></a>
   
     </td>
 </tr>
@@ -628,6 +684,10 @@ The Browser-Based Font Editor</a><span class="schedule_item-own_type">—talk</s
 </tr>
 </table>
 
+
+
+
+
     <section class="schedule-legend">
   <h3>Legend</h3>
   <span class="legend-general">general, LGM-community</span>
@@ -641,7 +701,7 @@ The Browser-Based Font Editor</a><span class="schedule_item-own_type">—talk</s
             href="#Friday"
             class="heading_anchor"
             aria-hidden="true"
-            >#</a>Friday, May 30, 2025 at GMT+2</h2>
+            >#</a>Friday, 30 May 2025 at CEST</h2>
 <table class="schedule">
     
     
@@ -672,6 +732,10 @@ The Browser-Based Font Editor</a><span class="schedule_item-own_type">—talk</s
       <a class="label-link" href="/2025/program/label-blender">#Blender</a>
       <a class="label-link" href="/2025/program/label-web">#web</a>
       <a class="label-link" href="/2025/program/label-3d">#3d</a>
+        <a class="media-ccc-link "
+    title="Recording of Re:Imagining a 3D and Interactive Internet"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83658-re-imagining-a-3d-and-interactive-internet"
+    ><span>Recording of  Re:Imagining a 3D and Interactive Internet</span></a>
   
     </td>
 </tr>
@@ -691,6 +755,10 @@ The Browser-Based Font Editor</a><span class="schedule_item-own_type">—talk</s
       <a class="label-link" href="/2025/program/label-gimp">#Gimp</a>
       <a class="label-link" href="/2025/program/label-krita">#Krita</a>
       <a class="label-link" href="/2025/program/label-3d">#3d</a>
+        <a class="media-ccc-link "
+    title="Recording of Making Waterfalls"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83659-making-waterfalls"
+    ><span>Recording of  Making Waterfalls</span></a>
   
     </td>
 </tr>
@@ -702,15 +770,19 @@ The Browser-Based Font Editor</a><span class="schedule_item-own_type">—talk</s
     </th>
     <td class="schedule_item-content">
     
-    <a class="page-link" href="/2025/program/type-roof/">TypeRoof —
-Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</span>
+    <a class="page-link" href="/2025/program/fontra/">Fontra —
+The Browser-Based Font Editor</a><span class="schedule_item-own_type">—talk</span>
       <a class="host-link" href="/2025/hosts/Lasse/">Lasse Fister</a>
     
       <a class="label-link" href="/2025/program/label-fonts">#fonts</a>
       <a class="label-link" href="/2025/program/label-typography">#typography</a>
-      <a class="label-link" href="/2025/program/label-web">#web</a>
-      <a class="label-link" href="/2025/program/label-printing">#printing</a>
-      <a class="label-link" href="/2025/program/label-animation">#animation</a>
+      <a class="label-link" href="/2025/program/label-vector">#vector</a>
+        <a class="media-ccc-link "
+    title="Recording of Fontra —
+The Browser-Based Font Editor"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83660--fontra-the-browser-based-font-editor-"
+    ><span>Recording of  Fontra —
+The Browser-Based Font Editor</span></a>
   
     </td>
 </tr>
@@ -727,6 +799,10 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
     
       <a class="label-link" href="/2025/program/label-usability">#usability</a>
       <a class="label-link" href="/2025/program/label-ux">#ux</a>
+        <a class="media-ccc-link "
+    title="Recording of Introduction to Usability/UX Evaluation Methods"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83661-introduction-to-usability-ux-evaluation-methods"
+    ><span>Recording of  Introduction to Usability/UX Evaluation Methods</span></a>
   
     </td>
 </tr>
@@ -758,14 +834,17 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
       <a class="label-link" href="/2025/program/label-web">#web</a>
       <a class="label-link" href="/2025/program/label-art">#ART</a>
       <a class="label-link" href="/2025/program/label-rawtherapee">#RawTherapee</a>
-      <a class="label-link" href="/2025/program/label-toolbox">#toolbox</a></li><li><a class="page-link" href="/2025/program/run_brief_usability_test/">Run a Brief Usability Test to Find Usability Issues</a><span class="schedule_item-own_type">—workshop</span>
+      <a class="label-link" href="/2025/program/label-toolbox">#toolbox</a>
+      <a class="label-link" href="/2025/program/label-kbz-seminar">#KBZ-Seminar</a></li><li><a class="page-link" href="/2025/program/usability_conduct_heuristic_evaluation/">Conduct a Heuristic Evaluation of your/an Application to Find Potential Usability Issues</a><span class="schedule_item-own_type">—workshop</span>
       <a class="host-link" href="/2025/hosts/SimonH/">Simon Harhues</a>
     
       <a class="label-link" href="/2025/program/label-usability">#usability</a>
-      <a class="label-link" href="/2025/program/label-ux">#ux</a></li><li><a class="page-link" href="/2025/program/permacomputing_bof/">Permacomputing</a><span class="schedule_item-own_type">—BoF</span>
+      <a class="label-link" href="/2025/program/label-ux">#ux</a>
+      <a class="label-link" href="/2025/program/label-suedstadtforum-1">#Südstadtforum-1</a></li><li><a class="page-link" href="/2025/program/permacomputing_bof/">Permacomputing</a><span class="schedule_item-own_type">—BoF</span>
       <a class="host-link" href="/2025/hosts/Brendan/">Brendan Howell</a>
     
-      <a class="label-link" href="/2025/program/label-permacomputing">#permacomputing</a></li><li><a class="page-link" href="/2025/program/re-imagining_3D_interactive_internet_workshop/">Re:Imagining a 3D and Interactive Internet</a><span class="schedule_item-own_type">—workshop</span>
+      <a class="label-link" href="/2025/program/label-permacomputing">#permacomputing</a>
+      <a class="label-link" href="/2025/program/label-kbz-hall">#KBZ-Hall</a></li><li><a class="page-link" href="/2025/program/re-imagining_3D_interactive_internet_workshop/">Re:Imagining a 3D and Interactive Internet</a><span class="schedule_item-own_type">—workshop</span>
       <a class="host-link" href="/2025/hosts/Gottfried/">Gottfried Hofmann</a>
     
       <a class="host-link" href="/2025/hosts/Frederik/">Frederik Steinmetz</a>
@@ -773,7 +852,8 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
       <a class="label-link" href="/2025/program/label-hubs">#Hubs</a>
       <a class="label-link" href="/2025/program/label-blender">#Blender</a>
       <a class="label-link" href="/2025/program/label-web">#web</a>
-      <a class="label-link" href="/2025/program/label-3d">#3d</a></li></ul>
+      <a class="label-link" href="/2025/program/label-3d">#3d</a>
+      <a class="label-link" href="/2025/program/label-suedstadtforum-2">#Südstadtforum-2</a></li></ul>
   
     </td>
 </tr>
@@ -797,11 +877,15 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
     </th>
     <td class="schedule_item-content">
     
-    <a class="page-link" href="/2025/program/lightning_talks/">Lightning Talks</a><span class="schedule_item-own_type">—talk</span>
+    <a class="page-link" href="/2025/program/lightning_talks_friday/">Lightning Talks Friday</a><span class="schedule_item-own_type">—talk</span>
       <a class="host-link" href="/2025/hosts/LGM/">LGM Community</a>
     
       <a class="host-link" href="/2025/hosts/TBD/">TBD (Undetermined)</a>
     
+        <a class="media-ccc-link "
+    title="Recording of Lightning Talks Friday"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83682-lightning-talks-friday"
+    ><span>Recording of  Lightning Talks Friday</span></a>
   
     </td>
 </tr>
@@ -813,7 +897,7 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
     </th>
     <td class="schedule_item-content">
     
-    Coffee Break (20 min)
+    Coffee Break (30 min)
   
     </td>
 </tr>
@@ -821,16 +905,23 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
     
 <tr class="schedule_item schedule_item-type-talk">
     <th class="schedule_item-time">
-        <time datetime="2025-05-30T14:50:00.000Z">16:50</time>
+        <time datetime="2025-05-30T15:00:00.000Z">17:00</time>
     </th>
     <td class="schedule_item-content">
     
-    <a class="page-link" href="/2025/program/art_on_wayland/">Art on Wayland – Challenges and Opportunities for Graphic Tablets</a><span class="schedule_item-own_type">—talk</span>
-      <a class="host-link" href="/2025/hosts/Nicolas/">Nicolas Fella</a>
+    <a class="page-link" href="/2025/program/3000-pct-faster-file-saving-with-time-travel/">3000 % Faster
+File Saving With Time Travel</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Carsten/">Carsten Hartenfels</a>
     
-      <a class="label-link" href="/2025/program/label-wayland">#Wayland</a>
-      <a class="label-link" href="/2025/program/label-krita">#Krita</a>
-      <a class="label-link" href="/2025/program/label-kdenlive">#Kdenlive</a>
+      <a class="label-link" href="/2025/program/label-drawpile">#Drawpile</a>
+      <a class="label-link" href="/2025/program/label-developer">#developer</a>
+      <a class="label-link" href="/2025/program/label-code">#code</a>
+        <a class="media-ccc-link "
+    title="Recording of 3000 % Faster
+File Saving With Time Travel"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83662--3000-faster-file-saving-with-time-travel-"
+    ><span>Recording of  3000 % Faster
+File Saving With Time Travel</span></a>
   
     </td>
 </tr>
@@ -838,7 +929,7 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
     
 <tr class="schedule_item schedule_item-type-talk">
     <th class="schedule_item-time">
-        <time datetime="2025-05-30T15:15:00.000Z">17:15</time>
+        <time datetime="2025-05-30T15:25:00.000Z">17:25</time>
     </th>
     <td class="schedule_item-content">
     
@@ -853,6 +944,10 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
       <a class="label-link" href="/2025/program/label-postscript">#PostScript</a>
       <a class="label-link" href="/2025/program/label-ghostscript">#Ghostscript</a>
       <a class="label-link" href="/2025/program/label-xpub">#XPUB</a>
+        <a class="media-ccc-link "
+    title="Recording of From Printer Dust Till Graphics Dawn"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83663-from-printer-dust-till-graphics-dawn"
+    ><span>Recording of  From Printer Dust Till Graphics Dawn</span></a>
   
     </td>
 </tr>
@@ -860,24 +955,7 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
     
 <tr class="schedule_item schedule_item-type-talk">
     <th class="schedule_item-time">
-        <time datetime="2025-05-30T15:40:00.000Z">17:40</time>
-    </th>
-    <td class="schedule_item-content">
-    
-    <a class="page-link" href="/2025/program/elephant_in_the_room-who_owns_the_image/">The Elephant in the Room: Who Owns the Image?</a><span class="schedule_item-own_type">—talk</span>
-      <a class="host-link" href="/2025/hosts/Eylul/">Eylul Dogruel</a>
-    
-      <a class="label-link" href="/2025/program/label-ai">#ai</a>
-      <a class="label-link" href="/2025/program/label-ownership">#ownership</a>
-      <a class="label-link" href="/2025/program/label-intelectual-property">#intelectual-property</a>
-  
-    </td>
-</tr>
-    
-    
-<tr class="schedule_item schedule_item-type-talk">
-    <th class="schedule_item-time">
-        <time datetime="2025-05-30T16:05:00.000Z">18:05</time>
+        <time datetime="2025-05-30T15:50:00.000Z">17:50</time>
     </th>
     <td class="schedule_item-content">
     
@@ -888,6 +966,10 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
       <a class="label-link" href="/2025/program/label-tools">#tools</a>
       <a class="label-link" href="/2025/program/label-ui">#ui</a>
       <a class="label-link" href="/2025/program/label-ux">#ux</a>
+        <a class="media-ccc-link "
+    title="Recording of Libre Designers and the Software Apocalypse"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83665-libre-designers-and-the-software-apocalypse"
+    ><span>Recording of  Libre Designers and the Software Apocalypse</span></a>
   
     </td>
 </tr>
@@ -897,7 +979,7 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
     
 <tr class="schedule_item schedule_item-type-inject">
     <th class="schedule_item-time">
-        <time datetime="2025-05-30T16:30:00.000Z">18:30</time>
+        <time datetime="2025-05-30T16:15:00.000Z">18:15</time>
     </th>
     <td class="schedule_item-content">
     
@@ -906,6 +988,23 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
     </td>
 </tr>
 </table>
+
+
+
+
+<h2><a
+            id="Photowalk"
+            href="#Photowalk"
+            class="heading_anchor"
+            aria-hidden="true"
+            >#</a>Friday Evening Photowalk</h2>
+
+<p>
+Bring your gear. We meet after the days program at the venue.
+</p>
+
+
+
 
     <section class="schedule-legend">
   <h3>Legend</h3>
@@ -920,7 +1019,7 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
             href="#Saturday"
             class="heading_anchor"
             aria-hidden="true"
-            >#</a>Saturday, May 31, 2025 at GMT+2</h2>
+            >#</a>Saturday, 31 May 2025 at CEST</h2>
 <table class="schedule">
     
     
@@ -949,6 +1048,10 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
       <a class="label-link" href="/2025/program/label-ui">#ui</a>
       <a class="label-link" href="/2025/program/label-ux">#ux</a>
       <a class="label-link" href="/2025/program/label-vector">#vector</a>
+        <a class="media-ccc-link "
+    title="Recording of Inkscape UI Vision Going Forward"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83666-inkscape-ui-vision-going-forward"
+    ><span>Recording of  Inkscape UI Vision Going Forward</span></a>
   
     </td>
 </tr>
@@ -960,11 +1063,21 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
     </th>
     <td class="schedule_item-content">
     
-    <a class="page-link" href="/2025/program/the_pdf_toolbox/">The PDF Toolbox</a><span class="schedule_item-own_type">—talk</span>
-      <a class="host-link" href="/2025/hosts/Cédric/">Cédric Gémy</a>
+    <a class="page-link" href="/2025/program/type-roof/">TypeRoof —
+Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</span>
+      <a class="host-link" href="/2025/hosts/Lasse/">Lasse Fister</a>
     
-      <a class="label-link" href="/2025/program/label-pdf">#pdf</a>
-      <a class="label-link" href="/2025/program/label-toolbox">#toolbox</a>
+      <a class="label-link" href="/2025/program/label-fonts">#fonts</a>
+      <a class="label-link" href="/2025/program/label-typography">#typography</a>
+      <a class="label-link" href="/2025/program/label-web">#web</a>
+      <a class="label-link" href="/2025/program/label-printing">#printing</a>
+      <a class="label-link" href="/2025/program/label-animation">#animation</a>
+        <a class="media-ccc-link "
+    title="Recording of TypeRoof —
+Type Tooling Infrastructure"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83667--typeroof-type-tooling-infrastructure-"
+    ><span>Recording of  TypeRoof —
+Type Tooling Infrastructure</span></a>
   
     </td>
 </tr>
@@ -991,22 +1104,10 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
       <a class="label-link" href="/2025/program/label-ghostscript">#Ghostscript</a>
       <a class="label-link" href="/2025/program/label-postscript">#PostScript</a>
       <a class="label-link" href="/2025/program/label-toolbox">#toolbox</a>
-  
-    </td>
-</tr>
-    
-    
-<tr class="schedule_item schedule_item-type-talk">
-    <th class="schedule_item-time">
-        <time datetime="2025-05-31T09:25:00.000Z">11:25</time>
-    </th>
-    <td class="schedule_item-content">
-    
-    <a class="page-link" href="/2025/program/building_website_design_system_with_atomic_design_principles/">Building a Website Design System with Atomic Design Principles Using Penpot</a><span class="schedule_item-own_type">—talk</span>
-      <a class="host-link" href="/2025/hosts/María/">María &quot;Tatica&quot; Leandro</a>
-    
-      <a class="label-link" href="/2025/program/label-penpot">#Penpot</a>
-      <a class="label-link" href="/2025/program/label-web">#web</a>
+        <a class="media-ccc-link "
+    title="Recording of Printing Maps with Spot Colors"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83668-printing-maps-with-spot-colors"
+    ><span>Recording of  Printing Maps with Spot Colors</span></a>
   
     </td>
 </tr>
@@ -1014,11 +1115,11 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
     
 <tr class="schedule_item schedule_item-type-break">
     <th class="schedule_item-time">
-        <time datetime="2025-05-31T09:50:00.000Z">11:50</time>
+        <time datetime="2025-05-31T09:25:00.000Z">11:25</time>
     </th>
     <td class="schedule_item-content">
     
-    Lunch Break (90 min)
+    Lunch Break (120 min)
   
     </td>
 </tr>
@@ -1026,7 +1127,7 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
     
 <tr class="schedule_item schedule_item-type-sessions">
     <th class="schedule_item-time">
-        <time datetime="2025-05-31T11:20:00.000Z">13:20</time>
+        <time datetime="2025-05-31T11:25:00.000Z">13:25</time>
     </th>
     <td class="schedule_item-content">
     
@@ -1038,11 +1139,13 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
       <a class="label-link" href="/2025/program/label-web">#web</a>
       <a class="label-link" href="/2025/program/label-digikam">#Digikam</a>
       <a class="label-link" href="/2025/program/label-wordpress">#Wordpress</a>
-      <a class="label-link" href="/2025/program/label-toolbox">#toolbox</a></li><li><a class="page-link" href="/2025/program/usability_conduct_heuristic_evaluation/">Conduct a Heuristic Evaluation of your/an Application to Find Potential Usability Issues</a><span class="schedule_item-own_type">—workshop</span>
+      <a class="label-link" href="/2025/program/label-toolbox">#toolbox</a>
+      <a class="label-link" href="/2025/program/label-kbz-seminar">#KBZ-Seminar</a></li><li><a class="page-link" href="/2025/program/run_brief_usability_test/">Run a Brief Usability Test to Find Usability Issues</a><span class="schedule_item-own_type">—workshop</span>
       <a class="host-link" href="/2025/hosts/SimonH/">Simon Harhues</a>
     
       <a class="label-link" href="/2025/program/label-usability">#usability</a>
-      <a class="label-link" href="/2025/program/label-ux">#ux</a></li><li><a class="page-link" href="/2025/program/from_printer_dust_till_graphics_dawn_workshop/">From Printer Dust Till Graphics Dawn</a><span class="schedule_item-own_type">—workshop</span>
+      <a class="label-link" href="/2025/program/label-ux">#ux</a>
+      <a class="label-link" href="/2025/program/label-suedstadtforum-1">#Südstadtforum-1</a></li><li><a class="page-link" href="/2025/program/from_printer_dust_till_graphics_dawn_workshop/">From Printer Dust Till Graphics Dawn</a><span class="schedule_item-own_type">—workshop</span>
       <a class="host-link" href="/2025/hosts/XPUB/">XPUB</a>
     
       <a class="host-link" href="/2025/hosts/Manetta/">Manetta Berends</a>
@@ -1052,7 +1155,8 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
       <a class="label-link" href="/2025/program/label-printing">#printing</a>
       <a class="label-link" href="/2025/program/label-postscript">#PostScript</a>
       <a class="label-link" href="/2025/program/label-ghostscript">#Ghostscript</a>
-      <a class="label-link" href="/2025/program/label-xpub">#XPUB</a></li><li><a class="page-link" href="/2025/program/graphics_and_creative_coding_on_the_jvm/">Graphics and Creative Coding on the JVM</a><span class="schedule_item-own_type">—BoF</span>
+      <a class="label-link" href="/2025/program/label-xpub">#XPUB</a>
+      <a class="label-link" href="/2025/program/label-suedstadtforum-2">#Südstadtforum-2</a></li><li><a class="page-link" href="/2025/program/graphics_and_creative_coding_on_the_jvm/">Graphics and Creative Coding on the JVM</a><span class="schedule_item-own_type">—BoF</span>
       <a class="host-link" href="/2025/hosts/Abe/">Abe Pazos Solatie</a>
     
       <a class="host-link" href="/2025/hosts/Edwin/">Edwin Jakobs</a>
@@ -1067,7 +1171,8 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
       <a class="label-link" href="/2025/program/label-live">#live</a>
       <a class="label-link" href="/2025/program/label-community">#community</a>
       <a class="label-link" href="/2025/program/label-openjdk">#OpenJDK</a>
-      <a class="label-link" href="/2025/program/label-jvm">#JVM</a></li></ul>
+      <a class="label-link" href="/2025/program/label-jvm">#JVM</a>
+      <a class="label-link" href="/2025/program/label-kbz-hall">#KBZ-Hall</a></li></ul>
   
     </td>
 </tr>
@@ -1075,7 +1180,7 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
     
 <tr class="schedule_item schedule_item-type-break">
     <th class="schedule_item-time">
-        <time datetime="2025-05-31T13:20:00.000Z">15:20</time>
+        <time datetime="2025-05-31T13:25:00.000Z">15:25</time>
     </th>
     <td class="schedule_item-content">
     
@@ -1087,7 +1192,7 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
     
 <tr class="schedule_item schedule_item-type-talk">
     <th class="schedule_item-time">
-        <time datetime="2025-05-31T13:30:00.000Z">15:30</time>
+        <time datetime="2025-05-31T13:35:00.000Z">15:35</time>
     </th>
     <td class="schedule_item-content">
     
@@ -1096,6 +1201,10 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
     
       <a class="label-link" href="/2025/program/label-toolbox">#toolbox</a>
       <a class="label-link" href="/2025/program/label-events">#events</a>
+        <a class="media-ccc-link "
+    title="Recording of How to Run a Film Festival on Libre Graphics"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83669-how-to-run-a-film-festival-on-libre-graphics"
+    ><span>Recording of  How to Run a Film Festival on Libre Graphics</span></a>
   
     </td>
 </tr>
@@ -1103,16 +1212,20 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
     
 <tr class="schedule_item schedule_item-type-talk">
     <th class="schedule_item-time">
-        <time datetime="2025-05-31T13:55:00.000Z">15:55</time>
+        <time datetime="2025-05-31T14:00:00.000Z">16:00</time>
     </th>
     <td class="schedule_item-content">
     
     <a class="page-link" href="/2025/program/ink-stitch/">Ink/Stitch</a><span class="schedule_item-own_type">—talk</span>
-      <a class="host-link" href="/2025/hosts/Kaalleen/">Kaalleen</a>
+      <a class="host-link" href="/2025/hosts/Daniel/">Daniel K. Schneider</a>
     
       <a class="label-link" href="/2025/program/label-inkscape">#Inkscape</a>
       <a class="label-link" href="/2025/program/label-inkstitch">#InkStitch</a>
       <a class="label-link" href="/2025/program/label-embroidery">#embroidery</a>
+        <a class="media-ccc-link "
+    title="Recording of Ink/Stitch"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83670-ink-stitch"
+    ><span>Recording of  Ink/Stitch</span></a>
   
     </td>
 </tr>
@@ -1120,11 +1233,11 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
     
 <tr class="schedule_item schedule_item-type-break">
     <th class="schedule_item-time">
-        <time datetime="2025-05-31T14:20:00.000Z">16:20</time>
+        <time datetime="2025-05-31T14:25:00.000Z">16:25</time>
     </th>
     <td class="schedule_item-content">
     
-    Coffee Break (30 min)
+    Coffee Break (25 min)
   
     </td>
 </tr>
@@ -1159,6 +1272,10 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
     
       <a class="host-link" href="/2025/hosts/Lasse/">Lasse Fister</a>
     
+        <a class="media-ccc-link "
+    title="Recording of Closing session"
+    href="https://media.ccc.de/v/lgm25-upstream-2025-83672-closing-session"
+    ><span>Recording of  Closing session</span></a>
   
     </td>
 </tr>
@@ -1180,6 +1297,26 @@ Type Tooling Infrastructure</a><span class="schedule_item-own_type">—talk</spa
 
 
 
+
+
+
+<h2><a
+            id="final-gathering"
+            href="#final-gathering"
+            class="heading_anchor"
+            aria-hidden="true"
+            >#</a>Final Gathering at <a href="https://bruderherznuernberg.de"/>Bruderherz</a></h2>
+<div class="closing-night">
+<p>
+Join us for the last evening of the conference at Bruderherz. Food and
+drinks are available. If you're interested, please describe what you
+plan to order at the conference front desk so that the restaurant can
+better prepare.<br />
+<strong>Start Time</strong> 19:00<br />
+<strong>Directions</strong> Luitpoldstraße 15, 90402 Nürnberg<br />
+<a href="https://bruderherznuernberg.de"/>https://bruderherznuernberg.de</a>
+</p>
+</div>
 
 
             </article>

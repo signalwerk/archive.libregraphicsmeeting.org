@@ -1,7 +1,7 @@
 {
   "headers": {
     "server": "nginx/1.6.2",
-    "date": "Sat, 21 Dec 2024 23:39:21 GMT",
+    "date": "Fri, 13 Jun 2025 08:16:40 GMT",
     "content-type": "text/html; charset=UTF-8",
     "transfer-encoding": "chunked",
     "connection": "keep-alive",
@@ -9,7 +9,7 @@
     "x-pingback": "http://libregraphicsmeeting.org/lgm/wp/xmlrpc.php",
     "link": "<http://libregraphicsmeeting.org/lgm/wp-json/>; rel=\"https://api.w.org/\", <http://libregraphicsmeeting.org/lgm/wp-json/wp/v2/pages/161>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <http://libregraphicsmeeting.org/lgm/?p=161>; rel=shortlink",
     "cache-control": "max-age=0",
-    "expires": "Sat, 21 Dec 2024 23:39:18 GMT",
+    "expires": "Fri, 13 Jun 2025 08:16:31 GMT",
     "x-ua-compatible": "IE=edge",
     "x-content-type-options": "nosniff"
   },

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments for Libre Graphics Meeting	</title>
+	<atom:link href="https://www.libregraphicsmeeting.org/lgm/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.libregraphicsmeeting.org/lgm</link>
+	<description>annual international convention for free and open source software</description>
+	<lastBuildDate>Tue, 05 May 2015 06:47:09 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.1</generator>
+	<item>
+		<title>
+		Comment on Venue selection criteria by juan herrera soto		</title>
+		<link>https://www.libregraphicsmeeting.org/lgm/public-documentation/venue-selection-process/#comment-2</link>
+
+		<dc:creator><![CDATA[juan herrera soto]]></dc:creator>
+		<pubDate>Thu, 09 May 2013 19:21:23 +0000</pubDate>
+		<guid isPermaLink="false">http://libregraphicsmeeting.org/lgm/?page_id=87#comment-2</guid>
+
+					<description><![CDATA[1. We consider that there are no political or ethical reasons about refusing to come to Colombia.]]></description>
+			<content:encoded><![CDATA[<p>1. We consider that there are no political or ethical reasons about refusing to come to Colombia.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

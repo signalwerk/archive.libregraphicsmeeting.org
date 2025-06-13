@@ -1,14 +1,14 @@
 {
   "headers": {
     "server": "nginx/1.6.2",
-    "date": "Sat, 21 Dec 2024 23:40:43 GMT",
+    "date": "Fri, 13 Jun 2025 08:17:02 GMT",
     "content-type": "application/pdf",
     "content-length": "443416",
     "connection": "keep-alive",
     "last-modified": "Mon, 20 Jun 2016 08:21:01 GMT",
     "accept-ranges": "bytes",
     "cache-control": "max-age=2592000",
-    "expires": "Mon, 20 Jan 2025 23:40:42 GMT",
+    "expires": "Sun, 13 Jul 2025 08:17:02 GMT",
     "x-content-type-options": "nosniff"
   },
   "status": 200,
